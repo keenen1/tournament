@@ -77,7 +77,7 @@ html, body, #app {
 }
 
 /* HOME & GAMES */
-.home-games, .home-teams, .games-sched, .games-result, .games-bracket, .top-panel, .middle-panel, .bottom-panel {
+.home-games, .home-teams, .games-sched, .games-result, .games-playoff {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -91,11 +91,51 @@ html, body, #app {
   text-align: center;
 }
 
-.home-games, .home-teams, .games-sched, .games-result, .games-bracket {
-  height: 100%;
+.top-panel, .middle-panel, .bottom-panel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  transition: 0.5s;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 80px;
+  text-align: center;
 }
 
-/* Teams */
+.home-games:hover, .home-teams:hover, .games-sched:hover, .games-result:hover, .games-playoff:hover {
+  cursor: pointer;
+  opacity: 1;
+  transition: 0.5s;
+  font-size: 100px;
+}
+
+/* TEAMS */
+.teams-open, .teams-40a, .teams-35u,
+.teams-u19, .teams-u17, .teams-u15,
+.teams-u13, .teams-u11, .teams-9u {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-size: 80px;
+  border: black 1px solid;
+  /* opacity: 0.7; */
+}
+
+.teams-open:hover, .teams-40a:hover, .teams-35u:hover,
+.teams-u19:hover, .teams-u17:hover, .teams-u15:hover,
+.teams-u13:hover, .teams-u11:hover, .teams-9u:hover {
+  cursor: pointer;
+  opacity: 1;
+  transition: 0.5s;
+  font-size: 100px;
+  /* opacity: 1; */
+}
+
 .top-panel, .middle-panel, .bottom-panel {
   height: 33.33%;
 }
@@ -103,18 +143,11 @@ html, body, #app {
 a {
   text-decoration: none;
 }
-
-
-/* Hover */
-.home-games:hover, .home-teams:hover, .games-sched:hover, .games-result:hover, .games-bracket:hover {
-  cursor: pointer;
-  opacity: 1;
-  transition: 0.5s;
-  color: white;
-  font-size: 100px;
+.home-games, .home-teams, .games-sched, .games-result, .games-playoff {
+  height: 100%;
 }
 
-/* Background Images */
+/* Background Images and Colors */
 .home-games {
   background-image: url('./images/ball-dunk.jpg');
 }
@@ -124,13 +157,23 @@ a {
 }
 
 .games-sched {
-  background-color: coral;
+  background-image: url('./images/ball-hoop.jpg');
 }
 
 .games-result {
-  background-color: cornflowerblue;
+  background-image: url('./images/ball-locker.jpg');
 }
 
-.games-bracket {
-  background-color: darkkhaki;
+.games-playoff {
+  background-image: url('./images/trophy.jpg');
+}
+
+.top-panel {
+  background-image: url('./images/jordan.jpg');
+}
+.middle-panel {
+  background-image: url('./images/bryant.jpg');
+}
+.bottom-panel {
+  background-image: url('./images/james.jpg');
 }
