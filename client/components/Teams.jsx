@@ -27,13 +27,13 @@ const Teams = () => {
         </Link>
       </div>
       <div className="bottom-panel col-12">
-        <Link to="/teams" className="teams-u19 col-4">
+        <Link to="/teams" className="teams-u13 col-4">
           U13
         </Link>
-        <Link to="/teams" className="teams-u17 col-4">
+        <Link to="/teams" className="teams-u11 col-4">
           U11
         </Link>
-        <Link to="/teams" className="teams-u15 col-4">
+        <Link to="/teams" className="teams-9u col-4">
           9U
         </Link>
       </div>
