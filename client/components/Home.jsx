@@ -1,14 +1,15 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Home = () => {
   return (
     <div className="home-page col-12">
-      <div className="home-games col-6 col-s-6">
+      <Link to="/games" className="home-games col-12">
         GAMES
-      </div>
-      <div className="home-teams col-6 col-s-6">
+      </Link>
+      <Link to="/teams" className="home-teams col-12">
         TEAMS
-      </div>
+      </Link>
     </div>
   )
 }
