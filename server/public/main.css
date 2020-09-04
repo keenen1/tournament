@@ -72,7 +72,7 @@ html, body, #app {
   
   .teams-page {
     height: 100%;
-    display: block;
+    display: flex;
   }
 }
 
@@ -91,8 +91,8 @@ html, body, #app {
   text-align: center;
 }
 
-.top-panel, .middle-panel, .bottom-panel {
-  display: flex;
+.left-panel, .middle-panel, .right-panel {
+  display: block;
   align-items: center;
   justify-content: center;
   font-family: 'Montserrat', sans-serif;
@@ -115,15 +115,17 @@ html, body, #app {
 .teams-open, .teams-40a, .teams-35u,
 .teams-u19, .teams-u17, .teams-u15,
 .teams-u13, .teams-u11, .teams-9u {
-  height: 100%;
+  height: 33.33%;
   display: flex;
   align-items: center;
   justify-content: center;
   font-family: 'Montserrat', sans-serif;
   color: white;
   font-size: 80px;
-  border: black 1px solid;
-  /* opacity: 0.7; */
+  text-shadow: -2px 2px 0 #000, 
+              2px 2px 0 #000, 
+              2px -2px 0 #000, 
+              -2px -2px 0 #000;
 }
 
 .teams-open:hover, .teams-40a:hover, .teams-35u:hover,
@@ -133,11 +135,16 @@ html, body, #app {
   opacity: 1;
   transition: 0.5s;
   font-size: 100px;
-  /* opacity: 1; */
+  opacity: 1;
 }
 
-.top-panel, .middle-panel, .bottom-panel {
-  height: 33.33%;
+.left-panel, .middle-panel, .right-panel {
+  height: 100%;
+  opacity: 0.7;
+}
+
+.left-panel:hover, .middle-panel:hover, .right-panel:hover {
+  opacity: 1;
 }
 
 a {
@@ -168,12 +175,12 @@ a {
   background-image: url('./images/trophy.jpg');
 }
 
-.top-panel {
+.left-panel {
   background-image: url('./images/jordan.jpg');
 }
 .middle-panel {
-  background-image: url('./images/bryant.jpg');
+  background-image: url('./images/lebron.jpg');
 }
-.bottom-panel {
-  background-image: url('./images/james.jpg');
+.right-panel {
+  background-image: url('./images/gianis.jpg');
 }
