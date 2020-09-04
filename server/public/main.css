@@ -1,15 +1,7 @@
-/* .col-1 {width: 8.33%;}
-.col-2 {width: 16.66%;}
-.col-3 {width: 25%;}
-.col-4 {width: 33.33%;}
-.col-5 {width: 41.66%;}
-.col-6 {width: 50%;}
-.col-7 {width: 58.33%;}
-.col-8 {width: 66.66%;}
-.col-9 {width: 75%;}
-.col-10 {width: 83.33%;}
-.col-11 {width: 91.66%;}
-.col-12 {width: 100%;} */
+html, body, #app {
+  height: 100%;
+  margin: 0px;
+}
 
 @media only screen and (max-width: 375px) {
   /* For mobile phones: */
@@ -28,6 +20,7 @@
 
   .home-page {
     height: 100%;
+    display: block;
   }
 }
 
@@ -71,26 +64,97 @@
     height: 100%;
     display: flex;
   }
+
+  .games-page {
+    height: 100%;
+    display: flex;
+  }
+  
+  .teams-page {
+    height: 100%;
+    display: flex;
+  }
 }
 
-html, body, #app {
-  height: 100%;
-  margin: 0px;
-}
-
-/* .home-page {
-  height: 100%;
-  display: flex;
-} */
-
-.home-games, .home-teams {
-  height: 100%;
+/* HOME & GAMES */
+.home-games, .home-teams, .games-sched, .games-result, .games-playoff {
   display: flex;
   align-items: center;
   justify-content: center;
   font-family: 'Montserrat', sans-serif;
+  color: white;
+  opacity: 0.7;
+  transition: 0.5s;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 80px;
+  text-align: center;
 }
 
+.left-panel, .middle-panel, .right-panel {
+  display: block;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  transition: 0.5s;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 80px;
+  text-align: center;
+}
+
+.home-games:hover, .home-teams:hover, .games-sched:hover, .games-result:hover, .games-playoff:hover {
+  cursor: pointer;
+  opacity: 1;
+  transition: 0.5s;
+  font-size: 100px;
+}
+
+/* TEAMS */
+.teams-open, .teams-40a, .teams-35u,
+.teams-u19, .teams-u17, .teams-u15,
+.teams-u13, .teams-u11, .teams-9u {
+  height: 33.33%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-size: 80px;
+  text-shadow: -2px 2px 0 #000, 
+              2px 2px 0 #000, 
+              2px -2px 0 #000, 
+              -2px -2px 0 #000;
+}
+
+.teams-open:hover, .teams-40a:hover, .teams-35u:hover,
+.teams-u19:hover, .teams-u17:hover, .teams-u15:hover,
+.teams-u13:hover, .teams-u11:hover, .teams-9u:hover {
+  cursor: pointer;
+  opacity: 1;
+  transition: 0.5s;
+  font-size: 100px;
+  opacity: 1;
+}
+
+.left-panel, .middle-panel, .right-panel {
+  height: 100%;
+  opacity: 0.7;
+}
+
+.left-panel:hover, .middle-panel:hover, .right-panel:hover {
+  opacity: 1;
+}
+
+a {
+  text-decoration: none;
+}
+.home-games, .home-teams, .games-sched, .games-result, .games-playoff {
+  height: 100%;
+}
+
+/* Background Images and Colors */
 .home-games {
   background-image: url('./images/ball-dunk.jpg');
 }
@@ -99,19 +163,24 @@ html, body, #app {
   background-image: url('./images/ball-wallpaper.jpg');
 }
 
-.home-games, .home-teams {
-  color: white;
-  opacity: 0.7;
-  transition: 0.5s;
-  background-repeat: no-repeat;
-  background-size: cover;
-  font-size: 80px;
+.games-sched {
+  background-image: url('./images/ball-hoop.jpg');
 }
 
-.home-games:hover, .home-teams:hover {
-  cursor: pointer;
-  opacity: 1;
-  transition: 0.5s;
-  color: white;
-  font-size: 100px;
+.games-result {
+  background-image: url('./images/ball-locker.jpg');
+}
+
+.games-playoff {
+  background-image: url('./images/trophy.jpg');
+}
+
+.left-panel {
+  background-image: url('./images/jordan.jpg');
+}
+.middle-panel {
+  background-image: url('./images/lebron.jpg');
+}
+.right-panel {
+  background-image: url('./images/gianis.jpg');
 }
