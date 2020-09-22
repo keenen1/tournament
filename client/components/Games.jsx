@@ -5,12 +5,12 @@ const Games = () => {
   return (
     <div className="games-page col-12">
       <div className="day-one col-6">
-        <Link to="/day-one">
+        <Link to="/games/day-one">
           DAY 1
         </Link>
       </div>
       <div className="day-two col-6">
-        <Link to="/day-two">
+        <Link to="/games/day-two">
           DAY 2
         </Link>
       </div>

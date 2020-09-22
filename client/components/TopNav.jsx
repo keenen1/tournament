@@ -9,7 +9,7 @@ const TopNav = () => {
         <Link to="/" className="col-3">HOME</Link>
         <Link to="/games" className="col-3">GAMES</Link>
         <Link to="/teams" className="col-3">TEAMS</Link>
-        <Link to="/ranking" className="col-3">RANKING</Link>
+        <Link to="/results" className="col-3">RESULTS</Link>
       </div>
     </Router>
     </>
