@@ -9,8 +9,9 @@ const Info = () => {
           <div>24 to 25</div>
         </div>
         <div className="info-map col-12">
-          Insert Map Here
-          <div id="map"></div>
+          <a href="https://goo.gl/maps/iA7YQpJMiRQo6Lkq8">
+            Bruce Pullman, Takanini
+          </a>
         </div>
       </div>
     </div>
