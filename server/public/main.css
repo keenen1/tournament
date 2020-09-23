@@ -259,12 +259,18 @@ a {
   color: #e03e9c;
   font-size: 50px;
   transition: 0.7s;
+  margin-right: 10px;
 }
 
 .info-map a:hover {
   color: rgb(2, 196, 235);
   cursor: pointer;
   transition: 0.7s;
+}
+
+.info-city {
+  color: #e03e9c;
+  font-size: 50px;
 }
 
 

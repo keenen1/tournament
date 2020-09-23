@@ -6,12 +6,16 @@ const Info = () => {
       <div className="info-container col-6">
         <div className="info-date col-12">
           <div>October 2020</div>
-          <div>24 to 25</div>
+          <div>24 & 25</div>
         </div>
         <div className="info-map col-12">
           <a href="https://goo.gl/maps/iA7YQpJMiRQo6Lkq8">
-            Bruce Pullman, Takanini
+            Bruce Pulman Arena
           </a>
+          <img src="./images/map-marker.png" width="25px" />
+          <div className="info-city col-12">
+            Takanini, Auckland
+          </div>
         </div>
       </div>
     </div>
