@@ -7,6 +7,7 @@ import Teams from './Teams'
 import TopNav from './TopNav'
 import DayOne from './DayOne'
 import DayTwo from './DayTwo'
+import Info from './Info'
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
         <Route exact path="/teams" component={Teams} />
         <Route exact path="/games/day-one" component={DayOne} />
         <Route exact path="/games/day-two" component={DayTwo} />
+        <Route exact path="/info" component={Info} />
       </Router>
     </>
   )
