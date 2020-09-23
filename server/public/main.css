@@ -69,10 +69,12 @@ html, body, #app {
   color: rgb(39, 39, 39);
   font-weight: 400px;
   height: 100%;
+  transition: 0.7s;
 }
 .top-nav a:hover {
   cursor: pointer;
   background-color: #FF66C4;
+  transition: 0.7s;
 }
 
 /* HOME PAGE */
@@ -140,14 +142,13 @@ html, body, #app {
 }
 
 /* TEAMS */
-.teams-open, .teams-40a, .teams-35u,
-.teams-u19, .teams-u17, .teams-u15,
-.teams-u13, .teams-u11, .teams-9u {
+.teams-category {
   height: 33.33%;
   display: flex;
   align-items: center;
   justify-content: center;
   color: white;
+  transition: 0.7s;
   font-size: 80px;
   border-radius: 20px;
   text-shadow: -2px 2px 0 black,
@@ -156,13 +157,11 @@ html, body, #app {
               -2px -2px 0 black;
 }
 
-.teams-open:hover, .teams-40a:hover, .teams-35u:hover,
-.teams-u19:hover, .teams-u17:hover, .teams-u15:hover,
-.teams-u13:hover, .teams-u11:hover, .teams-9u:hover {
+.teams-category:hover {
   cursor: pointer;
   background-color: #FF66C4;
   color: rgb(2, 196, 235);
-  transition: 0.5s;
+  transition: 0.7s;
   font-size: 100px;
   text-shadow: -2px 2px 0 black,
               2px 2px 0 black,
@@ -217,6 +216,7 @@ a {
   font-size: 150px;
   border-radius: 20px;
   padding: 30px;
+  transition: 0.7s;
   text-shadow: -2px 2px 0 black,
               2px 2px 0 black,
               2px -2px 0 black,
@@ -241,7 +241,7 @@ a {
 .container {
   display: block;
 }
-.info-date {
+.info-date, .info-map {
   display: block;
   align-items: center;
   justify-content: center;
@@ -249,6 +249,22 @@ a {
   font-family: 'Montserrat', sans-serif;
   font-size: 80px;
   text-align: center;
+}
+
+.info-map {
+  margin-top: 50px;
+}
+
+.info-map a {
+  color: #e03e9c;
+  font-size: 50px;
+  transition: 0.7s;
+}
+
+.info-map a:hover {
+  color: rgb(2, 196, 235);
+  cursor: pointer;
+  transition: 0.7s;
 }
 
 
