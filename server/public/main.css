@@ -216,7 +216,7 @@ a {
   color: #FF66C4;
   font-size: 150px;
   border-radius: 20px;
-  padding: 10px;
+  padding: 30px;
   text-shadow: -2px 2px 0 black,
               2px 2px 0 black,
               2px -2px 0 black,
@@ -229,19 +229,27 @@ a {
   transition: 0.8s;
 }
 
-.games-playoff {
-  background-image: url('./images/trophy.jpg');
-}
+/* INFO PAGE */
 
-/* .left-panel {
-  background-image: url('./images/jordan.jpg');
+.info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(39, 39, 39);
+  height: 85%;
 }
-.middle-panel {
-  background-image: url('./images/lebron.jpg');
+.container {
+  display: block;
 }
-.right-panel {
-  background-image: url('./images/gianis.jpg');
-} */
+.info-date {
+  display: block;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 80px;
+  text-align: center;
+}
 
 
 /*//////////////////////////////////////////////////////////////////

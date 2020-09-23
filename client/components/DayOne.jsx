@@ -12,7 +12,8 @@ const DayOne = () => {
               <table data-vertable="ver3">
                 <thead>
                   <tr className="row100 head">
-                    <th className="column100 column1" data-column="column1">DAY 1</th>
+                    <th className="column100 column1" data-column="column1"
+                      style={{ backgroundColor: '#FF66C4' }}>DAY 1</th>
                     <th className="column100 column2" data-column="column2">Court 1</th>
                     <th className="column100 column3" data-column="column3">Court 2</th>
                     <th className="column100 column4" data-column="column4">Court 3</th>
