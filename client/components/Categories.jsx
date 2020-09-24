@@ -6,7 +6,7 @@ const Categories = () => {
     <div className="teams-page col-12">
       <div className="left-panel col-12">
         <Link to={{
-          pathname: '/category/opens',
+          pathname: '/categories/opens',
           state: {
             cat: 'opens',
             number: 18
@@ -15,16 +15,16 @@ const Categories = () => {
           OPENS
         </Link>
         <Link to={{
-          pathname: '/category/legends',
+          pathname: '/categories/legends',
           state: {
             cat: 'legends',
             number: 12
           }
         }} className="teams-category col-12">
-          Legends
+          LEGENDS
         </Link>
         <Link to={{
-          pathname: '/category/35a',
+          pathname: '/categories/35a',
           state: {
             cat: '35a',
             number: 8
@@ -35,7 +35,7 @@ const Categories = () => {
       </div>
       <div className="middle-panel col-12">
         <Link to={{
-          pathname: '/category/u19',
+          pathname: '/categories/u19',
           state: {
             cat: 'u19',
             number: 4
@@ -44,7 +44,7 @@ const Categories = () => {
           U19
         </Link>
         <Link to={{
-          pathname: '/category/u17',
+          pathname: '/categories/u17',
           state: {
             cat: 'u17',
             number: 4
@@ -53,7 +53,7 @@ const Categories = () => {
           U17
         </Link>
         <Link to={{
-          pathname: '/category/u15',
+          pathname: '/categories/u15',
           state: {
             cat: 'u15',
             number: 6
@@ -64,7 +64,7 @@ const Categories = () => {
       </div>
       <div className="right-panel col-12">
         <Link to={{
-          pathname: '/category/u13',
+          pathname: '/categories/u13',
           state: {
             cat: 'u13',
             number: 4
@@ -73,7 +73,7 @@ const Categories = () => {
           U13
         </Link>
         <Link to={{
-          pathname: '/category/u11',
+          pathname: '/categories/u11',
           state: {
             cat: 'u11',
             number: 4
@@ -82,7 +82,7 @@ const Categories = () => {
           U11
         </Link>
         <Link to={{
-          pathname: '/category/9u',
+          pathname: '/categories/9u',
           state: {
             cat: '9u',
             number: 4
