@@ -15,11 +15,11 @@ const App = () => {
     <>
       <TopNav />
       <Router>
-        <Route exact path="/" component={Home} />
+        <Route exact path="/home" component={Home} />
         <Route exact path="/games" component={Games} />
         <Route exact path="/info" component={Info} />
-        <Route exact path="/category" component={Categories} />
-        <Route exact path="/category/:id" component={Teams} />
+        <Route exact path="/categories" component={Categories} />
+        <Route exact path="/categories/:id" component={Teams} />
         <Route exact path="/games/day-one" component={DayOne} />
         <Route exact path="/games/day-two" component={DayTwo} />
       </Router>

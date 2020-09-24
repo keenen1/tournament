@@ -1,5 +1,6 @@
 import React from 'react'
 import EighteenTeams from './EighteenTeams'
+import TwelveTeams from './TwelveTeams'
 
 class Teams extends React.Component {
   state = {
@@ -40,13 +41,39 @@ class Teams extends React.Component {
   }
 
   render () {
+    let componentToRender
+    switch (this.state.cat) {
+      case 'opens':
+        componentToRender = <EighteenTeams />
+        break
+      case 'legends':
+        componentToRender = <TwelveTeams />
+        break
+      case '35a':
+        componentToRender = <TwelveTeams />
+        break
+      case 'u19':
+        componentToRender = <TwelveTeams />
+        break
+      case 'u17':
+        componentToRender = <TwelveTeams />
+        break
+      case 'u15':
+        componentToRender = <TwelveTeams />
+        break
+      case 'u13':
+        componentToRender = <TwelveTeams />
+        break
+      case 'u11':
+        componentToRender = <TwelveTeams />
+        break
+      case '9u':
+        componentToRender = <TwelveTeams />
+        break
+    }
     return (
       <>
-        {/* <div style={{ color: 'black' }}>
-          Category: {this.state.cat}
-          Number of Teams: {this.state.number}
-        </div> */}
-        {this.state.cat === 'opens' ? <EighteenTeams/> : <div>default</div>}
+        {componentToRender}
       </>
     )
   }
