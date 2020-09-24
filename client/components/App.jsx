@@ -8,6 +8,7 @@ import DayOne from './DayOne'
 import DayTwo from './DayTwo'
 import Categories from './Categories'
 import Info from './Info'
+import Teams from './Teams'
 
 const App = () => {
   return (
@@ -16,10 +17,11 @@ const App = () => {
       <Router>
         <Route exact path="/" component={Home} />
         <Route exact path="/games" component={Games} />
-        <Route exact path="/teams" component={Categories} />
+        <Route exact path="/info" component={Info} />
+        <Route exact path="/category" component={Categories} />
+        <Route exact path="/category/:id" component={Teams} />
         <Route exact path="/games/day-one" component={DayOne} />
         <Route exact path="/games/day-two" component={DayTwo} />
-        <Route exact path="/info" component={Info} />
       </Router>
     </>
   )

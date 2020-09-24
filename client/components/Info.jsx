@@ -10,9 +10,8 @@ const Info = () => {
         </div>
         <div className="info-map col-12">
           <a href="https://goo.gl/maps/iA7YQpJMiRQo6Lkq8">
-            Bruce Pulman Arena
+            Bruce Pulman Arena <img src="./images/map-marker.png" width="25px" />
           </a>
-          <img src="./images/map-marker.png" width="25px" />
           <div className="info-city col-12">
             Takanini, Auckland
           </div>

@@ -274,6 +274,52 @@ a {
 }
 
 
+/* Teams */
+
+.eighteen {
+  height: 85%;
+  background-color: rgb(39, 39, 39);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.teams-block {
+  height: 100%;
+}
+.teams-block div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  transition: 0.7s;
+  border-radius: 20px;
+  text-shadow: -2px 2px 0 black,
+              2px 2px 0 black,
+              2px -2px 0 black,
+              -2px -2px 0 black;
+}
+.eighteen .teams-block div {
+  height: 16.66%;
+  font-size: 50px;
+}
+.eighteen .teams-block div:hover {
+  cursor: pointer;
+  height: 16.66%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e03e9c;
+  color: rgb(2, 196, 235);
+  transition: 0.7s;
+  font-size: 50px;
+  border-radius: 20px;
+  text-shadow: -2px 2px 0 black,
+              2px 2px 0 black,
+              2px -2px 0 black,
+              -2px -2px 0 black;
+}
+
+
 /*//////////////////////////////////////////////////////////////////
 [ Table ]*/
 
@@ -310,11 +356,12 @@ table {
 th, td {
   font-weight: unset;
   padding-right: 10px;
+  text-align: center;
 }
 
 .column100 {
-  width: 130px;
-  padding-left: 25px;
+  width: 165px;
+  padding-left: 10px;
 }
 
 .column100.column1 {
