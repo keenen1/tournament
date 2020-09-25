@@ -12,17 +12,15 @@ const TopNav = () => {
   ]
   return (
     <Router>
-      <div className="top-nav">
+      <div className="nav-container">
         {menuItems.map((menu, i) => {
           return (
             <NavLink
               key={i}
               to={`/${menu}`}
-              activeStyle={{ color: 'white' }}
-              // activeClassName="active-nav"
-              className="col-2"
+              activeStyle={{ backgroundColor: '#FF66C4' }}
+              className="nav-link col-2"
             >
-              <div className="top-nav"></div>
               {menu.toUpperCase()}
             </NavLink>
           )
