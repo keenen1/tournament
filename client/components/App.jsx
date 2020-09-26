@@ -1,5 +1,5 @@
 import React from 'react'
-import { HashRouter as Router, Route } from 'react-router-dom'
+import { HashRouter as Router, Route, Redirect } from 'react-router-dom'
 
 import TopNav from './TopNav'
 import Home from './Home'
@@ -15,6 +15,7 @@ const App = () => {
     <>
       <TopNav />
       <Router>
+        <Route exact path="/" render={() => <Redirect to="/home" /> } />
         <Route exact path="/home" component={Home} />
         <Route exact path="/games" component={Games} />
         <Route exact path="/info" component={Info} />
