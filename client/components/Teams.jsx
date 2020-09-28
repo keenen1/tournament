@@ -3,6 +3,7 @@ import TeamsOfEighteen from './TeamsOfEighteen'
 import TeamsOfTwelve from './TeamsOfTwelve'
 import TeamsOfEight from './TeamsOfEight'
 import TeamsOfSix from './TeamsOfSix'
+import TeamsOfFour from './TeamsOfFour'
 
 class Teams extends React.Component {
   state = {
@@ -28,7 +29,7 @@ class Teams extends React.Component {
         return 4
       case 'u11':
         return 4
-      case '9u':
+      case 'u9':
         return 4
     }
   }
@@ -55,22 +56,22 @@ class Teams extends React.Component {
         componentToRender = <TeamsOfEight />
         break
       case 'u19':
-        componentToRender = <TwelveTeams />
+        componentToRender = <TeamsOfFour cat={this.state.cat} />
         break
       case 'u17':
-        componentToRender = <TwelveTeams />
+        componentToRender = <TeamsOfFour cat={this.state.cat} />
         break
       case 'u15':
         componentToRender = <TeamsOfSix />
         break
       case 'u13':
-        componentToRender = <TwelveTeams />
+        componentToRender = <TeamsOfFour cat={this.state.cat} />
         break
       case 'u11':
-        componentToRender = <TwelveTeams />
+        componentToRender = <TeamsOfFour cat={this.state.cat} />
         break
-      case '9u':
-        componentToRender = <TwelveTeams />
+      case 'u9':
+        componentToRender = <TeamsOfFour cat={this.state.cat} />
         break
     }
     return (

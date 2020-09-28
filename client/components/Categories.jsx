@@ -82,13 +82,13 @@ const Categories = () => {
           U11
         </Link>
         <Link to={{
-          pathname: '/categories/9u',
+          pathname: '/categories/u9',
           state: {
-            cat: '9u',
+            cat: 'u9',
             number: 4
           }
         }} className="teams-category col-12">
-          9U
+          U9
         </Link>
       </div>
     </div>
