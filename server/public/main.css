@@ -197,7 +197,7 @@ a {
 
 /* Teams */
 
-.eighteen, .twelve, .eight {
+.eighteen, .twelve, .eight, .six {
   height: 85%;
   background-color: rgb(39, 39, 39);
   display: flex;
@@ -224,8 +224,16 @@ a {
 .eighteen .teams-block div {
   height: 16.66%;
 }
-.twelve .teams-block div, .eight .teams-block div {
+.twelve .teams-block div {
   height: 25%;
+}
+.eight .teams-block div {
+  height: 50%;
+  font-size: 50px;
+}
+.six .teams-block div, .four .teams-block div {
+  height: 50%;
+  font-size: 70px;
 }
 .teams-block div:hover {
   cursor: pointer;
