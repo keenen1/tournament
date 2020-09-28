@@ -1,6 +1,7 @@
 import React from 'react'
-import EighteenTeams from './EighteenTeams'
-import TwelveTeams from './TwelveTeams'
+import TeamsOfEighteen from './TeamsOfEighteen'
+import TeamsOfTwelve from './TeamsOfTwelve'
+import TeamsOfEight from './TeamsOfEight'
 
 class Teams extends React.Component {
   state = {
@@ -44,13 +45,13 @@ class Teams extends React.Component {
     let componentToRender
     switch (this.state.cat) {
       case 'opens':
-        componentToRender = <EighteenTeams />
+        componentToRender = <TeamsOfEighteen />
         break
       case 'legends':
-        componentToRender = <TwelveTeams />
+        componentToRender = <TeamsOfTwelve />
         break
       case '35a':
-        componentToRender = <TwelveTeams />
+        componentToRender = <TeamsOfEight />
         break
       case 'u19':
         componentToRender = <TwelveTeams />

@@ -1,6 +1,6 @@
 import React from 'react'
 
-const EighteenTeams = () => {
+const TeamsOfEighteen = () => {
   return (
     <div className="eighteen col-12">
       <div className="teams-block col-4">
@@ -31,4 +31,4 @@ const EighteenTeams = () => {
   )
 }
 
-export default EighteenTeams
+export default TeamsOfEighteen
