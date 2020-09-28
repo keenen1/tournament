@@ -4,38 +4,6 @@ html, body, #app {
   font-family: 'Roboto Condensed', sans-serif;
 }
 
-@media only screen and (max-width: 375px) {
-  /* For mobile phones: */
-  .col-1 {width: 8.33%}
-  .col-2 {width: 16.66%;}
-  .col-3 {width: 25%;}
-  .col-4 {width: 33.33%;}
-  .col-5 {width: 41.66%;}
-  .col-6 {width: 50%;}
-  .col-7 {width: 58.33%;}
-  .col-8 {width: 66.66%;}
-  .col-9 {width: 75%;}
-  .col-10 {width: 83.33%;}
-  .col-11 {width: 91.66%;}
-  .col-12 {width: 100%;}
-}
-
-@media only screen and (min-width: 768px) {
-  /* For tablets: */
-  .col-s-1 {width: 8.33%;}
-  .col-s-2 {width: 16.66%;}
-  .col-s-3 {width: 25%;}
-  .col-s-4 {width: 33.33%;}
-  .col-s-5 {width: 41.66%;}
-  .col-s-6 {width: 50%;}
-  .col-s-7 {width: 58.33%;}
-  .col-s-8 {width: 66.66%;}
-  .col-s-9 {width: 75%;}
-  .col-s-10 {width: 83.33%;}
-  .col-s-11 {width: 91.66%;}
-  .col-s-12 {width: 100%;}
-}
-
 @media only screen and (min-width: 992px) {
   /* For desktop: */
   .col-1 {width: 8.33%;}
@@ -53,25 +21,23 @@ html, body, #app {
 }
 
 /* NAV BAR */
-.top-nav {
+.nav-container {
   height: 15%;
   display: flex;
-  font-size: 30px;
-  font-weight: 1000;
-}
-.top-nav a {
-  display: flex;
-  text-align: center;
   align-items: center;
   justify-content: center;
-  /* background-color: #01579B; */
+}
+.nav-link {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
   background-color: rgb(2, 196, 235);
   color: rgb(39, 39, 39);
-  font-weight: 400px;
-  height: 100%;
   transition: 0.7s;
 }
-.top-nav a:hover {
+.nav-link:hover {
   cursor: pointer;
   background-color: #FF66C4;
   transition: 0.7s;
@@ -119,28 +85,6 @@ html, body, #app {
   background-color: rgb(39, 39, 39);
 }
 
-
-/* HOME & GAMES */
-.home-games, .home-teams, .games-sched, .games-result, .games-playoff {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: white;
-  opacity: 0.7;
-  transition: 0.5s;
-  background-repeat: no-repeat;
-  background-size: cover;
-  font-size: 80px;
-  text-align: center;
-}
-
-.home-games:hover, .home-teams:hover, .games-sched:hover, .games-result:hover, .games-playoff:hover {
-  cursor: pointer;
-  opacity: 1;
-  transition: 0.5s;
-  font-size: 100px;
-}
-
 /* TEAMS */
 .teams-category {
   height: 33.33%;
@@ -169,36 +113,13 @@ html, body, #app {
               -2px -2px 0 black;
 }
 
-/* .left-panel, .middle-panel, .right-panel {
-  height: 100%;
-  opacity: 0.5;
-}
-
-.left-panel:hover, .middle-panel:hover, .right-panel:hover {
-  opacity: 1;
-} */
-
 a {
   text-decoration: none;
-}
-.home-games, .home-teams, .games-sched, .games-result, .games-playoff {
-  height: 100%;
 }
 
 /* Background Images and Colors */
 .home-page {
-  /* background-image: url('./images/akl-skyline.jpg');
-  background-size: cover;
-  opacity: .8; */
   background-color: rgb(39, 39, 39);
-}
-
-.home-games {
-  background-image: url('./images/ball-dunk.jpg');
-}
-
-.home-teams {
-  background-image: url('./images/ball-wallpaper.jpg');
 }
 
 .day-one, .day-two {
@@ -256,7 +177,7 @@ a {
 }
 
 .info-map a {
-  color: #e03e9c;
+  color: #FF66C4;
   font-size: 50px;
   transition: 0.7s;
   margin-right: 10px;
@@ -269,8 +190,56 @@ a {
 }
 
 .info-city {
-  color: #e03e9c;
+  color: #FF66C4;
   font-size: 50px;
+}
+
+
+/* Teams */
+
+.eighteen, .twelve, .eight, .six, .four {
+  height: 85%;
+  background-color: rgb(39, 39, 39);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.teams-block {
+  height: 100%;
+}
+.teams-block div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  transition: 0.7s;
+  border-radius: 20px;
+  font-size: 50px;
+  text-shadow: -2px 2px 0 black,
+              2px 2px 0 black,
+              2px -2px 0 black,
+              -2px -2px 0 black;
+}
+.eighteen .teams-block div {
+  height: 16.66%;
+}
+.twelve .teams-block div {
+  height: 25%;
+}
+.eight .teams-block div {
+  height: 50%;
+  font-size: 50px;
+}
+.six .teams-block div, .four .teams-block div {
+  height: 50%;
+  font-size: 70px;
+}
+.teams-block div:hover {
+  cursor: pointer;
+  background-color: #FF66C4;
+  color: rgb(2, 196, 235);
+  transition: 0.7s;
 }
 
 
@@ -310,11 +279,12 @@ table {
 th, td {
   font-weight: unset;
   padding-right: 10px;
+  text-align: center;
 }
 
 .column100 {
-  width: 130px;
-  padding-left: 25px;
+  width: 165px;
+  padding-left: 10px;
 }
 
 .column100.column1 {
@@ -372,6 +342,10 @@ th, td {
 }
 
 .table100.ver3 .row100 td:hover {
-  background-color: #e03e9c;
+  background-color: #FF66C4;
   color: #fff;
+}
+
+@media only screen and (min-width: 600px) {
+  [class*="col-"] {width: 100%;}
 }
