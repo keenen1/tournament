@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 const Categories = () => {
   return (
     <div className="teams-page col-12">
-      <div className="left-panel col-12">
+      <div className="col-12">
         <Link to={{
           pathname: '/categories/opens',
           state: {
@@ -33,7 +33,7 @@ const Categories = () => {
           35A
         </Link>
       </div>
-      <div className="middle-panel col-12">
+      <div className="col-12">
         <Link to={{
           pathname: '/categories/u19',
           state: {
@@ -62,7 +62,7 @@ const Categories = () => {
           U15
         </Link>
       </div>
-      <div className="right-panel col-12">
+      <div className="col-12">
         <Link to={{
           pathname: '/categories/u13',
           state: {

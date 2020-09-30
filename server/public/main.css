@@ -4,21 +4,18 @@ html, body, #app {
   font-family: 'Roboto Condensed', sans-serif;
 }
 
-@media only screen and (min-width: 992px) {
-  /* For desktop: */
-  .col-1 {width: 8.33%;}
-  .col-2 {width: 16.66%;}
-  .col-3 {width: 25%;}
-  .col-4 {width: 33.33%;}
-  .col-5 {width: 41.66%;}
-  .col-6 {width: 50%;}
-  .col-7 {width: 58.33%;}
-  .col-8 {width: 66.66%;}
-  .col-9 {width: 75%;}
-  .col-10 {width: 83.33%;}
-  .col-11 {width: 91.66%;}
-  .col-12 {width: 100%;}
-}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
 
 /* NAV BAR */
 .nav-container {
@@ -86,6 +83,15 @@ html, body, #app {
 }
 
 /* TEAMS */
+
+.category-pane {
+  height: 10%;
+  background-color: #FF66C4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+}
 .teams-category {
   height: 33.33%;
   display: flex;
@@ -115,6 +121,51 @@ html, body, #app {
 
 a {
   text-decoration: none;
+}
+
+.eighteen, .twelve, .eight, .six, .four {
+  height: 75%;
+  background-color: rgb(39, 39, 39);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.teams-block {
+  height: 100%;
+}
+.teams-block div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  transition: 0.7s;
+  border-radius: 20px;
+  font-size: 50px;
+  text-shadow: -2px 2px 0 black,
+              2px 2px 0 black,
+              2px -2px 0 black,
+              -2px -2px 0 black;
+}
+.eighteen .teams-block div {
+  height: 16.66%;
+}
+.twelve .teams-block div {
+  height: 25%;
+}
+.eight .teams-block div {
+  height: 50%;
+  font-size: 50px;
+}
+.six .teams-block div, .four .teams-block div {
+  height: 50%;
+  font-size: 70px;
+}
+.teams-block div:hover {
+  cursor: pointer;
+  background-color: #FF66C4;
+  color: rgb(2, 196, 235);
+  transition: 0.7s;
 }
 
 /* Background Images and Colors */
@@ -194,52 +245,74 @@ a {
   font-size: 50px;
 }
 
+/* RESULTS */
 
-/* Teams */
-
-.eighteen, .twelve, .eight, .six, .four {
-  height: 85%;
+.results-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-color: rgb(39, 39, 39);
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  height: 85%;
 }
-.teams-block {
-  height: 100%;
+
+.results-day {
+  background-color: rgb(39, 39, 39);
+  height: 75%
 }
-.teams-block div {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
+
+.hourly-container {
+  /* border: rgb(2, 196, 235) solid 1px;
+  border-radius: 20px; */
+  width: 70%;
+  padding: 20px;
   color: white;
-  transition: 0.7s;
-  border-radius: 20px;
-  font-size: 50px;
-  text-shadow: -2px 2px 0 black,
-              2px 2px 0 black,
-              2px -2px 0 black,
-              -2px -2px 0 black;
+  margin: auto;
+  
 }
-.eighteen .teams-block div {
-  height: 16.66%;
+
+.hourly-top, .hourly-bottom {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-.twelve .teams-block div {
-  height: 25%;
+
+.court-result {
+  border: rgb(2, 196, 235) 1px solid;
+  width: 33%;
+  padding: 30px 15px 30px 20px;
+  display: flex;
 }
-.eight .teams-block div {
-  height: 50%;
-  font-size: 50px;
+
+.court-result-cat {
+  width: 30%;
+  font-size: 40px;
+  text-align: left;
 }
-.six .teams-block div, .four .teams-block div {
-  height: 50%;
-  font-size: 70px;
+.court-result-teams {
+  width: 70%;
+  justify-content: left;
+  font-size: 20px;
 }
-.teams-block div:hover {
-  cursor: pointer;
-  background-color: #FF66C4;
-  color: rgb(2, 196, 235);
-  transition: 0.7s;
+.court-result-team {
+  width: 80%;
+}
+.court-result-score {
+  width: 20%;
+  text-align: right;
+}
+
+.game-result {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.underline {
+  border-bottom: grey 1px solid;
+}
+
+.result-team {
+  padding-right: 30px;
 }
 
 
@@ -271,12 +344,12 @@ a {
 
 /*//////////////////////////////////////////////////////////////////
 [ Table ]*/
-table {
+.limiter table {
   width: 100%;
   background-color: #fff;
 }
 
-th, td {
+.limiter th, .limiter td {
   font-weight: unset;
   padding-right: 10px;
   text-align: center;
