@@ -257,7 +257,7 @@ a {
 
 .results-day {
   background-color: rgb(39, 39, 39);
-  height: 75%
+  min-height: 75%
 }
 
 .hourly-container {
