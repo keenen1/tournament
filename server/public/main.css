@@ -165,21 +165,22 @@ html, body, #app {
   height: 85%;
   display: flex;
   justify-content: center;
+  background-color: rgb(39, 39, 39);
 }
 
 .day-one, .day-two {
+  width: 50%;
   font-family: 'Montserrat', sans-serif;
   background-color: rgb(39, 39, 39);
   display: flex;
   align-items: center;
   justify-content: center;
   color: #FF66C4;
-  font-size: 150px;
+  font-size: 11vw;
 }
 
 .day-one a, .day-two a {
   color: #FF66C4;
-  font-size: 150px;
   border-radius: 20px;
   padding: 30px;
   transition: 0.7s;
@@ -193,6 +194,17 @@ html, body, #app {
   background-color: #FF66C4;
   color: rgb(2, 196, 235);
   transition: 0.8s;
+}
+
+@media screen and (max-width: 420px) {
+  .games-page {
+    height: 75%;
+    display: block;
+  }
+  .day-one, .day-two {
+    width: 100%;
+    height: 50%;
+  }
 }
 
 /* TEAMS PAGE ----------------------------------------------- */
