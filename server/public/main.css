@@ -55,7 +55,6 @@ html, body, #app {
 
 .logo span:hover {
   color: rgb(2, 196, 235);
-  /* transition: 1s; */
 }
 
 .labour, .weekend, .year {
@@ -148,8 +147,9 @@ a {
               -2px -2px 0 black;
 }
 .pool {
-  border-bottom: grey 2px solid;
+  border-bottom: rgb(2, 196, 235) 2px solid;
   color: rgb(2, 196, 235);
+  font-family: 'Montserrat', sans-serif;
 }
 .eighteen .teams-block div {
   height: 16.66%;
