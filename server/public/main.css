@@ -17,7 +17,7 @@ html, body, #app {
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;}
 
-/* NAV BAR */
+/* NAV BAR ----------------------------------------------- */
 .nav-container {
   height: 15%;
   display: flex;
@@ -55,13 +55,14 @@ html, body, #app {
 }
 
 
-/* HOME PAGE */
+/* HOME PAGE ----------------------------------------------- */ 
 
 .home-page {
   height: 85%;
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: rgb(39, 39, 39);
 }
 
 .logo {
@@ -80,7 +81,7 @@ html, body, #app {
 .title {
   font-family: 'Montserrat', sans-serif;
   color: white;
-  font-size: 8vw;
+  font-size: 7vw;
   font-weight: 1000;
 }
 .logo span:hover {
@@ -93,18 +94,16 @@ html, body, #app {
 
 /* HOME MOBILE */
 @media screen and (max-width: 420px) {
-  .home-page {
-    height: 75%;
-  }
+  .home-page {height: 75%;}
   .logo img {
     width: calc(40px + 10vw);
+    margin-bottom: 5vw;
   }
-  .title {
-    font-size: 12vw;
-  }
+  .title {font-size: 14vw;}
+  .year {font-size: 6vw;}
 }
 
-/* INFO PAGE */
+/* INFO PAGE ----------------------------------------------- */ 
 
 .info-page {
   display: flex;
@@ -113,28 +112,29 @@ html, body, #app {
   background-color: rgb(39, 39, 39);
   height: 85%;
 }
-.container {
-  display: block;
-}
 .info-date, .info-map {
   display: block;
   align-items: center;
   justify-content: center;
   color: white;
   font-family: 'Montserrat', sans-serif;
-  font-size: 80px;
+  font-size: calc(15px + 5vw);
   text-align: center;
 }
 
 .info-map {
-  margin-top: 50px;
+  margin-top: 4vw;
 }
 
 .info-map a {
   color: #FF66C4;
-  font-size: 50px;
+  font-size: calc(15px + 3vw);
   transition: 0.7s;
-  margin-right: 10px;
+  margin-right: 1vw;
+}
+
+.info-map img {
+  width: 2vw;
 }
 
 .info-map a:hover {
@@ -145,15 +145,21 @@ html, body, #app {
 
 .info-city {
   color: #FF66C4;
-  font-size: 50px;
+  font-size: calc(15px + 2vw);
 }
 
-/* @media screen and (max-width: 420px) {
+@media screen and (max-width: 420px) {
+  .info-page {height: 75%;}
+  .info-container {width: 100%}
+  .info-date {font-size: 12vw;}
+  .info-map {margin-top: 10vw;}
+  .info-map a {font-size: 6vw;}
+  .info-map img {width: 3.5vw;}
+  .info-city {font-size: 4vw;}
+}
 
-} */
 
-
-/* GAMES PAGE */
+/* GAMES PAGE ----------------------------------------------- */
 
 .games-page {
   height: 85%;
@@ -161,7 +167,35 @@ html, body, #app {
   justify-content: center;
 }
 
-/* TEAMS PAGE */
+.day-one, .day-two {
+  font-family: 'Montserrat', sans-serif;
+  background-color: rgb(39, 39, 39);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #FF66C4;
+  font-size: 150px;
+}
+
+.day-one a, .day-two a {
+  color: #FF66C4;
+  font-size: 150px;
+  border-radius: 20px;
+  padding: 30px;
+  transition: 0.7s;
+  text-shadow: -2px 2px 0 black,
+              2px 2px 0 black,
+              2px -2px 0 black,
+              -2px -2px 0 black;
+}
+
+.day-one a:hover, .day-two a:hover {
+  background-color: #FF66C4;
+  color: rgb(2, 196, 235);
+  transition: 0.8s;
+}
+
+/* TEAMS PAGE ----------------------------------------------- */
 
 .teams-page {
   height: 85%;
@@ -267,39 +301,6 @@ a {
   background-color: #FF66C4;
   color: rgb(2, 196, 235);
   transition: 0.7s;
-}
-
-/* Background Images and Colors */
-.home-page {
-  background-color: rgb(39, 39, 39);
-}
-
-.day-one, .day-two {
-  font-family: 'Montserrat', sans-serif;
-  background-color: rgb(39, 39, 39);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #FF66C4;
-  font-size: 150px;
-}
-
-.day-one a, .day-two a {
-  color: #FF66C4;
-  font-size: 150px;
-  border-radius: 20px;
-  padding: 30px;
-  transition: 0.7s;
-  text-shadow: -2px 2px 0 black,
-              2px 2px 0 black,
-              2px -2px 0 black,
-              -2px -2px 0 black;
-}
-
-.day-one a:hover, .day-two a:hover {
-  background-color: #FF66C4;
-  color: rgb(2, 196, 235);
-  transition: 0.8s;
 }
 
 /* RESULTS */
