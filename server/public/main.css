@@ -297,9 +297,12 @@ a {
   height: 20%;
   font-size: 50px;
 }
-.six .teams-block div, .four .teams-block div {
+.six .teams-block div {
   height: 25%;
   font-size: 70px;
+}
+.four .teams-block div {
+  height: 20%;
 }
 .four .teams-block div {
   width: 100%;
