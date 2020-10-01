@@ -16,7 +16,7 @@ const TeamsOfFour = (props) => {
 
   return (
     <div className="four col-12">
-      <div className="teams-block col-6">
+      <div className="teams-block col-4">
         <div className="team">{chosenArray[0]}</div>
         <div className="team">{chosenArray[1]}</div>
         <div className="team">{chosenArray[2]}</div>

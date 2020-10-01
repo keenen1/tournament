@@ -2,7 +2,7 @@ import React from 'react'
 
 const Info = () => {
   return (
-    <div className="info col-12">
+    <div className="info-page col-12">
       <div className="info-container col-6">
         <div className="info-date col-12">
           <div>October 2020</div>

@@ -30,7 +30,7 @@ html, body, #app {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 1.5vw);
+  font-size: calc(14px + 1.5vw);
   background-color: rgb(2, 196, 235);
   color: rgb(39, 39, 39);
   transition: 0.7s;
@@ -42,16 +42,15 @@ html, body, #app {
 }
 
 /* NAV MOBILE */
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 420px) {
   .nav-container {
     display: block;
-    font-size: 20px;
     height: 25%;
   }
   .nav-link {
     width: 100%;
-    height: 16.66%;
-    font-size: 5.5vw;
+    height: 16.67%;
+    font-size: 4vw;
   }
 }
 
@@ -68,6 +67,10 @@ html, body, #app {
 .logo {
   text-align: center;
   display: block;
+}
+
+.logo img {
+  width: calc(20px + 10vw);
 }
 
 .title .year {
@@ -87,6 +90,68 @@ html, body, #app {
   font-size: 4vw;
   color: #FF66C4;
 }
+
+/* HOME MOBILE */
+@media screen and (max-width: 420px) {
+  .home-page {
+    height: 75%;
+  }
+  .logo img {
+    width: calc(40px + 10vw);
+  }
+  .title {
+    font-size: 12vw;
+  }
+}
+
+/* INFO PAGE */
+
+.info-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(39, 39, 39);
+  height: 85%;
+}
+.container {
+  display: block;
+}
+.info-date, .info-map {
+  display: block;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 80px;
+  text-align: center;
+}
+
+.info-map {
+  margin-top: 50px;
+}
+
+.info-map a {
+  color: #FF66C4;
+  font-size: 50px;
+  transition: 0.7s;
+  margin-right: 10px;
+}
+
+.info-map a:hover {
+  color: rgb(2, 196, 235);
+  cursor: pointer;
+  transition: 0.7s;
+}
+
+.info-city {
+  color: #FF66C4;
+  font-size: 50px;
+}
+
+/* @media screen and (max-width: 420px) {
+
+} */
+
 
 /* GAMES PAGE */
 
@@ -145,6 +210,8 @@ a {
   text-decoration: none;
 }
 
+/* TEAMS */
+
 .eighteen, .twelve, .eight, .six, .four {
   height: 75%;
   background-color: rgb(39, 39, 39);
@@ -189,7 +256,7 @@ a {
   font-size: 70px;
 }
 .four .teams-block div {
-  width: 50%;
+  width: 100%;
   margin: auto;
 }
 .teams-block .team {
@@ -233,50 +300,6 @@ a {
   background-color: #FF66C4;
   color: rgb(2, 196, 235);
   transition: 0.8s;
-}
-
-/* INFO PAGE */
-
-.info {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: rgb(39, 39, 39);
-  height: 85%;
-}
-.container {
-  display: block;
-}
-.info-date, .info-map {
-  display: block;
-  align-items: center;
-  justify-content: center;
-  color: white;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 80px;
-  text-align: center;
-}
-
-.info-map {
-  margin-top: 50px;
-}
-
-.info-map a {
-  color: #FF66C4;
-  font-size: 50px;
-  transition: 0.7s;
-  margin-right: 10px;
-}
-
-.info-map a:hover {
-  color: rgb(2, 196, 235);
-  cursor: pointer;
-  transition: 0.7s;
-}
-
-.info-city {
-  color: #FF66C4;
-  font-size: 50px;
 }
 
 /* RESULTS */

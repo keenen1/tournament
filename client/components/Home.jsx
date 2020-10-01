@@ -7,10 +7,8 @@ const Home = () => {
         {/* <div className="labour col-12">Labour Weekend</div>
         <div className="weekend col-12">Basketball</div>
         <div className="year col-12">2020</div> */}
-        <div className="logo"
-          // style={{ display: 'block' }}
-        >
-          <img src="./images/just-logo.gif" alt="Logo" width="150" />
+        <div className="logo">
+          <img src="./images/just-logo.gif" alt="Logo" />
           <div className="title">
             <span>L</span>
             <span>A</span>
