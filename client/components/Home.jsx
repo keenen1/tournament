@@ -7,9 +7,11 @@ const Home = () => {
         {/* <div className="labour col-12">Labour Weekend</div>
         <div className="weekend col-12">Basketball</div>
         <div className="year col-12">2020</div> */}
-        <div className="logo" style={{ display: 'block' }}>
+        <div className="logo"
+          // style={{ display: 'block' }}
+        >
           <img src="./images/just-logo.gif" alt="Logo" width="150" />
-          <div style={{ fontFamily: 'Montserrat', fontSize: '100px', color: 'white' }}>
+          <div className="title">
             <span>L</span>
             <span>A</span>
             <span>B</span>
@@ -17,7 +19,7 @@ const Home = () => {
             <span>U</span>
             <span>R</span>
           </div>
-          <div style={{ fontFamily: 'Montserrat', fontSize: '100px', color: 'white' }}>
+          <div className="title">
             <span>W</span>
             <span>E</span>
             <span>E</span>
@@ -26,7 +28,7 @@ const Home = () => {
             <span>N</span>
             <span>D</span>
           </div>
-          <div style={{ fontSize: '30px', color: '#FF66C4' }}>AUCKLAND 2020</div>
+          <div className="year">AUCKLAND 2020</div>
         </div>
       </div>
     </>

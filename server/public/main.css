@@ -26,10 +26,11 @@ html, body, #app {
 }
 .nav-link {
   height: 100%;
+  min-width: 16.66%;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 30px;
+  font-size: calc(10px + 1.5vw);
   background-color: rgb(2, 196, 235);
   color: rgb(39, 39, 39);
   transition: 0.7s;
@@ -40,29 +41,51 @@ html, body, #app {
   transition: 0.7s;
 }
 
+/* NAV MOBILE */
+@media screen and (max-width: 500px) {
+  .nav-container {
+    display: block;
+    font-size: 20px;
+    height: 25%;
+  }
+  .nav-link {
+    width: 100%;
+    height: 16.66%;
+    font-size: 5.5vw;
+  }
+}
+
+
 /* HOME PAGE */
 
 .home-page {
   height: 85%;
   display: flex;
+  align-items: center;
   justify-content: center;
 }
 
 .logo {
-  margin-top: 100px;
   text-align: center;
+  display: block;
 }
 
+.title .year {
+  display: flex;
+  justify-content: center;
+}
+.title {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-size: 8vw;
+  font-weight: 1000;
+}
 .logo span:hover {
   color: rgb(2, 196, 235);
 }
-
-.labour, .weekend, .year {
-  display: flex;
-  justify-content: center;
-  color: white;
-  font-size: 100px;
-  font-weight: 500;
+.year {
+  font-size: 4vw;
+  color: #FF66C4;
 }
 
 /* GAMES PAGE */
@@ -428,8 +451,4 @@ a {
 .table100.ver3 .row100 td:hover {
   background-color: #FF66C4;
   color: #fff;
-}
-
-@media only screen and (min-width: 600px) {
-  [class*="col-"] {width: 100%;}
 }
