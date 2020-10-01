@@ -140,28 +140,39 @@ a {
   text-align: center;
   color: white;
   transition: 0.7s;
-  border-radius: 20px;
+  /* border-radius: 20px; */
   font-size: 50px;
   text-shadow: -2px 2px 0 black,
               2px 2px 0 black,
               2px -2px 0 black,
               -2px -2px 0 black;
 }
+.pool {
+  border-bottom: grey 2px solid;
+  color: rgb(2, 196, 235);
+}
 .eighteen .teams-block div {
   height: 16.66%;
 }
 .twelve .teams-block div {
-  height: 25%;
+  height: 20%;
 }
 .eight .teams-block div {
-  height: 50%;
+  height: 20%;
   font-size: 50px;
 }
 .six .teams-block div, .four .teams-block div {
-  height: 50%;
+  height: 25%;
   font-size: 70px;
 }
-.teams-block div:hover {
+.four .teams-block div {
+  width: 50%;
+  margin: auto;
+}
+.teams-block .team {
+  border-radius: 20px;
+}
+.teams-block .team:hover {
   cursor: pointer;
   background-color: #FF66C4;
   color: rgb(2, 196, 235);

@@ -4,22 +4,28 @@ const TeamsOfTwelve = () => {
   return (
     <div className="twelve col-12">
       <div className="teams-block col-4">
-        <div>BARAKO EAST</div>
-        <div>UFCSA WEST</div>
-        <div>WEST PA MORE</div>
-        <div>TGIF A</div>
+        <div className="pool">POOL A</div>
+        <div className="team">BARAKO EAST</div>
+        <div className="team">UFCSA WEST</div>
+        <div className="team">WEST PA MORE</div>
       </div>
       <div className="teams-block col-4">
-        <div>PINOY MAVS</div>
-        <div>UFCSA SINULOG</div>
-        <div>KIWI ROOFING</div>
-        <div>RANGERS</div>
+        <div className="pool">POOL B</div>
+        <div className="team">PINOY MAVS</div>
+        <div className="team">UFCSA SINULOG</div>
+        <div className="team">KIWI ROOFING</div>
       </div>
       <div className="teams-block col-4">
-        <div>FIL-KIWI</div>
-        <div>AZTIGS</div>
-        <div>SOUTH AKL</div>
-        <div>TGIF B</div>
+        <div className="pool">POOL C</div>
+        <div className="team">FIL-KIWI</div>
+        <div className="team">AZTIGS</div>
+        <div className="team">SOUTH AKL</div>
+      </div>
+      <div className="teams-block col-4">
+        <div className="pool">POOL D</div>
+        <div className="team">TGIF A</div>
+        <div className="team">TGIF B</div>
+        <div className="team">RANGERS</div>
       </div>
     </div>
   )
