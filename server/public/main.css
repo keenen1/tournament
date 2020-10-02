@@ -254,13 +254,15 @@ a {
   }
 }
 
+/* CATEGORY PAGE ----------------------------------------------- */
+
 .category-pane {
   height: 10%;
   background-color: #FF66C4;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 30px;
+  font-size: 2.5vw;
 }
 
 .eighteen, .twelve, .eight, .six, .four {
@@ -274,14 +276,13 @@ a {
   height: 100%;
 }
 .teams-block div {
+  background-color: rgb(39, 39, 39);
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
   color: white;
   transition: 0.7s;
-  /* border-radius: 20px; */
-  font-size: 50px;
   text-shadow: -2px 2px 0 black,
               2px 2px 0 black,
               2px -2px 0 black,
@@ -289,22 +290,16 @@ a {
 }
 .pool {
   border-bottom: rgb(2, 196, 235) 2px solid;
-  color: rgb(2, 196, 235);
   font-family: 'Montserrat', sans-serif;
 }
 .eighteen .teams-block div {
   height: 16.66%;
 }
-.twelve .teams-block div {
+.twelve .teams-block div, .eight .teams-block div  {
   height: 20%;
-}
-.eight .teams-block div {
-  height: 20%;
-  font-size: 50px;
 }
 .six .teams-block div {
   height: 25%;
-  font-size: 70px;
 }
 .four .teams-block div {
   height: 20%;
@@ -313,14 +308,58 @@ a {
   width: 100%;
   margin: auto;
 }
-.teams-block .team {
+.eighteen .pool, .twelve .pool, .eight .pool, .six .pool {
+  font-size: 4vw;
+}
+.four .pool {
+  font-size: 3vw;
+}
+.eighteen .teams-block .team, .twelve .teams-block .team, .eight .teams-block .team, .six .teams-block .team {
+  font-size: 3.5vw;
+}
+.four .teams-block .team {
+  font-size: 5vw;
+}
+.eighteen .teams-block .team, .twelve .teams-block .team, .eight .teams-block .team, .six .teams-block .team, .four .teams-block .team {
   border-radius: 20px;
 }
 .teams-block .team:hover {
   cursor: pointer;
   background-color: #FF66C4;
   color: rgb(2, 196, 235);
+  border-radius: 20px;
   transition: 0.7s;
+}
+
+@media screen and (max-width: 420px) {
+  .category-pane {
+    height: 4%;
+    font-size: 4vw;
+  }
+  .eighteen, .twelve, .eight, .six, .four {
+    height: 75%;
+  }
+  .eighteen .team, .twelve .team, .eight .team, .six .team, .four .team {
+    font-size: 4vw;
+  }
+  .four .pool {
+    font-size: 4vw;
+  }
+  .eighteen .teams-block .team, .twelve .teams-block .team, .eight .teams-block .team, .six .teams-block .team {
+    border: 1px grey solid;
+    border-radius: 0px;
+    text-shadow: none;
+  }
+  .four {
+    width: 100%;
+  }
+  .four .teams-block div {
+    width: 100%;
+  }
+  .pool {
+    height: 3%;
+    border-bottom: rgb(2, 196, 235) 1px solid;
+  }
 }
 
 /* RESULTS */
@@ -339,8 +378,6 @@ a {
 }
 
 .hourly-container {
-  /* border: rgb(2, 196, 235) solid 1px;
-  border-radius: 20px; */
   width: 70%;
   padding: 20px;
   color: white;
