@@ -1,12 +1,12 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-const Categories = () => {
+const Groups = () => {
   return (
     <div className="teams-page col-12">
       <div className="col-12">
         <Link to={{
-          pathname: '/categories/opens',
+          pathname: '/groups/opens',
           state: {
             cat: 'opens',
             number: 18
@@ -15,7 +15,7 @@ const Categories = () => {
           OPENS
         </Link>
         <Link to={{
-          pathname: '/categories/legends',
+          pathname: '/groups/legends',
           state: {
             cat: 'legends',
             number: 12
@@ -24,7 +24,7 @@ const Categories = () => {
           LEGENDS
         </Link>
         <Link to={{
-          pathname: '/categories/35a',
+          pathname: '/groups/35a',
           state: {
             cat: '35a',
             number: 8
@@ -35,7 +35,7 @@ const Categories = () => {
       </div>
       <div className="col-12">
         <Link to={{
-          pathname: '/categories/u19',
+          pathname: '/groups/u19',
           state: {
             cat: 'u19',
             number: 4
@@ -44,7 +44,7 @@ const Categories = () => {
           U19
         </Link>
         <Link to={{
-          pathname: '/categories/u17',
+          pathname: '/groups/u17',
           state: {
             cat: 'u17',
             number: 4
@@ -53,7 +53,7 @@ const Categories = () => {
           U17
         </Link>
         <Link to={{
-          pathname: '/categories/u15',
+          pathname: '/groups/u15',
           state: {
             cat: 'u15',
             number: 6
@@ -64,7 +64,7 @@ const Categories = () => {
       </div>
       <div className="col-12">
         <Link to={{
-          pathname: '/categories/u13',
+          pathname: '/groups/u13',
           state: {
             cat: 'u13',
             number: 4
@@ -73,7 +73,7 @@ const Categories = () => {
           U13
         </Link>
         <Link to={{
-          pathname: '/categories/u11',
+          pathname: '/groups/u11',
           state: {
             cat: 'u11',
             number: 4
@@ -82,7 +82,7 @@ const Categories = () => {
           U11
         </Link>
         <Link to={{
-          pathname: '/categories/u9',
+          pathname: '/groups/u9',
           state: {
             cat: 'u9',
             number: 4
@@ -95,4 +95,4 @@ const Categories = () => {
   )
 }
 
-export default Categories
+export default Groups

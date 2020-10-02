@@ -6,10 +6,11 @@ const TopNav = () => {
     'home',
     'info',
     'games',
-    'categories',
+    'groups',
     'results',
     'news'
   ]
+
   return (
     <Router>
       <div className="nav-container">
@@ -18,8 +19,9 @@ const TopNav = () => {
             <NavLink
               key={i}
               to={`/${menu}`}
+              replace
               activeStyle={{ backgroundColor: '#FF66C4' }}
-              className="nav-link col-2"
+              className='nav-link'
             >
               {menu.toUpperCase()}
             </NavLink>

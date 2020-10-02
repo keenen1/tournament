@@ -17,7 +17,7 @@ html, body, #app {
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;}
 
-/* NAV BAR */
+/* NAV BAR ----------------------------------------------- */
 .nav-container {
   height: 15%;
   display: flex;
@@ -26,10 +26,11 @@ html, body, #app {
 }
 .nav-link {
   height: 100%;
+  min-width: 16.66%;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 30px;
+  font-size: calc(14px + 1.5vw);
   background-color: rgb(2, 196, 235);
   color: rgb(39, 39, 39);
   transition: 0.7s;
@@ -40,163 +41,146 @@ html, body, #app {
   transition: 0.7s;
 }
 
-/* HOME PAGE */
+/* NAV MOBILE */
+@media screen and (max-width: 420px) {
+  .nav-container {
+    display: block;
+    height: 25%;
+  }
+  .nav-link {
+    width: 100%;
+    height: 16.67%;
+    font-size: 4vw;
+  }
+}
+
+
+/* HOME PAGE ----------------------------------------------- */ 
 
 .home-page {
   height: 85%;
   display: flex;
+  align-items: center;
   justify-content: center;
+  background-color: rgb(39, 39, 39);
 }
 
 .logo {
-  margin-top: 100px;
   text-align: center;
+  display: block;
 }
 
+.logo img {
+  width: calc(20px + 10vw);
+}
+
+.title .year {
+  display: flex;
+  justify-content: center;
+}
+.title {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-size: 7vw;
+  font-weight: 1000;
+}
 .logo span:hover {
   color: rgb(2, 196, 235);
 }
-
-.labour, .weekend, .year {
-  display: flex;
-  justify-content: center;
-  color: white;
-  font-size: 100px;
-  font-weight: 500;
+.year {
+  font-size: 4vw;
+  color: #FF66C4;
 }
 
-/* GAMES PAGE */
+/* HOME MOBILE */
+@media screen and (max-width: 420px) {
+  .home-page {height: 75%;}
+  .logo img {
+    width: calc(40px + 10vw);
+    margin-bottom: 5vw;
+  }
+  .title {font-size: 14vw;}
+  .year {font-size: 6vw;}
+}
+
+/* INFO PAGE ----------------------------------------------- */ 
+
+.info-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(39, 39, 39);
+  height: 85%;
+}
+.info-date, .info-map {
+  display: block;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: calc(15px + 5vw);
+  text-align: center;
+}
+
+.info-map {
+  margin-top: 4vw;
+}
+
+.info-map a {
+  color: #FF66C4;
+  font-size: calc(15px + 3vw);
+  transition: 0.7s;
+  margin-right: 1vw;
+}
+
+.info-map img {
+  width: 2vw;
+}
+
+.info-map a:hover {
+  color: rgb(2, 196, 235);
+  cursor: pointer;
+  transition: 0.7s;
+}
+
+.info-city {
+  color: #FF66C4;
+  font-size: calc(15px + 2vw);
+}
+
+@media screen and (max-width: 420px) {
+  .info-page {height: 75%;}
+  .info-container {width: 100%}
+  .info-date {font-size: 12vw;}
+  .info-map {margin-top: 10vw;}
+  .info-map a {font-size: 6vw;}
+  .info-map img {width: 3.5vw;}
+  .info-city {font-size: 4vw;}
+}
+
+
+/* GAMES PAGE ----------------------------------------------- */
 
 .games-page {
   height: 85%;
   display: flex;
   justify-content: center;
-}
-
-/* TEAMS PAGE */
-
-.teams-page {
-  height: 85%;
-  display: flex;
-  background-color: rgb(39, 39, 39);
-}
-
-/* TEAMS */
-
-.category-pane {
-  height: 10%;
-  background-color: #FF66C4;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 30px;
-}
-.teams-category {
-  height: 33.33%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: white;
-  transition: 0.7s;
-  font-size: 80px;
-  border-radius: 20px;
-  text-shadow: -2px 2px 0 black,
-              2px 2px 0 black,
-              2px -2px 0 black,
-              -2px -2px 0 black;
-}
-
-.teams-category:hover {
-  cursor: pointer;
-  background-color: #FF66C4;
-  color: rgb(2, 196, 235);
-  transition: 0.7s;
-  font-size: 100px;
-  text-shadow: -2px 2px 0 black,
-              2px 2px 0 black,
-              2px -2px 0 black,
-              -2px -2px 0 black;
-}
-
-a {
-  text-decoration: none;
-}
-
-.eighteen, .twelve, .eight, .six, .four {
-  height: 75%;
-  background-color: rgb(39, 39, 39);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.teams-block {
-  height: 100%;
-}
-.teams-block div {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  color: white;
-  transition: 0.7s;
-  /* border-radius: 20px; */
-  font-size: 50px;
-  text-shadow: -2px 2px 0 black,
-              2px 2px 0 black,
-              2px -2px 0 black,
-              -2px -2px 0 black;
-}
-.pool {
-  border-bottom: rgb(2, 196, 235) 2px solid;
-  color: rgb(2, 196, 235);
-  font-family: 'Montserrat', sans-serif;
-}
-.eighteen .teams-block div {
-  height: 16.66%;
-}
-.twelve .teams-block div {
-  height: 20%;
-}
-.eight .teams-block div {
-  height: 20%;
-  font-size: 50px;
-}
-.six .teams-block div, .four .teams-block div {
-  height: 25%;
-  font-size: 70px;
-}
-.four .teams-block div {
-  width: 50%;
-  margin: auto;
-}
-.teams-block .team {
-  border-radius: 20px;
-}
-.teams-block .team:hover {
-  cursor: pointer;
-  background-color: #FF66C4;
-  color: rgb(2, 196, 235);
-  transition: 0.7s;
-}
-
-/* Background Images and Colors */
-.home-page {
   background-color: rgb(39, 39, 39);
 }
 
 .day-one, .day-two {
+  width: 50%;
   font-family: 'Montserrat', sans-serif;
   background-color: rgb(39, 39, 39);
   display: flex;
   align-items: center;
   justify-content: center;
   color: #FF66C4;
-  font-size: 150px;
+  font-size: 11vw;
 }
 
 .day-one a, .day-two a {
   color: #FF66C4;
-  font-size: 150px;
   border-radius: 20px;
   padding: 30px;
   transition: 0.7s;
@@ -212,48 +196,173 @@ a {
   transition: 0.8s;
 }
 
-/* INFO PAGE */
+@media screen and (max-width: 420px) {
+  .games-page {
+    height: 75%;
+    display: block;
+  }
+  .day-one, .day-two {
+    width: 100%;
+    height: 40%;
+  }
+}
 
-.info {
+/* GROUPS PAGE ----------------------------------------------- */
+
+.teams-page {
+  height: 85%;
+  display: flex;
+  background-color: rgb(39, 39, 39);
+}
+
+.teams-category {
+  background-color: rgb(39, 39, 39);
+  height: 33.33%;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: rgb(39, 39, 39);
-  height: 85%;
+  color: white;
+  transition: 0.7s;
+  font-size: 6vw;
+  border-radius: 20px;
+  text-shadow: -2px 2px 0 black,
+  2px 2px 0 black,
+  2px -2px 0 black,
+  -2px -2px 0 black;
 }
-.container {
-  display: block;
+
+.teams-category:hover {
+  cursor: pointer;
+  background-color: #FF66C4;
+  color: rgb(2, 196, 235);
+  transition: 0.7s;
+  font-size: 7vw;
+  text-shadow: -2px 2px 0 black,
+  2px 2px 0 black,
+  2px -2px 0 black,
+  -2px -2px 0 black;
 }
-.info-date, .info-map {
-  display: block;
+
+a {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 420px) {
+  .teams-page {height: 75%;}
+  .teams-category {
+    border: 1px grey solid;
+    border-radius: 0px;
+  }
+}
+
+/* CATEGORY PAGE ----------------------------------------------- */
+
+.category-pane {
+  height: 10%;
+  background-color: #FF66C4;
+  display: flex;
   align-items: center;
   justify-content: center;
-  color: white;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 80px;
+  font-size: 2.5vw;
+}
+
+.eighteen, .twelve, .eight, .six, .four {
+  height: 75%;
+  background-color: rgb(39, 39, 39);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.teams-block {
+  height: 100%;
+}
+.teams-block div {
+  background-color: rgb(39, 39, 39);
+  display: flex;
+  align-items: center;
+  justify-content: center;
   text-align: center;
-}
-
-.info-map {
-  margin-top: 50px;
-}
-
-.info-map a {
-  color: #FF66C4;
-  font-size: 50px;
+  color: white;
   transition: 0.7s;
-  margin-right: 10px;
+  text-shadow: -2px 2px 0 black,
+              2px 2px 0 black,
+              2px -2px 0 black,
+              -2px -2px 0 black;
 }
-
-.info-map a:hover {
-  color: rgb(2, 196, 235);
+.pool {
+  text-decoration: underline;
+  text-underline-position: under;
+  text-decoration-color: rgb(2, 196, 235);
+  font-family: 'Montserrat', sans-serif;
+}
+.eighteen .teams-block div {
+  height: 16.66%;
+}
+.twelve .teams-block div, .eight .teams-block div  {
+  height: 20%;
+}
+.six .teams-block div {
+  height: 25%;
+}
+.four .teams-block div {
+  height: 20%;
+}
+.four .teams-block div {
+  width: 100%;
+  margin: auto;
+}
+.eighteen .pool, .twelve .pool, .eight .pool, .six .pool {
+  font-size: 4vw;
+}
+.four .pool {
+  font-size: 3vw;
+}
+.eighteen .teams-block .team, .twelve .teams-block .team, .eight .teams-block .team, .six .teams-block .team {
+  font-size: 3.5vw;
+}
+.four .teams-block .team {
+  font-size: 5vw;
+}
+.eighteen .teams-block .team, .twelve .teams-block .team, .eight .teams-block .team, .six .teams-block .team, .four .teams-block .team {
+  border-radius: 20px;
+}
+.teams-block .team:hover {
   cursor: pointer;
+  background-color: #FF66C4;
+  color: rgb(2, 196, 235);
+  border-radius: 20px;
   transition: 0.7s;
 }
 
-.info-city {
-  color: #FF66C4;
-  font-size: 50px;
+@media screen and (max-width: 420px) {
+  .category-pane {
+    height: 4%;
+    font-size: 4vw;
+  }
+  .eighteen, .twelve, .eight, .six, .four {
+    height: 75%;
+  }
+  .eighteen .team, .twelve .team, .eight .team, .six .team, .four .team {
+    font-size: 4vw;
+  }
+  .four .pool {
+    font-size: 4vw;
+  }
+  .eighteen .teams-block .team, .twelve .teams-block .team, .eight .teams-block .team, .six .teams-block .team {
+    /* border: 1px grey solid; */
+    border-radius: 0px;
+    text-shadow: none;
+  }
+  .eighteen .teams-block div, .twelve .teams-block div, .eight .teams-block div, .six .teams-block div {
+    height: 15%;
+  }
+  .four {
+    width: 100%;
+  }
+  .four .teams-block div {
+    height: 15%;
+    width: 100%;
+  }
 }
 
 /* RESULTS */
@@ -272,8 +381,6 @@ a {
 }
 
 .hourly-container {
-  /* border: rgb(2, 196, 235) solid 1px;
-  border-radius: 20px; */
   width: 70%;
   padding: 20px;
   color: white;
@@ -428,8 +535,4 @@ a {
 .table100.ver3 .row100 td:hover {
   background-color: #FF66C4;
   color: #fff;
-}
-
-@media only screen and (min-width: 600px) {
-  [class*="col-"] {width: 100%;}
 }
