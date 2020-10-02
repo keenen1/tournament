@@ -203,7 +203,7 @@ html, body, #app {
   }
   .day-one, .day-two {
     width: 100%;
-    height: 50%;
+    height: 40%;
   }
 }
 
@@ -216,6 +216,7 @@ html, body, #app {
 }
 
 .teams-category {
+  background-color: rgb(39, 39, 39);
   height: 33.33%;
   display: flex;
   align-items: center;
@@ -289,7 +290,9 @@ a {
               -2px -2px 0 black;
 }
 .pool {
-  border-bottom: rgb(2, 196, 235) 2px solid;
+  text-decoration: underline;
+  text-underline-position: under;
+  text-decoration-color: rgb(2, 196, 235);
   font-family: 'Montserrat', sans-serif;
 }
 .eighteen .teams-block div {
@@ -346,19 +349,19 @@ a {
     font-size: 4vw;
   }
   .eighteen .teams-block .team, .twelve .teams-block .team, .eight .teams-block .team, .six .teams-block .team {
-    border: 1px grey solid;
+    /* border: 1px grey solid; */
     border-radius: 0px;
     text-shadow: none;
+  }
+  .eighteen .teams-block div, .twelve .teams-block div, .eight .teams-block div, .six .teams-block div {
+    height: 15%;
   }
   .four {
     width: 100%;
   }
   .four .teams-block div {
+    height: 15%;
     width: 100%;
-  }
-  .pool {
-    height: 3%;
-    border-bottom: rgb(2, 196, 235) 1px solid;
   }
 }
 
