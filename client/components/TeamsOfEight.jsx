@@ -3,23 +3,20 @@ import React from 'react'
 const TeamsOfEight = () => {
   return (
     <div className="eight col-12">
-      <div className="teams-block col-2">
-        <div>BARAKO EAST</div>
-        <div>UFCSA WEST</div>
+      <div className="teams-block col-6">
+        <div className="pool">POOL A</div>
+        <div className="team">BARAKO EAST</div>
+        <div className="team">UFCSA WEST</div>
+        <div className="team">PINOY MAVS</div>
+        <div className="team">UFCSA SINULOG</div>
       </div>
-      <div className="teams-block col-2">
-        <div>WEST PA MORE</div>
-        <div>TGIF A</div>
+      <div className="teams-block col-6">
+        <div className="pool">POOL B</div>
+        <div className="team">WEST PA MORE</div>
+        <div className="team">TGIF A</div>
+        <div className="team">KIWI ROOFING</div>
+        <div className="team">RANGERS</div>
       </div>
-      <div className="teams-block col-2">
-        <div>PINOY MAVS</div>
-        <div>UFCSA SINULOG</div>
-      </div>
-      <div className="teams-block col-2">
-        <div>KIWI ROOFING</div>
-        <div>RANGERS</div>
-      </div>
-
     </div>
   )
 }

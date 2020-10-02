@@ -15,14 +15,13 @@ const TeamsOfFour = (props) => {
   if (props.cat === 'u9') chosenArray = u9arr
 
   return (
-    <div className="four col-12">
-      <div className="teams-block col-6">
-        <div>{chosenArray[0]}</div>
-        <div>{chosenArray[1]}</div>
-      </div>
-      <div className="teams-block col-6">
-        <div>{chosenArray[2]}</div>
-        <div>{chosenArray[3]}</div>
+    <div className="four">
+      <div className="teams-block">
+        <div className="pool">DOUBLE ROUND ROBIN</div>
+        <div className="team">{chosenArray[0]}</div>
+        <div className="team">{chosenArray[1]}</div>
+        <div className="team">{chosenArray[2]}</div>
+        <div className="team">{chosenArray[3]}</div>
       </div>
     </div>
   )

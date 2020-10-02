@@ -76,6 +76,7 @@ class Teams extends React.Component {
     }
     return (
       <>
+        <div className="category-pane">{this.state.cat.toUpperCase()}</div>
         {componentToRender}
       </>
     )
