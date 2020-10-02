@@ -1,5 +1,5 @@
 import React from 'react'
-import ResultGame from '../../server/public/ResultGame'
+import ResultGame from './ResultGame'
 
 const ResultsHourly = (props) => {
   return (

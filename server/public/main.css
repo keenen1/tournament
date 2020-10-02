@@ -207,7 +207,7 @@ html, body, #app {
   }
 }
 
-/* TEAMS PAGE ----------------------------------------------- */
+/* GROUPS PAGE ----------------------------------------------- */
 
 .teams-page {
   height: 85%;
@@ -215,7 +215,44 @@ html, body, #app {
   background-color: rgb(39, 39, 39);
 }
 
-/* TEAMS */
+.teams-category {
+  height: 33.33%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  transition: 0.7s;
+  font-size: 6vw;
+  border-radius: 20px;
+  text-shadow: -2px 2px 0 black,
+  2px 2px 0 black,
+  2px -2px 0 black,
+  -2px -2px 0 black;
+}
+
+.teams-category:hover {
+  cursor: pointer;
+  background-color: #FF66C4;
+  color: rgb(2, 196, 235);
+  transition: 0.7s;
+  font-size: 7vw;
+  text-shadow: -2px 2px 0 black,
+  2px 2px 0 black,
+  2px -2px 0 black,
+  -2px -2px 0 black;
+}
+
+a {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 420px) {
+  .teams-page {height: 75%;}
+  .teams-category {
+    border: 1px grey solid;
+    border-radius: 0px;
+  }
+}
 
 .category-pane {
   height: 10%;
@@ -225,38 +262,6 @@ html, body, #app {
   justify-content: center;
   font-size: 30px;
 }
-.teams-category {
-  height: 33.33%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: white;
-  transition: 0.7s;
-  font-size: 80px;
-  border-radius: 20px;
-  text-shadow: -2px 2px 0 black,
-              2px 2px 0 black,
-              2px -2px 0 black,
-              -2px -2px 0 black;
-}
-
-.teams-category:hover {
-  cursor: pointer;
-  background-color: #FF66C4;
-  color: rgb(2, 196, 235);
-  transition: 0.7s;
-  font-size: 100px;
-  text-shadow: -2px 2px 0 black,
-              2px 2px 0 black,
-              2px -2px 0 black,
-              -2px -2px 0 black;
-}
-
-a {
-  text-decoration: none;
-}
-
-/* TEAMS */
 
 .eighteen, .twelve, .eight, .six, .four {
   height: 75%;
