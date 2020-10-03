@@ -68,3 +68,6 @@ bundle.*
 
 # Development databases
 dev.sqlite3
+
+# Local Netlify folder
+.netlify

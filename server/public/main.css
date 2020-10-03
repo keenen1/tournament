@@ -252,6 +252,7 @@ a {
   .teams-category {
     border: 1px grey solid;
     border-radius: 0px;
+    text-shadow: none;
   }
 }
 
@@ -347,9 +348,12 @@ a {
   }
   .four .pool {
     font-size: 4vw;
+    text-shadow: none;
   }
-  .eighteen .teams-block .team, .twelve .teams-block .team, .eight .teams-block .team, .six .teams-block .team {
-    /* border: 1px grey solid; */
+  .eighteen .pool, .twelve .pool, .eight .pool, .six .pool, .four .pool {
+    text-shadow: none;
+  }
+  .eighteen .teams-block .team, .twelve .teams-block .team, .eight .teams-block .team, .six .teams-block .team, .four .teams-block .team {
     border-radius: 0px;
     text-shadow: none;
   }
