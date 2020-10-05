@@ -116,6 +116,18 @@ html, body, #app {
     bottom: 30px;
   }
 }
+@media screen and (max-height: 420px) {
+  .home-page {height: 85%;}
+  .logo img {
+    width: calc(20px + 3vw);
+  }
+  .title {font-size: 5.5vw;}
+  .year {font-size: 2vw;}
+  .powered-by {
+    font-size: 2vw;
+    bottom: 5px;
+  }
+}
 
 /* INFO PAGE ----------------------------------------------- */ 
 
