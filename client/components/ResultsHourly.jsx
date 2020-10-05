@@ -4,7 +4,7 @@ import ResultGame from './ResultGame'
 const ResultsHourly = (props) => {
   return (
     <div className="hourly-container">
-      <div style={{ margin: '5px', fontSize: '25px' }}>
+      <div className="results-hour">
         {props.hour}
       </div>
       <div className="hourly-top">

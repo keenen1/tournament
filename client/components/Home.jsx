@@ -27,6 +27,9 @@ const Home = () => {
             <span>D</span>
           </div>
           <div className="year">AUCKLAND 2020</div>
+          <div className="powered-by">
+            Powered by: LeyZoom
+          </div>
         </div>
       </div>
     </>

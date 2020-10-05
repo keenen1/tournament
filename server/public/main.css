@@ -91,6 +91,16 @@ html, body, #app {
   font-size: 4vw;
   color: #FF66C4;
 }
+.powered-by {
+  font-size: 1.5vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: right;
+  bottom: 30px;
+  position: absolute;
+  color: grey;
+}
 
 /* HOME MOBILE */
 @media screen and (max-width: 420px) {
@@ -101,6 +111,10 @@ html, body, #app {
   }
   .title {font-size: 14vw;}
   .year {font-size: 6vw;}
+  .powered-by {
+    font-size: 3.5vw;
+    bottom: 30px;
+  }
 }
 
 /* INFO PAGE ----------------------------------------------- */ 
@@ -397,6 +411,11 @@ a {
   margin: auto;
 }
 
+.results-hour {
+  margin: 5px 0px 2px 5px;
+  font-size: 4vw;
+}
+
 .hourly-top, .hourly-bottom {
   width: 100%;
   display: flex;
@@ -413,13 +432,15 @@ a {
 
 .court-result-cat {
   width: 30%;
-  font-size: 2.8vw;
-  text-align: left;
+  font-size: 3vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .court-result-teams {
   width: 70%;
   justify-content: left;
-  font-size: 20px;
+  font-size: 2.1vw;
 }
 .court-result-team {
   width: 80%;
@@ -460,6 +481,12 @@ a {
     background-color: rgb(39, 39, 39);
     border: grey 1px solid;
   }
+  .results-hour {
+    margin-left: 3vw;
+    font-size: 6vw;
+    color: #FF66C4;
+    font-weight: bold;
+  }
   .hourly-top, .hourly-bottom {
     width: 100%;
     display: block;
@@ -470,10 +497,15 @@ a {
   }
   .court-result-cat {
     font-size: 7vw;
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .court-result-teams {
+    justify-content: left;
+    font-size: 4.5vw;
   }
 }
-
 
 /*//////////////////////////////////////////////////////////////////
 [ Table ]*/
