@@ -413,7 +413,8 @@ a {
 
 .results-hour {
   margin: 5px 0px 2px 5px;
-  font-size: 4vw;
+  font-size: 3.5vw;
+  color: #FF66C4;
 }
 
 .hourly-top, .hourly-bottom {
