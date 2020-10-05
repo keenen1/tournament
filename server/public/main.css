@@ -203,7 +203,8 @@ html, body, #app {
   }
   .day-one, .day-two {
     width: 100%;
-    height: 40%;
+    height: 38%;
+    font-size: 14vw;
   }
 }
 
@@ -343,11 +344,13 @@ a {
   .eighteen, .twelve, .eight, .six, .four {
     height: 75%;
   }
-  .eighteen .team, .twelve .team, .eight .team, .six .team, .four .team {
+  .eighteen .teams-block .team, .twelve .teams-block .team, .six .teams-block .team {
     font-size: 4vw;
   }
+  .eight .teams-block .team, .four .teams-block .team {
+    font-size: 4.5vw;
+  }
   .four .pool {
-    font-size: 4vw;
     text-shadow: none;
   }
   .eighteen .pool, .twelve .pool, .eight .pool, .six .pool, .four .pool {
@@ -366,6 +369,9 @@ a {
   .four .teams-block div {
     height: 15%;
     width: 100%;
+  }
+  .teams-block .team:hover {
+    background-color: rgb(39, 39, 39);
   }
 }
 
@@ -437,6 +443,18 @@ a {
   padding-right: 30px;
 }
 
+@media screen and (max-width: 420px) {
+  .results-page {
+    height: 75%;
+    display: block;
+  }
+  .results-day {
+    width: 100%;
+    height: 38%;
+    font-size: 14vw;
+  }
+}
+
 
 /*//////////////////////////////////////////////////////////////////
 [ Table ]*/
@@ -478,23 +496,23 @@ a {
 }
 
 .column100 {
-  width: 165px;
-  padding-left: 10px;
+  width: 10vw;
+  padding-left: 1vw;
 }
 
 .column100.column1 {
-  width: 100px;
-  padding-left: 42px;
+  width: 10vw;
+  padding-left: 1vw;
 }
 
 .row100.head th {
-  padding-top: 24px;
-  padding-bottom: 20px;
+  padding-top: 1.2vw;
+  padding-bottom: 1.2vw;
 }
 
 .row100 td {
-  padding-top: 18px;
-  padding-bottom: 14px;
+  padding-top: 1.2vw;
+  padding-bottom: 1.2vw;
 }
 
 /*==================================================================
@@ -503,21 +521,19 @@ a {
   border-bottom: 1px solid #e5e5e5;
 }
 
-.table100.ver3 td {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 14px;
-  color: #808080;
-  /* line-height: 1.4; */
-}
-
 .table100.ver3 th {
   font-family: 'Montserrat', sans-serif;
-  font-size: 15px;
+  font-size: calc(5px + 0.8vw);
   color: #fff;
   line-height: 1.4;
   text-transform: uppercase;
-
   background-color: rgb(2, 196, 235);
+}
+
+.table100.ver3 td {
+  font-family: 'Montserrat', sans-serif;
+  font-size: calc(5px + 0.6vw);
+  color: #808080;
 }
 
 .table100.ver3 .row100:hover td {
@@ -539,4 +555,68 @@ a {
 .table100.ver3 .row100 td:hover {
   background-color: #FF66C4;
   color: #fff;
+}
+
+@media screen and (max-width: 420px) {
+  .limiter {
+    height: 75%;
+  }
+
+  .table100.ver3 td {
+    font-size: 1.5vw;
+  }
+  
+  .table100.ver3 th {
+    font-size: 2vw;
+  }
+
+  .column100 {
+    width: 10vw;
+    padding-left: 1vw;
+  }
+  
+  .column100.column1 {
+    width: 5vw;
+    padding-left: 4vw;
+  }
+  
+  .row100.head th {
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+  }
+  
+  .row100 td {
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+  }
+}
+
+@media screen and (max-height: 500px) {
+  .nav-link {
+    font-size: calc(8px + 1.5vw);
+  }
+
+  .column100 {
+    width: 10vw;
+    padding-left: 1vw;
+  }
+  
+  .column100.column1 {
+    width: 8vw;
+    padding-left: 4vw;
+  }
+  
+  .row100.head th {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  
+  .row100 td {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+
+  .table100.ver3 td {
+    font-size: 1vw;
+  }
 }
