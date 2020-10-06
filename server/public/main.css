@@ -72,7 +72,7 @@ html, body, #app {
 }
 
 .logo img {
-  width: calc(20px + 10vw);
+  width: calc(5px + 10vw);
 }
 
 .title .year {
@@ -93,15 +93,28 @@ html, body, #app {
   color: #FF66C4;
 }
 .powered-by {
-  font-size: 1.5vw;
+  font-size: calc(10px + 1vw);
   font-weight: bolder;
   text-align: right;
   bottom: 30px;
   right: 30px;
   position: absolute;
-  color: grey;
+  color: rgb(255, 255, 108);
 }
 
+/* HOME TABLET */
+@media screen and (max-width: 1024px) {
+  .home-page {height: 85%;}
+  .logo img {
+    width: calc(40px + 20vw);
+  }
+  .title {font-size: 11vw;}
+  .year {font-size: 4vw;}
+  .powered-by {
+    font-size: 3.5vw;
+    bottom: 30px;
+  }
+}
 /* HOME MOBILE */
 @media screen and (max-width: 420px) {
   .home-page {height: 75%;}
@@ -116,13 +129,12 @@ html, body, #app {
     bottom: 30px;
   }
 }
+/* LANDSCAPE */
 @media screen and (max-height: 420px) {
   .home-page {height: 85%;}
-  .logo img {
-    width: calc(20px + 3vw);
-  }
-  .title {font-size: 5.5vw;}
-  .year {font-size: 2vw;}
+  .logo img {width: calc(20px + 5vw);}
+  .title {font-size: 8vw;}
+  .year {font-size: 3vw;}
   .powered-by {
     font-size: 2vw;
     bottom: 10px;
@@ -175,6 +187,16 @@ html, body, #app {
   font-size: calc(15px + 2vw);
 }
 
+/* HOME TABLET */
+@media screen and (max-width: 1024px) {
+  .info-page {height: 85%;}
+  .info-date {font-size: 10vw;}
+  .info-map {margin-top: 8vw;}
+  .info-map a {font-size: 5vw;}
+  .info-map img {width: 2.5vw;}
+  .info-city {font-size: 3vw;}
+}
+/* HOME MOBILE */
 @media screen and (max-width: 420px) {
   .info-page {height: 75%;}
   .info-container {width: 100%}
@@ -183,6 +205,15 @@ html, body, #app {
   .info-map a {font-size: 6vw;}
   .info-map img {width: 3.5vw;}
   .info-city {font-size: 4vw;}
+}
+/* LANDSCAPE */
+@media screen and (max-height: 420px) {
+  .info-page {height: 85%;}
+  .info-container {width: 100%}
+  .info-date {font-size: 6vw;}
+  .info-map a {font-size: 4vw;}
+  .info-map img {width: 2vw;}
+  .info-city {font-size: 3vw;}
 }
 
 
@@ -223,6 +254,7 @@ html, body, #app {
   transition: 0.8s;
 }
 
+/* GAMES MOBILE */
 @media screen and (max-width: 420px) {
   .games-page {
     height: 75%;
@@ -275,6 +307,7 @@ a {
   text-decoration: none;
 }
 
+/* GROUPS MOBILE */
 @media screen and (max-width: 420px) {
   .teams-page {height: 75%;}
   .teams-category {
@@ -363,6 +396,7 @@ a {
   transition: 0.7s;
 }
 
+/* TEAMS MOBILE */
 @media screen and (max-width: 420px) {
   .category-pane {
     height: 4%;
@@ -477,8 +511,17 @@ a {
   padding-right: 30px;
 }
 
+/* RESULTS TABLET */
+@media screen and (max-width: 1024px) {
+  .hourly-container {
+    width: 90%;
+  }
+}
+
+/* RESULTS MOBILE */
 @media screen and (max-width: 420px) {
   .results-page {
+    height: 75%;
     display: block;
   }
   .results-day {
@@ -622,6 +665,43 @@ a {
   color: #fff;
 }
 
+/* SCHED TABLET */
+@media screen and (max-width: 1024px) {
+  .limiter {
+    height: 85%;
+  }
+
+  .table100.ver3 td {
+    font-size: 1.5vw;
+    height: 4vw;
+  }
+  
+  .table100.ver3 th {
+    font-size: 2vw;
+  }
+
+  .column100 {
+    width: 12vw;
+    padding-left: 1vw;
+  }
+  
+  .column100.column1 {
+    width: 9vw;
+    padding-left: 0vw;
+  }
+  
+  .row100.head th {
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+  }
+  
+  .row100 td {
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+  }
+}
+
+/* SCHED MOBILE */
 @media screen and (max-width: 420px) {
   .limiter {
     height: 75%;
@@ -656,6 +736,7 @@ a {
   }
 }
 
+/* LANDSCAPE */
 @media screen and (max-height: 500px) {
   .nav-link {
     font-size: calc(8px + 1.5vw);
