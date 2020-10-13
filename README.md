@@ -14,7 +14,7 @@ This tournament app is made especially for the annual Filipino Labour Weekend in
 You can access the published site at:
 
 ```sh
-https://leyz-labour-tourney.netlify.app/
+https://labourweekend2020.netlify.app/
 ```
 
 Developed by Keenen Leyson
