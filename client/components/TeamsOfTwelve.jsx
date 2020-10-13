@@ -25,7 +25,7 @@ const TeamsOfTwelve = () => {
         <div className="pool">POOL D</div>
         <div className="team">TGIF A</div>
         <div className="team">TGIF B</div>
-        <div className="team">RANGERS</div>
+        <div className="team">JOKERS</div>
       </div>
     </div>
   )

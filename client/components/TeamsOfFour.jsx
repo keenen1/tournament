@@ -1,7 +1,7 @@
 import React from 'react'
 
 let u19arr = ['OUA', 'PINOY MAVS', 'AZTIGS DELTA', 'UFCSA WEST']
-let u17arr = ['TGIF', 'PINOY MAVS', 'UFCS NORTH', 'UFCSA WEST']
+let u17arr = ['TGIF', 'PINOY MAVS', 'UFCSA NORTH', 'UFCSA WEST']
 let u13arr = ['TGIF', 'UFCSA WEST A', 'PINOY MAVS', 'UFCSA WEST B']
 let u11arr = ['FLAT BUSH BALLERS', 'TGIF', 'PINOY MAVS', 'UFCSA WEST']
 let u9arr = ['FLAT BUSH BALLERS', 'TGIF', 'PINOY MAVS', 'UFCSA WEST']

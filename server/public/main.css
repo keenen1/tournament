@@ -370,6 +370,9 @@ a {
   text-decoration-color: rgb(2, 196, 235);
   font-family: 'Montserrat', sans-serif;
 }
+.eighteen {
+  justify-content: space-between;
+}
 .eighteen .teams-block div {
   height: 16.66%;
 }
