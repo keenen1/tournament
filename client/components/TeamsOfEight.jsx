@@ -5,17 +5,17 @@ const TeamsOfEight = () => {
     <div className="eight col-12">
       <div className="teams-block col-6">
         <div className="pool">POOL A</div>
+        <div className="team">BRICK CITY</div>
         <div className="team">BARAKO EAST</div>
-        <div className="team">UFCSA WEST</div>
-        <div className="team">PINOY MAVS</div>
-        <div className="team">UFCSA SINULOG</div>
+        <div className="team">UNKNOWN</div>
+        <div className="team">MAPUA CARDINALS</div>
       </div>
       <div className="teams-block col-6">
         <div className="pool">POOL B</div>
+        <div className="team">AZTIGS 35</div>
         <div className="team">WEST PA MORE</div>
-        <div className="team">TGIF A</div>
-        <div className="team">KIWI ROOFING</div>
-        <div className="team">RANGERS</div>
+        <div className="team">WEST SIDE BALLERS</div>
+        <div className="team">SOUTH AUCKLAND</div>
       </div>
     </div>
   )
