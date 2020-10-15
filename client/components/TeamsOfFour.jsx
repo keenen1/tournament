@@ -17,7 +17,7 @@ const TeamsOfFour = (props) => {
   return (
     <div className="four">
       <div className="teams-block">
-        <div className="pool">DOUBLE ROUND ROBIN</div>
+        {/* <div className="pool">DOUBLE ROUND ROBIN</div> */}
         <div className="team">{chosenArray[0]}</div>
         <div className="team">{chosenArray[1]}</div>
         <div className="team">{chosenArray[2]}</div>
