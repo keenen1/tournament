@@ -67,7 +67,7 @@ const DayTwo = () => {
                     <td className="column100 column1" data-column="column1">12:00 PM</td>
                     <td className="column100 column2" data-column="column2">--</td>
                     <td className="column100 column3" data-column="column3">--</td>
-                    <td className="column100 column4" data-column="column4">AZT vs MAV | U19</td>
+                    <td className="column100 column4" data-column="column4">--</td>
                     <td className="column100 column5" data-column="column5">--</td>
                     <td className="column100 column6" data-column="column6">--</td>
                     <td className="column100 column7" data-column="column7">--</td>

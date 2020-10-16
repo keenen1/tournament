@@ -34,6 +34,14 @@ class Teams extends React.Component {
     }
   }
 
+  overlayOn = () => {
+    document.getElementById('overlay').style.display = 'block'
+  }
+
+  overlayOff = () => {
+    document.getElementById('overlay').style.display = 'none'
+  }
+
   componentDidMount () {
     const cat = this.props.match.params.id
     const number = this.number(cat)
@@ -47,13 +55,13 @@ class Teams extends React.Component {
     let componentToRender
     switch (this.state.cat) {
       case 'opens':
-        componentToRender = <TeamsOfEighteen />
+        componentToRender = <TeamsOfEighteen overlayOn={() => this.overlayOn()} overlayOff={() => this.overlayOff()} />
         break
       case 'legends':
         componentToRender = <TeamsOfTwelve />
         break
       case '35a':
-        componentToRender = <TeamsOfEight />
+        componentToRender = <TeamsOfEight overlayOn={() => this.overlayOn()} overlayOff={() => this.overlayOff()} />
         break
       case 'u19':
         componentToRender = <TeamsOfFour cat={this.state.cat} />
