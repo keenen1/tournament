@@ -67,10 +67,7 @@ const DayOne = () => {
                     <td className="column100 column1" data-column="column1">12:00 PM</td>
                     <td className="column100 column2" data-column="column2">--</td>
                     <td className="column100 column3" data-column="column3">--</td>
-                    <td className="column100 column4" data-column="column4">
-                      <div>AZTIG v MAVS</div>
-                      <div>U19</div>
-                    </td>
+                    <td className="column100 column4" data-column="column4">--</td>
                     <td className="column100 column5" data-column="column5">--</td>
                     <td className="column100 column6" data-column="column6">--</td>
                     <td className="column100 column7" data-column="column7">--</td>

@@ -9,392 +9,392 @@ const ResultsDayOne = () => {
         <ResultsHourly
           hour={'8AM'}
 
-          court1cat={'U19'}
-          court1teamA={'Aztigs Delta'}
-          court1scoreA={98}
-          court1teamB={'OUA'}
-          court1scoreB={77}
+          court1cat={'TBC'}
+          court1teamA={'Team A'}
+          court1scoreA={0}
+          court1teamB={'Team B'}
+          court1scoreB={0}
 
-          court2cat={'OP'}
-          court2teamA={'Aztigs Beta'}
-          court2scoreA={104}
-          court2teamB={'Rangers'}
-          court2scoreB={81}
+          court2cat={'TBC'}
+          court2teamA={'Team A'}
+          court2scoreA={0}
+          court2teamB={'Team B'}
+          court2scoreB={0}
 
-          court3cat={'LGD'}
-          court3teamA={'West Pa More'}
-          court3scoreA={67}
-          court3teamB={'Aztigs'}
-          court3scoreB={73}
+          court3cat={'TBC'}
+          court3teamA={'Team A'}
+          court3scoreA={0}
+          court3teamB={'Team B'}
+          court3scoreB={0}
 
-          court4cat={'U15'}
-          court4teamA={'Genesis'}
-          court4scoreA={56}
-          court4teamB={'Pinoy Mavs'}
-          court4scoreB={49}
+          court4cat={'TBC'}
+          court4teamA={'Team A'}
+          court4scoreA={0}
+          court4teamB={'Team B'}
+          court4scoreB={0}
 
-          court5cat={'U9'}
-          court5teamA={'TGIF'}
-          court5scoreA={40}
-          court5teamB={'UFCSA West'}
-          court5scoreB={56}
+          court5cat={'TBC'}
+          court5teamA={'Team A'}
+          court5scoreA={0}
+          court5teamB={'Team B'}
+          court5scoreB={0}
 
-          court6cat={'35A'}
-          court6teamA={'Kiwi Roofing'}
-          court6scoreA={67}
-          court6teamB={'Barako East'}
-          court6scoreB={66}
+          court6cat={'TBC'}
+          court6teamA={'Team A'}
+          court6scoreA={0}
+          court6teamB={'Team B'}
+          court6scoreB={0}
         />
         <ResultsHourly
           hour={'9AM'}
 
-          court1cat={'U19'}
-          court1teamA={'Aztigs Delta'}
-          court1scoreA={98}
-          court1teamB={'OUA'}
-          court1scoreB={77}
+          court1cat={'TBC'}
+          court1teamA={'Team A'}
+          court1scoreA={0}
+          court1teamB={'Team B'}
+          court1scoreB={0}
 
-          court2cat={'OP'}
-          court2teamA={'Aztigs Beta'}
-          court2scoreA={104}
-          court2teamB={'Rangers'}
-          court2scoreB={81}
+          court2cat={'TBC'}
+          court2teamA={'Team A'}
+          court2scoreA={0}
+          court2teamB={'Team B'}
+          court2scoreB={0}
 
-          court3cat={'LGD'}
-          court3teamA={'West Pa More'}
-          court3scoreA={67}
-          court3teamB={'Aztigs'}
-          court3scoreB={73}
+          court3cat={'TBC'}
+          court3teamA={'Team A'}
+          court3scoreA={0}
+          court3teamB={'Team B'}
+          court3scoreB={0}
 
-          court4cat={'U15'}
-          court4teamA={'Genesis'}
-          court4scoreA={56}
-          court4teamB={'Pinoy Mavs'}
-          court4scoreB={49}
+          court4cat={'TBC'}
+          court4teamA={'Team A'}
+          court4scoreA={0}
+          court4teamB={'Team B'}
+          court4scoreB={0}
 
-          court5cat={'U9'}
-          court5teamA={'TGIF'}
-          court5scoreA={40}
-          court5teamB={'UFCSA West'}
-          court5scoreB={56}
+          court5cat={'TBC'}
+          court5teamA={'Team A'}
+          court5scoreA={0}
+          court5teamB={'Team B'}
+          court5scoreB={0}
 
-          court6cat={'35A'}
-          court6teamA={'Kiwi Roofing'}
-          court6scoreA={67}
-          court6teamB={'Barako East'}
-          court6scoreB={66}
+          court6cat={'TBC'}
+          court6teamA={'Team A'}
+          court6scoreA={0}
+          court6teamB={'Team B'}
+          court6scoreB={0}
         />
         <ResultsHourly
           hour={'10AM'}
 
-          court1cat={'U19'}
-          court1teamA={'Aztigs Delta'}
-          court1scoreA={98}
-          court1teamB={'OUA'}
-          court1scoreB={77}
+          court1cat={'TBC'}
+          court1teamA={'Team A'}
+          court1scoreA={0}
+          court1teamB={'Team B'}
+          court1scoreB={0}
 
-          court2cat={'OP'}
-          court2teamA={'Aztigs Beta'}
-          court2scoreA={104}
-          court2teamB={'Rangers'}
-          court2scoreB={81}
+          court2cat={'TBC'}
+          court2teamA={'Team A'}
+          court2scoreA={0}
+          court2teamB={'Team B'}
+          court2scoreB={0}
 
-          court3cat={'LGD'}
-          court3teamA={'West Pa More'}
-          court3scoreA={67}
-          court3teamB={'Aztigs'}
-          court3scoreB={73}
+          court3cat={'TBC'}
+          court3teamA={'Team A'}
+          court3scoreA={0}
+          court3teamB={'Team B'}
+          court3scoreB={0}
 
-          court4cat={'U15'}
-          court4teamA={'Genesis'}
-          court4scoreA={56}
-          court4teamB={'Pinoy Mavs'}
-          court4scoreB={49}
+          court4cat={'TBC'}
+          court4teamA={'Team A'}
+          court4scoreA={0}
+          court4teamB={'Team B'}
+          court4scoreB={0}
 
-          court5cat={'U9'}
-          court5teamA={'TGIF'}
-          court5scoreA={40}
-          court5teamB={'UFCSA West'}
-          court5scoreB={56}
+          court5cat={'TBC'}
+          court5teamA={'Team A'}
+          court5scoreA={0}
+          court5teamB={'Team B'}
+          court5scoreB={0}
 
-          court6cat={'35A'}
-          court6teamA={'Kiwi Roofing'}
-          court6scoreA={67}
-          court6teamB={'Barako East'}
-          court6scoreB={66}
+          court6cat={'TBC'}
+          court6teamA={'Team A'}
+          court6scoreA={0}
+          court6teamB={'Team B'}
+          court6scoreB={0}
         />
         <ResultsHourly
           hour={'11AM'}
 
-          court1cat={'U19'}
-          court1teamA={'Aztigs Delta'}
-          court1scoreA={98}
-          court1teamB={'OUA'}
-          court1scoreB={77}
+          court1cat={'TBC'}
+          court1teamA={'Team A'}
+          court1scoreA={0}
+          court1teamB={'Team B'}
+          court1scoreB={0}
 
-          court2cat={'OP'}
-          court2teamA={'Aztigs Beta'}
-          court2scoreA={104}
-          court2teamB={'Rangers'}
-          court2scoreB={81}
+          court2cat={'TBC'}
+          court2teamA={'Team A'}
+          court2scoreA={0}
+          court2teamB={'Team B'}
+          court2scoreB={0}
 
-          court3cat={'LGD'}
-          court3teamA={'West Pa More'}
-          court3scoreA={67}
-          court3teamB={'Aztigs'}
-          court3scoreB={73}
+          court3cat={'TBC'}
+          court3teamA={'Team A'}
+          court3scoreA={0}
+          court3teamB={'Team B'}
+          court3scoreB={0}
 
-          court4cat={'U15'}
-          court4teamA={'Genesis'}
-          court4scoreA={56}
-          court4teamB={'Pinoy Mavs'}
-          court4scoreB={49}
+          court4cat={'TBC'}
+          court4teamA={'Team A'}
+          court4scoreA={0}
+          court4teamB={'Team B'}
+          court4scoreB={0}
 
-          court5cat={'U9'}
-          court5teamA={'TGIF'}
-          court5scoreA={40}
-          court5teamB={'UFCSA West'}
-          court5scoreB={56}
+          court5cat={'TBC'}
+          court5teamA={'Team A'}
+          court5scoreA={0}
+          court5teamB={'Team B'}
+          court5scoreB={0}
 
-          court6cat={'35A'}
-          court6teamA={'Kiwi Roofing'}
-          court6scoreA={67}
-          court6teamB={'Barako East'}
-          court6scoreB={66}
+          court6cat={'TBC'}
+          court6teamA={'Team A'}
+          court6scoreA={0}
+          court6teamB={'Team B'}
+          court6scoreB={0}
         />
         <ResultsHourly
           hour={'12PM'}
 
-          court1cat={'U19'}
-          court1teamA={'Aztigs Delta'}
-          court1scoreA={98}
-          court1teamB={'OUA'}
-          court1scoreB={77}
+          court1cat={'TBC'}
+          court1teamA={'Team A'}
+          court1scoreA={0}
+          court1teamB={'Team B'}
+          court1scoreB={0}
 
-          court2cat={'OP'}
-          court2teamA={'Aztigs Beta'}
-          court2scoreA={104}
-          court2teamB={'Rangers'}
-          court2scoreB={81}
+          court2cat={'TBC'}
+          court2teamA={'Team A'}
+          court2scoreA={0}
+          court2teamB={'Team B'}
+          court2scoreB={0}
 
-          court3cat={'LGD'}
-          court3teamA={'West Pa More'}
-          court3scoreA={67}
-          court3teamB={'Aztigs'}
-          court3scoreB={73}
+          court3cat={'TBC'}
+          court3teamA={'Team A'}
+          court3scoreA={0}
+          court3teamB={'Team B'}
+          court3scoreB={0}
 
-          court4cat={'U15'}
-          court4teamA={'Genesis'}
-          court4scoreA={56}
-          court4teamB={'Pinoy Mavs'}
-          court4scoreB={49}
+          court4cat={'TBC'}
+          court4teamA={'Team A'}
+          court4scoreA={0}
+          court4teamB={'Team B'}
+          court4scoreB={0}
 
-          court5cat={'U9'}
-          court5teamA={'TGIF'}
-          court5scoreA={40}
-          court5teamB={'UFCSA West'}
-          court5scoreB={56}
+          court5cat={'TBC'}
+          court5teamA={'Team A'}
+          court5scoreA={0}
+          court5teamB={'Team B'}
+          court5scoreB={0}
 
-          court6cat={'35A'}
-          court6teamA={'Kiwi Roofing'}
-          court6scoreA={67}
-          court6teamB={'Barako East'}
-          court6scoreB={66}
+          court6cat={'TBC'}
+          court6teamA={'Team A'}
+          court6scoreA={0}
+          court6teamB={'Team B'}
+          court6scoreB={0}
         />
         <ResultsHourly
           hour={'1PM'}
 
-          court1cat={'U19'}
-          court1teamA={'Aztigs Delta'}
-          court1scoreA={98}
-          court1teamB={'OUA'}
-          court1scoreB={77}
+          court1cat={'TBC'}
+          court1teamA={'Team A'}
+          court1scoreA={0}
+          court1teamB={'Team B'}
+          court1scoreB={0}
 
-          court2cat={'OP'}
-          court2teamA={'Aztigs Beta'}
-          court2scoreA={104}
-          court2teamB={'Rangers'}
-          court2scoreB={81}
+          court2cat={'TBC'}
+          court2teamA={'Team A'}
+          court2scoreA={0}
+          court2teamB={'Team B'}
+          court2scoreB={0}
 
-          court3cat={'LGD'}
-          court3teamA={'West Pa More'}
-          court3scoreA={67}
-          court3teamB={'Aztigs'}
-          court3scoreB={73}
+          court3cat={'TBC'}
+          court3teamA={'Team A'}
+          court3scoreA={0}
+          court3teamB={'Team B'}
+          court3scoreB={0}
 
-          court4cat={'U15'}
-          court4teamA={'Genesis'}
-          court4scoreA={56}
-          court4teamB={'Pinoy Mavs'}
-          court4scoreB={49}
+          court4cat={'TBC'}
+          court4teamA={'Team A'}
+          court4scoreA={0}
+          court4teamB={'Team B'}
+          court4scoreB={0}
 
-          court5cat={'U9'}
-          court5teamA={'TGIF'}
-          court5scoreA={40}
-          court5teamB={'UFCSA West'}
-          court5scoreB={56}
+          court5cat={'TBC'}
+          court5teamA={'Team A'}
+          court5scoreA={0}
+          court5teamB={'Team B'}
+          court5scoreB={0}
 
-          court6cat={'35A'}
-          court6teamA={'Kiwi Roofing'}
-          court6scoreA={67}
-          court6teamB={'Barako East'}
-          court6scoreB={66}
+          court6cat={'TBC'}
+          court6teamA={'Team A'}
+          court6scoreA={0}
+          court6teamB={'Team B'}
+          court6scoreB={0}
         />
         <ResultsHourly
           hour={'2PM'}
 
-          court1cat={'U19'}
-          court1teamA={'Aztigs Delta'}
-          court1scoreA={98}
-          court1teamB={'OUA'}
-          court1scoreB={77}
+          court1cat={'TBC'}
+          court1teamA={'Team A'}
+          court1scoreA={0}
+          court1teamB={'Team B'}
+          court1scoreB={0}
 
-          court2cat={'OP'}
-          court2teamA={'Aztigs Beta'}
-          court2scoreA={104}
-          court2teamB={'Rangers'}
-          court2scoreB={81}
+          court2cat={'TBC'}
+          court2teamA={'Team A'}
+          court2scoreA={0}
+          court2teamB={'Team B'}
+          court2scoreB={0}
 
-          court3cat={'LGD'}
-          court3teamA={'West Pa More'}
-          court3scoreA={67}
-          court3teamB={'Aztigs'}
-          court3scoreB={73}
+          court3cat={'TBC'}
+          court3teamA={'Team A'}
+          court3scoreA={0}
+          court3teamB={'Team B'}
+          court3scoreB={0}
 
-          court4cat={'U15'}
-          court4teamA={'Genesis'}
-          court4scoreA={56}
-          court4teamB={'Pinoy Mavs'}
-          court4scoreB={49}
+          court4cat={'TBC'}
+          court4teamA={'Team A'}
+          court4scoreA={0}
+          court4teamB={'Team B'}
+          court4scoreB={0}
 
-          court5cat={'U9'}
-          court5teamA={'TGIF'}
-          court5scoreA={40}
-          court5teamB={'UFCSA West'}
-          court5scoreB={56}
+          court5cat={'TBC'}
+          court5teamA={'Team A'}
+          court5scoreA={0}
+          court5teamB={'Team B'}
+          court5scoreB={0}
 
-          court6cat={'35A'}
-          court6teamA={'Kiwi Roofing'}
-          court6scoreA={67}
-          court6teamB={'Barako East'}
-          court6scoreB={66}
+          court6cat={'TBC'}
+          court6teamA={'Team A'}
+          court6scoreA={0}
+          court6teamB={'Team B'}
+          court6scoreB={0}
         />
         <ResultsHourly
           hour={'3PM'}
 
-          court1cat={'U19'}
-          court1teamA={'Aztigs Delta'}
-          court1scoreA={98}
-          court1teamB={'OUA'}
-          court1scoreB={77}
+          court1cat={'TBC'}
+          court1teamA={'Team A'}
+          court1scoreA={0}
+          court1teamB={'Team B'}
+          court1scoreB={0}
 
-          court2cat={'OP'}
-          court2teamA={'Aztigs Beta'}
-          court2scoreA={104}
-          court2teamB={'Rangers'}
-          court2scoreB={81}
+          court2cat={'TBC'}
+          court2teamA={'Team A'}
+          court2scoreA={0}
+          court2teamB={'Team B'}
+          court2scoreB={0}
 
-          court3cat={'LGD'}
-          court3teamA={'West Pa More'}
-          court3scoreA={67}
-          court3teamB={'Aztigs'}
-          court3scoreB={73}
+          court3cat={'TBC'}
+          court3teamA={'Team A'}
+          court3scoreA={0}
+          court3teamB={'Team B'}
+          court3scoreB={0}
 
-          court4cat={'U15'}
-          court4teamA={'Genesis'}
-          court4scoreA={56}
-          court4teamB={'Pinoy Mavs'}
-          court4scoreB={49}
+          court4cat={'TBC'}
+          court4teamA={'Team A'}
+          court4scoreA={0}
+          court4teamB={'Team B'}
+          court4scoreB={0}
 
-          court5cat={'U9'}
-          court5teamA={'TGIF'}
-          court5scoreA={40}
-          court5teamB={'UFCSA West'}
-          court5scoreB={56}
+          court5cat={'TBC'}
+          court5teamA={'Team A'}
+          court5scoreA={0}
+          court5teamB={'Team B'}
+          court5scoreB={0}
 
-          court6cat={'35A'}
-          court6teamA={'Kiwi Roofing'}
-          court6scoreA={67}
-          court6teamB={'Barako East'}
-          court6scoreB={66}
+          court6cat={'TBC'}
+          court6teamA={'Team A'}
+          court6scoreA={0}
+          court6teamB={'Team B'}
+          court6scoreB={0}
         />
         <ResultsHourly
           hour={'4PM'}
 
-          court1cat={'U19'}
-          court1teamA={'Aztigs Delta'}
-          court1scoreA={98}
-          court1teamB={'OUA'}
-          court1scoreB={77}
+          court1cat={'TBC'}
+          court1teamA={'Team A'}
+          court1scoreA={0}
+          court1teamB={'Team B'}
+          court1scoreB={0}
 
-          court2cat={'OP'}
-          court2teamA={'Aztigs Beta'}
-          court2scoreA={104}
-          court2teamB={'Rangers'}
-          court2scoreB={81}
+          court2cat={'TBC'}
+          court2teamA={'Team A'}
+          court2scoreA={0}
+          court2teamB={'Team B'}
+          court2scoreB={0}
 
-          court3cat={'LGD'}
-          court3teamA={'West Pa More'}
-          court3scoreA={67}
-          court3teamB={'Aztigs'}
-          court3scoreB={73}
+          court3cat={'TBC'}
+          court3teamA={'Team A'}
+          court3scoreA={0}
+          court3teamB={'Team B'}
+          court3scoreB={0}
 
-          court4cat={'U15'}
-          court4teamA={'Genesis'}
-          court4scoreA={56}
-          court4teamB={'Pinoy Mavs'}
-          court4scoreB={49}
+          court4cat={'TBC'}
+          court4teamA={'Team A'}
+          court4scoreA={0}
+          court4teamB={'Team B'}
+          court4scoreB={0}
 
-          court5cat={'U9'}
-          court5teamA={'TGIF'}
-          court5scoreA={40}
-          court5teamB={'UFCSA West'}
-          court5scoreB={56}
+          court5cat={'TBC'}
+          court5teamA={'Team A'}
+          court5scoreA={0}
+          court5teamB={'Team B'}
+          court5scoreB={0}
 
-          court6cat={'35A'}
-          court6teamA={'Kiwi Roofing'}
-          court6scoreA={67}
-          court6teamB={'Barako East'}
-          court6scoreB={66}
+          court6cat={'TBC'}
+          court6teamA={'Team A'}
+          court6scoreA={0}
+          court6teamB={'Team B'}
+          court6scoreB={0}
         />
         <ResultsHourly
           hour={'5PM'}
 
-          court1cat={'U19'}
-          court1teamA={'Aztigs Delta'}
-          court1scoreA={98}
-          court1teamB={'OUA'}
-          court1scoreB={77}
+          court1cat={'TBC'}
+          court1teamA={'Team A'}
+          court1scoreA={0}
+          court1teamB={'Team B'}
+          court1scoreB={0}
 
-          court2cat={'OP'}
-          court2teamA={'Aztigs Beta'}
-          court2scoreA={104}
-          court2teamB={'Rangers'}
-          court2scoreB={81}
+          court2cat={'TBC'}
+          court2teamA={'Team A'}
+          court2scoreA={0}
+          court2teamB={'Team B'}
+          court2scoreB={0}
 
-          court3cat={'LGD'}
-          court3teamA={'West Pa More'}
-          court3scoreA={67}
-          court3teamB={'Aztigs'}
-          court3scoreB={73}
+          court3cat={'TBC'}
+          court3teamA={'Team A'}
+          court3scoreA={0}
+          court3teamB={'Team B'}
+          court3scoreB={0}
 
-          court4cat={'U15'}
-          court4teamA={'Genesis'}
-          court4scoreA={56}
-          court4teamB={'Pinoy Mavs'}
-          court4scoreB={49}
+          court4cat={'TBC'}
+          court4teamA={'Team A'}
+          court4scoreA={0}
+          court4teamB={'Team B'}
+          court4scoreB={0}
 
-          court5cat={'U9'}
-          court5teamA={'TGIF'}
-          court5scoreA={40}
-          court5teamB={'UFCSA West'}
-          court5scoreB={56}
+          court5cat={'TBC'}
+          court5teamA={'Team A'}
+          court5scoreA={0}
+          court5teamB={'Team B'}
+          court5scoreB={0}
 
-          court6cat={'35A'}
-          court6teamA={'Kiwi Roofing'}
-          court6scoreA={67}
-          court6teamB={'Barako East'}
-          court6scoreB={66}
+          court6cat={'TBC'}
+          court6teamA={'Team A'}
+          court6scoreA={0}
+          court6teamB={'Team B'}
+          court6scoreB={0}
         />
       </div>
     </>

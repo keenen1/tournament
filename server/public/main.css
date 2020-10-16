@@ -462,7 +462,8 @@ a {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0,0,0,0.5);
+  background-color: rgba(0,0,0,0.8);
+  padding: 2vw 2vw 2vw 2vw;
   z-index: 2;
   cursor: pointer;
 }
@@ -471,10 +472,19 @@ a {
   position: absolute;
   top: 50%;
   left: 50%;
-  font-size: 50px;
+  width: 50vw;
+  height: 50vw;
+  background-color: rgb(39, 39, 39);
+  border-radius: 20px;
+  font-size: 4vw;
   color: white;
   transform: translate(-50%,-50%);
   -ms-transform: translate(-50%,-50%);
+}
+
+.player-list {
+  display: block;
+  background-color: sandybrown;
 }
 
 /* RESULTS */
