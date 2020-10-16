@@ -55,7 +55,7 @@ class Teams extends React.Component {
     let componentToRender
     switch (this.state.cat) {
       case 'opens':
-        componentToRender = <TeamsOfEighteen />
+        componentToRender = <TeamsOfEighteen overlayOn={() => this.overlayOn()} overlayOff={() => this.overlayOff()} />
         break
       case 'legends':
         componentToRender = <TeamsOfTwelve />
