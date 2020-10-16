@@ -1,5 +1,7 @@
 import React from 'react'
 
+const teamAztigs = ['K Leyson', 'K Tuffin', 'J Nunag', 'A Davis', 'T Davis', 'R Cruz']
+
 const TeamsOfEighteen = () => {
   return (
     <div className="eighteen col-12">
