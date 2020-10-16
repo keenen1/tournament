@@ -9,7 +9,7 @@ const Info = () => {
           <div>24 | 25</div>
         </div>
         <div className="info-map col-12">
-          <a href="https://goo.gl/maps/iA7YQpJMiRQo6Lkq8">
+          <a href="https://goo.gl/maps/9vjkns6LLeQC5ffE8">
             Bruce Pulman Arena <img src="./images/map-marker.png" />
           </a>
           <div className="info-city col-12">

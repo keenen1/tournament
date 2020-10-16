@@ -49,12 +49,12 @@ class TeamsOfEighteen extends React.Component {
         </div>
         <div id="overlay" onClick={this.props.overlayOff}>
           <div id="text">
-            <div>{this.state.name}</div>
+            <div className="team-name">{this.state.name.toUpperCase()}</div>
             <div className="player-list">
               {this.state.players.map((player, i) => {
                 return (
                   <div key={i}>
-                    {player}
+                    {i + 1 + '. ' + player}
                   </div>
                 )
               })}
