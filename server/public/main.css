@@ -472,19 +472,35 @@ a {
   position: absolute;
   top: 50%;
   left: 50%;
-  width: 50vw;
-  height: 50vw;
+  width: 40vw;
+  height: 40vw;
   background-color: rgb(39, 39, 39);
   border-radius: 20px;
   font-size: 4vw;
   color: white;
   transform: translate(-50%,-50%);
-  -ms-transform: translate(-50%,-50%);
+  /* -ms-transform: translate(-50%,-50%); */
+}
+
+.team-name {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #FF66C4;
+  top: 3%;
 }
 
 .player-list {
   display: block;
-  background-color: sandybrown;
+  background-color: rgb(80, 80, 80);
+  padding:  2vw 2vw 2vw 2vw;
+  font-size: 2vw;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  border-radius: 20px;
+
 }
 
 /* RESULTS */
