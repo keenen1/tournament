@@ -472,14 +472,13 @@ a {
   position: absolute;
   top: 50%;
   left: 50%;
-  width: 40vw;
-  height: 40vw;
+  width: 50vw;
+  height: 50vw;
   background-color: rgb(39, 39, 39);
   border-radius: 20px;
-  font-size: 4vw;
+  font-size: 5vw;
   color: white;
   transform: translate(-50%,-50%);
-  /* -ms-transform: translate(-50%,-50%); */
 }
 
 .team-name {
@@ -494,7 +493,7 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 1.5vw;
+  font-size: 2vw;
   color: white;
 
 }
@@ -515,19 +514,38 @@ a {
 
 .player-list {
   display: block;
-  font-size: 1.6vw;
+  font-size: 2vw;
+}
+
+.player-list div {
+  display: block;
+  font-size: 2vw;
 }
 
 /* HOME TABLET */
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1024px) and (max-height: 1366px) {
   #text {
-    width: 50vw;
-    height: 45vw;
+    width: 80vw;
+    height: 90vw;
     font-size: 4vw;
   }
 
+  .team-name {
+    margin-top: 3vw;
+    font-size: 6vw;
+  }
+
   .team-info {
-    font-size: 2vw;
+    font-size: 3vw;
+  }
+
+  .player-list {
+    display: block;
+  }
+  
+  .player-list div {
+    font-size: 4vw;
+    height: 5vw;
   }
 }
 
@@ -535,17 +553,17 @@ a {
 @media screen and (max-width: 420px) {
   #text {
     width: 80vw;
-    height: 80vw;
+    height: 120vw;
     font-size: 4vw;
   }
   
   .team-name {
     margin-top: 1vw;
-    font-size: 6vw;
+    font-size: 7vw;
   }
   
   .team-info {
-    font-size: 3vw;
+    font-size: 4vw;
   }
   
   .player-container {
@@ -557,7 +575,77 @@ a {
   
   .player-list {
     display: block;
-    font-size: 3.5vw;
+    font-size: 5vw;
+  }
+  
+  .player-list div {
+    height: 7vw;
+  }
+}
+
+/* OVERLAY TABLET LANDSCAPE */
+@media screen and (max-height: 780px) and (orientation: landscape) {
+  #text {
+    width: 60vw;
+    height: 60vw;
+  }
+  
+  .team-name {
+    margin-top: 1vw;
+    font-size: 4vw;
+  }
+  
+  .team-info {
+    font-size: 2vw;
+  }
+  
+  .player-container {
+    width: 70%;
+    padding: 2vw 2vw 2vw 2vw;
+    top: 55%;
+    left: 50%;
+  }
+  
+  .player-list {
+    display: block;
+  }
+  
+  .player-list div {
+    font-size: 3vw;
+    height: 3.5vw;
+  }
+}
+
+/* OVERLAY MOBILE LANDSCAPE */
+@media screen and (max-height: 500px) and (orientation: landscape) {
+  #text {
+    width: 40vw;
+    height: 45vw;
+  }
+  
+  .team-name {
+    margin-top: 1vw;
+    font-size: 3vw;
+  }
+  
+  .team-info {
+    font-size: 1.5vw;
+  }
+  
+  .player-container {
+    width: 70%;
+    padding: 2vw 2vw 2vw 2vw;
+    top: 55%;
+    left: 50%;
+  }
+  
+  .player-list {
+    display: block;
+  }
+  
+  .player-list div {
+    font-size: 2vw;
+    height: 2.5vw;
   }
 }
 
