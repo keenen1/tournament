@@ -487,20 +487,78 @@ a {
   align-items: center;
   justify-content: center;
   color: #FF66C4;
-  top: 3%;
+  margin-top: 2vw;
+}
+
+.team-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5vw;
+  color: white;
+
+}
+
+.player-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(80, 80, 80);
+  width: 60%;
+  padding:  2vw 2vw 2vw 2vw;
+  position: fixed;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  border-radius: 20px;
 }
 
 .player-list {
   display: block;
-  background-color: rgb(80, 80, 80);
-  padding:  2vw 2vw 2vw 2vw;
-  font-size: 2vw;
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%,-50%);
-  border-radius: 20px;
+  font-size: 1.6vw;
+}
 
+/* HOME TABLET */
+@media screen and (max-width: 1024px) {
+  #text {
+    width: 50vw;
+    height: 45vw;
+    font-size: 4vw;
+  }
+
+  .team-info {
+    font-size: 2vw;
+  }
+}
+
+/* OVERLAY MOBILE */
+@media screen and (max-width: 420px) {
+  #text {
+    width: 80vw;
+    height: 80vw;
+    font-size: 4vw;
+  }
+  
+  .team-name {
+    margin-top: 1vw;
+    font-size: 6vw;
+  }
+  
+  .team-info {
+    font-size: 3vw;
+  }
+  
+  .player-container {
+    width: 70%;
+    padding: 2vw 2vw 2vw 2vw;
+    top: 55%;
+    left: 50%;
+  }
+  
+  .player-list {
+    display: block;
+    font-size: 3.5vw;
+  }
 }
 
 /* RESULTS */

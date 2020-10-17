@@ -8,7 +8,7 @@ class TeamsOfEighteen extends React.Component {
       players: [],
       aztigs: {
         teamName: 'Aztigs',
-        teamPlayers: ['Keenen Leyson', 'Kenneth Tuffin', 'Joseph Nunag', 'Aaron Davis', 'Taine Davis', 'Reimar Cruz']
+        teamPlayers: ['Keenen Leyson', 'Kenneth Tuffin', 'Joseph Nunag', 'Aaron Davis', 'Taine Davis', 'Reimar Cruz', 'Ryan Herrera', 'John Biluno', 'Dennis Belmonte', 'Regie Malonzo', 'Brian Bugay', 'Jonathan Tila']
       }
     }
     this.changeTeam = this.changeTeam.bind(this)
@@ -50,14 +50,19 @@ class TeamsOfEighteen extends React.Component {
         <div id="overlay" onClick={this.props.overlayOff}>
           <div id="text">
             <div className="team-name">{this.state.name.toUpperCase()}</div>
-            <div className="player-list">
-              {this.state.players.map((player, i) => {
-                return (
-                  <div key={i}>
-                    {i + 1 + '. ' + player}
-                  </div>
-                )
-              })}
+            <div className="team-info">
+              <div>Open | 6W - 0L</div>
+            </div>
+            <div className="player-container">
+              <div className="player-list">
+                {this.state.players.map((player, i) => {
+                  return (
+                    <div key={i}>
+                      {i + 1 + '. ' + player}
+                    </div>
+                  )
+                })}
+              </div>
             </div>
           </div>
         </div>
