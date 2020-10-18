@@ -380,7 +380,7 @@ a {
   height: 20%;
 }
 .six .teams-block div {
-  height: 25%;
+  height: 20%;
 }
 .four .teams-block div {
   height: 20%;
@@ -399,7 +399,7 @@ a {
   font-size: 3.5vw;
 }
 .four .teams-block .team {
-  font-size: 5vw;
+  font-size: 4vw;
 }
 .eighteen .teams-block .team, .twelve .teams-block .team, .eight .teams-block .team, .six .teams-block .team, .four .teams-block .team {
   border-radius: 20px;
@@ -412,8 +412,15 @@ a {
   transition: 0.7s;
 }
 
+/* TEAMS TABLET */
+@media screen and (max-width: 1024px) and (max-height: 1366px) {
+  .eighteen .teams-block .team, .twelve .teams-block .team {
+    font-size: 3vw;
+  }
+}
+
 /* TEAMS MOBILE */
-@media screen and (max-width: 420px) {
+@media (max-width: 420px) {
   .category-pane {
     height: 4%;
     font-size: 4vw;
@@ -447,8 +454,18 @@ a {
     height: 15%;
     width: 100%;
   }
+  .eighteen .teams-block .team, .twelve .teams-block .team {
+    font-size: 3vw;
+  }
   .teams-block .team:hover {
     background-color: rgb(39, 39, 39);
+  }
+}
+
+/* TEAMS TABLET LANDSCAPE */
+@media screen and (max-height: 1024px) and (orientation: landscape) {
+  .eighteen .teams-block .team, .twelve .teams-block .team {
+    font-size: 3vw;
   }
 }
 
