@@ -26,26 +26,29 @@ class TeamsOfEighteen extends React.Component {
     return (
       <div className="eighteen col-12">
         <div className="teams-block col-3">
-          {/* <div className="pool">POOL A</div> */}
+          <div className="pool">POOL A</div>
           <div className="team">UNKNOWN</div>
-          <div className="team">SLAYERS</div>
-          <div className="team">JBING</div>
+          <div className="team">AKL HEAT</div>
+          <div className="team">FIL-KIWI</div>
+        </div>
+        <div className="teams-block col-3">
+          <div className="pool">POOL B</div>
+          <div className="team">MOUNT SISIG</div>
+          <div className="team">PINOY PROPERTY</div>
           <div className="team">BRICK CITY</div>
         </div>
         <div className="teams-block col-3">
-          {/* <div className="pool">POOL B</div> */}
+          <div className="pool">POOL C</div>
           <div className="team" onClick={() => this.changeTeam(this.state.aztigs)}>AZTIGS BETA</div>
-          <div className="team">WOW 1</div>
-          <div className="team">PINOY PROPERTY</div>
-          <div className="team">MOUNT SISIG</div>
+          <div className="team">WOW</div>
+          <div className="team">AUCKLANDER</div>
         </div>
         <div className="teams-block col-3">
-          {/* <div className="pool">POOL C</div> */}
+          <div className="pool">POOL D</div>
           <div className="team">PHENOM</div>
+          <div className="team">JBING</div>
           <div className="team">TGIF</div>
-          <div className="team">AUCKLANDER</div>
-          <div className="team">AKL HEAT</div>
-          <div className="team">FIL-KIWI</div>
+          <div className="team">SLAYERS</div>
         </div>
         <div id="overlay" onClick={this.props.overlayOff}>
           <div id="text">

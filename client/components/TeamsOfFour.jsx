@@ -1,10 +1,10 @@
 import React from 'react'
 
-let u19arr = ['OUA', 'PINOY MAVS', 'AZTIGS DELTA', 'UFCSA WEST']
-let u17arr = ['TGIF', 'PINOY MAVS', 'UFCSA NORTH', 'UFCSA WEST']
-let u13arr = ['TGIF', 'UFCSA WEST A', 'PINOY MAVS', 'UFCSA WEST B']
-let u11arr = ['FLAT BUSH BALLERS', 'TGIF', 'PINOY MAVS', 'UFCSA WEST']
-let u9arr = ['FLAT BUSH BALLERS', 'TGIF', 'PINOY MAVS', 'UFCSA WEST']
+let u19arr = ['OUA', 'AZTIGS DELTA', 'PINOY MAVS', 'UFCSA WEST']
+let u17arr = ['TGIF', 'UFCSA WEST', 'UFCSA NORTH', 'PINOY MAVS']
+let u13arr = ['TGIF', 'UFCSA WEST A', 'UFCSA WEST B', 'PINOY MAVS']
+let u11arr = ['FLAT BUSH BALLERS', 'TGIF', 'UFCSA WEST', 'PINOY MAVS']
+let u9arr = ['FLAT BUSH BALLERS', 'TGIF', 'UFCSA WEST', 'PINOY MAVS']
 
 const TeamsOfFour = (props) => {
   let chosenArray
@@ -16,8 +16,7 @@ const TeamsOfFour = (props) => {
 
   return (
     <div className="four">
-      <div className="teams-block">
-        {/* <div className="pool">DOUBLE ROUND ROBIN</div> */}
+      <div className="teams-block col-4">
         <div className="team">{chosenArray[0]}</div>
         <div className="team">{chosenArray[1]}</div>
         <div className="team">{chosenArray[2]}</div>
