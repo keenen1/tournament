@@ -540,7 +540,7 @@ a {
 }
 
 /* HOME TABLET */
-@media screen and (max-width: 1024px) and (max-height: 1366px) {
+@media (max-width: 1024px) and (max-height: 1366px) {
   #text {
     width: 80vw;
     height: 90vw;
@@ -562,12 +562,12 @@ a {
   
   .player-list div {
     font-size: 4vw;
-    height: 5vw;
+    height: 4.5vw;
   }
 }
 
 /* OVERLAY MOBILE */
-@media screen and (max-width: 420px) {
+@media (max-width: 420px) {
   #text {
     width: 80vw;
     height: 120vw;
@@ -596,12 +596,12 @@ a {
   }
   
   .player-list div {
-    height: 7vw;
+    height: 6vw;
   }
 }
 
 /* OVERLAY TABLET LANDSCAPE */
-@media screen and (max-height: 780px) and (orientation: landscape) {
+@media (max-height: 1024px) and (orientation: landscape) {
   #text {
     width: 60vw;
     height: 60vw;
@@ -628,16 +628,16 @@ a {
   }
   
   .player-list div {
-    font-size: 3vw;
-    height: 3.5vw;
+    font-size: 2.8vw;
+    height: 2.8vw;
   }
 }
 
 /* OVERLAY MOBILE LANDSCAPE */
-@media screen and (max-height: 500px) and (orientation: landscape) {
+@media (max-height: 500px) and (orientation: landscape) {
   #text {
     width: 40vw;
-    height: 45vw;
+    height: 50vw;
   }
   
   .team-name {
@@ -661,8 +661,8 @@ a {
   }
   
   .player-list div {
-    font-size: 2vw;
-    height: 2.5vw;
+    font-size: 1vw;
+    height: 2.2vw;
   }
 }
 
