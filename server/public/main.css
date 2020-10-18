@@ -788,7 +788,6 @@ a {
   align-items: center;
   justify-content: center;
   background: rgb(39, 39, 39);
-
 }
 
 .container-table100 {
@@ -812,13 +811,12 @@ a {
 
 .limiter th, .limiter td {
   font-weight: unset;
-  padding-right: 10px;
   text-align: center;
 }
 
 .column100 {
-  width: 10vw;
-  padding-left: 1vw;
+  width: 12vw;
+  height: 2.8vw;
 }
 
 .column100.column1 {
@@ -827,24 +825,19 @@ a {
 }
 
 .row100.head th {
-  padding-top: 1.2vw;
-  padding-bottom: 1.2vw;
-}
-
-.row100 td {
-  padding-top: 1.2vw;
-  padding-bottom: 1.2vw;
+  height: 3.5vw;
 }
 
 /*==================================================================
 [ Ver3 ]*/
+
 .table100.ver3 tbody tr {
   border-bottom: 1px solid #e5e5e5;
 }
 
 .table100.ver3 th {
   font-family: 'Montserrat', sans-serif;
-  font-size: calc(5px + 0.8vw);
+  font-size: 0.8vw;
   color: #fff;
   line-height: 1.4;
   text-transform: uppercase;
@@ -853,7 +846,7 @@ a {
 
 .table100.ver3 td {
   font-family: 'Montserrat', sans-serif;
-  font-size: calc(5px + 0.6vw);
+  font-size: 0.7vw;
   color: #808080;
 }
 
@@ -878,15 +871,60 @@ a {
   color: #fff;
 }
 
+.column100 {
+  width: 11vw;
+}
+
+.row100.head th {
+  font-size: 1.2vw;
+  height: 3vw;
+}
+
+.table100.ver3 td {
+  font-size: 0.8vw;
+  height: 3.5vw;
+  width: 12.5vw;
+}
+
+.table100.ver3 .row100 .column1 {
+  width: 6vw;
+  padding-left: 2vw;
+  font-size: 1vw;
+}
+
 /* SCHED TABLET */
-@media screen and (max-width: 1024px) {
+@media (max-width: 1025px) and (orientation: portrait) {
   .limiter {
     height: 85%;
   }
+  
+  .table100.ver3 .row100 .column1 {
+    width: 8vw;
+    font-size: 1.3vw;
+  }
+
+  .table100.ver3 th {
+    font-size: 2vw;
+    height: 6vw;
+  }
 
   .table100.ver3 td {
-    font-size: 1.3vw;
-    height: 6vw;
+    font-size: 0.9vw;
+    height: 7vw;
+    width: 13vw;
+  }
+}
+
+/* SCHED MOBILE */
+@media (max-width: 420px) and (orientation: portrait) {
+  .limiter {
+    height: 75%;
+  }
+
+  .table100.ver3 td {
+    font-size: 1.2vw;
+    height: 5vw;
+    width: 10vw;
   }
   
   .table100.ver3 th {
@@ -899,65 +937,56 @@ a {
   }
   
   .column100.column1 {
-    width: 9vw;
-    padding-left: 0vw;
-  }
-  
-  .row100.head th {
-    padding-top: 2vw;
-    padding-bottom: 2vw;
-  }
-  
-  .row100 td {
-    padding: 0px 0px 0px 0px;
-  }
-}
-
-/* SCHED MOBILE */
-@media screen and (max-width: 420px) {
-  .limiter {
-    height: 75%;
-  }
-
-  .table100.ver3 td {
-    font-size: 1.2vw;
-    height: 5vw;
-  }
-  
-  .table100.ver3 th {
-    font-size: 2vw;
-  }
-
-  .column100 {
-    width: 10vw;
-    padding-left: 1vw;
-  }
-  
-  .column100.column1 {
     font-size: 1.3vw;
     width: 8vw;
   }
+}
+
+
+/* TABLET LANDSCAPE */
+/* @media (max-height: 1040px) and (orientation: landscape) {
+  .limiter {
+    height: 85%;
+  }
+  
+  .column100 {
+    width: 11vw;
+  }
   
   .row100.head th {
+    font-size: 1.2vw;
+    height: 1vw;
     padding-top: 1vw;
     padding-bottom: 1vw;
   }
   
   .row100 td {
-    padding: 0px 0px 0px 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
   }
-}
+  
+  .table100.ver3 td {
+    font-size: 0.8vw;
+    height: 4vw;
+    width: 12.5vw;
+  }
 
-/* LANDSCAPE */
-@media screen and (max-height: 500px) {
+  .table100.ver3 .row100 .column1 {
+    width: 6vw;
+    padding-left: 2vw;
+    font-size: 1vw;
+  }
+} */
+
+/* MOBILE LANDSCAPE */
+@media (max-height: 500px) and (orientation: landscape)  {
+  .limiter {
+    height: 90%;
+  }
+
   .column100 {
     width: 10vw;
     padding-left: 1vw;
-  }
-  
-  .column100.column1 {
-    width: 8vw;
-    padding-left: 2vw;
   }
   
   .row100.head th {
@@ -973,7 +1002,13 @@ a {
   }
 
   .table100.ver3 td {
-    font-size: 1vw;
-    height: 3vw;
+    font-size: 0.75vw;
+    height: 2.7vw;
+    width: 11vw;
+  }
+
+  .table100.ver3 .row100 .column1 {
+    width: 6vw;
+    padding-left: 2vw;
   }
 }
