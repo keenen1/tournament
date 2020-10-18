@@ -12,7 +12,7 @@ class TeamsOfEighteen extends React.Component {
       },
       phenom: {
         teamName: 'PHENOM',
-        teamPlayers: ['K. Ruvas', 'G. Ruvas', 'B. Ruvas', 'B. Eldialde', 'K. Eldialde', 'A. Solomon', 'J. Solomon', 'A. Aquino', 'G. Zarra', 'J. Salonga']
+        teamPlayers: ['K. Ruvas', 'G. Ruvas', 'B. Ruvas', 'B. Eldialde', 'K. Eldialde', 'A. Salomon', 'J. Salomon', 'A. Aquino', 'G. Zarra', 'J. Salonga']
       },
       tgif: {
         teamName: 'TGIF',
@@ -20,7 +20,7 @@ class TeamsOfEighteen extends React.Component {
       },
       jbing: {
         teamName: 'JBING',
-        teamPlayers: ['Tyler Martin', 'Ty Abdon', 'James Villoria', 'Matthew Malingin', 'Miguel Benjamin', 'Jeff Lapinig', 'Gio Tiongson', 'Mark Malingin', 'Cj Vellon', 'Eric Guiao', 'Marky Tipanero', 'Jasper Lapinig', 'John Mongado', 'Ezekiel Flores']
+        teamPlayers: ['Tyler Martin', 'TJ Abdon', 'James Villoria', 'Matthew Malingin', 'Miguel Benjamin', 'Jeff Lapinig', 'Gio Tiongson', 'Mark Malingin', 'Cj Vellon', 'Eric Guiao', 'Marky Tipanero', 'Jasper Lapinig', 'John Mongado', 'Ezekiel Flores']
       },
       mount: {
         teamName: 'MOUNT SISIG',
@@ -71,6 +71,7 @@ class TeamsOfEighteen extends React.Component {
   }
 
   render () {
+    let openingDiv
     return (
       <div className="eighteen col-12">
         <div className="teams-block col-3">
@@ -108,7 +109,9 @@ class TeamsOfEighteen extends React.Component {
               <div className="player-list">
                 {this.state.players.map((player, i) => {
                   return (
-                    <div key={i}>
+                    <div key={i} style={this.state.players.length > 13
+                      ? { fontSize: '1.7vw' }
+                      : { fontSize: '2vw' }}>
                       {i + 1 + '. ' + player}
                     </div>
                   )
