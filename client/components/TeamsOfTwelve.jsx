@@ -22,7 +22,7 @@ class TeamsOfTwelve extends React.Component {
         w: 0,
         l: 0,
         teamName: 'TGIF MAMBA',
-        teamPlayers: ['Dennis Maga', 'Solito Asinas', 'Jay Saoi', 'Jockey Lorenzo', 'Leo Guico', 'Abet Tamayo', 'Aldwin Alvarez', 'Mitch Diputado', 'Angky Angeles', 'Rey Roque', 'Alfred Morales', 'Michael Mitra',  'Pogs Estonactor']
+        teamPlayers: ['Dennis Maga', 'Solito Asinas', 'Jay Saoi', 'Jockey Lorenzo', 'Leo Guico', 'Abet Tamayo', 'Aldwin Alvarez', 'Mitch Diputado', 'Angky Angeles', 'Rey Roque', 'Alfred Morales', 'Michael Mitra', 'Pogs Estonactor']
       },
       tgif2: {
         w: 0,
