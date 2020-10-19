@@ -100,6 +100,7 @@ class TeamsOfEighteen extends React.Component {
         </div>
         <div id="overlay" onClick={this.props.overlayOff}>
           <div id="text">
+            <div className="exit">x</div>
             <div className="team-name">{this.state.name}</div>
             <div className="team-info">
               <div>Open | 0W - 0L</div>
