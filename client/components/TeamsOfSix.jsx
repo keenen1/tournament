@@ -65,7 +65,7 @@ class TeamsOfSix extends React.Component {
             <div className="exit">x</div>
             <div className="team-name">{this.state.name}</div>
             <div className="team-info">
-              <div>35A | {this.state.w}W - {this.state.l}L</div>
+              <div>U15 | {this.state.w}W - {this.state.l}L</div>
             </div>
             <div className="player-container">
               <div className="player-list">
