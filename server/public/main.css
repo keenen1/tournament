@@ -839,6 +839,48 @@ a {
   }
 }
 
+.rules-page {
+  height: 85%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(39, 39, 39);
+}
+
+.rules {
+  font-family: 'Montserrat', sans-serif;
+  color: rgb(2, 196, 235);
+  font-size: 8vw;
+  text-align: center;
+}
+
+/* RULES TABLET */
+@media screen and (max-width: 1024px) {
+  .rules-page {
+    height: 85%;
+  }
+  .rules {
+    font-size: 12vw;
+  }
+}
+
+/* RESULTS MOBILE */
+@media screen and (max-width: 420px) {
+  .rules-page {
+    height: 75%;
+  }
+  .rules {
+    font-size: 12vw;
+  }
+}
+
+/* OVERLAY TABLET LANDSCAPE */
+@media (max-height: 1024px) and (orientation: landscape) {
+  .rules {
+    font-size: 12vw;
+  }
+}
+
 /*//////////////////////////////////////////////////////////////////
 [ Table ]*/
 

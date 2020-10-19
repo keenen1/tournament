@@ -8,7 +8,7 @@ const TopNav = () => {
     'games',
     'groups',
     'results',
-    'news'
+    'rules'
   ]
 
   return (
