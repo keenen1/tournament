@@ -58,28 +58,28 @@ class Teams extends React.Component {
         componentToRender = <TeamsOfEighteen overlayOn={() => this.overlayOn()} overlayOff={() => this.overlayOff()} />
         break
       case 'legends':
-        componentToRender = <TeamsOfTwelve />
+        componentToRender = <TeamsOfTwelve overlayOn={() => this.overlayOn()} overlayOff={() => this.overlayOff()} />
         break
       case '35a':
         componentToRender = <TeamsOfEight overlayOn={() => this.overlayOn()} overlayOff={() => this.overlayOff()} />
         break
       case 'u19':
-        componentToRender = <TeamsOfFour cat={this.state.cat} />
+        componentToRender = <TeamsOfFour overlayOn={() => this.overlayOn()} overlayOff={() => this.overlayOff()} cat={this.state.cat} />
         break
       case 'u17':
-        componentToRender = <TeamsOfFour cat={this.state.cat} />
+        componentToRender = <TeamsOfFour overlayOn={() => this.overlayOn()} overlayOff={() => this.overlayOff()} cat={this.state.cat} />
         break
       case 'u15':
-        componentToRender = <TeamsOfSix />
+        componentToRender = <TeamsOfSix overlayOn={() => this.overlayOn()} overlayOff={() => this.overlayOff()} />
         break
       case 'u13':
-        componentToRender = <TeamsOfFour cat={this.state.cat} />
+        componentToRender = <TeamsOfFour overlayOn={() => this.overlayOn()} overlayOff={() => this.overlayOff()} cat={this.state.cat} />
         break
       case 'u11':
-        componentToRender = <TeamsOfFour cat={this.state.cat} />
+        componentToRender = <TeamsOfFour overlayOn={() => this.overlayOn()} overlayOff={() => this.overlayOff()} cat={this.state.cat} />
         break
       case 'u9':
-        componentToRender = <TeamsOfFour cat={this.state.cat} />
+        componentToRender = <TeamsOfFour overlayOn={() => this.overlayOn()} overlayOff={() => this.overlayOff()} cat={this.state.cat} />
         break
     }
     return (
