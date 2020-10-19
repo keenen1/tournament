@@ -12,6 +12,7 @@ import Results from './Results'
 import ResultsDayOne from './ResultsDayOne'
 import ResultsDayTwo from './ResultsDayTwo'
 import Groups from './Groups'
+import Rules from './Rules'
 
 const App = () => {
   return (
@@ -29,6 +30,7 @@ const App = () => {
         <Route exact path="/results" component={Results} />
         <Route exact path="/results/day-one" component={ResultsDayOne} />
         <Route exact path="/results/day-two" component={ResultsDayTwo} />
+        <Route exact path="/rules" component={Rules} />
       </Router>
     </>
   )
