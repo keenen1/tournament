@@ -25,7 +25,7 @@ class TeamsOfFour extends React.Component {
         },
         {
           teamName: 'MAVS',
-          teamPlayers: ['TJ Abdon', 'Tyler Martin', 'Jiggs Viloria', 'Angelo Matanguihan', 'Jairus Evangelista', 'Andrei Salomon', 'Louis Basobas', 'Christoff Reyes', 'Jacob bano', 'Daniel Tialban', 'Red Viloria', 'Tyson Kempton'],
+          teamPlayers: ['TJ Abdon', 'Tyler Martin', 'Jiggs Viloria', 'Angelo Matanguihan', 'Jairus Evangelista', 'Andrei Salomon', 'Louis Basobas', 'Christoff Reyes', 'Jacob Bano', 'Daniel Tialban', 'Red Viloria', 'Tyson Kempton'],
           w: 0,
           l: 0
         },
