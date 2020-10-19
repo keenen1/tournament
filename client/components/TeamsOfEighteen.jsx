@@ -71,7 +71,6 @@ class TeamsOfEighteen extends React.Component {
   }
 
   render () {
-    let openingDiv
     return (
       <div className="eighteen col-12">
         <div className="teams-block col-3">
@@ -109,9 +108,7 @@ class TeamsOfEighteen extends React.Component {
               <div className="player-list">
                 {this.state.players.map((player, i) => {
                   return (
-                    <div key={i} style={this.state.players.length > 13
-                      ? { fontSize: '1.7vw' }
-                      : { fontSize: '2vw' }}>
+                    <div key={i}>
                       {i + 1 + '. ' + player}
                     </div>
                   )

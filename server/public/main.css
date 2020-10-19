@@ -460,12 +460,31 @@ a {
   .teams-block .team:hover {
     background-color: rgb(39, 39, 39);
   }
+  .teams-block div {
+    text-shadow: none;
+  }
 }
 
 /* TEAMS TABLET LANDSCAPE */
-@media screen and (max-height: 1024px) and (orientation: landscape) {
+@media (max-height: 1024px) and (orientation: landscape) {
   .eighteen .teams-block .team, .twelve .teams-block .team {
     font-size: 3vw;
+  }
+  .teams-block .team:hover {
+    background-color: rgb(80, 80, 80);
+  }
+  .teams-block div {
+    text-shadow: none;
+  }
+}
+
+/* OVERLAY MOBILE LANDSCAPE */
+@media (max-height: 500px) and (orientation: landscape) {
+  .teams-block .team:hover {
+    background-color: rgb(80, 80, 80);
+  }
+  .teams-block div {
+    text-shadow: none;
   }
 }
 
@@ -561,8 +580,8 @@ a {
   }
   
   .player-list div {
-    font-size: 4vw;
-    height: 4.5vw;
+    font-size: 3.7vw;
+    height: 4vw;
   }
 }
 
@@ -596,7 +615,8 @@ a {
   }
   
   .player-list div {
-    height: 6vw;
+    font-size: 4vw;
+    height: 5.3vw;
   }
 }
 
@@ -661,8 +681,8 @@ a {
   }
   
   .player-list div {
-    font-size: 1vw;
-    height: 2.2vw;
+    font-size: 2vw;
+    height: 2.3vw;
   }
 }
 
