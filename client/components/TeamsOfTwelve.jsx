@@ -7,50 +7,74 @@ class TeamsOfTwelve extends React.Component {
       name: '',
       players: [],
       westPaMore: {
+        w: 0,
+        l: 0,
         teamName: 'WEST PA MORE',
         teamPlayers: ['Marlon De Leon', 'Dennis Macahilig', 'Joven Martinez', 'Jonatahn Lagasca', 'Rolando Nicolas', 'Ronal Tongol', 'Edwin Elago', 'Eric Hansen', 'Ryan Apdian', 'Boboi Luzano', 'Jolly Concepcion', 'Jancy  Gregorio', 'Ferdinand Manuel', 'Jay Salonga', 'Alfredo Sinang', 'Ernesto Bautista']
       },
       mavs: {
+        w: 0,
+        l: 0,
         teamName: 'MAVS',
         teamPlayers: ['George Dio', 'Allan Alombro', 'Jake Quilantang', 'Ricky Alano', 'Erick Basobas', 'Jimmy Tan', 'Mon Banno', 'Michael Salomon', 'Randy Bulaong', 'Ralph Gayatin', 'Jacob Terrafranca', 'Junar Zapata', 'Joel Yulo']
       },
       tgif1: {
+        w: 0,
+        l: 0,
         teamName: 'TGIF MAMBA',
         teamPlayers: ['Dennis Maga', 'Solito Asinas', 'Jay Saoi', 'Jockey Lorenzo', 'Leo Guico', 'Abet Tamayo', 'Aldwin Alvarez', 'Mitch Diputado', 'Angky Angeles', 'Rey Roque', 'Alfred Morales', 'Michael Mitra',  'Pogs Estonactor']
       },
       tgif2: {
+        w: 0,
+        l: 0,
         teamName: 'TGIF MENTALITY',
         teamPlayers: ['Cedric David', 'Efren Arellano', 'Niño Balani', 'Totoy Asinas', 'Larry Asuncion', 'Ipe Martinez', 'Ramon Aporillo', 'Denis Antiporda', 'Roque Alea', 'Bambi Zaide', 'Glenn Petilla', 'Jayson de Guzman']
       },
       kiwiroof: {
+        w: 0,
+        l: 0,
         teamName: 'KIWI ROOFING',
         teamPlayers: ['Jovit Naboa', 'Nestor Gamit', 'Third Osorio', 'Jambo Tabaquero', 'George Bautista', 'Fred danao', 'Elliot Zhornack', 'Randy da Silva', 'Edmond Quizon', 'Rodel Alan', 'Bong Quipte', 'Carlo Camus', 'Romel Bontongan', 'Nato Viray', 'Weni fernandez']
       },
       filkiwi: {
+        w: 0,
+        l: 0,
         teamName: 'FIL-KIWI',
         teamPlayers: ['Rojun Canes', 'Jun Sarito', 'Paul Siao', 'Ross Barin', 'Gerryl Agnes', 'Noriel Montemar', 'BJ Bauzon', 'Stan Ang', 'Clarence Pinpin', 'Chad Dumalaon', 'Cris Ulan', 'Elmer Luriz', 'Brian Manangan', 'Ryan Vidar']
       },
       southakl: {
+        w: 0,
+        l: 0,
         teamName: 'SOUTH AKL',
         teamPlayers: ['Ray Capal', 'Ro Pamisal', 'Will Esperanza', 'Jhong Calsona', 'Gibert Cayanan', 'Jovit Vidal', 'Jorden Armacio', 'Ben Soriano', 'Alex Rivera', 'Live Bana', 'Mark Sitchon', 'Kicko Cortez', 'Leon Nebria', 'Larry Draveno', 'Herbie Emralino']
       },
       sinulog: {
+        w: 0,
+        l: 0,
         teamName: 'UFCSA SINULOG',
         teamPlayers: ['Bob Miranda', 'Ross Ganzan', 'Alex Andales', 'Ramel Maligro', 'Nani Javate', 'Robert Turingan', 'Eric Braga', 'Tabudlong', 'Gilbert Tabora', 'Nino Solon', 'Joel Grafil', 'Marlon Ambion', 'Wennie Fernandez', 'Richard Cortes', 'Ivan Canlas', 'Jesse Abamonga']
       },
       aztigs: {
+        w: 0,
+        l: 0,
         teamName: 'AZTIGS',
         teamPlayers: ['Chicoy Leyson', 'Robbie Layao', 'Emman Sta Barbara', 'Rey Molina', 'Xean Moral', 'Grimson Treyes', 'Alan Almencion', 'Jhun Dalicun', 'Edbert Ancheta', 'Jhonny Arteza', 'Fidel Mabanta', 'Glenn Cruz', 'Marc Co', 'Rhandie Herrera']
       },
       ufcsawest: {
+        w: 0,
+        l: 0,
         teamName: 'UFCSA WEST',
         teamPlayers: ['Danny Sayat', 'Jun Alan', 'Michael Victa', 'Jun Manio', 'Dudz Pugosa', 'Rey Romales', 'Ernesto Bundalian', 'Karol Kwan Andrada', 'Chris Dela Torres', 'Rey Ocfemia', 'Bojo Ermita', 'Ricardo Luklukan', 'Thor Tejano', 'Joey Villa Ignacio']
       },
       barako: {
+        w: 0,
+        l: 0,
         teamName: 'BARAKO EAST',
         teamPlayers: ['Nieven Virtucio', 'Christian Sison', 'Ronaldo Liwanag', 'Ed Tacang', 'Felipe Talaid', 'Dane Porras', 'Junar Zapata', 'Gerry Ruelo', 'Hermie Espinosa', 'Arnold Laro', 'Wendyl Ong', 'Randy Gabunada']
       },
       jokers: {
+        w: 0,
+        l: 0,
         teamName: 'JOKERS',
         teamPlayers: ['TBC']
       }
@@ -60,6 +84,8 @@ class TeamsOfTwelve extends React.Component {
 
   changeTeam = (team) => {
     this.setState({
+      w: team.w,
+      l: team.l,
       name: team.teamName,
       players: team.teamPlayers
     })
@@ -98,7 +124,7 @@ class TeamsOfTwelve extends React.Component {
             <div className="exit">x</div>
             <div className="team-name">{this.state.name}</div>
             <div className="team-info">
-              <div>Open | 0W - 0L</div>
+              <div>LEGENDS | {this.state.w}W - {this.state.l}L</div>
             </div>
             <div className="player-container">
               <div className="player-list">
