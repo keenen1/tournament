@@ -6,6 +6,8 @@ class TeamsOfEight extends React.Component {
     this.state = {
       name: '',
       players: [],
+      w: 0,
+      l: 0,
       unknown: {
         w: 0,
         l: 0,
