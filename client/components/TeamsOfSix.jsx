@@ -28,7 +28,7 @@ class TeamsOfSix extends React.Component {
         w: 0,
         l: 0,
         teamName: 'UFCSA NORTH',
-        teamPlayers: ['Albert Flores', 'Bobbie Atendido', 'Bien Pasco', 'Karlo Bernardo', 'Angelo Javate', 'Joel Vicente', 'Andre Atendido', 'Angelo Abaya', 'Gian Mohinani', 'John Villanueva', 'Jhey Jamelano']
+        teamPlayers: ['Albert Flores', 'Bobbie Atendido', 'Bien Pasco', 'Karlo Bernardo', 'Adriel Javate', 'Joel Vicente', 'Andre Atendido', 'Angelo Abaya', 'Gian Mohinani', 'John Villanueva', 'Jhey Jamelano']
       },
       freelancer: {
         w: 0,
