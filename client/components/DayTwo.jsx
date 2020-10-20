@@ -44,7 +44,7 @@ const DayTwo = () => {
                     </td>
                     <td className="column100 column6" data-column="column6">
                       <div>MAVS v FLAT BUSH</div>
-                      <div>(9U)</div>
+                      <div>(U9)</div>
                     </td>
                     <td className="column100 column7" data-column="column7">
                       <div>UFCSA WEST A v</div>
@@ -66,7 +66,7 @@ const DayTwo = () => {
                     </td>
                     <td className="column100 column4" data-column="column4">
                       <div>TGIF v UFCSA WEST</div>
-                      <div>(9U)</div>
+                      <div>(U9)</div>
                     </td>
                     <td className="column100 column5" data-column="column5">
                       <div>SOUTH AKL v</div>
