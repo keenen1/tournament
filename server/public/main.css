@@ -740,10 +740,10 @@ a {
 }
 
 .hourly-top, .hourly-bottom {
-  width: 100%;
+  /* width: 100%; */
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .court-result {
@@ -763,7 +763,7 @@ a {
 .court-result-teams {
   width: 70%;
   justify-content: left;
-  font-size: 2.1vw;
+  font-size: 1.5vw;
 }
 .court-result-team {
   width: 80%;

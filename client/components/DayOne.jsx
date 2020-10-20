@@ -27,11 +27,11 @@ const DayOne = () => {
                     <td className="column100 column1" data-column="column1">9:00 AM</td>
                     <td className="column100 column2" data-column="column2">
                       <div>FLAT BUSH v TGIF</div>
-                      <div>(9U)</div>
+                      <div>(U9)</div>
                     </td>
                     <td className="column100 column3" data-column="column3">
                       <div>UFCSA WEST v MAVS</div>
-                      <div>(9U)</div>
+                      <div>(U9)</div>
                     </td>
                     <td className="column100 column4" data-column="column4">
                       <div>JBING v TGIF</div>
@@ -39,7 +39,7 @@ const DayOne = () => {
                     </td>
                     <td className="column100 column5" data-column="column5">
                       <div>MAVS v UFCSA NORTH</div>
-                      <div>(15U)</div>
+                      <div>(U15)</div>
                     </td>
                     <td className="column100 column6" data-column="column6">
                       <div>BARAKO EAST v</div>
@@ -65,11 +65,11 @@ const DayOne = () => {
                     </td>
                     <td className="column100 column4" data-column="column4">
                       <div>FLAT BUSH v MAVS</div>
-                      <div>(11U)</div>
+                      <div>(U11)</div>
                     </td>
                     <td className="column100 column5" data-column="column5">
                       <div>TGIF v UFCSA WEST</div>
-                      <div>(11U)</div>
+                      <div>(U11)</div>
                     </td>
                     <td className="column100 column6" data-column="column6">
                       <div>WEST PA MORE v</div>
@@ -87,11 +87,11 @@ const DayOne = () => {
                     <td className="column100 column1" data-column="column1">10:40 AM</td>
                     <td className="column100 column2" data-column="column2">
                       <div>TGIF v UFCSA WEST A</div>
-                      <div>(13U)</div>
+                      <div>(U13)</div>
                     </td>
                     <td className="column100 column3" data-column="column3">
                       <div>UFCSA WEST B v MAVS</div>
-                      <div>(13U)</div>
+                      <div>(U13)</div>
                     </td>
                     <td className="column100 column4" data-column="column4">
                       <div>AZTIGS BETA v</div>
@@ -165,11 +165,11 @@ const DayOne = () => {
                     </td>
                     <td className="column100 column4" data-column="column4">
                       <div>FLAT BUSH v TGIF</div>
-                      <div>(11U)</div>
+                      <div>(U11)</div>
                     </td>
                     <td className="column100 column5" data-column="column5">
                       <div>UFCSA WEST v MAVS</div>
-                      <div>(11U)</div>
+                      <div>(U11)</div>
                     </td>
                     <td className="column100 column6" data-column="column6">
                       <div>UNKNOWN v SOUTH AKL</div>
@@ -198,7 +198,7 @@ const DayOne = () => {
                       <div>(40A)</div>
                     </td>
                     <td className="column100 column5" data-column="column5">
-                      <div>UFCSA WEST</div>
+                      <div>UFCSA WEST v</div>
                       <div>BARAKO EAST</div>
                       <div>(40A)</div>
                     </td>
