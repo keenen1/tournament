@@ -13,7 +13,7 @@ class TeamsOfFour extends React.Component {
       u19: [
         {
           teamName: 'OUA',
-          teamPlayers: ['Emman Cea', 'Mathew Manese', 'Edward Maagdenberg', 'Lorenzo Taduran', `Christian Mata'afa`, 'Si alumia', 'Denrick Arrelano', 'John Fabian'],
+          teamPlayers: ['Emman Cea', 'Matthew Manese', 'Edward Maagdenberg', 'Lorenzo Taduran', `Christian Mata'afa`, 'Si alumia', 'Denrick Arrelano', 'John Fabian'],
           w: 0,
           l: 0
         },
