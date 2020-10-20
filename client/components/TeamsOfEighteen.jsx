@@ -28,7 +28,7 @@ class TeamsOfEighteen extends React.Component {
         w: 0,
         l: 0,
         teamName: 'JBING',
-        teamPlayers: ['Tyler Martin', 'TJ Abdon', 'James Villoria', 'Matthew Malingin', 'Miguel Benjamin', 'Jeff Lapinig', 'Gio Tiongson', 'Mark Malingin', 'Cj Vellon', 'Eric Guiao', 'Marky Tipanero', 'Jasper Lapinig', 'John Mongado', 'Ezekiel Flores']
+        teamPlayers: ['Tyler Martin', 'TJ Abdon', 'James Villoria', 'Matthew Malingin', 'Miguel Benjamin', 'Jeff Lapinig', 'Gio Tiongson', 'Marc Malingin', 'Cj Vellon', 'Eric Guiao', 'Marky Tipanero', 'Jasper Lapinig', 'John Mongado', 'Ezekiel Flores']
       },
       mount: {
         w: 0,
