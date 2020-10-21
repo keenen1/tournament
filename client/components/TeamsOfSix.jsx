@@ -54,11 +54,26 @@ class TeamsOfSix extends React.Component {
     return (
       <div className="six col-12">
         <div className="teams-block col-4">
-          <div className="team" onClick={() => this.changeTeam(this.state.tgif)}>TGIF</div>
-          <div className="team" onClick={() => this.changeTeam(this.state.ufcsawest)}>UFCSA WEST</div>
-          <div className="team" onClick={() => this.changeTeam(this.state.mavs)}>PINOY MAVS</div>
-          <div className="team" onClick={() => this.changeTeam(this.state.ufcsanorth)}>UFCSA NORTH</div>
-          <div className="team" onClick={() => this.changeTeam(this.state.freelancer)}>FREE LANCER</div>
+          <div className="team" onClick={() => this.changeTeam(this.state.tgif)}>
+            <div className="team-divider col-9">TGIF</div>
+            <div className="standing col-3">{this.state.tgif.w + '-' + this.state.tgif.l}</div>
+          </div>
+          <div className="team" onClick={() => this.changeTeam(this.state.ufcsawest)}>
+            <div className="team-divider col-9">UFCSA WEST</div>
+            <div className="standing col-3">{this.state.ufcsawest.w + '-' + this.state.ufcsawest.l}</div>
+          </div>
+          <div className="team" onClick={() => this.changeTeam(this.state.mavs)}>
+            <div className="team-divider col-9">PINOY MAVS</div>
+            <div className="standing col-3">{this.state.mavs.w + '-' + this.state.mavs.l}</div>
+          </div>
+          <div className="team" onClick={() => this.changeTeam(this.state.ufcsanorth)}>
+            <div className="team-divider col-9">UFCSA NORTH</div>
+            <div className="standing col-3">{this.state.ufcsanorth.w + '-' + this.state.ufcsanorth.l}</div>
+          </div>
+          <div className="team" onClick={() => this.changeTeam(this.state.freelancer)}>
+            <div className="team-divider col-9">FREE LANCER</div>
+            <div className="standing col-3">{this.state.freelancer.w + '-' + this.state.freelancer.l}</div>
+          </div>
         </div>
         <div id="overlay" onClick={this.props.overlayOff}>
           <div id="text">

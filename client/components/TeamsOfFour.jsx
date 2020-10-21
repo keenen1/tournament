@@ -184,11 +184,23 @@ class TeamsOfFour extends React.Component {
   render () {
     return (
       <div className="four">
-        <div className="teams-block col-5">
-          <div className="team" onClick={() => this.changeTeam(this.state.teams[0])}>{this.state.teams.length > 0 && this.state.teams[0].teamName}</div>
-          <div className="team" onClick={() => this.changeTeam(this.state.teams[1])}>{this.state.teams.length > 0 && this.state.teams[1].teamName}</div>
-          <div className="team" onClick={() => this.changeTeam(this.state.teams[2])}>{this.state.teams.length > 0 && this.state.teams[2].teamName}</div>
-          <div className="team" onClick={() => this.changeTeam(this.state.teams[3])}>{this.state.teams.length > 0 && this.state.teams[3].teamName}</div>
+        <div className="teams-block col-8">
+          <div className="team" onClick={() => this.changeTeam(this.state.teams[0])}>
+            <div className="team-divider col-10">{this.state.teams.length > 0 && this.state.teams[0].teamName}</div>
+            <div className="standing col-2">{this.state.teams.length > 0 && (this.state.teams[0].w + '-' + this.state.teams[0].l)}</div>
+          </div>
+          <div className="team" onClick={() => this.changeTeam(this.state.teams[1])}>
+            <div className="team-divider col-10">{this.state.teams.length > 0 && this.state.teams[1].teamName}</div>
+            <div className="standing col-2">{this.state.teams.length > 0 && (this.state.teams[1].w + '-' + this.state.teams[1].l)}</div>
+          </div>
+          <div className="team" onClick={() => this.changeTeam(this.state.teams[2])}>
+            <div className="team-divider col-10">{this.state.teams.length > 0 && this.state.teams[2].teamName}</div>
+            <div className="standing col-2">{this.state.teams.length > 0 && (this.state.teams[2].w + '-' + this.state.teams[2].l)}</div>
+          </div>
+          <div className="team" onClick={() => this.changeTeam(this.state.teams[3])}>
+            <div className="team-divider col-10">{this.state.teams.length > 0 && this.state.teams[3].teamName}</div>
+            <div className="standing col-2">{this.state.teams.length > 0 && (this.state.teams[3].w + '-' + this.state.teams[3].l)}</div>
+          </div>
         </div>
         <div id="overlay" onClick={this.props.overlayOff}>
           <div id="text">

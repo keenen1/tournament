@@ -103,28 +103,67 @@ class TeamsOfEighteen extends React.Component {
       <div className="eighteen col-12">
         <div className="teams-block col-3">
           <div className="pool">POOL A</div>
-          <div className="team" onClick={() => this.changeTeam(this.state.unknown)}>UNKNOWN</div>
-          <div className="team" onClick={() => this.changeTeam(this.state.aklheat)}>AKL HEAT</div>
-          <div className="team" onClick={() => this.changeTeam(this.state.filkiwi)}>FIL-KIWI</div>
+          <div className="team" onClick={() => this.changeTeam(this.state.unknown)}>
+            <div className="team-divider col-9">UNKNOWN</div>
+            <div className="standing col-3">{this.state.unknown.w + '-' + this.state.unknown.l}</div>
+          </div>
+          <div className="team" onClick={() => this.changeTeam(this.state.aklheat)}>
+            <div className="team-divider col-9">AKL HEAT</div>
+            <div className="standing col-3">{this.state.aklheat.w + '-' + this.state.aklheat.l}</div>
+          </div>
+          <div className="team" onClick={() => this.changeTeam(this.state.mount)}>
+            <div className="team-divider col-9">FIL-KIWI</div>
+            <div className="standing col-3">{this.state.mount.w + '-' + this.state.mount.l}</div>
+          </div>
         </div>
         <div className="teams-block col-3">
           <div className="pool">POOL B</div>
-          <div className="team" onClick={() => this.changeTeam(this.state.mount)}>MOUNT SISIG</div>
-          <div className="team" onClick={() => this.changeTeam(this.state.pinoy)}>PINOY PROPERTY</div>
-          <div className="team" onClick={() => this.changeTeam(this.state.brick)}>BRICK CITY</div>
+          <div className="team" onClick={() => this.changeTeam(this.state.mount)}>
+            <div className="team-divider col-9">MOUNT SISIG</div>
+            <div className="standing col-3">{this.state.mount.w + '-' + this.state.mount.l}</div>
+          </div>
+          <div className="team" onClick={() => this.changeTeam(this.state.pinoy)}>
+            <div className="team-divider col-9">PINOY PROPERTY</div>
+            <div className="standing col-3">{this.state.pinoy.w + '-' + this.state.pinoy.l}</div>
+          </div>
+          <div className="team" onClick={() => this.changeTeam(this.state.brick)}>
+            <div className="team-divider col-9">BRICK CITY</div>
+            <div className="standing col-3">{this.state.brick.w + '-' + this.state.brick.l}</div>
+          </div>
         </div>
         <div className="teams-block col-3">
           <div className="pool">POOL C</div>
-          <div className="team" onClick={() => this.changeTeam(this.state.aztigs)}>AZTIGS BETA</div>
-          <div className="team" onClick={() => this.changeTeam(this.state.wow)}>WOW</div>
-          <div className="team" onClick={() => this.changeTeam(this.state.aucklander)}>AUCKLANDER</div>
+          <div className="team" onClick={() => this.changeTeam(this.state.aztigs)}>
+            <div className="team-divider col-9">AZTIGS BETA</div>
+            <div className="standing col-3">{this.state.aztigs.w + '-' + this.state.aztigs.l}</div>
+          </div>
+          <div className="team" onClick={() => this.changeTeam(this.state.wow)}>
+            <div className="team-divider col-9">WOW</div>
+            <div className="standing col-3">{this.state.wow.w + '-' + this.state.wow.l}</div>
+          </div>
+          <div className="team" onClick={() => this.changeTeam(this.state.aucklander)}>
+            <div className="team-divider col-9">AUCKLANDER</div>
+            <div className="standing col-3">{this.state.aucklander.w + '-' + this.state.aucklander.l}</div>
+          </div>
         </div>
         <div className="teams-block col-3">
           <div className="pool">POOL D</div>
-          <div className="team" onClick={() => this.changeTeam(this.state.phenom)}>PHENOM</div>
-          <div className="team" onClick={() => this.changeTeam(this.state.jbing)}>JBING</div>
-          <div className="team" onClick={() => this.changeTeam(this.state.tgif)}>TGIF</div>
-          <div className="team" onClick={() => this.changeTeam(this.state.slayers)}>SLAYERS</div>
+          <div className="team" onClick={() => this.changeTeam(this.state.phenom)}>
+            <div className="team-divider col-9">PHENOM</div>
+            <div className="standing col-3">{this.state.phenom.w + '-' + this.state.phenom.l}</div>
+          </div>
+          <div className="team" onClick={() => this.changeTeam(this.state.ç)}>
+            <div className="team-divider col-9">JBING</div>
+            <div className="standing col-3">{this.state.tgif.w + '-' + this.state.tgif.l}</div>
+          </div>
+          <div className="team" onClick={() => this.changeTeam(this.state.tgif)}>
+            <div className="team-divider col-9">TGIF</div>
+            <div className="standing col-3">{this.state.tgif.w + '-' + this.state.tgif.l}</div>
+          </div>
+          <div className="team" onClick={() => this.changeTeam(this.state.slayers)}>
+            <div className="team-divider col-9">SLAYERS</div>
+            <div className="standing col-3">{this.state.slayers.w + '-' + this.state.slayers.l}</div>
+          </div>
         </div>
         <div id="overlay" onClick={this.props.overlayOff}>
           <div id="text">
