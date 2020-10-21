@@ -97,27 +97,63 @@ class TeamsOfTwelve extends React.Component {
       <div className="twelve col-12">
         <div className="teams-block col-4">
           <div className="pool">POOL A</div>
-          <div className="team" onClick={() => this.changeTeam(this.state.westPaMore)}>WEST PA MORE</div>
-          <div className="team" onClick={() => this.changeTeam(this.state.mavs)}>PINOY MAVS</div>
-          <div className="team" onClick={() => this.changeTeam(this.state.tgif2)}>TGIF MENTALITY</div>
+          <div className="team" onClick={() => this.changeTeam(this.state.westPaMore)}>
+            <div className="team-divider col-9">WEST PA MORE</div>
+            <div className="standing col-3">{this.state.westPaMore.w + '-' + this.state.westPaMore.l}</div>
+          </div>
+          <div className="team" onClick={() => this.changeTeam(this.state.mavs)}>
+            <div className="team-divider col-9">PINOY MAVS</div>
+            <div className="standing col-3">{this.state.mavs.w + '-' + this.state.mavs.l}</div>
+          </div>
+          <div className="team" onClick={() => this.changeTeam(this.state.tgif2)}>
+            <div className="team-divider col-9">TGIF MENTALITY</div>
+            <div className="standing col-3">{this.state.tgif2.w + '-' + this.state.tgif2.l}</div>
+          </div>
         </div>
         <div className="teams-block col-4">
           <div className="pool">POOL B</div>
-          <div className="team" onClick={() => this.changeTeam(this.state.kiwiroof)}>KIWI ROOFING</div>
-          <div className="team" onClick={() => this.changeTeam(this.state.filkiwi)}>FIL-KIWI</div>
-          <div className="team" onClick={() => this.changeTeam(this.state.southakl)}>SOUTH AKL</div>
+          <div className="team" onClick={() => this.changeTeam(this.state.kiwiroof)}>
+            <div className="team-divider col-9">KIWI ROOFING</div>
+            <div className="standing col-3">{this.state.kiwiroof.w + '-' + this.state.kiwiroof.l}</div>
+          </div>
+          <div className="team" onClick={() => this.changeTeam(this.state.filkiwi)}>
+            <div className="team-divider col-9">FIL-KIWI</div>
+            <div className="standing col-3">{this.state.filkiwi.w + '-' + this.state.filkiwi.l}</div>
+          </div>
+          <div className="team" onClick={() => this.changeTeam(this.state.southakl)}>
+            <div className="team-divider col-9">SOUTH AKL</div>
+            <div className="standing col-3">{this.state.southakl.w + '-' + this.state.southakl.l}</div>
+          </div>
         </div>
         <div className="teams-block col-4">
           <div className="pool">POOL C</div>
-          <div className="team" onClick={() => this.changeTeam(this.state.sinulog)}>UFCSA SINULOG</div>
-          <div className="team" onClick={() => this.changeTeam(this.state.tgif1)}>TGIF MAMBA</div>
-          <div className="team" onClick={() => this.changeTeam(this.state.jokers)}>JOKERS</div>
+          <div className="team" onClick={() => this.changeTeam(this.state.sinulog)}>
+            <div className="team-divider col-9">UFCSA SINULOG</div>
+            <div className="standing col-3">{this.state.sinulog.w + '-' + this.state.sinulog.l}</div>
+          </div>
+          <div className="team" onClick={() => this.changeTeam(this.state.tgif1)}>
+            <div className="team-divider col-9">TGIF MAMBA</div>
+            <div className="standing col-3">{this.state.tgif1.w + '-' + this.state.tgif1.l}</div>
+          </div>
+          <div className="team" onClick={() => this.changeTeam(this.state.jokers)}>
+            <div className="team-divider col-9">JOKERS</div>
+            <div className="standing col-3">{this.state.jokers.w + '-' + this.state.jokers.l}</div>
+          </div>
         </div>
         <div className="teams-block col-4">
           <div className="pool">POOL D</div>
-          <div className="team" onClick={() => this.changeTeam(this.state.aztigs)}>AZTIGS</div>
-          <div className="team" onClick={() => this.changeTeam(this.state.ufcsawest)}>UFCSA WEST</div>
-          <div className="team" onClick={() => this.changeTeam(this.state.barako)}>BARAKO EAST</div>
+          <div className="team" onClick={() => this.changeTeam(this.state.aztigs)}>
+            <div className="team-divider col-9">AZTIGS</div>
+            <div className="standing col-3">{this.state.aztigs.w + '-' + this.state.aztigs.l}</div>
+          </div>
+          <div className="team" onClick={() => this.changeTeam(this.state.ufcsawest)}>
+            <div className="team-divider col-9">UFCSA WEST</div>
+            <div className="standing col-3">{this.state.ufcsawest.w + '-' + this.state.ufcsawest.l}</div>
+          </div>
+          <div className="team" onClick={() => this.changeTeam(this.state.barako)}>
+            <div className="team-divider col-9">BARAKO EAST</div>
+            <div className="standing col-3">{this.state.barako.w + '-' + this.state.barako.l}</div>
+          </div>
         </div>
         <div id="overlay" onClick={this.props.overlayOff}>
           <div id="text">

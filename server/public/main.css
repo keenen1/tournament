@@ -411,6 +411,27 @@ a {
   border-radius: 20px;
   transition: 0.7s;
 }
+.teams-block {
+  height: 95%;
+  border-left: grey 1px solid;
+  border-right: grey 1px solid;
+  padding: 1vw
+}
+.four .teams-block, .six .teams-block {
+  height: 95%;
+  border-left: none;
+  border-right: none;
+  padding: 1vw
+}
+.teams-block .team {
+  display: flex;
+}
+.team-divider {
+  height: 100%;
+}
+.standing {
+  height: 100%;
+}
 
 /* TEAMS TABLET */
 @media screen and (max-width: 1024px) and (max-height: 1366px) {
@@ -426,7 +447,7 @@ a {
     font-size: 4vw;
   }
   .eighteen, .twelve, .eight, .six, .four {
-    height: 75%;
+    height: 70.9%;
   }
   .eighteen .teams-block .team, .twelve .teams-block .team, .six .teams-block .team {
     font-size: 4vw;
@@ -452,7 +473,6 @@ a {
   }
   .four .teams-block div {
     height: 15%;
-    width: 100%;
   }
   .eighteen .teams-block .team, .twelve .teams-block .team {
     font-size: 3vw;
@@ -462,6 +482,9 @@ a {
   }
   .teams-block div {
     text-shadow: none;
+  }
+  .teams-block {
+    height: 98.4%;
   }
 }
 
