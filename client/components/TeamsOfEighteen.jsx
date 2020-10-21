@@ -111,9 +111,9 @@ class TeamsOfEighteen extends React.Component {
             <div className="team-divider col-9">AKL HEAT</div>
             <div className="standing col-3">{this.state.aklheat.w + '-' + this.state.aklheat.l}</div>
           </div>
-          <div className="team" onClick={() => this.changeTeam(this.state.mount)}>
+          <div className="team" onClick={() => this.changeTeam(this.state.filkiwi)}>
             <div className="team-divider col-9">FIL-KIWI</div>
-            <div className="standing col-3">{this.state.mount.w + '-' + this.state.mount.l}</div>
+            <div className="standing col-3">{this.state.filkiwi.w + '-' + this.state.filkiwi.l}</div>
           </div>
         </div>
         <div className="teams-block col-3">
