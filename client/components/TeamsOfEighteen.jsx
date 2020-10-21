@@ -152,9 +152,9 @@ class TeamsOfEighteen extends React.Component {
             <div className="team-divider col-9">PHENOM</div>
             <div className="standing col-3">{this.state.phenom.w + '-' + this.state.phenom.l}</div>
           </div>
-          <div className="team" onClick={() => this.changeTeam(this.state.ç)}>
+          <div className="team" onClick={() => this.changeTeam(this.state.jbing)}>
             <div className="team-divider col-9">JBING</div>
-            <div className="standing col-3">{this.state.tgif.w + '-' + this.state.tgif.l}</div>
+            <div className="standing col-3">{this.state.jbing.w + '-' + this.state.jbing.l}</div>
           </div>
           <div className="team" onClick={() => this.changeTeam(this.state.tgif)}>
             <div className="team-divider col-9">TGIF</div>
