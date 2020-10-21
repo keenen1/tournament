@@ -389,16 +389,13 @@ a {
   width: 100%;
   margin: auto;
 }
-.eighteen .pool, .twelve .pool, .eight .pool, .six .pool {
+.eighteen .pool, .twelve .pool, .eight .pool {
   font-size: 4vw;
 }
-.four .pool {
-  font-size: 3vw;
+.eighteen .teams-block .team, .twelve .teams-block .team, .eight .teams-block .team {
+  font-size: 2.5vw;
 }
-.eighteen .teams-block .team, .twelve .teams-block .team, .eight .teams-block .team, .six .teams-block .team {
-  font-size: 3.5vw;
-}
-.four .teams-block .team {
+.six .teams-block .team, .four .teams-block .team {
   font-size: 4vw;
 }
 .eighteen .teams-block .team, .twelve .teams-block .team, .eight .teams-block .team, .six .teams-block .team, .four .teams-block .team {
@@ -499,6 +496,9 @@ a {
   .teams-block div {
     text-shadow: none;
   }
+  .teams-block .team .team-divider {
+    font-size: 3vw;
+  }
 }
 
 /* OVERLAY MOBILE LANDSCAPE */
@@ -532,7 +532,7 @@ a {
   top: 50%;
   left: 50%;
   width: 50vw;
-  height: 50vw;
+  height: 45vw;
   background-color: rgb(39, 39, 39);
   border-radius: 20px;
   font-size: 5vw;
@@ -571,7 +571,7 @@ a {
   align-items: center;
   justify-content: center;
   background-color: rgb(80, 80, 80);
-  width: 60%;
+  width: 50%;
   padding:  2vw 2vw 2vw 2vw;
   position: fixed;
   top: 60%;
@@ -582,12 +582,12 @@ a {
 
 .player-list {
   display: block;
-  font-size: 2vw;
 }
 
 .player-list div {
   display: block;
-  font-size: 2vw;
+  font-size: 1.5vw;
+  height: 1.8vw;
 }
 
 /* HOME TABLET */
@@ -661,7 +661,7 @@ a {
 }
 
 /* OVERLAY TABLET LANDSCAPE */
-@media (max-height: 1024px) and (orientation: landscape) {
+@media (max-height: 1024px) and (max-width: 1366px) and (orientation: landscape) {
   #text {
     width: 60vw;
     height: 60vw;
