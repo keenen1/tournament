@@ -72,11 +72,11 @@ class TeamsOfTwelve extends React.Component {
         teamName: 'BARAKO EAST',
         teamPlayers: ['Nieven Virtucio', 'Christian Sison', 'Ronaldo Liwanag', 'Ed Tacang', 'Felipe Talaid', 'Dane Porras', 'Junar Zapata', 'Gerry Ruelo', 'Hermie Espinosa', 'Arnold Laro', 'Wendyl Ong', 'Randy Gabunada']
       },
-      jokers: {
+      auckland: {
         w: 0,
         l: 0,
-        teamName: 'JOKERS',
-        teamPlayers: ['TBC']
+        teamName: 'AUCKLAND',
+        teamPlayers: ['Gio Abaya', 'Ricky Adubal', 'Ben Repalda', 'Edison Peralta', 'Ino Plaza', 'Reyn de la Rosa', 'Bong Sepnio', 'Aldrich Alviar', 'Mike Magisa', 'Eric Elago']
       }
     }
     this.changeTeam = this.changeTeam.bind(this)
@@ -135,9 +135,9 @@ class TeamsOfTwelve extends React.Component {
             <div className="team-divider col-9">TGIF MAMBA</div>
             <div className="standing col-3">{this.state.tgif1.w + '-' + this.state.tgif1.l}</div>
           </div>
-          <div className="team" onClick={() => this.changeTeam(this.state.jokers)}>
-            <div className="team-divider col-9">JOKERS</div>
-            <div className="standing col-3">{this.state.jokers.w + '-' + this.state.jokers.l}</div>
+          <div className="team" onClick={() => this.changeTeam(this.state.auckland)}>
+            <div className="team-divider col-9">AUCKLAND</div>
+            <div className="standing col-3">{this.state.auckland.w + '-' + this.state.auckland.l}</div>
           </div>
         </div>
         <div className="teams-block col-4">
