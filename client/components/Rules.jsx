@@ -148,6 +148,11 @@ const Rules = () => {
           </li>
           <ul>
             <li>1. Players ejected from the game due to:</li>
+            <ul>
+              <li>(i) 2x Technical, 2x Unsportsmanlike or 1x ea Tech/Unsportsmanlike</li>
+              <li>(ii) 1x Disqualifying foul</li>
+              <li>(iii) 1x Assault against a player, referee and other officials</li>
+            </ul>
             <li>2. Players 2x Ejected from the Tournament</li>
             <li>
               <p>
