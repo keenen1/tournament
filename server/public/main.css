@@ -862,19 +862,43 @@ a {
   }
 }
 
+/* RULES */
 .rules-page {
-  height: 85%;
+  min-height: 85%;
   display: flex;
   align-items: center;
   justify-content: center;
   background-color: rgb(39, 39, 39);
 }
 
-.rules {
-  font-family: 'Montserrat', sans-serif;
-  color: rgb(2, 196, 235);
-  font-size: 8vw;
+.rules-content {
+  font-family: 'Roboto Condensed', sans-serif;
+  color: black;
+  text-align: left;
+  display: block;
+  background-color: white;
+  padding: 2vw 2vw 2vw 2vw;
+  max-height: 35vw;
+  overflow: scroll;
+  font-size: 1vw;
+}
+.rules-content h1 {
   text-align: center;
+  font-size: 3vw;
+}
+.rules-content h2 {
+  text-align: left;
+  font-size: 1.5vw;
+}
+.rules-content h3 {
+  text-align: left;
+  font-size: 1vw;
+}
+.rules-content li {
+  list-style: none;
+  text-align: left;
+  font-size: 1vw;
+  margin-top: 1vw;
 }
 
 /* RULES TABLET */
