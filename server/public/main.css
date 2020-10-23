@@ -864,7 +864,7 @@ a {
 
 /* RULES */
 .rules-page {
-  min-height: 85%;
+  height: 85%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -881,6 +881,8 @@ a {
   max-height: 35vw;
   overflow: scroll;
   font-size: 1vw;
+  border-bottom-left-radius: 20px;
+  border-top-right-radius: 20px;
 }
 .rules-content h1 {
   text-align: center;
@@ -900,33 +902,66 @@ a {
   font-size: 1vw;
   margin-top: 1vw;
 }
+.rules-content p {
+  font-size: 1vw;
+}
 
 /* RULES TABLET */
-@media screen and (max-width: 1024px) {
+@media (max-width: 1024px) and (orientation: portrait) {
   .rules-page {
     height: 85%;
   }
-  .rules {
-    font-size: 12vw;
+  .rules-content {
+    min-height: 90vw;
+  }
+  .rules-content h1 {
+    font-size: 3.5vw;
+  }
+  .rules-content h2 {
+    font-size: 2vw;
+  }
+  .rules-content h3 {
+    font-size: 1.8vw;
+  }
+  .rules-content li {
+    font-size: 1.8vw;
+  }
+  .rules-content p {
+    font-size: 1.8vw;
   }
 }
 
 /* RESULTS MOBILE */
-@media screen and (max-width: 420px) {
+@media (max-width: 420px) {
   .rules-page {
     height: 75%;
   }
-  .rules {
-    font-size: 12vw;
+  .rules-content {
+    min-height: 110vw;
+  }
+  .rules-content h1 {
+    font-size: 3.5vw;
+  }
+  .rules-content h2 {
+    font-size: 2vw;
+  }
+  .rules-content h3 {
+    font-size: 1.8vw;
+  }
+  .rules-content li {
+    font-size: 1.8vw;
+  }
+  .rules-content p {
+    font-size: 1.8vw;
   }
 }
 
 /* OVERLAY TABLET LANDSCAPE */
-@media (max-height: 1024px) and (orientation: landscape) {
-  .rules {
-    font-size: 12vw;
+/* @media (max-height: 1024px) and (orientation: landscape) {
+  .rules-content {
+    height: 60vw;
   }
-}
+} */
 
 /*//////////////////////////////////////////////////////////////////
 [ Table ]*/
