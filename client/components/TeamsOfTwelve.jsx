@@ -7,7 +7,7 @@ class TeamsOfTwelve extends React.Component {
       name: '',
       players: [],
       westPaMore: {
-        w: 0,
+        w: 1,
         l: 0,
         teamName: 'WEST PA MORE',
         teamPlayers: ['Marlon De Leon', 'Dennis Macahilig', 'Joven Martinez', 'Jonatahn Lagasca', 'Rolando Nicolas', 'Ronald Tongol', 'Edwin Elago', 'Eric Hansen', 'Ryan Apdian', 'Boboi Luzano', 'Jolly Concepcion', 'Jancy  Gregorio', 'Ferdinand Manuel', 'Jay Salonga', 'Alfredo Sinang', 'Ernesto Bautista']
@@ -26,19 +26,19 @@ class TeamsOfTwelve extends React.Component {
       },
       tgif2: {
         w: 0,
-        l: 0,
+        l: 1,
         teamName: 'TGIF MENTALITY',
         teamPlayers: ['Cedric David', 'Efren Arellano', 'Niño Balani', 'Totoy Asinas', 'Larry Asuncion', 'Ipe Martinez', 'Ramon Aporillo', 'Denis Antiporda', 'Roque Alea', 'Bambi Zaide', 'Glenn Petilla', 'Jayson de Guzman']
       },
       kiwiroof: {
-        w: 0,
+        w: 1,
         l: 0,
         teamName: 'KIWI ROOFING',
         teamPlayers: ['Jovit Naboa', 'Nestor Gamit', 'Third Osorio', 'Jambo Tabaquero', 'George Bautista', 'Fred danao', 'Elliot Zhornack', 'Randy da Silva', 'Edmond Quizon', 'Rodel Alan', 'Bong Quipte', 'Carlo Camus', 'Romel Bontongan', 'Nato Viray', 'Weni fernandez']
       },
       filkiwi: {
         w: 0,
-        l: 0,
+        l: 1,
         teamName: 'FIL-KIWI',
         teamPlayers: ['Rojun Canes', 'Jun Sarito', 'Paul Siao', 'Ross Barin', 'Gerryl Agnes', 'Noriel Montemar', 'BJ Bauzon', 'Stan Ang', 'Clarence Pinpin', 'Chad Dumalaon', 'Cris Ulan', 'Elmer Luriz', 'Brian Manangan', 'Ryan Vidar']
       },

@@ -11,117 +11,117 @@ const ResultsDayOne = () => {
 
           court1cat={'U9'}
           court1teamA={'FLAT BUSH'}
-          court1scoreA={0}
+          court1scoreA={24}
           court1teamB={'TGIF'}
-          court1scoreB={0}
+          court1scoreB={8}
 
           court2cat={'U9'}
           court2teamA={'UFCSA WEST'}
-          court2scoreA={0}
+          court2scoreA={9}
           court2teamB={'MAVS'}
-          court2scoreB={0}
+          court2scoreB={29}
 
           court3cat={'OP'}
           court3teamA={'JBING'}
-          court3scoreA={0}
+          court3scoreA={60}
           court3teamB={'TGIF'}
-          court3scoreB={0}
+          court3scoreB={31}
 
           court4cat={'U15'}
           court4teamA={'MAVS'}
-          court4scoreA={0}
+          court4scoreA={36}
           court4teamB={'UFCSA NORTH'}
-          court4scoreB={0}
+          court4scoreB={17}
 
           court5cat={'35A'}
           court5teamA={'BARAKO EAST'}
-          court5scoreA={0}
+          court5scoreA={36}
           court5teamB={'SOUTH AKL'}
-          court5scoreB={0}
+          court5scoreB={47}
 
           court6cat={'35A'}
           court6teamA={'WEST PA MORE'}
-          court6scoreA={0}
+          court6scoreA={49}
           court6teamB={'WEST SIDE'}
-          court6scoreB={0}
+          court6scoreB={36}
         />
         <ResultsHourly
           hour={'9:50 AM'}
 
           court1cat={'OP'}
           court1teamA={'UNKNOWN'}
-          court1scoreA={0}
+          court1scoreA={61}
           court1teamB={'FIL-KIWI'}
-          court1scoreB={0}
+          court1scoreB={48}
 
           court2cat={'OP'}
           court2teamA={'MOUNT SISIG'}
-          court2scoreA={0}
+          court2scoreA={37}
           court2teamB={'BRICK CITY'}
-          court2scoreB={0}
+          court2scoreB={32}
 
           court3cat={'U11'}
           court3teamA={'FLAT BUSH'}
-          court3scoreA={0}
+          court3scoreA={25}
           court3teamB={'MAVS'}
-          court3scoreB={0}
+          court3scoreB={18}
 
           court4cat={'U11'}
           court4teamA={'TGIF'}
-          court4scoreA={0}
+          court4scoreA={11}
           court4teamB={'UFCSA WEST'}
-          court4scoreB={0}
+          court4scoreB={34}
 
           court5cat={'40A'}
           court5teamA={'WEST PA MORE'}
-          court5scoreA={0}
+          court5scoreA={45}
           court5teamB={'TGIF MENTALITY'}
-          court5scoreB={0}
+          court5scoreB={22}
 
           court6cat={'40A'}
           court6teamA={'KIWI ROOFING'}
-          court6scoreA={0}
+          court6scoreA={37}
           court6teamB={'FIL-KIWI'}
-          court6scoreB={0}
+          court6scoreB={30}
         />
         <ResultsHourly
           hour={'10:40 AM'}
 
           court1cat={'U13'}
           court1teamA={'TGIF'}
-          court1scoreA={0}
+          court1scoreA={11}
           court1teamB={'UFCSA WEST A'}
-          court1scoreB={0}
+          court1scoreB={92}
 
           court2cat={'U13'}
           court2teamA={'UFCSA WEST B'}
-          court2scoreA={0}
+          court2scoreA={12}
           court2teamB={'MAVS'}
-          court2scoreB={0}
+          court2scoreB={60}
 
           court3cat={'OP'}
           court3teamA={'AZTIGS BETA'}
-          court3scoreA={0}
+          court3scoreA={84}
           court3teamB={'AUCKLANDER'}
-          court3scoreB={0}
+          court3scoreB={52}
 
           court4cat={'OP'}
           court4teamA={'PHENOM'}
-          court4scoreA={0}
+          court4scoreA={46}
           court4teamB={'TGIF'}
-          court4scoreB={0}
+          court4scoreB={30}
 
           court5cat={'35A'}
           court5teamA={'AZTIGS 35'}
-          court5scoreA={0}
+          court5scoreA={42}
           court5teamB={'BRICK CITY'}
-          court5scoreB={0}
+          court5scoreB={50}
 
           court6cat={'40A'}
           court6teamA={'TGIF MAMBA'}
-          court6scoreA={0}
+          court6scoreA={60}
           court6teamB={'JOKERS'}
-          court6scoreB={0}
+          court6scoreB={36}
         />
         <ResultsHourly
           hour={'11:30 AM'}

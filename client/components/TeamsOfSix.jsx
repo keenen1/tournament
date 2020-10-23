@@ -19,14 +19,14 @@ class TeamsOfSix extends React.Component {
         teamPlayers: ['Andrei Manio', 'Sebastian Alan', 'Ralph Ocfemia', 'Mikal Maiquez', 'Arien Sepnio', 'David Villa Ignacio', 'Gerald Babatogon', 'Kendrick Corpuz', 'Matt Fernandez', 'Robbie Peter', 'Zhymon Moreno', 'Malachi Book', 'Cedric Valencia']
       },
       mavs: {
-        w: 0,
+        w: 1,
         l: 0,
         teamName: 'MAVS',
         teamPlayers: ['Carlo Baltazar', 'Moses Banno', 'Justin Calimbas', 'Claro Calvo', 'Tomas Caluag', 'Jodek Lopez', 'Joaquin Marinas', 'Ethan Garcia', 'Gabriel Peralta', 'Kimi Realon', 'Gabby Remedios', 'Jeremy Sasis', 'Jaden Latay', 'Kurt Pasturan', 'Kryz Mendoza']
       },
       ufcsanorth: {
         w: 0,
-        l: 0,
+        l: 1,
         teamName: 'UFCSA NORTH',
         teamPlayers: ['Albert Flores', 'Bobbie Atendido', 'Bien Pasco', 'Karlo Bernardo', 'Adriel Javate', 'Joel Vicente', 'Andre Atendido', 'Angelo Abaya', 'Gian Mohinani', 'John Villanueva', 'Jhey Jamelano']
       },

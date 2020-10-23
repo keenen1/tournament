@@ -16,12 +16,12 @@ class TeamsOfEight extends React.Component {
       },
       barako: {
         w: 0,
-        l: 0,
+        l: 1,
         teamName: 'BARAKO',
         teamPlayers: ['RJ Jalit', 'Macoy Pineda', 'Kent Espana', 'Josh Lucero', 'Frederick Kampitan', 'Ruel Caceres', 'Elmar Supilanas', 'Raffy Buenaobra', 'Leopoldo Diga', 'Lawrence Medel']
       },
       southakl: {
-        w: 0,
+        w: 1,
         l: 0,
         teamName: 'SOUTH AKL',
         teamPlayers: ['Jay Mariano', 'Jun Lacson', 'Jab Licera', 'Buboy Nebria', 'Pawex Atillo', 'Kicko Cortez', 'Gregor Lazo', 'Aj Cabugay', 'Jason Villagracia', 'Jette Bilog', 'Mark Sitchon', 'Paul Hallare', 'Ardee Llasos', 'Kenneth Navayra', 'Hebie Emralino']
@@ -45,14 +45,14 @@ class TeamsOfEight extends React.Component {
         teamPlayers: ['Fidel Manelese', 'Jeffrey Tan', 'Carlo Spenser', 'Rhaym Hipolito', 'Gerome Ribu', 'Ballerda Chris', 'Robert Turingan', 'Jerhone Valledore', 'Abamonga Jesse', 'Nino Solon', 'Olivar Emmanuel', 'Goldie Perez']
       },
       westpa: {
-        w: 0,
+        w: 1,
         l: 0,
         teamName: 'WEST PA MORE',
         teamPlayers: ['Alfred Sinang', 'QF Panganiban', 'Marlon de Leon', 'Arvin Renosa', 'PJ Umayam', 'Zander Peroja', 'Ely Oculam', 'Ryan Facelo', 'Andrew Cantiller', 'Juan Umandap', 'Alvin Mendoza', 'Marlon Turno', 'Mar Joe Alcantara']
       },
       westside: {
         w: 0,
-        l: 0,
+        l: 1,
         teamName: 'WEST SIDE BALLERS',
         teamPlayers: ['CJ Famo', 'Enrique Dimdim', 'Benjamin Plaras', 'Joven Mandac Andes', 'Boyong Freeman', 'Vin Scent', 'MC Calma', 'Marlan Pedutem', 'Ferds Ba-Sil', 'Allan Dumrique', 'Mark Fernandico']
       }

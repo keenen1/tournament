@@ -7,7 +7,7 @@ class TeamsOfEighteen extends React.Component {
       name: '',
       players: [],
       aztigs: {
-        w: 0,
+        w: 1,
         l: 0,
         teamName: 'AZTIGS',
         teamPlayers: ['Keenen Leyson', 'Kenneth Tuffin', 'Joseph Nunag', 'Aaron Davis', 'Taine Davis', 'Reimar Cruz', 'Ryan Herrera', 'John Biluno', 'Dennis Belmonte', 'Nikko Malonzo', 'Regie Malonzo', 'Brian Bugay', 'Jonathan Tila']
@@ -20,18 +20,18 @@ class TeamsOfEighteen extends React.Component {
       },
       tgif: {
         w: 0,
-        l: 0,
+        l: 1,
         teamName: 'TGIF',
         teamPlayers: ['Denrick arellano', 'Nicole Del Rosario', 'Franz Blanco', 'Harley De Rivera', 'Jed Ocampo', 'Josh Rivera', 'Kevin Lucas', 'Kim Estonactor', 'Rod Reyes King', 'Vincent Amiscua']
       },
       jbing: {
-        w: 0,
+        w: 1,
         l: 0,
         teamName: 'JBING',
         teamPlayers: ['Tyler Martin', 'TJ Abdon', 'James Villoria', 'Matthew Malingin', 'Miguel Benjamin', 'Jeff Lapinig', 'Gio Tiongson', 'Marc Malingin', 'Cj Vellon', 'Eric Guiao', 'Marky Tipanero', 'Jasper Lapinig', 'John Mongado', 'Ezekiel Flores']
       },
       mount: {
-        w: 0,
+        w: 1,
         l: 0,
         teamName: 'MOUNT SISIG',
         teamPlayers: ['Dexter Cantor', 'Lucero', 'Caburnay', 'Bjay Sagrado', 'Rick Perturbos', 'Rey Burgos', 'Ancla', 'Jeremy wong Waay', 'Cruz ', 'Castro', 'Vern', 'JDREW']
@@ -44,12 +44,12 @@ class TeamsOfEighteen extends React.Component {
       },
       brick: {
         w: 0,
-        l: 0,
+        l: 1,
         teamName: 'BRICK CITY',
         teamPlayers: ['Franz Lim', 'Jan Latosa', 'Daryl Burias', 'Patrick Burias', 'Josh Santos', 'Alex Santos', 'Eron Caballes', 'Andre Palomares', 'Ken Ganzan', 'Jordan Florian', 'Matthew Marcelo', 'Daniel De Silva', 'Richard Galang', 'Randy Sjafrie', 'Joshua De Silva']
       },
       unknown: {
-        w: 0,
+        w: 1,
         l: 0,
         teamName: 'UNKNOWN',
         teamPlayers: ['Eric Hansen', 'Aldwin Alvarez', 'Patrick Maagdenberg', 'Emmanuel Maagdenberg', 'Edward Maagdenberg', 'JD Tagimacruz', 'John Fabian', 'Ross Ganzan', 'Jordan Perez', 'Aldrein Sepnio', 'Mark Arriba', 'Robert Encarnacion', 'Mark Torredes', 'Mike Becker']
@@ -68,7 +68,7 @@ class TeamsOfEighteen extends React.Component {
       },
       filkiwi: {
         w: 0,
-        l: 0,
+        l: 1,
         teamName: 'FIL-KIWI',
         teamPlayers: ['Eric Book', 'Von Corpuz', 'Franz Tipon', 'Bry Padrigan', 'Mads Pascua', 'Julius Ingal', 'Roger Beringuel', 'Carlo Manahan', 'Sam Seneido', 'Jungler Bracero', 'Kennedy Magsilang', 'Rodel Roma']
       },
