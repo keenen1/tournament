@@ -7,19 +7,13 @@ class TeamsOfSix extends React.Component {
       name: '',
       players: [],
       mavs: {
-        w: 1,
+        w: 4,
         l: 0,
         teamName: 'MAVS A',
         teamPlayers: ['Carlo Baltazar', 'Moses Banno', 'Justin Calimbas', 'Claro Calvo', 'Tomas Caluag', 'Jodek Lopez', 'Joaquin Marinas', 'Ethan Garcia', 'Gabriel Peralta', 'Kimi Realon', 'Gabby Remedios', 'Jeremy Sasis', 'Jaden Latay', 'Kurt Pasturan', 'Kryz Mendoza']
       },
-      mavsb: {
-        w: 1,
-        l: 0,
-        teamName: 'MAVS B',
-        teamPlayers: []
-      },
       ufcsawest: {
-        w: 1,
+        w: 2,
         l: 1,
         teamName: 'UFCSA WEST',
         teamPlayers: ['Andrei Manio', 'Sebastian Alan', 'Ralph Ocfemia', 'Mikal Maiquez', 'Arien Sepnio', 'David Villa Ignacio', 'Gerald Babatogon', 'Kendrick Corpuz', 'Matt Fernandez', 'Robbie Peter', 'Zhymon Moreno', 'Malachi Book', 'Cedric Valencia']
@@ -32,13 +26,13 @@ class TeamsOfSix extends React.Component {
       },
       freelancer: {
         w: 1,
-        l: 1,
+        l: 2,
         teamName: 'FREE LANCER',
         teamPlayers: ['Lance Sta Barbara', 'Reuben Capati', 'Marvin Capati', 'Raynald Afable', 'Edward Vallejos', 'Matthew Pangilinan', 'Luis de Guzman', 'Zyril Manquil', 'Dhenz Bryll Alajid', 'Yam Tabudlong']
       },
       tgif: {
         w: 0,
-        l: 2,
+        l: 3,
         teamName: 'TGIF',
         teamPlayers: ['Geane Andrade', 'Johnray Biasura', 'Steven Biasura', 'Franchesca Calutan', 'Enrico De Guzman', 'EJ Maga', 'Raghnall Villalonga', 'Marfi Villar', 'Anton Zaide', 'Miggy Ricafrente', 'Emmanuel Petilla']
       }
@@ -63,10 +57,6 @@ class TeamsOfSix extends React.Component {
           <div className="team" onClick={() => this.changeTeam(this.state.mavs)}>
             <div className="team-divider col-9">PINOY MAVS A</div>
             <div className="standing col-3">{this.state.mavs.w + '-' + this.state.mavs.l}</div>
-          </div>
-          <div className="team" onClick={() => this.changeTeam(this.state.mavsb)}>
-            <div className="team-divider col-9">PINOY MAVS B</div>
-            <div className="standing col-3">{this.state.mavsb.w + '-' + this.state.mavsb.l}</div>
           </div>
           <div className="team" onClick={() => this.changeTeam(this.state.ufcsawest)}>
             <div className="team-divider col-9">UFCSA WEST</div>

@@ -275,9 +275,9 @@ const ResultsDayOne = () => {
 
           court6cat={'U13'}
           court6teamA={'MAVS'}
-          court6scoreA={52}
+          court6scoreA={24}
           court6teamB={'UFCSA WEST A'}
-          court6scoreB={24}
+          court6scoreB={52}
         />
         <ResultsHourly
           hour={'3:20 PM'}

@@ -67,20 +67,20 @@ class TeamsOfFour extends React.Component {
         {
           teamName: 'UFCSA WEST EAGLES',
           teamPlayers: ['Matti Coronel', 'Kyle Buenaflor', 'Laurence Dungan', 'TJ Laserna', 'Ronnie Juan', 'Sway Tantingco', 'Andre Bautista', 'Teofilo Martinez'],
-          w: 2,
+          w: 3,
           l: 0
-        },
-        {
-          teamName: 'UFCSA WEST TIGERS',
-          teamPlayers: ['Damien Chiu', 'Lily Ermita', 'Kurt Mendoza', 'Airus Razon', 'Ashton Ermita', 'Matthew Martin', 'Patrick Ocfemia', 'Rhams Dela Torre'],
-          w: 1,
-          l: 1
         },
         {
           teamName: 'MAVS',
           teamPlayers: ['Justin Lacsi', 'Fonci Leyesa', 'Enzo Lopez', 'Ivan Basobas', 'Bryan Bautista', 'caleb Mendoza', 'Seb Sanchez', 'Julian Viloria', 'Eon Yap', 'Keziah Gorme', 'Pia Rodas', 'Francis Bautista'],
           w: 1,
           l: 1
+        },
+        {
+          teamName: 'UFCSA WEST TIGERS',
+          teamPlayers: ['Damien Chiu', 'Lily Ermita', 'Kurt Mendoza', 'Airus Razon', 'Ashton Ermita', 'Matthew Martin', 'Patrick Ocfemia', 'Rhams Dela Torre'],
+          w: 1,
+          l: 2
         },
         {
           teamName: 'TGIF',
@@ -120,20 +120,20 @@ class TeamsOfFour extends React.Component {
         {
           teamName: 'MAVS',
           teamPlayers: ['Aidan Cruz', 'Mateo Enricoso', 'Rafa Gayatin', 'Amihr Kuhutan', 'Kurt Pulac', 'Hugh Warren'],
-          w: 2,
+          w: 3,
           l: 0
-        },
-        {
-          teamName: 'FLAT BUSH',
-          teamPlayers: ['Chase Lardizabal', 'Nylbry Castillo', 'Liam Crispino', 'Manuel Magallanes', 'Vic Soretes', 'Liam Vidar', 'Trisha Penaflor', 'Mikhail Magayanes'],
-          w: 1,
-          l: 1
         },
         {
           teamName: 'UFCSA WEST',
           teamPlayers: ['Edward Yabut', 'Jarl Turno', 'Lorenzo Chuo', 'Nathan Coronel', 'Job Saberon', 'Luke De Guzman', 'Tomas Agustin', 'Kobe Edrada', 'Charlie Duncan', 'Russel Hernandez'],
           w: 1,
           l: 1
+        },
+        {
+          teamName: 'FLAT BUSH',
+          teamPlayers: ['Chase Lardizabal', 'Nylbry Castillo', 'Liam Crispino', 'Manuel Magallanes', 'Vic Soretes', 'Liam Vidar', 'Trisha Penaflor', 'Mikhail Magayanes'],
+          w: 1,
+          l: 2
         },
         {
           teamName: 'TGIF',
