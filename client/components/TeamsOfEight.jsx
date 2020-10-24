@@ -34,12 +34,12 @@ class TeamsOfEight extends React.Component {
       },
       aztigs: {
         w: 0,
-        l: 0,
+        l: 1,
         teamName: 'AZTIGS 35',
         teamPlayers: ['Davey Vinluan', 'PJY Ollimsoh', 'Elger De Guzman', 'Jep Lat', 'Garry', 'Menax Go', 'Adrian Bdunk', 'Jeric Mataverde', 'Leandro Jose', 'John Rey Sequina', 'Ken Ken', 'Rhandie Herrera']
       },
       brick: {
-        w: 0,
+        w: 1,
         l: 0,
         teamName: 'BRICK CITY',
         teamPlayers: ['Fidel Manelese', 'Jeffrey Tan', 'Carlo Spenser', 'Rhaym Hipolito', 'Gerome Ribu', 'Ballerda Chris', 'Robert Turingan', 'Jerhone Valledore', 'Abamonga Jesse', 'Nino Solon', 'Olivar Emmanuel', 'Goldie Perez']
