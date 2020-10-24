@@ -7,14 +7,14 @@ class TeamsOfTwelve extends React.Component {
       name: '',
       players: [],
       westPaMore: {
-        w: 1,
+        w: 2,
         l: 0,
         teamName: 'WEST PA MORE',
         teamPlayers: ['Marlon De Leon', 'Dennis Macahilig', 'Joven Martinez', 'Jonatahn Lagasca', 'Rolando Nicolas', 'Ronald Tongol', 'Edwin Elago', 'Eric Hansen', 'Ryan Apdian', 'Boboi Luzano', 'Jolly Concepcion', 'Jancy  Gregorio', 'Ferdinand Manuel', 'Jay Salonga', 'Alfredo Sinang', 'Ernesto Bautista']
       },
       mavs: {
         w: 1,
-        l: 0,
+        l: 1,
         teamName: 'MAVS',
         teamPlayers: ['George Dio', 'Allan Alombro', 'Jake Quilantang', 'Ricky Alano', 'Erick Basobas', 'Jimmy Tan', 'Mon Banno', 'Michael Salomon', 'Randy Bulaong', 'Ralph Gayatin', 'Jacob Terrafranca', 'Junar Zapata', 'Joel Yulo']
       },
@@ -31,7 +31,7 @@ class TeamsOfTwelve extends React.Component {
         teamPlayers: ['Cedric David', 'Efren Arellano', 'Niño Balani', 'Totoy Asinas', 'Larry Asuncion', 'Ipe Martinez', 'Ramon Aporillo', 'Denis Antiporda', 'Roque Alea', 'Bambi Zaide', 'Glenn Petilla', 'Jayson de Guzman']
       },
       kiwiroof: {
-        w: 1,
+        w: 2,
         l: 0,
         teamName: 'KIWI ROOFING',
         teamPlayers: ['Jovit Naboa', 'Nestor Gamit', 'Third Osorio', 'Jambo Tabaquero', 'George Bautista', 'Fred danao', 'Elliot Zhornack', 'Randy da Silva', 'Edmond Quizon', 'Rodel Alan', 'Bong Quipte', 'Carlo Camus', 'Romel Bontongan', 'Nato Viray', 'Weni fernandez']
@@ -44,25 +44,25 @@ class TeamsOfTwelve extends React.Component {
       },
       southakl: {
         w: 1,
-        l: 0,
+        l: 1,
         teamName: 'SOUTH AKL',
         teamPlayers: ['Ray Capal', 'Ro Pamisal', 'Will Esperanza', 'Jhong Calsona', 'Gibert Cayanan', 'Jovit Vidal', 'Jorden Armacio', 'Ben Soriano', 'Alex Rivera', 'Live Bana', 'Mark Sitchon', 'Kicko Cortez', 'Leon Nebria', 'Larry Draveno', 'Herbie Emralino']
       },
       sinulog: {
-        w: 1,
+        w: 2,
         l: 0,
         teamName: 'UFCSA SINULOG',
         teamPlayers: ['Bob Miranda', 'Ross Ganzan', 'Alex Andales', 'Ramel Maligro', 'Nani Javate', 'Robert Turingan', 'Eric Braga', 'Tabudlong', 'Gilbert Tabora', 'Nino Solon', 'Joel Grafil', 'Marlon Ambion', 'Wennie Fernandez', 'Richard Cortes', 'Ivan Canlas', 'Jesse Abamonga']
       },
       aztigs: {
-        w: 1,
+        w: 2,
         l: 0,
         teamName: 'AZTIGS',
         teamPlayers: ['Chicoy Leyson', 'Robbie Layao', 'Emman Sta Barbara', 'Rey Molina', 'Xean Moral', 'Grimson Treyes', 'Alan Almencion', 'Jhun Dalicun', 'Edbert Ancheta', 'Jhonny Arteza', 'Fidel Mabanta', 'Glenn Cruz', 'Marc Co', 'Rhandie Herrera']
       },
       ufcsawest: {
         w: 1,
-        l: 0,
+        l: 1,
         teamName: 'UFCSA WEST',
         teamPlayers: ['Danny Sayat', 'Jun Alan', 'Michael Victa', 'Jun Manio', 'Dudz Pugosa', 'Rey Romales', 'Ernesto Bundalian', 'Karol Kwan Andrada', 'Chris Dela Torres', 'Rey Ocfemia', 'Bojo Ermita', 'Ricardo Luklukan', 'Thor Tejano', 'Joey Villa Ignacio']
       },
@@ -74,7 +74,7 @@ class TeamsOfTwelve extends React.Component {
       },
       auckland: {
         w: 0,
-        l: 1,
+        l: 2,
         teamName: 'AUCKLAND',
         teamPlayers: ['Gio Abaya', 'Ricky Adubal', 'Ben Repalda', 'Edison Peralta', 'Ino Plaza', 'Reyn de la Rosa', 'Bong Sepnio', 'Aldrich Alviar', 'Mike Magisa', 'Eric Elago']
       }
@@ -116,13 +116,13 @@ class TeamsOfTwelve extends React.Component {
             <div className="team-divider col-9">KIWI ROOFING</div>
             <div className="standing col-3">{this.state.kiwiroof.w + '-' + this.state.kiwiroof.l}</div>
           </div>
-          <div className="team" onClick={() => this.changeTeam(this.state.filkiwi)}>
-            <div className="team-divider col-9">FIL-KIWI</div>
-            <div className="standing col-3">{this.state.filkiwi.w + '-' + this.state.filkiwi.l}</div>
-          </div>
           <div className="team" onClick={() => this.changeTeam(this.state.southakl)}>
             <div className="team-divider col-9">SOUTH AKL</div>
             <div className="standing col-3">{this.state.southakl.w + '-' + this.state.southakl.l}</div>
+          </div>
+          <div className="team" onClick={() => this.changeTeam(this.state.filkiwi)}>
+            <div className="team-divider col-9">FIL-KIWI</div>
+            <div className="standing col-3">{this.state.filkiwi.w + '-' + this.state.filkiwi.l}</div>
           </div>
         </div>
         <div className="teams-block col-4">

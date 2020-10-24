@@ -10,7 +10,7 @@ class TeamsOfEight extends React.Component {
       l: 0,
       unknown: {
         w: 0,
-        l: 1,
+        l: 2,
         teamName: 'UNKNOWN',
         teamPlayers: ['Eric Hansen', 'Perry Salas', 'Kerby Mendoza', 'George Gallos', 'Macao Kibtiani', 'Marc Arriba', 'Reil Abapo', 'Mark Torredes', 'Bjay Sagrado', 'DC Manuel', 'Jhay Salonga']
       },
@@ -27,7 +27,7 @@ class TeamsOfEight extends React.Component {
         teamPlayers: ['Jay Mariano', 'Jun Lacson', 'Jab Licera', 'Buboy Nebria', 'Pawex Atillo', 'Kicko Cortez', 'Gregor Lazo', 'Aj Cabugay', 'Jason Villagracia', 'Jette Bilog', 'Mark Sitchon', 'Paul Hallare', 'Ardee Llasos', 'Kenneth Navayra', 'Hebie Emralino']
       },
       mapua: {
-        w: 1,
+        w: 2,
         l: 0,
         teamName: 'MAPUA CARDINALS',
         teamPlayers: ['Donovan Bornilla', 'Ranville Marmeto', 'Edbert Ancheta', 'Mike Catapang', 'Herbert Bolneo', 'Rico Catilo', 'Rey Molina', 'Joey Tabuli', 'Rolando Rivera', 'Ronald Padilla', 'Peers Jardiel', 'Raymund Perfinan', 'Allan Alombro']
@@ -75,14 +75,6 @@ class TeamsOfEight extends React.Component {
       <div className="eight col-12">
         <div className="teams-block col-6">
           <div className="pool">POOL A</div>
-          <div className="team" onClick={() => this.changeTeam(this.state.unknown)}>
-            <div className="team-divider col-9">UNKNOWN</div>
-            <div className="standing col-3">{this.state.unknown.w + '-' + this.state.unknown.l}</div>
-          </div>
-          <div className="team" onClick={() => this.changeTeam(this.state.barako)}>
-            <div className="team-divider col-9">BARAKO EAST</div>
-            <div className="standing col-3">{this.state.barako.w + '-' + this.state.barako.l}</div>
-          </div>
           <div className="team" onClick={() => this.changeTeam(this.state.southakl)}>
             <div className="team-divider col-9">SOUTH AKL</div>
             <div className="standing col-3">{this.state.southakl.w + '-' + this.state.southakl.l}</div>
@@ -91,16 +83,24 @@ class TeamsOfEight extends React.Component {
             <div className="team-divider col-9">MAPUA CARDINALS</div>
             <div className="standing col-3">{this.state.mapua.w + '-' + this.state.mapua.l}</div>
           </div>
+          <div className="team" onClick={() => this.changeTeam(this.state.unknown)}>
+            <div className="team-divider col-9">UNKNOWN</div>
+            <div className="standing col-3">{this.state.unknown.w + '-' + this.state.unknown.l}</div>
+          </div>
+          <div className="team" onClick={() => this.changeTeam(this.state.barako)}>
+            <div className="team-divider col-9">BARAKO EAST</div>
+            <div className="standing col-3">{this.state.barako.w + '-' + this.state.barako.l}</div>
+          </div>
         </div>
         <div className="teams-block col-6">
           <div className="pool">POOL B</div>
-          <div className="team" onClick={() => this.changeTeam(this.state.aztigs)}>
-            <div className="team-divider col-9">AZTIGS 35</div>
-            <div className="standing col-3">{this.state.aztigs.w + '-' + this.state.aztigs.l}</div>
-          </div>
           <div className="team" onClick={() => this.changeTeam(this.state.brick)}>
             <div className="team-divider col-9">BRICK CITY</div>
             <div className="standing col-3">{this.state.brick.w + '-' + this.state.brick.l}</div>
+          </div>
+          <div className="team" onClick={() => this.changeTeam(this.state.aztigs)}>
+            <div className="team-divider col-9">AZTIGS 35</div>
+            <div className="standing col-3">{this.state.aztigs.w + '-' + this.state.aztigs.l}</div>
           </div>
           <div className="team" onClick={() => this.changeTeam(this.state.westpa)}>
             <div className="team-divider col-9">WEST PA MORE</div>

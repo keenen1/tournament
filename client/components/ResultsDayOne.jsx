@@ -284,117 +284,117 @@ const ResultsDayOne = () => {
 
           court1cat={'U19'}
           court1teamA={'OUA'}
-          court1scoreA={0}
+          court1scoreA={22}
           court1teamB={'MAVS'}
-          court1scoreB={0}
+          court1scoreB={37}
 
           court2cat={'U17'}
           court2teamA={'TGIF'}
-          court2scoreA={0}
+          court2scoreA={20}
           court2teamB={'UFCSA NORTH'}
-          court2scoreB={0}
+          court2scoreB={30}
 
           court3cat={'OP'}
           court3teamA={'MOUNT SISIG'}
-          court3scoreA={0}
+          court3scoreA={43}
           court3teamB={'PINOY PROPERTY'}
-          court3scoreB={0}
+          court3scoreB={31}
 
           court4cat={'35A'}
           court4teamA={'UNKNOWN'}
-          court4scoreA={0}
+          court4scoreA={39}
           court4teamB={'MAPUA CARDINALS'}
-          court4scoreB={0}
+          court4scoreB={50}
 
           court5cat={'OP'}
           court5teamA={'WOW'}
-          court5scoreA={0}
+          court5scoreA={64}
           court5teamB={'AUCKLANDER'}
-          court5scoreB={0}
+          court5scoreB={48}
 
           court6cat={'U13'}
           court6teamA={'TGIF'}
-          court6scoreA={0}
+          court6scoreA={17}
           court6teamB={'UFCSA WEST B'}
-          court6scoreB={0}
+          court6scoreB={35}
         />
         <ResultsHourly
           hour={'4:10 PM'}
 
           court1cat={'OP'}
           court1teamA={'PHENOM'}
-          court1scoreA={0}
+          court1scoreA={48}
           court1teamB={'JBING'}
-          court1scoreB={0}
+          court1scoreB={43}
 
           court2cat={'OP'}
           court2teamA={'TGIF'}
-          court2scoreA={0}
+          court2scoreA={41}
           court2teamB={'SLAYERS'}
-          court2scoreB={0}
+          court2scoreB={39}
 
           court3cat={'40A'}
           court3teamA={'AZTIGS'}
-          court3scoreA={0}
+          court3scoreA={53}
           court3teamB={'UFCSA WEST'}
-          court3scoreB={0}
+          court3scoreB={45}
 
           court4cat={'40A'}
           court4teamA={'JOKER'}
-          court4scoreA={0}
+          court4scoreA={41}
           court4teamB={'UFCSA SINULOG'}
-          court4scoreB={0}
+          court4scoreB={75}
 
           court5cat={'40A'}
           court5teamA={'MAVS'}
-          court5scoreA={0}
+          court5scoreA={31}
           court5teamB={'WEST PA MORE'}
-          court5scoreB={0}
+          court5scoreB={35}
 
           court6cat={'40A'}
           court6teamA={'SOUTH AKL'}
-          court6scoreA={0}
+          court6scoreA={44}
           court6teamB={'KIWI ROOFING'}
-          court6scoreB={0}
+          court6scoreB={46}
         />
         <ResultsHourly
           hour={'5:00 PM'}
 
           court1cat={'U17'}
           court1teamA={'UFCSA NORTH'}
-          court1scoreA={0}
+          court1scoreA={39}
           court1teamB={'MAVS'}
-          court1scoreB={0}
+          court1scoreB={28}
 
           court2cat={'U15'}
           court2teamA={'TGIF'}
-          court2scoreA={0}
+          court2scoreA={20}
           court2teamB={'MAVS'}
-          court2scoreB={0}
+          court2scoreB={39}
 
           court3cat={'OP'}
           court3teamA={'WOW'}
-          court3scoreA={0}
+          court3scoreA={37}
           court3teamB={'AZTIGS BETA'}
-          court3scoreB={0}
+          court3scoreB={46}
 
           court4cat={'U19'}
           court4teamA={'AZTIGS DELTA'}
-          court4scoreA={0}
+          court4scoreA={60}
           court4teamB={'UFCSA WEST'}
-          court4scoreB={0}
+          court4scoreB={33}
 
           court5cat={'U15'}
           court5teamA={'UFCSA NORTH'}
-          court5scoreA={0}
+          court5scoreA={37}
           court5teamB={'FREE LANCER'}
-          court5scoreB={0}
+          court5scoreB={32}
 
           court6cat={'OP'}
           court6teamA={'UNKNOWN'}
-          court6scoreA={0}
+          court6scoreA={61}
           court6teamB={'AKL HEAT'}
-          court6scoreB={0}
+          court6scoreB={39}
         />
       </div>
     </>
