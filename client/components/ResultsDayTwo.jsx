@@ -127,27 +127,27 @@ const ResultsDayTwo = () => {
           hour={'11:30 AM'}
 
           court1cat={'OP'}
-          court1teamA={'QUARTER'}
+          court1teamA={'UNKNOWN'}
           court1scoreA={0}
-          court1teamB={'FINALS'}
+          court1teamB={'PINOY PROPERTY'}
           court1scoreB={0}
 
           court2cat={'OP'}
-          court2teamA={'QUARTER'}
+          court2teamA={'MOUNT SISIG'}
           court2scoreA={0}
-          court2teamB={'FINALS'}
+          court2teamB={'(TBC)'}
           court2scoreB={0}
 
           court3cat={'OP'}
-          court3teamA={'QUARTER'}
+          court3teamA={'AZTIGS BETA'}
           court3scoreA={0}
-          court3teamB={'FINALS'}
+          court3teamB={'JBING'}
           court3scoreB={0}
 
           court4cat={'OP'}
-          court4teamA={'QUARTER'}
+          court4teamA={'WOW'}
           court4scoreA={0}
-          court4teamB={'FINALS'}
+          court4teamB={'PHENOM'}
           court4scoreB={0}
 
           court5cat={'U15'}
@@ -160,27 +160,27 @@ const ResultsDayTwo = () => {
           hour={'12:20 PM'}
 
           court1cat={'40A'}
-          court1teamA={'QUARTER'}
+          court1teamA={'SOUTH AKL'}
           court1scoreA={0}
-          court1teamB={'FINALS'}
+          court1teamB={'WEST PA MORE'}
           court1scoreB={0}
 
           court2cat={'40A'}
-          court2teamA={'QUARTER'}
+          court2teamA={'MAVS'}
           court2scoreA={0}
-          court2teamB={'FINALS'}
+          court2teamB={'KIWI ROOFING'}
           court2scoreB={0}
 
           court3cat={'40A'}
-          court3teamA={'QUARTER'}
+          court3teamA={'UFCSA WEST'}
           court3scoreA={0}
-          court3teamB={'FINALS'}
+          court3teamB={'UFCSA SINULOG'}
           court3scoreB={0}
 
           court4cat={'40A'}
-          court4teamA={'QUARTER'}
+          court4teamA={'TGIF'}
           court4scoreA={0}
-          court4teamB={'FINALS'}
+          court4teamB={'AZTIGS'}
           court4scoreB={0}
 
           court5cat={'U9'}

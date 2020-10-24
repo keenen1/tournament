@@ -116,20 +116,17 @@ const DayTwo = () => {
                   <tr className="row100">
                     <td className="column100 column1" data-column="column1">11:30 AM</td>
                     <td className="column100 column2" data-column="column2">
-                      <div>OPEN</div>
-                      <div>QUARTER FINALS</div>
+                      <div>UNKNOWN v</div>
+                      <div>PINOY PROPERTY</div>
                     </td>
                     <td className="column100 column3" data-column="column3">
-                      <div>OPEN</div>
-                      <div>QUARTER FINALS</div>
+                      <div>MOUNT SISIG v (TBC)</div>
                     </td>
                     <td className="column100 column4" data-column="column4">
-                      <div>OPEN</div>
-                      <div>QUARTER FINALS</div>
+                      <div>JBING v AZTIGS BETA</div>
                     </td>
                     <td className="column100 column5" data-column="column5">
-                      <div>OPEN</div>
-                      <div>QUARTER FINALS</div>
+                      <div>WOW v PHENOM</div>
                     </td>
                     <td className="column100 column6" data-column="column6">
                       <div>UFCSA WEST v</div>
@@ -142,20 +139,18 @@ const DayTwo = () => {
                   <tr className="row100">
                     <td className="column100 column1" data-column="column1">12:20 PM</td>
                     <td className="column100 column2" data-column="column2">
-                      <div>LEGENDS</div>
-                      <div>QUARTER FINALS</div>
+                      <div>SOUTH AKL v</div>
+                      <div>WEST PA MORE</div>
                     </td>
                     <td className="column100 column3" data-column="column3">
-                      <div>LEGENDS</div>
-                      <div>QUARTER FINALS</div>
+                      <div>MAVS v KIWI ROOFING</div>
                     </td>
                     <td className="column100 column4" data-column="column4">
-                      <div>LEGENDS</div>
-                      <div>QUARTER FINALS</div>
+                      <div>UFCSA WEST v</div>
+                      <div>UFCSA SINULOG</div>
                     </td>
                     <td className="column100 column5" data-column="column5">
-                      <div>LEGENDS</div>
-                      <div>QUARTER FINALS</div>
+                      <div>TGIF v AZTIGS</div>
                     </td>
                     <td className="column100 column6" data-column="column6">
                       <div>U9</div>
@@ -250,7 +245,7 @@ const DayTwo = () => {
                       <div>FINALS</div>
                     </td>
                   </tr>
-                  
+
                   <tr className="row100">
                     <td className="column100 column1" data-column="column1">3:30 PM</td>
                     <td className="column100 column2" data-column="column2">--</td>
