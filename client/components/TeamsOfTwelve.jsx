@@ -19,7 +19,7 @@ class TeamsOfTwelve extends React.Component {
         teamPlayers: ['George Dio', 'Allan Alombro', 'Jake Quilantang', 'Ricky Alano', 'Erick Basobas', 'Jimmy Tan', 'Mon Banno', 'Michael Salomon', 'Randy Bulaong', 'Ralph Gayatin', 'Jacob Terrafranca', 'Junar Zapata', 'Joel Yulo']
       },
       tgif1: {
-        w: 0,
+        w: 1,
         l: 0,
         teamName: 'TGIF MAMBA',
         teamPlayers: ['Dennis Maga', 'Solito Asinas', 'Jay Saoi', 'Jockey Lorenzo', 'Leo Guico', 'Abet Tamayo', 'Aldwin Alvarez', 'Mitch Diputado', 'Angky Angeles', 'Rey Roque', 'Alfred Morales', 'Michael Mitra', 'Pogs Estonactor']
@@ -55,7 +55,7 @@ class TeamsOfTwelve extends React.Component {
         teamPlayers: ['Bob Miranda', 'Ross Ganzan', 'Alex Andales', 'Ramel Maligro', 'Nani Javate', 'Robert Turingan', 'Eric Braga', 'Tabudlong', 'Gilbert Tabora', 'Nino Solon', 'Joel Grafil', 'Marlon Ambion', 'Wennie Fernandez', 'Richard Cortes', 'Ivan Canlas', 'Jesse Abamonga']
       },
       aztigs: {
-        w: 0,
+        w: 1,
         l: 0,
         teamName: 'AZTIGS',
         teamPlayers: ['Chicoy Leyson', 'Robbie Layao', 'Emman Sta Barbara', 'Rey Molina', 'Xean Moral', 'Grimson Treyes', 'Alan Almencion', 'Jhun Dalicun', 'Edbert Ancheta', 'Jhonny Arteza', 'Fidel Mabanta', 'Glenn Cruz', 'Marc Co', 'Rhandie Herrera']
@@ -68,13 +68,13 @@ class TeamsOfTwelve extends React.Component {
       },
       barako: {
         w: 0,
-        l: 0,
+        l: 1,
         teamName: 'BARAKO EAST',
         teamPlayers: ['Nieven Virtucio', 'Christian Sison', 'Ronaldo Liwanag', 'Ed Tacang', 'Felipe Talaid', 'Dane Porras', 'Junar Zapata', 'Gerry Ruelo', 'Hermie Espinosa', 'Arnold Laro', 'Wendyl Ong', 'Randy Gabunada']
       },
       auckland: {
         w: 0,
-        l: 0,
+        l: 1,
         teamName: 'AUCKLAND',
         teamPlayers: ['Gio Abaya', 'Ricky Adubal', 'Ben Repalda', 'Edison Peralta', 'Ino Plaza', 'Reyn de la Rosa', 'Bong Sepnio', 'Aldrich Alviar', 'Mike Magisa', 'Eric Elago']
       }

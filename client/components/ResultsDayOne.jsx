@@ -128,39 +128,39 @@ const ResultsDayOne = () => {
 
           court1cat={'U15'}
           court1teamA={'UFCSA WEST'}
-          court1scoreA={0}
+          court1scoreA={26}
           court1teamB={'MAVS'}
-          court1scoreB={0}
+          court1scoreB={31}
 
           court2cat={'U17'}
           court2teamA={'UFCSA WEST'}
-          court2scoreA={0}
+          court2scoreA={28}
           court2teamB={'MAVS'}
-          court2scoreB={0}
+          court2scoreB={34}
 
           court3cat={'U19'}
           court3teamA={'UFCSA WEST'}
-          court3scoreA={0}
+          court3scoreA={28}
           court3teamB={'MAVS'}
-          court3scoreB={0}
+          court3scoreB={58}
 
           court4cat={'OP'}
           court4teamA={'PINOY PROPERTY'}
-          court4scoreA={0}
+          court4scoreA={32}
           court4teamB={'BRICK CITY'}
-          court4scoreB={0}
+          court4scoreB={18}
 
           court5cat={'40A'}
           court5teamA={'AZTIGS'}
-          court5scoreA={0}
+          court5scoreA={57}
           court5teamB={'BARAKO EAST'}
-          court5scoreB={0}
+          court5scoreB={36}
 
           court6cat={'OP'}
           court6teamA={'JBING'}
-          court6scoreA={0}
+          court6scoreA={74}
           court6teamB={'SLAYERS'}
-          court6scoreB={0}
+          court6scoreB={43}
         />
         <ResultsHourly
           hour={'12:50 PM'}

@@ -26,14 +26,14 @@ class TeamsOfFour extends React.Component {
         {
           teamName: 'MAVS',
           teamPlayers: ['TJ Abdon', 'Tyler Martin', 'Jiggs Viloria', 'Angelo Matanguihan', 'Jairus Evangelista', 'Andrei Salomon', 'Louis Basobas', 'Christoff Reyes', 'Jacob Bano', 'Daniel Tialban', 'Red Viloria', 'Tyson Kempton'],
-          w: 0,
+          w: 1,
           l: 0
         },
         {
           teamName: 'UFCSA WEST',
           teamPlayers: ['Gabriel De Guzman', 'Michael De Guzman', 'Alister Repasa', 'Christian Valencia', 'Lorenzo Credo', 'Benedict Magtibay Jr', 'Francis Cabello', 'Francis Echano', 'Tristan Allen', 'Kristopher Cerda'],
           w: 0,
-          l: 0
+          l: 1
         }
       ],
       u17: [
@@ -48,7 +48,7 @@ class TeamsOfFour extends React.Component {
           teamName: 'UFCSA WEST',
           teamPlayers: ['Amray De Asis', 'Keith Buenaflor', 'Angelo Llagonera', 'Francis Cabelo', 'Gerald Mulato', 'Kath Oracion', 'Landon Smith', 'Seth Tantinco', 'Malachi Book', 'Josh', 'Andrei Manio', 'Seb Alan', 'Alistair Repasa', 'Kris Cerda', 'Mike De Guzman'],
           w: 0,
-          l: 0
+          l: 1
         },
         {
           teamName: 'UFCSA NORTH',
@@ -59,7 +59,7 @@ class TeamsOfFour extends React.Component {
         {
           teamName: 'MAVS',
           teamPlayers: ['Andrei Solomon', 'Jacob Banno', 'Daniel Tialban', 'Red Viloria', 'Ralph Balazo', 'Miguel Santoyo', 'JC Rebosura', 'EJ Rebosura', 'Elijah Rata', 'Andre Yray', 'Lui Villanueva', 'Andre Bonilla', 'Carsten Baring'],
-          w: 0,
+          w: 1,
           l: 0
         }
       ],
@@ -68,25 +68,25 @@ class TeamsOfFour extends React.Component {
           teamName: 'TGIF',
           teamPlayers: ['Karl Alea', 'Jarredd Clarete', 'Kevin Hiyas', 'Alkurt Noval', 'Emmanuel Petilla', 'Miggy Ricafrente', 'Ruadhan Villalonga', 'Dahren Arellano', 'Ralph Nardo', 'Ashton Ramos', 'Marcus Watson'],
           w: 0,
-          l: 0
+          l: 1
 
         },
         {
           teamName: 'UFCSA WEST EAGLES',
           teamPlayers: ['Matti Coronel', 'Kyle Buenaflor', 'Laurence Dungan', 'TJ Laserna', 'Ronnie Juan', 'Sway Tantingco', 'Andre Bautista', 'Teofilo Martinez'],
-          w: 0,
+          w: 1,
           l: 0
         },
         {
           teamName: 'UFCSA WEST TIGERS',
           teamPlayers: ['Damien Chiu', 'Lily Ermita', 'Kurt Mendoza', 'Airus Razon', 'Ashton Ermita', 'Matthew Martin', 'Patrick Ocfemia', 'Rhams Dela Torre'],
           w: 0,
-          l: 0
+          l: 1
         },
         {
           teamName: 'MAVS',
           teamPlayers: ['Justin Lacsi', 'Fonci Leyesa', 'Enzo Lopez', 'Ivan Basobas', 'Bryan Bautista', 'caleb Mendoza', 'Seb Sanchez', 'Julian Viloria', 'Eon Yap', 'Keziah Gorme', 'Pia Rodas', 'Francis Bautista'],
-          w: 0,
+          w: 1,
           l: 0
         }
       ],
