@@ -15,12 +15,12 @@ class TeamsOfFour extends React.Component {
           teamName: 'OUA',
           teamPlayers: ['Emman Cea', 'Matthew Manese', 'Edward Maagdenberg', 'Lorenzo Taduran', `Christian Mata'afa`, 'Si alumia', 'Denrick Arrelano', 'John Fabian'],
           w: 0,
-          l: 0
+          l: 1
         },
         {
           teamName: 'AZTIGS DELTA',
           teamPlayers: ['Reimar Cruz', 'Miggy Falqueza', 'Matt Malingin', 'Gian Cadag', 'Brian Bugay', 'Andrew Delco', 'Lance Layao', 'Val Mercado', 'Taine Davis', 'Jordan Perez'],
-          w: 0,
+          w: 1,
           l: 0
         },
         {
@@ -41,13 +41,13 @@ class TeamsOfFour extends React.Component {
           teamName: 'TGIF',
           teamPlayers: ['Jonathan Alfonso', 'Cobain David', 'Jomari Maturan', 'Cromwell Pilacan', 'Geane Andrade', 'David Tamayao', 'Kurt Guevarra', 'Pilacan Russel', 'Marfi Villar', 'Raghnall Villalonga', 'Enrico De Guzman'],
           w: 0,
-          l: 0
+          l: 1
 
         },
         {
           teamName: 'UFCSA WEST',
           teamPlayers: ['Amray De Asis', 'Keith Buenaflor', 'Angelo Llagonera', 'Francis Cabelo', 'Gerald Mulato', 'Kath Oracion', 'Landon Smith', 'Seth Tantinco', 'Malachi Book', 'Josh', 'Andrei Manio', 'Seb Alan', 'Alistair Repasa', 'Kris Cerda', 'Mike De Guzman'],
-          w: 0,
+          w: 1,
           l: 1
         },
         {
@@ -74,7 +74,7 @@ class TeamsOfFour extends React.Component {
         {
           teamName: 'UFCSA WEST EAGLES',
           teamPlayers: ['Matti Coronel', 'Kyle Buenaflor', 'Laurence Dungan', 'TJ Laserna', 'Ronnie Juan', 'Sway Tantingco', 'Andre Bautista', 'Teofilo Martinez'],
-          w: 1,
+          w: 2,
           l: 0
         },
         {
@@ -87,32 +87,32 @@ class TeamsOfFour extends React.Component {
           teamName: 'MAVS',
           teamPlayers: ['Justin Lacsi', 'Fonci Leyesa', 'Enzo Lopez', 'Ivan Basobas', 'Bryan Bautista', 'caleb Mendoza', 'Seb Sanchez', 'Julian Viloria', 'Eon Yap', 'Keziah Gorme', 'Pia Rodas', 'Francis Bautista'],
           w: 1,
-          l: 0
+          l: 1
         }
       ],
       u11: [
         {
           teamName: 'FLAT BUSH',
           teamPlayers: ['Cyrus Quizon', 'Gian Miguel Cortez', 'Alistair Bautista', 'Yoshua Angelo Quedi', 'Jacob Aguirre', 'Theo Vidar', 'Mateo Duque', 'Matthieu Ramos', 'Edzel John Lazatin'],
-          w: 1,
+          w: 2,
           l: 0
         },
         {
           teamName: 'TGIF',
           teamPlayers: ['Abigail Alea', 'EJ Aporillo', 'Dharen Arellano', 'Ynigo De Guzman', 'Ralph Nardo', 'Tyrese Salas', 'Jay Tristan Villafania', 'Marcus Watson', 'Ram Gealon'],
           w: 0,
-          l: 1
+          l: 2
         },
         {
           teamName: 'UFCSA WEST',
           teamPlayers: ['James Ybanez', 'Theo Martinez', 'Aldemair Retuya', 'Mavy Luriz', 'RV Abella', 'Chester Segarra', 'Liliane Yabut', 'Miguel Nantes', 'Tj Catilo', 'Kurvey Mendoza'],
           w: 1,
-          l: 0
+          l: 1
         },
         {
           teamName: 'MAVS',
           teamPlayers: ['Basty Banno', 'kodi Bornilla', 'jacob Calacsan', 'Kier Galgalan', 'Seth Herhuela', 'Kian Manangan', 'Ali Nagi', 'Wayna Ragsac', 'Lorenzo Remedios', 'Ken Manzanares', 'Hans Lao', 'Cedric Dimasuhid', 'Nikki Buenaventura', 'Marcus Alvaran', 'Melo Mangampat'],
-          w: 0,
+          w: 1,
           l: 1
         }
       ],
@@ -121,24 +121,24 @@ class TeamsOfFour extends React.Component {
           teamName: 'FLAT BUSH',
           teamPlayers: ['Chase Lardizabal', 'Nylbry Castillo', 'Liam Crispino', 'Manuel Magallanes', 'Vic Soretes', 'Liam Vidar', 'Trisha Penaflor', 'Mikhail Magayanes'],
           w: 1,
-          l: 0
+          l: 1
         },
         {
           teamName: 'TGIF',
           teamPlayers: ['Franco Calutan', 'Nicolas Dacanay', 'Juancho De Guzman', 'Raff Esmana', 'Mateo Ilagan', 'Zander Mariano', 'Zeke Osigan', 'Carl Ricafrente', 'Vonn Villalobos'],
           w: 0,
-          l: 1
+          l: 2
         },
         {
           teamName: 'UFCSA WEST',
           teamPlayers: ['Edward Yabut', 'Jarl Turno', 'Lorenzo Chuo', 'Nathan Coronel', 'Job Saberon', 'Luke De Guzman', 'Tomas Agustin', 'Kobe Edrada', 'Charlie Duncan', 'Russel Hernandez'],
-          w: 0,
+          w: 1,
           l: 1
         },
         {
           teamName: 'MAVS',
           teamPlayers: ['Aidan Cruz', 'Mateo Enricoso', 'Rafa Gayatin', 'Amihr Kuhutan', 'Kurt Pulac', 'Hugh Warren'],
-          w: 1,
+          w: 2,
           l: 0
         }
       ]

@@ -13,7 +13,7 @@ class TeamsOfEighteen extends React.Component {
         teamPlayers: ['Keenen Leyson', 'Kenneth Tuffin', 'Joseph Nunag', 'Aaron Davis', 'Taine Davis', 'Reimar Cruz', 'Ryan Herrera', 'John Biluno', 'Dennis Belmonte', 'Nikko Malonzo', 'Regie Malonzo', 'Brian Bugay', 'Jonathan Tila']
       },
       phenom: {
-        w: 1,
+        w: 2,
         l: 0,
         teamName: 'PHENOM',
         teamPlayers: ['K. Ruvas', 'G. Ruvas', 'B. Ruvas', 'B. Eldialde', 'K. Eldialde', 'A. Salomon', 'J. Salomon', 'A. Aquino', 'G. Zarra', 'J. Salonga']
@@ -44,7 +44,7 @@ class TeamsOfEighteen extends React.Component {
       },
       brick: {
         w: 0,
-        l: 1,
+        l: 2,
         teamName: 'BRICK CITY',
         teamPlayers: ['Franz Lim', 'Jan Latosa', 'Daryl Burias', 'Patrick Burias', 'Josh Santos', 'Alex Santos', 'Eron Caballes', 'Andre Palomares', 'Ken Ganzan', 'Jordan Florian', 'Matthew Marcelo', 'Daniel De Silva', 'Richard Galang', 'Randy Sjafrie', 'Joshua De Silva']
       },
@@ -74,7 +74,7 @@ class TeamsOfEighteen extends React.Component {
       },
       slayers: {
         w: 0,
-        l: 1,
+        l: 2,
         teamName: 'SLAYERS',
         teamPlayers: ['Luis Edward', 'Aldin Corpuz', 'Jolo Velasquez', 'John Kevin Lopez', 'Paul Joma Fernandez', 'Jourdan Nitura', 'Redgie', 'Manny Ross Fausto', 'Kenneth Rapio', 'Levi Lucindo', 'Juan Paulo Salamanca']
       },
