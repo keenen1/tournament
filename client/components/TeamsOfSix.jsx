@@ -13,26 +13,26 @@ class TeamsOfSix extends React.Component {
         teamPlayers: ['Carlo Baltazar', 'Moses Banno', 'Justin Calimbas', 'Claro Calvo', 'Tomas Caluag', 'Jodek Lopez', 'Joaquin Marinas', 'Ethan Garcia', 'Gabriel Peralta', 'Kimi Realon', 'Gabby Remedios', 'Jeremy Sasis', 'Jaden Latay', 'Kurt Pasturan', 'Kryz Mendoza']
       },
       ufcsawest: {
-        w: 2,
+        w: 3,
         l: 1,
         teamName: 'UFCSA WEST',
         teamPlayers: ['Andrei Manio', 'Sebastian Alan', 'Ralph Ocfemia', 'Mikal Maiquez', 'Arien Sepnio', 'David Villa Ignacio', 'Gerald Babatogon', 'Kendrick Corpuz', 'Matt Fernandez', 'Robbie Peter', 'Zhymon Moreno', 'Malachi Book', 'Cedric Valencia']
       },
       ufcsanorth: {
-        w: 1,
+        w: 2,
         l: 2,
         teamName: 'UFCSA NORTH',
         teamPlayers: ['Albert Flores', 'Bobbie Atendido', 'Bien Pasco', 'Karlo Bernardo', 'Adriel Javate', 'Joel Vicente', 'Andre Atendido', 'Angelo Abaya', 'Gian Mohinani', 'John Villanueva', 'Jhey Jamelano']
       },
       freelancer: {
         w: 1,
-        l: 2,
+        l: 3,
         teamName: 'FREE LANCER',
         teamPlayers: ['Lance Sta Barbara', 'Reuben Capati', 'Marvin Capati', 'Raynald Afable', 'Edward Vallejos', 'Matthew Pangilinan', 'Luis de Guzman', 'Zyril Manquil', 'Dhenz Bryll Alajid', 'Yam Tabudlong']
       },
       tgif: {
         w: 0,
-        l: 3,
+        l: 4,
         teamName: 'TGIF',
         teamPlayers: ['Geane Andrade', 'Johnray Biasura', 'Steven Biasura', 'Franchesca Calutan', 'Enrico De Guzman', 'EJ Maga', 'Raghnall Villalonga', 'Marfi Villar', 'Anton Zaide', 'Miggy Ricafrente', 'Emmanuel Petilla']
       }
