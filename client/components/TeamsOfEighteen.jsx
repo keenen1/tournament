@@ -61,14 +61,14 @@ class TeamsOfEighteen extends React.Component {
         teamPlayers: ['Albert Quilbio', 'Nardz Botio', 'Teody Tangtang', 'Julius Orense', 'Rufino Padullon', 'Ronel Dumam-ag', 'Michael Baclig', 'Donald Yaun', 'Rino Mahinay', 'Michael Bancud', 'Randy Nicavera', 'Rogelio Blanco']
       },
       aklheat: {
-        w: 0,
+        w: 1,
         l: 1,
         teamName: 'AKL HEAT',
         teamPlayers: ['Jan Aya-ay', 'Christian Razon', 'AC Alpad', 'John Paculaba', 'Mile Ridding', 'Weejay Manigo', 'David Ward', 'Ryvene Dela Cruz']
       },
       filkiwi: {
         w: 0,
-        l: 1,
+        l: 2,
         teamName: 'FIL-KIWI',
         teamPlayers: ['Eric Book', 'Von Corpuz', 'Franz Tipon', 'Bry Padrigan', 'Mads Pascua', 'Julius Ingal', 'Roger Beringuel', 'Carlo Manahan', 'Sam Seneido', 'Jungler Bracero', 'Kennedy Magsilang', 'Rodel Roma']
       },
