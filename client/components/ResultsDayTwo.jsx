@@ -300,65 +300,65 @@ const ResultsDayTwo = () => {
           court4teamB={'FINALS'}
           court4scoreB={0}
 
-          court5cat={'U9'}
-          court5teamA={'FINALS'}
-          court5scoreA={0}
-          court5teamB={''}
-          court5scoreB={0}
+          court5cat={'FIN'}
+          court5teamA={'MAVS (U9)'}
+          court5scoreA={41}
+          court5teamB={'FlATBUSH (U9)'}
+          court5scoreB={9}
 
-          court6cat={'U11'}
-          court6teamA={'FINALS'}
-          court6scoreA={0}
-          court6teamB={''}
-          court6scoreB={0}
+          court6cat={'FIN'}
+          court6teamA={'FLATBUSH (U11)'}
+          court6scoreA={37}
+          court6teamB={'MAVS (U11)'}
+          court6scoreB={29}
         />
         <ResultsHourly
           hour={'4:00 PM'}
 
-          court1cat={'U15'}
-          court1teamA={'FINALS'}
-          court1scoreA={0}
-          court1teamB={''}
-          court1scoreB={0}
+          court1cat={'FIN'}
+          court1teamA={'MAVS (U15)'}
+          court1scoreA={34}
+          court1teamB={'UFCSA WEST (U15)'}
+          court1scoreB={29}
 
-          court2cat={'U19'}
-          court2teamA={'FINALS'}
-          court2scoreA={0}
-          court2teamB={''}
-          court2scoreB={0}
+          court2cat={'FIN'}
+          court2teamA={'OUA (U19)'}
+          court2scoreA={44}
+          court2teamB={'MAVS (U19)'}
+          court2scoreB={38}
 
-          court3cat={'40A'}
-          court3teamA={'FINALS'}
-          court3scoreA={0}
-          court3teamB={''}
-          court3scoreB={0}
+          court3cat={'FIN'}
+          court3teamA={'WEST PA (40A)'}
+          court3scoreA={44}
+          court3teamB={'TGIF (40A)'}
+          court3scoreB={36}
 
-          court4cat={'35A'}
-          court4teamA={'FINALS'}
-          court4scoreA={0}
-          court4teamB={''}
-          court4scoreB={0}
+          court4cat={'FIN'}
+          court4teamA={'MAPUA (35A)'}
+          court4scoreA={51}
+          court4teamB={'SOUTH AKL (35A)'}
+          court4scoreB={17}
 
-          court5cat={'U13'}
-          court5teamA={'FINALS'}
-          court5scoreA={0}
-          court5teamB={''}
-          court5scoreB={0}
+          court5cat={'FIN'}
+          court5teamA={'WEST EAGLES (U13)'}
+          court5scoreA={32}
+          court5teamB={'MAVS (U13)'}
+          court5scoreB={22}
         />
         <ResultsHourly
           hour={'5:00 PM'}
 
-          court1cat={'OP'}
-          court1teamA={'FINALS'}
-          court1scoreA={0}
-          court1teamB={''}
-          court1scoreB={0}
+          court1cat={'FIN'}
+          court1teamA={'PHENOM (OP)'}
+          court1scoreA={47}
+          court1teamB={'MT SISIG(OP)'}
+          court1scoreB={35}
 
-          court4cat={'U17'}
-          court4teamA={'FINALS'}
-          court4scoreA={0}
-          court4teamB={''}
-          court4scoreB={0}
+          court4cat={'FIN'}
+          court4teamA={'MAVS (U17)'}
+          court4scoreA={38}
+          court4teamB={'NORTH (U17'}
+          court4scoreB={29}
         />
       </div>
     </>
