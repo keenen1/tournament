@@ -20,7 +20,7 @@ const TopNav = () => {
               key={i}
               to={`/${menu}`}
               replace
-              activeStyle={{ backgroundColor: '#FF66C4' }}
+              activeStyle={{ backgroundColor: '#037971' }}
               className='nav-link'
             >
               {menu.toUpperCase()}
