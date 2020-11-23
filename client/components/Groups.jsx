@@ -9,18 +9,29 @@ const Groups = () => {
           pathname: '/groups/opens',
           state: {
             cat: 'opens',
-            number: 18
+            number: 12
           }
-        }} className="teams-category col-12">
+        }} className="teams-category col-6">
           OPENS
         </Link>
+        <Link to={{
+          pathname: '/groups/women',
+          state: {
+            cat: 'women',
+            number: 6
+          }
+        }} className="teams-category col-6">
+          WOMEN
+        </Link>
+      </div>
+      <div className="col-12">
         <Link to={{
           pathname: '/groups/legends',
           state: {
             cat: 'legends',
-            number: 12
+            number: 6
           }
-        }} className="teams-category col-12">
+        }} className="teams-category col-4">
           LEGENDS
         </Link>
         <Link to={{
@@ -29,66 +40,46 @@ const Groups = () => {
             cat: '35a',
             number: 8
           }
-        }} className="teams-category col-12">
+        }} className="teams-category col-4">
           35A
+        </Link>
+        <Link to={{
+          pathname: '/groups/u18',
+          state: {
+            cat: 'u18',
+            number: 6
+          }
+        }} className="teams-category col-4">
+          U19
         </Link>
       </div>
       <div className="col-12">
-        <Link to={{
-          pathname: '/groups/u19',
-          state: {
-            cat: 'u19',
-            number: 4
-          }
-        }} className="teams-category col-12">
-          U19
-        </Link>
-        <Link to={{
-          pathname: '/groups/u17',
-          state: {
-            cat: 'u17',
-            number: 4
-          }
-        }} className="teams-category col-12">
-          U17
-        </Link>
         <Link to={{
           pathname: '/groups/u15',
           state: {
             cat: 'u15',
+            number: 8
+          }
+        }} className="teams-category col-4">
+          U17
+        </Link>
+        <Link to={{
+          pathname: '/groups/u12',
+          state: {
+            cat: 'u12',
             number: 6
           }
-        }} className="teams-category col-12">
+        }} className="teams-category col-4">
           U15
-        </Link>
-      </div>
-      <div className="col-12">
-        <Link to={{
-          pathname: '/groups/u13',
-          state: {
-            cat: 'u13',
-            number: 4
-          }
-        }} className="teams-category col-12">
-          U13
-        </Link>
-        <Link to={{
-          pathname: '/groups/u11',
-          state: {
-            cat: 'u11',
-            number: 4
-          }
-        }} className="teams-category col-12">
-          U11
         </Link>
         <Link to={{
           pathname: '/groups/u9',
           state: {
             cat: 'u9',
-            number: 4
+            number: 6
           }
-        }} className="teams-category col-12">
-          U9
+        }} className="teams-category col-4">
+          U13
         </Link>
       </div>
     </div>
