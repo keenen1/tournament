@@ -261,34 +261,41 @@ html, body, #app {
   height: 85%;
   display: flex;
   justify-content: center;
-  background-color: rgb(39, 39, 39);
+  background-image: linear-gradient(45deg, #BC412B, #BC412B, #DC602E, #BC412B, #BC412B);
 }
 
-.day-one, .day-two {
+.games-men, .games-women {
   width: 50%;
   font-family: 'Montserrat', sans-serif;
-  background-color: rgb(39, 39, 39);
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #FF66C4;
-  font-size: 11vw;
+  color: white;
+  font-size: 8vw;
+  transition: 0.8s;
+  text-shadow: -2px 2px 0 rgb(163, 57, 38),
+                2px 2px 0 rgb(163, 57, 38),
+                2px -2px 0 rgb(163, 57, 38),
+                -2px -2px 0 rgb(163, 57, 38);
 }
 
-.day-one a, .day-two a {
-  color: #FF66C4;
-  border-radius: 20px;
-  padding: 30px;
-  transition: 0.7s;
-  text-shadow: -2px 2px 0 black,
-              2px 2px 0 black,
-              2px -2px 0 black,
-              -2px -2px 0 black;
+.games-men:hover, .games-women:hover {
+  color: #023436;
+  text-shadow: -2px 2px 0 white,
+                2px 2px 0 white,
+                2px -2px 0 white,
+                -2px -2px 0 white;
+  font-size: 10vw;
+  transition: 0.8s;
 }
 
-.day-one a:hover, .day-two a:hover {
-  background-color: #FF66C4;
-  color: rgb(2, 196, 235);
+.games-men:hover + .games-women {
+  opacity: 0.2;
+  transition: 0.8s;  
+}
+
+.games-women:hover + .games-men {
+  opacity: 0.2;
   transition: 0.8s;
 }
 
@@ -298,7 +305,7 @@ html, body, #app {
     height: 75%;
     display: block;
   }
-  .day-one, .day-two {
+  .games-men, .games-women {
     width: 100%;
     height: 38%;
     font-size: 14vw;
