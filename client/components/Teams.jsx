@@ -58,28 +58,25 @@ class Teams extends React.Component {
         componentToRender = <TeamsOfTwelve overlayOn={() => this.overlayOn()} overlayOff={() => this.overlayOff()} />
         break
       case 'legends':
-        componentToRender = <TeamsOfTwelve overlayOn={() => this.overlayOn()} overlayOff={() => this.overlayOff()} />
+        componentToRender = <TeamsOfSix overlayOn={() => this.overlayOn()} overlayOff={() => this.overlayOff()} cat={this.state.cat} />
         break
       case '35a':
-        componentToRender = <TeamsOfEight overlayOn={() => this.overlayOn()} overlayOff={() => this.overlayOff()} />
+        componentToRender = <TeamsOfEight overlayOn={() => this.overlayOn()} overlayOff={() => this.overlayOff()} cat={this.state.cat} />
         break
-      case 'u19':
-        componentToRender = <TeamsOfFour overlayOn={() => this.overlayOn()} overlayOff={() => this.overlayOff()} cat={this.state.cat} />
-        break
-      case 'u17':
-        componentToRender = <TeamsOfFour overlayOn={() => this.overlayOn()} overlayOff={() => this.overlayOff()} cat={this.state.cat} />
+      case 'u18':
+        componentToRender = <TeamsOfSix overlayOn={() => this.overlayOn()} overlayOff={() => this.overlayOff()} cat={this.state.cat} />
         break
       case 'u15':
+        componentToRender = <TeamsOfEight overlayOn={() => this.overlayOn()} overlayOff={() => this.overlayOff()} cat={this.state.cat} />
+        break
+      case 'u12':
         componentToRender = <TeamsOfSix overlayOn={() => this.overlayOn()} overlayOff={() => this.overlayOff()} />
         break
-      case 'u13':
-        componentToRender = <TeamsOfFour overlayOn={() => this.overlayOn()} overlayOff={() => this.overlayOff()} cat={this.state.cat} />
-        break
-      case 'u11':
-        componentToRender = <TeamsOfFour overlayOn={() => this.overlayOn()} overlayOff={() => this.overlayOff()} cat={this.state.cat} />
-        break
       case 'u9':
-        componentToRender = <TeamsOfFour overlayOn={() => this.overlayOn()} overlayOff={() => this.overlayOff()} cat={this.state.cat} />
+        componentToRender = <TeamsOfSix overlayOn={() => this.overlayOn()} overlayOff={() => this.overlayOff()} cat={this.state.cat} />
+        break
+      case 'women':
+        componentToRender = <TeamsOfEight overlayOn={() => this.overlayOn()} overlayOff={() => this.overlayOff()} cat={this.state.cat} />
         break
     }
     return (

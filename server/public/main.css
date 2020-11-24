@@ -399,12 +399,18 @@ a {
   width: 50%;
   height: 100%;
 }
-.divider .teams-block {
+.divider .teams-block, .teams-block {
   height: 100%;
   width: 100%;
 }
 .divider .teams-block div {
   height: 25%;
+}
+.four .teams-block {
+  background-color: rgb(39, 39, 39);
+}
+.eight .teams-block div {
+  height: 20%;
 }
 .pool, .team, .team-divider, .standing {
   display: flex;
@@ -419,42 +425,22 @@ a {
   text-underline-position: under;
   text-decoration-color: #BC412B;
 }
-.divider .teams-block {
-  height: 95%;
-  border-left: grey 1px solid;
-  border-right: grey 1px solid;
-  padding: 1vw;
-}
-
-/* .eighteen, .twelve, .eight, .six, .four {
-  height: 75%;
-  background-color: rgb(39, 39, 39);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
 .teams-block {
   height: 100%;
+  border-left: grey 1px solid;
+  border-right: grey 1px solid;
+  border-top: grey 1px solid;
+  border-bottom: grey 1px solid;
 }
-.teams-block div {
-  background-color: rgb(39, 39, 39);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  color: white;
+.teams-block .team {
   transition: 0.7s;
-  text-shadow: -2px 2px 0 black,
-              2px 2px 0 black,
-              2px -2px 0 black,
-              -2px -2px 0 black;
 }
-.pool {
-  text-decoration: underline;
-  text-underline-position: under;
-  text-decoration-color: #BC412B;
-  font-family: 'Montserrat', sans-serif;
+.teams-block .team:hover {
+  cursor: pointer;
+  transition: 0.7s;
 }
+
+/*
 .eighteen {
   justify-content: space-between;
 }
@@ -515,6 +501,7 @@ a {
 }
 
 .team .standing {
+  font-size: 3vw;
   color: #BC412B;
 }
 
@@ -535,18 +522,35 @@ a {
     height: 70.9%;
     display: block;
   }
+  /* TWELVE */
   .divider {
     width: 100%;
     height: 50%;
-    border: 1px grey solid ;
   }
   .divider .teams-block div {
     height: 25%;
   }
-  .divider .teams-block {
-    height: 97%;
+  /* EIGHT */
+  .eight .teams-block {
+    width: 99.5%;
+    height: 49.7%;
+  }
+  .eight .teams-block div {
+    height: 20%;
+  }
+  .eight .standing {
+    font-size: 5vw;
+  }
+  /* POOL */
+  .pool {
+  font-size: 5vw;
+  }
+  .teams-block {
+    height: 100%;
     border-top: grey 1px solid;
     border-bottom: grey 1px solid;
+    border-left: grey 1px solid;
+    border-right: grey 1px solid;
   }
 
   .eighteen .teams-block .team, .twelve .teams-block .team, .six .teams-block .team {
