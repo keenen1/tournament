@@ -370,11 +370,12 @@ a {
   }
 }
 
-/* CATEGORY PAGE ----------------------------------------------- */
+/* TEAMS PAGE ----------------------------------------------- */
 
 .category-pane {
   height: 10%;
-  background-color: #FF66C4;
+  background-image: linear-gradient(180deg, #BC412B, #BC412B, #DC602E, #BC412B, #BC412B);
+  color: white;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -382,6 +383,50 @@ a {
 }
 
 .eighteen, .twelve, .eight, .six, .four {
+  height: 75%;
+  color: white;
+  background-color: rgb(39, 39, 39);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.divider {
+  background-color: rgb(39, 39, 39);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  height: 100%;
+}
+.divider .teams-block {
+  height: 100%;
+  width: 100%;
+}
+.divider .teams-block div {
+  height: 25%;
+}
+.pool, .team, .team-divider, .standing {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.pool {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3vw;
+  text-decoration: underline;
+  text-underline-position: under;
+  text-decoration-color: #BC412B;
+}
+.divider .teams-block {
+  height: 95%;
+  border-left: grey 1px solid;
+  border-right: grey 1px solid;
+  padding: 1vw;
+}
+
+/* .eighteen, .twelve, .eight, .six, .four {
   height: 75%;
   background-color: rgb(39, 39, 39);
   display: flex;
@@ -407,7 +452,7 @@ a {
 .pool {
   text-decoration: underline;
   text-underline-position: under;
-  text-decoration-color: rgb(2, 196, 235);
+  text-decoration-color: #BC412B;
   font-family: 'Montserrat', sans-serif;
 }
 .eighteen {
@@ -417,7 +462,7 @@ a {
   height: 16.66%;
 }
 .twelve .teams-block div, .eight .teams-block div  {
-  height: 20%;
+  height: 25%;
 }
 .six .teams-block div {
   height: 16.66%;
@@ -460,14 +505,17 @@ a {
   border-right: none;
   padding: 1vw
 }
+
+*/
 .teams-block .team {
   display: flex;
-}
-.team-divider {
+} 
+.team .team-divider {
   height: 100%;
 }
-.standing {
-  height: 100%;
+
+.team .standing {
+  color: #BC412B;
 }
 
 /* TEAMS TABLET */
@@ -485,7 +533,22 @@ a {
   }
   .eighteen, .twelve, .eight, .six, .four {
     height: 70.9%;
+    display: block;
   }
+  .divider {
+    width: 100%;
+    height: 50%;
+    border: 1px grey solid ;
+  }
+  .divider .teams-block div {
+    height: 25%;
+  }
+  .divider .teams-block {
+    height: 97%;
+    border-top: grey 1px solid;
+    border-bottom: grey 1px solid;
+  }
+
   .eighteen .teams-block .team, .twelve .teams-block .team, .six .teams-block .team {
     font-size: 4vw;
   }
@@ -502,7 +565,7 @@ a {
     border-radius: 0px;
     text-shadow: none;
   }
-  .eighteen .teams-block div, .twelve .teams-block div, .eight .teams-block div, .six .teams-block div {
+  /* .eighteen .teams-block div, .twelve .teams-block div, .eight .teams-block div, .six .teams-block div {
     height: 15%;
   }
   .four {
@@ -522,7 +585,7 @@ a {
   }
   .teams-block {
     height: 98.4%;
-  }
+  } */
 }
 
 /* TEAMS TABLET LANDSCAPE */
@@ -593,7 +656,7 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #FF66C4;
+  color: #DC602E;
   margin-top: 2vw;
 }
 

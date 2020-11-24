@@ -50,7 +50,7 @@ const Groups = () => {
             number: 6
           }
         }} className="teams-category col-4">
-          U19
+          U18
         </Link>
       </div>
       <div className="col-12">
@@ -61,7 +61,7 @@ const Groups = () => {
             number: 8
           }
         }} className="teams-category col-4">
-          U17
+          U15
         </Link>
         <Link to={{
           pathname: '/groups/u12',
@@ -70,7 +70,7 @@ const Groups = () => {
             number: 6
           }
         }} className="teams-category col-4">
-          U15
+          U12
         </Link>
         <Link to={{
           pathname: '/groups/u9',
@@ -79,7 +79,7 @@ const Groups = () => {
             number: 6
           }
         }} className="teams-category col-4">
-          U13
+          U9
         </Link>
       </div>
     </div>
