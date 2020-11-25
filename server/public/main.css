@@ -303,11 +303,10 @@ html, body, #app {
 @media screen and (max-width: 420px) {
   .games-page {
     height: 75%;
-    display: block;
   }
   .games-men, .games-women {
     width: 100%;
-    height: 38%;
+    height: 100%;
     font-size: 14vw;
   }
 }
@@ -337,11 +336,11 @@ html, body, #app {
   transition: 0.7s;
   font-size: 6vw;
   /* border-radius: 20px; */
-  border: 1px solid white;
-  text-shadow: -2px 2px 0 black,
-  2px 2px 0 black,
-  2px -2px 0 black,
-  -2px -2px 0 black;
+  border: 1px solid grey;
+  text-shadow: -2px 2px 0 rgb(163, 57, 38),
+                2px 2px 0 rgb(163, 57, 38),
+                2px -2px 0 rgb(163, 57, 38),
+                -2px -2px 0 rgb(163, 57, 38);
 }
 
 .teams-category:hover {
@@ -406,11 +405,14 @@ a {
 .divider .teams-block div {
   height: 25%;
 }
-.four .teams-block {
+.twelve .teams-block, .eight .teams-block, .six .teams-block {
   background-color: rgb(39, 39, 39);
 }
 .eight .teams-block div {
   height: 20%;
+}
+.six .teams-block div {
+  height: 25%;
 }
 .pool, .team, .team-divider, .standing {
   display: flex;
@@ -530,15 +532,23 @@ a {
   .divider .teams-block div {
     height: 25%;
   }
+  .twelve .standing {
+    font-size: 5vw;
+  }
   /* EIGHT */
   .eight .teams-block {
     width: 99.5%;
     height: 49.7%;
   }
-  .eight .teams-block div {
-    height: 20%;
-  }
   .eight .standing {
+    font-size: 5vw;
+  }
+  /* SIX */
+  .six .teams-block {
+    width: 99.5%;
+    height: 49.7%;
+  }
+  .six .standing {
     font-size: 5vw;
   }
   /* POOL */

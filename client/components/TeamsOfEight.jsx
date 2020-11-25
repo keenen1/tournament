@@ -128,7 +128,7 @@ class TeamsOfEight extends React.Component {
   componentDidMount () {
     let category
     switch (this.props.cat) {
-      case 'a35':
+      case '35a':
         category = 'a35'
         break
       case 'u15':
