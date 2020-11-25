@@ -1,13 +1,9 @@
 import React from 'react'
 
-const Info = () => {
+const Venue = () => {
   return (
     <div className="info-page col-12">
       <div className="info-container col-12">
-        {/* <div className="info-date col-12">
-          <div>JANUARY 2021</div>
-          <div>9 | 10</div>
-        </div> */}
         <div className="info-map col-12">
           <div>
             <iframe
@@ -26,4 +22,4 @@ const Info = () => {
   )
 }
 
-export default Info
+export default Venue

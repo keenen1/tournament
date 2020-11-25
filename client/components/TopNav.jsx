@@ -4,11 +4,11 @@ import { NavLink, HashRouter as Router } from 'react-router-dom'
 const TopNav = () => {
   const menuItems = [
     'home',
-    'games',
+    'sched',
     'groups',
     'results',
     'rules',
-    'info'
+    'venue'
   ]
 
   return (

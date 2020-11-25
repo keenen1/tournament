@@ -142,6 +142,12 @@ html, body, #app {
     margin-bottom: 5vw;
   }
   .title {font-size: 14vw;}
+  .title span {
+    text-shadow: -1px 1px 0 rgb(163, 57, 38),
+                1px 1px 0 rgb(163, 57, 38),
+                1px -1px 0 rgb(163, 57, 38),
+                -1px -1px 0 rgb(163, 57, 38);
+  }
   .year {font-size: 6vw;}
   .powered-by {
     font-size: 3.5vw;
@@ -243,6 +249,12 @@ html, body, #app {
     width: 80vw;
     height: 80vw;
   }
+  .info-date, .info-map {
+    text-shadow: -1px 1px 0 rgb(163, 57, 38),
+                1px 1px 0 rgb(163, 57, 38),
+                1px -1px 0 rgb(163, 57, 38),
+                -1px -1px 0 rgb(163, 57, 38);
+  }
 }
 /* LANDSCAPE */
 @media screen and (max-height: 420px) {
@@ -264,14 +276,14 @@ html, body, #app {
   background-image: linear-gradient(45deg, #BC412B, #BC412B, #DC602E, #BC412B, #BC412B);
 }
 
-.games-men, .games-women {
+.day-one, .day-two, .five-on-five, .three-on-three {
   width: 50%;
   font-family: 'Montserrat', sans-serif;
   display: flex;
   align-items: center;
   justify-content: center;
   color: white;
-  font-size: 8vw;
+  font-size: 7vw;
   transition: 0.8s;
   text-shadow: -2px 2px 0 rgb(163, 57, 38),
                 2px 2px 0 rgb(163, 57, 38),
@@ -279,22 +291,39 @@ html, body, #app {
                 -2px -2px 0 rgb(163, 57, 38);
 }
 
-.games-men:hover, .games-women:hover {
+/* CATEGORY PAGE */
+.category-page {
+  height: 75%;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(39, 39, 39);
+}
+
+.five-on-five, .three-on-three {
+  font-size: 9vw;
+}
+
+.five-on-five:hover , .three-on-three:hover {
+  font-size: 12vw;
+  transition: 0.8s;
+}
+
+.day-one:hover, .day-two:hover {
   color: #023436;
   text-shadow: -2px 2px 0 white,
                 2px 2px 0 white,
                 2px -2px 0 white,
                 -2px -2px 0 white;
-  font-size: 10vw;
+  font-size: 8vw;
   transition: 0.8s;
 }
 
-.games-men:hover + .games-women {
+.day-one:hover + .day-two {
   opacity: 0.2;
   transition: 0.8s;  
 }
 
-.games-women:hover + .games-men {
+.day-two:hover + .day-one {
   opacity: 0.2;
   transition: 0.8s;
 }
@@ -304,10 +333,21 @@ html, body, #app {
   .games-page {
     height: 75%;
   }
-  .games-men, .games-women {
+  .day-one, .day-two {
     width: 100%;
     height: 100%;
-    font-size: 14vw;
+    font-size: 8vw;
+    text-shadow: -1px 1px 0 rgb(163, 57, 38),
+                1px 1px 0 rgb(163, 57, 38),
+                1px -1px 0 rgb(163, 57, 38),
+                -1px -1px 0 rgb(163, 57, 38);
+  }
+  .five-on-five, .three-on-three {
+    font-size: 15vw;
+    text-shadow: -1px 1px 0 rgb(163, 57, 38),
+                1px 1px 0 rgb(163, 57, 38),
+                1px -1px 0 rgb(163, 57, 38),
+                -1px -1px 0 rgb(163, 57, 38);
   }
 }
 
@@ -1083,7 +1123,7 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: rgb(39, 39, 39);
+  background-image: linear-gradient(45deg, #BC412B, #BC412B, #DC602E, #BC412B, #BC412B);
 }
 
 .container-table100 {
@@ -1137,7 +1177,7 @@ a {
   color: #fff;
   line-height: 1.4;
   text-transform: uppercase;
-  background-color: rgb(2, 196, 235);
+  background-color: #BC412B;
 }
 
 .table100.ver3 td {
@@ -1147,15 +1187,15 @@ a {
 }
 
 .table100.ver3 .row100:hover td {
-  background-color: #fcebf5;
+  background-color: rgb(245, 207, 192);
 }
 
 .table100.ver3 .row100.column100:hover td {
-  background-color: #fcebf5;
+  background-color: rgb(245, 207, 192);
 }
 
 .table100.ver3 .hov-column-ver3 {
-  background-color: #fcebf5;
+  background-color: rgb(245, 207, 192);
 }
 
 .table100.ver3 .hov-column-head-ver3 {
@@ -1163,7 +1203,7 @@ a {
 }
 
 .table100.ver3 .row100 td:hover {
-  background-color: #FF66C4;
+  background-color: #BC412B;
   color: #fff;
 }
 
@@ -1179,11 +1219,11 @@ a {
 .table100.ver3 td {
   font-size: 0.8vw;
   height: 3.5vw;
-  width: 12.5vw;
+  width: 17vw;
 }
 
 .table100.ver3 .row100 .column1 {
-  width: 6vw;
+  width: 10vw;
   padding-left: 2vw;
   font-size: 1vw;
 }
@@ -1219,8 +1259,8 @@ a {
 
   .table100.ver3 td {
     font-size: 1.2vw;
-    height: 5vw;
-    width: 10vw;
+    height: 9vw;
+    width: 17vw;
   }
   
   .table100.ver3 th {
