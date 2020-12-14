@@ -4,13 +4,16 @@ import { Link } from 'react-router-dom'
 const Sched = () => {
   return (
     <div className="games-page col-12">
-      <Link to="/games/day-one" replace className="day-one">
-        DAY ONE
-      </Link>
-
-      <Link to="/games/day-two" replace className="day-two">
-        DAY TWO
-      </Link>
+      <div className="day-one col-6">
+        <Link to="/games/day-one">
+          DAY 1
+        </Link>
+      </div>
+      <div className="day-two col-6">
+        <Link to="/games/day-two">
+          DAY 2
+        </Link>
+      </div>
     </div>
   )
 }
