@@ -1,9 +1,9 @@
 import React from 'react'
-import TeamsOfEighteen from './TeamsOfEighteen'
+// import TeamsOfEighteen from './TeamsOfEighteen'
 import TeamsOfTwelve from './TeamsOfTwelve'
 import TeamsOfEight from './TeamsOfEight'
 import TeamsOfSix from './TeamsOfSix'
-import TeamsOfFour from './TeamsOfFour'
+// import TeamsOfFour from './TeamsOfFour'
 
 class Teams extends React.Component {
   state = {
@@ -24,7 +24,7 @@ class Teams extends React.Component {
       case 'u17':
         return 4
       case 'u15':
-        return 6
+        return 8
       case 'u13':
         return 4
       case 'u11':

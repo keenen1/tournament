@@ -90,38 +90,37 @@ class TeamsOfSix extends React.Component {
       u9: [
         {
           teamName: 'KNIGHTS',
-          teamPlayers: [],
+          teamPlayers: ['Draco Bornilla', 'Hiro Nonato', 'Tristan Longid', 'Arin Ganga', 'Lucas Ramos', 'Andres Mamerto', 'Marbrille Williams', 'Jacob Fabregas'],
           w: 0,
           l: 0
         },
         {
           teamName: 'TGIF',
-          teamPlayers: [],
+          teamPlayers: ['Juancho De Guzman', 'Mateo Ilagan', 'Zander Mariano', 'Zeke Osigan', 'Vonn Villalobos', 'Reema Leneia', 'Kaiser Ochoa', 'Karlisle Ochoa'],
           w: 0,
           l: 0
         },
         {
           teamName: 'FBB',
-          teamPlayers: [],
+          teamPlayers: ['Josiah Book', 'Aaron Soretes', 'Allen Illustrisimo', 'Chase Lardizabal', 'Manuel Magallanes', 'Bryle Magayanes', 'Marcus Padua', 'Elaine Penaflor'],
           w: 0,
           l: 0
         },
         {
           teamName: 'UFCSA WEST',
-          teamPlayers: [],
+          teamPlayers: ['Job Saberon', 'Tomas Agustin', 'Edward Yabut', 'Kobe Egrada', 'Gaevry Buenavista', 'Nathan Coronel', 'Luke de Guzman', 'Jarl Turno', 'Enzo Chuo', 'Aubrey Juan', 'River Okuya'],
           w: 0,
           l: 0
-
         },
         {
-          teamName: 'UFCSA NORTH',
-          teamPlayers: [],
+          teamName: 'STINGERS\'',
+          teamPlayers: ['Jake Sinvitchit', 'Jiya Cruz', 'Grant Cruz', 'Isaaiah Philips', 'Issachar Philips', 'Jaden Volante', 'Elija Gusman', 'Nicos Rapanan', 'Marco Cardeno', 'Marcus Arroyo', 'Aiden Kierulf'],
           w: 0,
           l: 0
         },
         {
           teamName: 'PINOY MAVS',
-          teamPlayers: [],
+          teamPlayers: ['Aldric Quilantang', 'Liam Crispino', 'Mateo Enricoso', 'Rafa Gayatin', 'Amhir Kuhutan', 'Kurt Pulac', 'Hugh Warren', 'Zayne Cabilin'],
           w: 0,
           l: 0
         }

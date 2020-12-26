@@ -312,7 +312,6 @@ html, body, #app {
 }
 
 .day-one:hover, .day-two:hover {
-  color: #023436;
   font-size: 8vw;
   transition: 0.8s;
 }
