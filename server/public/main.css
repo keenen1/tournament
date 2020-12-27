@@ -418,7 +418,7 @@ a {
   font-size: 2.5vw;
 }
 
-.eighteen, .twelve, .eight, .six, .four {
+.eighteen, .twelve, .ten, .eight, .six, .four {
   height: 75%;
   color: white;
   background-color: rgb(39, 39, 39);
@@ -450,6 +450,9 @@ a {
 }
 .six .teams-block div {
   height: 25%;
+}
+.ten .teams-block div {
+  height: 16.66%;
 }
 .pool, .team, .team-divider, .standing {
   display: flex;
@@ -546,7 +549,7 @@ a {
 
 /* TEAMS TABLET */
 @media screen and (max-width: 1024px) and (max-height: 1366px) {
-  .eighteen .teams-block .team, .twelve .teams-block .team {
+  .eighteen .teams-block .team, .twelve .teams-block .team, .ten .teams-block .team {
     font-size: 3vw;
   }
 }
@@ -557,7 +560,7 @@ a {
     height: 4%;
     font-size: 4vw;
   }
-  .eighteen, .twelve, .eight, .six, .four {
+  .eighteen, .twelve, .ten, .eight, .six, .four {
     height: 70.9%;
     display: block;
   }
@@ -587,6 +590,9 @@ a {
   }
   .six .standing {
     font-size: 5vw;
+  }
+  .ten .teams-block {
+    height: 50%;
   }
   /* POOL */
   .pool {

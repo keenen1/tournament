@@ -3,6 +3,7 @@ import React from 'react'
 import TeamsOfTwelve from './TeamsOfTwelve'
 import TeamsOfEight from './TeamsOfEight'
 import TeamsOfSix from './TeamsOfSix'
+import TeamsOfTen from './TeamsOfTen'
 // import TeamsOfFour from './TeamsOfFour'
 
 class Teams extends React.Component {
@@ -51,13 +52,13 @@ class Teams extends React.Component {
     let componentToRender
     switch (this.state.cat) {
       case 'opens':
-        componentToRender = <TeamsOfTwelve overlayOn={() => this.overlayOn()} overlayOff={() => this.overlayOff()} />
+        componentToRender = <TeamsOfTwelve overlayOn={() => this.overlayOn()} overlayOff={() => this.overlayOff()} cat={this.state.cat} />
         break
       case '40a':
         componentToRender = <TeamsOfSix overlayOn={() => this.overlayOn()} overlayOff={() => this.overlayOff()} cat={this.state.cat} />
         break
       case '35a':
-        componentToRender = <TeamsOfEight overlayOn={() => this.overlayOn()} overlayOff={() => this.overlayOff()} cat={this.state.cat} />
+        componentToRender = <TeamsOfTen overlayOn={() => this.overlayOn()} overlayOff={() => this.overlayOff()} cat={this.state.cat} />
         break
       case 'u18':
         componentToRender = <TeamsOfSix overlayOn={() => this.overlayOn()} overlayOff={() => this.overlayOff()} cat={this.state.cat} />

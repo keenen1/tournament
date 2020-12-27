@@ -4,80 +4,86 @@ class TeamsOfTwelve extends React.Component {
   constructor (props) {
     super(props)
     this.state = {
+      cat: '',
+      teams: [],
       name: '',
       players: [],
-      aztigs: {
-        w: 0,
-        l: 0,
-        teamName: 'AZTIGS BETA',
-        teamPlayers: []
-      },
-      bisdakol: {
-        w: 0,
-        l: 0,
-        teamName: 'BISDAKOL',
-        teamPlayers: []
-      },
-      brick: {
-        w: 0,
-        l: 0,
-        teamName: 'BRICK CITY',
-        teamPlayers: []
-      },
-      rotorua: {
-        w: 0,
-        l: 0,
-        teamName: 'ROTORUA',
-        teamPlayers: []
-      },
-      hamilton: {
-        w: 0,
-        l: 0,
-        teamName: 'HAMILTON',
-        teamPlayers: []
-      },
-      unknown: {
-        w: 0,
-        l: 0,
-        teamName: 'UNKNOWN',
-        teamPlayers: []
-      },
-      barako: {
-        w: 0,
-        l: 0,
-        teamName: 'BARAKO',
-        teamPlayers: []
-      },
-      property: {
-        w: 0,
-        l: 0,
-        teamName: 'PINOY PROPERTY',
-        teamPlayers: []
-      },
-      eaststreet: {
-        w: 0,
-        l: 0,
-        teamName: 'EAST STREET',
-        teamPlayers: []
-      },
-      jbing: {
-        w: 0,
-        l: 0,
-        teamName: 'JBING',
-        teamPlayers: []
-      },
-      oua: {
-        w: 0,
-        l: 0,
-        teamName: 'OUA',
-        teamPlayers: []
-      },
-      wow: {
-        w: 0,
-        l: 0,
-        teamName: 'WHEELS ON WEST',
-        teamPlayers: []
-      }
+      w: 0,
+      l: 0,
+      opens: [
+        {
+          w: 0,
+          l: 0,
+          teamName: 'AZTIGS BETA',
+          teamPlayers: ['Keenen Leyson', 'John Biluno', 'Reimar Cruz', 'Dennis Belmonte', 'Reggie Malonzo', 'Jette Anthony', 'Joseph Nunag', 'Brian Bugay', 'Ryan Herrera', 'Kenneth Tuffin', 'Nikko Malonzo', 'Jayvee Madic']
+        },
+        {
+          w: 0,
+          l: 0,
+          teamName: 'OUA',
+          teamPlayers: ['John Fabian', 'Mateo Manese', 'Emmanuel Cea', 'Denrick Arellano', 'Lorenzo Taduran', 'Sam Seniedo', 'Simoun Alumia', 'Anton Hilario']
+        },
+        {
+          w: 0,
+          l: 0,
+          teamName: 'BARAKO',
+          teamPlayers: ['Anthony Eltanal', 'Adrianne Alegado', 'Niknik Esguerra', 'Morris Cabagnot', 'Crezlan Olivar', 'Joe Garcias', 'Jairus Evangelista', 'Simon Alumia', 'Kevin Elthanal', 'Brian Parejas', 'Justine Sapungan', 'Gian Dagum', 'Zwit Zal']
+        },
+        {
+          w: 0,
+          l: 0,
+          teamName: 'UNKNOWN',
+          teamPlayers: ['Eric Hansen', 'Aldwin Alvarez', 'Patrick Maagdenberg', 'Edward Maagdenberg', 'Emmanuel Maagdenberg', 'Robert Encarnacion', 'JD Tagimacruz', 'Aldrien Sepnio', 'Mike Becker']
+        },
+        {
+          w: 0,
+          l: 0,
+          teamName: 'ROTORUA',
+          teamPlayers: ['Anjo Gabison', 'Nick Basinga', 'Triple J Garovillo', 'Jayson Conception', 'Carlo Yonyon', 'Chrisdale Danias', 'Kenta Manubay', 'Angelo Bebit', 'Vinnice Karl', 'Bruce Mabagus', 'Nicolas Aislabie', 'Dylan Hall', 'Nacar CN', 'Big Man']
+        },
+        {
+          w: 0,
+          l: 0,
+          teamName: 'EAST STREET',
+          teamPlayers: ['Aldin Corpuz', 'Luis Paraiso', 'Juan Salamanca', 'Jourdan Nitura', 'Manny Fausto', 'John Lopez', 'Levi Lucindo', 'Manolet Velasquez', 'Jolo Velasquez', 'Jonathan Tila', 'Redgie Padolina', 'Paul Fernandez', 'Kenneth Ebora', 'Jovin Ilagan']
+        },
+        {
+          w: 0,
+          l: 0,
+          teamName: 'PHENOM',
+          teamPlayers: ['Bong Eldialde', 'Ken Eldialde', 'Gino Ruvas', 'Kino Ruvas', 'Bryan Ruvas', 'Jhay Salonga', 'Eric Guiao', 'Alex Aquino', 'Tisoy Panbeyi', 'Gideon Sarra', 'John Solomon', 'Andre Solomon', 'Rhaym Hipolito', 'JR Lumbag']
+        },
+        {
+          w: 0,
+          l: 0,
+          teamName: 'WFA',
+          teamPlayers: ['J Reyes', 'H Cabug', 'L Bajuyo', 'K Acosta', 'D Mauricio', 'B Aquino', 'C Lachica', 'J Mellejor', 'K Lagala', 'R Delumbria', 'J Robejes', 'J Cenita', 'W Sunnex']
+        },
+        {
+          w: 0,
+          l: 0,
+          teamName: 'BRICK CITY',
+          teamPlayers: ['Daniel de Silva', 'Daryl Burias', 'Patrick Burias', 'Jan Latosa', 'Jordan Froilan', 'Mathew Marcelo', 'Ken Ganzan', 'Eron Caballes', 'Franz Lim', 'Mick Ramos', 'Chris Nallerda', 'Tyler Martin', 'Kevin de Paula']
+        },
+        {
+          w: 0,
+          l: 0,
+          teamName: 'JBING',
+          teamPlayers: ['Miguel Benjamin', 'Tyler Martin', 'James Viloria', 'Terrence Abdon', 'Jeff Lapinig', 'Ezekiel Flores', 'John Mongado', 'Franz Tipon', 'Marky Tipanero', 'Jonthan Vea', 'Marc Malingin', 'Matthew Malingin']
+        },
+        {
+          w: 0,
+          l: 0,
+          teamName: 'BISDAKOL',
+          teamPlayers: ['Rey Burgos', 'Ricmar Paterbos', 'Jeremy Waay', 'Bjay Sagrado', 'Dodz Dalida', 'Andrew Lgar', 'Patrick Pag-ong', 'Richard Somostrada', 'Rad Ancla']
+        },
+        {
+          w: 0,
+          l: 0,
+          teamName: 'PINOY PROPERTY',
+          teamPlayers: ['Kienn Carzano', 'Tophie Patriarca', 'Jay Chua', 'Harold Jumawan', 'Carlo Bueno', 'Mar Libreja', 'Migs Jose', 'Jonathan Realista', 'Christian Lagunera', 'Bert Bolneo', 'Perry Salas', 'Bong Eldialde', 'Tisoy Panbeyi']
+        }
+      ]
     }
     this.changeTeam = this.changeTeam.bind(this)
   }
@@ -92,70 +98,83 @@ class TeamsOfTwelve extends React.Component {
     this.props.overlayOn()
   }
 
+  componentDidMount () {
+    let category
+    switch (this.props.cat) {
+      case 'opens':
+        category = 'opens'
+        break
+    }
+    this.setState({
+      cat: this.props.cat,
+      teams: this.state[category]
+    })
+  }
+
   render () {
     return (
       <div className="twelve col-12">
         <div className="divider">
           <div className="teams-block">
             <div className="pool">POOL A</div>
-            <div className="team" onClick={() => this.changeTeam(this.state.aztigs)}>
-              <div className="team-divider col-9">{this.state.aztigs.teamName}</div>
-              <div className="standing col-3">{this.state.aztigs.w + '-' + this.state.aztigs.l}</div>
+            <div className="team" onClick={() => this.changeTeam(this.state.teams[0])}>
+              <div className="team-divider col-10">{this.state.teams.length > 0 && this.state.teams[0].teamName}</div>
+              <div className="standing col-2">{this.state.teams.length > 0 && (this.state.teams[0].w + '-' + this.state.teams[0].l)}</div>
             </div>
-            <div className="team" onClick={() => this.changeTeam(this.state.bisdakol)}>
-              <div className="team-divider col-9">{this.state.bisdakol.teamName}</div>
-              <div className="standing col-3">{this.state.bisdakol.w + '-' + this.state.bisdakol.l}</div>
+            <div className="team" onClick={() => this.changeTeam(this.state.teams[1])}>
+              <div className="team-divider col-10">{this.state.teams.length > 0 && this.state.teams[1].teamName}</div>
+              <div className="standing col-2">{this.state.teams.length > 0 && (this.state.teams[1].w + '-' + this.state.teams[1].l)}</div>
             </div>
-            <div className="team" onClick={() => this.changeTeam(this.state.brick)}>
-              <div className="team-divider col-9">{this.state.brick.teamName}</div>
-              <div className="standing col-3">{this.state.brick.w + '-' + this.state.brick.l}</div>
+            <div className="team" onClick={() => this.changeTeam(this.state.teams[2])}>
+              <div className="team-divider col-10">{this.state.teams.length > 0 && this.state.teams[2].teamName}</div>
+              <div className="standing col-2">{this.state.teams.length > 0 && (this.state.teams[2].w + '-' + this.state.teams[2].l)}</div>
             </div>
           </div>
           <div className="teams-block">
             <div className="pool">POOL B</div>
-            <div className="team" onClick={() => this.changeTeam(this.state.rotorua)}>
-              <div className="team-divider col-9">{this.state.rotorua.teamName}</div>
-              <div className="standing col-3">{this.state.rotorua.w + '-' + this.state.rotorua.l}</div>
+            <div className="team" onClick={() => this.changeTeam(this.state.teams[3])}>
+              <div className="team-divider col-10">{this.state.teams.length > 0 && this.state.teams[3].teamName}</div>
+              <div className="standing col-2">{this.state.teams.length > 0 && (this.state.teams[3].w + '-' + this.state.teams[3].l)}</div>
             </div>
-            <div className="team" onClick={() => this.changeTeam(this.state.hamilton)}>
-              <div className="team-divider col-9">{this.state.hamilton.teamName}</div>
-              <div className="standing col-3">{this.state.hamilton.w + '-' + this.state.hamilton.l}</div>
+            <div className="team" onClick={() => this.changeTeam(this.state.teams[4])}>
+              <div className="team-divider col-10">{this.state.teams.length > 0 && this.state.teams[4].teamName}</div>
+              <div className="standing col-2">{this.state.teams.length > 0 && (this.state.teams[4].w + '-' + this.state.teams[4].l)}</div>
             </div>
-            <div className="team" onClick={() => this.changeTeam(this.state.unknown)}>
-              <div className="team-divider col-9">{this.state.unknown.teamName}</div>
-              <div className="standing col-3">{this.state.unknown.w + '-' + this.state.unknown.l}</div>
+            <div className="team" onClick={() => this.changeTeam(this.state.teams[5])}>
+              <div className="team-divider col-10">{this.state.teams.length > 0 && this.state.teams[5].teamName}</div>
+              <div className="standing col-2">{this.state.teams.length > 0 && (this.state.teams[5].w + '-' + this.state.teams[5].l)}</div>
             </div>
           </div>
         </div>
         <div className="divider">
           <div className="teams-block">
             <div className="pool">POOL C</div>
-            <div className="team" onClick={() => this.changeTeam(this.state.barako)}>
-              <div className="team-divider col-9">{this.state.barako.teamName}</div>
-              <div className="standing col-3" style={{ color: '#DC602E' }}>{this.state.barako.w + '-' + this.state.barako.l}</div>
+            <div className="team" onClick={() => this.changeTeam(this.state.teams[6])}>
+              <div className="team-divider col-10">{this.state.teams.length > 0 && this.state.teams[6].teamName}</div>
+              <div className="standing col-2">{this.state.teams.length > 0 && (this.state.teams[6].w + '-' + this.state.teams[6].l)}</div>
             </div>
-            <div className="team" onClick={() => this.changeTeam(this.state.property)}>
-              <div className="team-divider col-9">{this.state.property.teamName}</div>
-              <div className="standing col-3">{this.state.property.w + '-' + this.state.property.l}</div>
+            <div className="team" onClick={() => this.changeTeam(this.state.teams[7])}>
+              <div className="team-divider col-10">{this.state.teams.length > 0 && this.state.teams[7].teamName}</div>
+              <div className="standing col-2">{this.state.teams.length > 0 && (this.state.teams[7].w + '-' + this.state.teams[7].l)}</div>
             </div>
-            <div className="team" onClick={() => this.changeTeam(this.state.eaststreet)}>
-              <div className="team-divider col-9">{this.state.eaststreet.teamName}</div>
-              <div className="standing col-3">{this.state.eaststreet.w + '-' + this.state.eaststreet.l}</div>
+            <div className="team" onClick={() => this.changeTeam(this.state.teams[8])}>
+              <div className="team-divider col-10">{this.state.teams.length > 0 && this.state.teams[8].teamName}</div>
+              <div className="standing col-2">{this.state.teams.length > 0 && (this.state.teams[8].w + '-' + this.state.teams[8].l)}</div>
             </div>
           </div>
           <div className="teams-block">
             <div className="pool">POOL D</div>
-            <div className="team" onClick={() => this.changeTeam(this.state.jbing)}>
-              <div className="team-divider col-9">{this.state.jbing.teamName}</div>
-              <div className="standing col-3">{this.state.jbing.w + '-' + this.state.jbing.l}</div>
+            <div className="team" onClick={() => this.changeTeam(this.state.teams[9])}>
+              <div className="team-divider col-10">{this.state.teams.length > 0 && this.state.teams[9].teamName}</div>
+              <div className="standing col-2">{this.state.teams.length > 0 && (this.state.teams[9].w + '-' + this.state.teams[9].l)}</div>
             </div>
-            <div className="team" onClick={() => this.changeTeam(this.state.oua)}>
-              <div className="team-divider col-9">{this.state.oua.teamName}</div>
-              <div className="standing col-3">{this.state.oua.w + '-' + this.state.oua.l}</div>
+            <div className="team" onClick={() => this.changeTeam(this.state.teams[10])}>
+              <div className="team-divider col-10">{this.state.teams.length > 0 && this.state.teams[10].teamName}</div>
+              <div className="standing col-2">{this.state.teams.length > 0 && (this.state.teams[10].w + '-' + this.state.teams[10].l)}</div>
             </div>
-            <div className="team" onClick={() => this.changeTeam(this.state.wow)}>
-              <div className="team-divider col-9">{this.state.wow.teamName}</div>
-              <div className="standing col-3">{this.state.wow.w + '-' + this.state.wow.l}</div>
+            <div className="team" onClick={() => this.changeTeam(this.state.teams[11])}>
+              <div className="team-divider col-10">{this.state.teams.length > 0 && this.state.teams[11].teamName}</div>
+              <div className="standing col-2">{this.state.teams.length > 0 && (this.state.teams[11].w + '-' + this.state.teams[11].l)}</div>
             </div>
           </div>
         </div>
@@ -164,7 +183,7 @@ class TeamsOfTwelve extends React.Component {
             <div className="exit">x</div>
             <div className="team-name">{this.state.name}</div>
             <div className="team-info">
-              <div>OPENS | {this.state.w}W - {this.state.l}L</div>
+              <div>{this.state.cat.toUpperCase()} | {this.state.w}W - {this.state.l}L</div>
             </div>
             <div className="player-container">
               <div className="player-list">

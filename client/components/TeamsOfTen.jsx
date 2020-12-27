@@ -86,6 +86,19 @@ class TeamsOfTen extends React.Component {
     this.props.overlayOn()
   }
 
+  componentDidMount () {
+    let category
+    switch (this.props.cat) {
+      case '35a':
+        category = 'a35'
+        break
+    }
+    this.setState({
+      cat: this.props.cat,
+      teams: this.state[category]
+    })
+  }
+
   render () {
     return (
       <div className="ten">
