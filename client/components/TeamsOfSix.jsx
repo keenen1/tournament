@@ -50,39 +50,39 @@ class TeamsOfSix extends React.Component {
       ],
       u18: [
         {
-          teamName: 'UFCSA NORTH',
-          teamPlayers: [],
+          teamName: 'PINOY MAVS',
+          teamPlayers: ['Red Viloria', 'Daniel Tialban', 'Jacob Banno', 'Angelo Matanguihan', 'JL Lopez', 'Val Mercado', 'JC Rebosura', 'Ralph Balazo', 'EJ Rebosura', 'Jaden Latay', 'Andre Yray', 'Andrei Salomon'],
+          w: 0,
+          l: 0
+        },
+        {
+          teamName: 'UFCSA WEST TITIGAN',
+          teamPlayers: ['Landon Smith', 'Seth Tantinco', 'Sebastian Alan', 'Kristopher Cerda', 'Mikal Maiquez', 'Keith Buenaflor', 'Lorenzo Credo', 'Miguel Balingit', 'Andre Sadsad'],
           w: 0,
           l: 0
         },
         {
           teamName: 'GENESIS',
-          teamPlayers: [],
+          teamPlayers: ['Christian  Jatulan', 'Zeth Marcos', 'Zedrick Candor', 'Allain Santiago', 'Alexis Arizala', 'Al Alibahrani', 'Joshua Garcia', 'Ezekiel Garcia', 'Josch Magisa', 'John Villanueva', 'Lyndon Lucindo'],
           w: 0,
           l: 0
         },
         {
           teamName: 'TGIF',
-          teamPlayers: [],
-          w: 0,
-          l: 0
-        },
-        {
-          teamName: 'UFCSA WEST A',
-          teamPlayers: [],
+          teamPlayers: ['David Cobain', 'Jomari Maturan', 'Cromwell Pilacan', 'Kurt Guevara', 'Russell Pilacan', 'Zach Rafuson', 'Kurt Kempis', 'Ramon Villacarta', 'Homer Tuazon', 'Matt Mitra', 'Keane Co', 'Aidan King'],
           w: 0,
           l: 0
 
         },
         {
-          teamName: 'UFCSA WEST B',
-          teamPlayers: [],
+          teamName: 'UFCSA NORTH',
+          teamPlayers: ['Lance Layao', 'Cyrus Grafil', 'Don Mallari', 'Ralph Fabriaga', 'Ralph Rapanan', 'Andrew Delco', 'Gian Cadag', 'Karl Amponin', 'Tony Lim', 'Jaden Perdido', 'Tristan Buenaventura', 'Ryan Fabian'],
           w: 0,
           l: 0
         },
         {
-          teamName: 'PINOY MAVS',
-          teamPlayers: [],
+          teamName: 'UFCSA WEST ALPHA',
+          teamPlayers: ['Gabriel de Guzman', 'Michael De Guzman', 'Christian Valencia', 'Francis Cabello', 'Tristan Allen', 'Amray De Asis', 'Jerald Gabornes', 'Benedict Magtibay', 'Alister Rapasa', 'Manuel Lagonera', 'Cedric Valencia'],
           w: 0,
           l: 0
         }
