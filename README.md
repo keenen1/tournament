@@ -9,7 +9,6 @@ This tournament app is made especially for the annual Filipino Sinulog Tournamen
 * Scheduling
 * Hourly Results
 * Standings
-* News
 
 You can access the published site at:
 
