@@ -89,19 +89,7 @@ class TeamsOfSix extends React.Component {
       ],
       u9: [
         {
-          teamName: 'KNIGHTS',
-          teamPlayers: ['Draco Bornilla', 'Hiro Nonato', 'Tristan Longid', 'Arin Ganga', 'Lucas Ramos', 'Andres Mamerto', 'Marbrille Williams', 'Jacob Fabregas'],
-          w: 0,
-          l: 0
-        },
-        {
-          teamName: 'TGIF',
-          teamPlayers: ['Juancho De Guzman', 'Mateo Ilagan', 'Zander Mariano', 'Zeke Osigan', 'Vonn Villalobos', 'Reema Leneia', 'Kaiser Ochoa', 'Karlisle Ochoa'],
-          w: 0,
-          l: 0
-        },
-        {
-          teamName: 'FBB',
+          teamName: 'FLAT BUSH',
           teamPlayers: ['Josiah Book', 'Aaron Soretes', 'Allen Illustrisimo', 'Chase Lardizabal', 'Manuel Magallanes', 'Bryle Magayanes', 'Marcus Padua', 'Elaine Penaflor'],
           w: 0,
           l: 0
@@ -113,14 +101,26 @@ class TeamsOfSix extends React.Component {
           l: 0
         },
         {
-          teamName: 'STINGERS\'',
-          teamPlayers: ['Jake Sinvitchit', 'Jiya Cruz', 'Grant Cruz', 'Isaaiah Philips', 'Issachar Philips', 'Jaden Volante', 'Elija Gusman', 'Nicos Rapanan', 'Marco Cardeno', 'Marcus Arroyo', 'Aiden Kierulf'],
+          teamName: 'KNIGHTS',
+          teamPlayers: ['Draco Bornilla', 'Hiro Nonato', 'Tristan Longid', 'Arin Ganga', 'Lucas Ramos', 'Andres Mamerto', 'Marbrille Williams', 'Jacob Fabregas'],
           w: 0,
           l: 0
         },
         {
           teamName: 'PINOY MAVS',
           teamPlayers: ['Aldric Quilantang', 'Liam Crispino', 'Mateo Enricoso', 'Rafa Gayatin', 'Amhir Kuhutan', 'Kurt Pulac', 'Hugh Warren', 'Zayne Cabilin'],
+          w: 0,
+          l: 0
+        },
+        {
+          teamName: 'STINGERS\'',
+          teamPlayers: ['Jake Sinvitchit', 'Jiya Cruz', 'Grant Cruz', 'Isaaiah Philips', 'Issachar Philips', 'Jaden Volante', 'Elija Gusman', 'Nicos Rapanan', 'Marco Cardeno', 'Marcus Arroyo', 'Aiden Kierulf'],
+          w: 0,
+          l: 0
+        },
+        {
+          teamName: 'TGIF',
+          teamPlayers: ['Juancho De Guzman', 'Mateo Ilagan', 'Zander Mariano', 'Zeke Osigan', 'Vonn Villalobos', 'Reema Leneia', 'Kaiser Ochoa', 'Karlisle Ochoa'],
           w: 0,
           l: 0
         }

@@ -70,7 +70,7 @@ class Teams extends React.Component {
         componentToRender = <TeamsOfEight overlayOn={() => this.overlayOn()} overlayOff={() => this.overlayOff()} cat={this.state.cat} />
         break
       case 'u12':
-        componentToRender = <TeamsOfSix overlayOn={() => this.overlayOn()} overlayOff={() => this.overlayOff()} />
+        componentToRender = <TeamsOfEight overlayOn={() => this.overlayOn()} overlayOff={() => this.overlayOff()} cat={this.state.cat} />
         break
       case 'u9':
         componentToRender = <TeamsOfSix overlayOn={() => this.overlayOn()} overlayOff={() => this.overlayOff()} cat={this.state.cat} />
