@@ -15,22 +15,18 @@ class Teams extends React.Component {
     switch (cat) {
       case 'opens':
         return 18
-      case 'legends':
-        return 12
+      case '40a':
+        return 6
       case '35a':
-        return 8
-      case 'u19':
-        return 4
-      case 'u17':
-        return 4
+        return 10
+      case 'u18':
+        return 6
       case 'u15':
         return 8
-      case 'u13':
-        return 4
-      case 'u11':
-        return 4
+      case 'u12':
+        return 8
       case 'u9':
-        return 4
+        return 6
     }
   }
 
@@ -57,7 +53,7 @@ class Teams extends React.Component {
       case 'opens':
         componentToRender = <TeamsOfTwelve overlayOn={() => this.overlayOn()} overlayOff={() => this.overlayOff()} />
         break
-      case 'legends':
+      case '40a':
         componentToRender = <TeamsOfSix overlayOn={() => this.overlayOn()} overlayOff={() => this.overlayOff()} cat={this.state.cat} />
         break
       case '35a':

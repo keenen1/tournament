@@ -26,19 +26,19 @@ const Groups = () => {
       </div>
       <div className="col-12">
         <Link to={{
-          pathname: '/groups/legends',
+          pathname: '/groups/40a',
           state: {
-            cat: 'legends',
+            cat: '40a',
             number: 6
           }
         }} className="teams-category col-4">
-          LEGENDS
+          40A
         </Link>
         <Link to={{
           pathname: '/groups/35a',
           state: {
             cat: '35a',
-            number: 8
+            number: 10
           }
         }} className="teams-category col-4">
           35A
@@ -67,7 +67,7 @@ const Groups = () => {
           pathname: '/groups/u12',
           state: {
             cat: 'u12',
-            number: 6
+            number: 8
           }
         }} className="teams-category col-4">
           U12

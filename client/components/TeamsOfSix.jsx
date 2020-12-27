@@ -13,37 +13,37 @@ class TeamsOfSix extends React.Component {
       legends: [
         {
           teamName: 'UFCSA SINULOG',
-          teamPlayers: [],
+          teamPlayers: ['Bob Mir', 'Ross Ganzan', 'Alex Andales', 'Ramil Maligro', 'Richard Cortes', 'Marlon Ambion', 'Angelo Javate', 'Gilbert Tabora', 'Laurence Malbog', 'Bong Sepnio', 'Nixon Morales'],
           w: 0,
           l: 0
         },
         {
           teamName: 'AZTIGS',
-          teamPlayers: [],
-          w: 0,
-          l: 0
-        },
-        {
-          teamName: 'PINOY MAVS',
-          teamPlayers: [],
-          w: 0,
-          l: 0
-        },
-        {
-          teamName: 'TGIF',
-          teamPlayers: [],
+          teamPlayers: ['Randolph Herrera', 'Carlo Leyson', 'Fidel Mabanta', 'Grimson Reyes', 'Alan Almencion', 'Jhonny Artesa', 'Joey Ilagan', 'Cesar Perez', 'Aldrich Alviar', 'Emmanuel Sta Barbara'],
           w: 0,
           l: 0
         },
         {
           teamName: 'FRANKLIN',
-          teamPlayers: [],
+          teamPlayers: ['Cesar Narzo', 'Allan Murillo', 'Gigi Boy', 'Ranilo de la Cruz', 'Ike Francisco', 'Gerry Cristobal', 'Romel Ares', 'Anselmo Sacueza', 'Vincent Tapia', 'Ricky Chan'],
           w: 0,
           l: 0
         },
         {
-          teamName: 'TITIGAN BALLERS',
-          teamPlayers: [],
+          teamName: 'TGIF CALIBER 45',
+          teamPlayers: ['Normin Asinas', 'Soliito Asinas', 'Mitz Diputado', 'Abet Tamayao', 'Dennis Maga', 'Larry Asuncion', 'Jocky Lorenzo', 'Efren Arellano', 'Felipe Martinez', 'Leo Guico', 'Micheal Mitra', 'Alfredo Morales'],
+          w: 0,
+          l: 0
+        },
+        {
+          teamName: 'PINOY MAVS',
+          teamPlayers: ['George Dio', 'Rodel Alan', 'Micheal Salomon', 'Jimmy Tan', 'Jacob Torrefranca', 'Joel Yulo', 'BJ Bauzon', 'Ferdinand Contreras', 'Manu Hoque', 'Elliot Zshornack', 'Erick Basobas', 'Jovit Naboa'],
+          w: 0,
+          l: 0
+        },
+        {
+          teamName: 'WEST 7',
+          teamPlayers: ['Jun Allan', 'Erik Luklukan', 'Jun Manio', 'Bojo Ermita', 'Ernesto Bundalian', 'Raul Lotivio', 'Rey Ocfemia', 'Danny Sayat', 'Jolly Concepcion', 'Ronald Tongol', 'Alfred Sinag', 'Dennis Macahig', 'Rolly Nicolas', 'John Senfelices', 'Jovy Martinez', 'Romy Guevarra', 'Jay Salonga'],
           w: 0,
           l: 0
         }
@@ -142,7 +142,7 @@ class TeamsOfSix extends React.Component {
   componentDidMount () {
     let category
     switch (this.props.cat) {
-      case 'legends':
+      case '40a':
         category = 'legends'
         break
       case 'u18':
