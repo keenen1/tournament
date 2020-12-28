@@ -418,7 +418,7 @@ a {
   font-size: 2.5vw;
 }
 
-.eighteen, .twelve, .ten, .eight, .six, .four {
+.eighteen, .twelve, .ten, .eight, .six, .four, .women {
   height: 75%;
   color: white;
   background-color: rgb(39, 39, 39);
@@ -454,6 +454,9 @@ a {
 .ten .teams-block div {
   height: 16.66%;
 }
+.women .teams-block div {
+  height: 25%;
+}
 .pool, .team, .team-divider, .standing {
   display: flex;
   align-items: center;
@@ -473,6 +476,10 @@ a {
   border-right: grey 1px solid;
   border-top: grey 1px solid;
   border-bottom: grey 1px solid;
+}
+.women .teams-block {
+  height: 100%;
+  border: none;
 }
 .teams-block .team {
   transition: 0.7s;

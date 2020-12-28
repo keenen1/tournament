@@ -4,6 +4,7 @@ import TeamsOfTwelve from './TeamsOfTwelve'
 import TeamsOfEight from './TeamsOfEight'
 import TeamsOfSix from './TeamsOfSix'
 import TeamsOfTen from './TeamsOfTen'
+import TeamsOfWomen from './TeamsOfWomen'
 // import TeamsOfFour from './TeamsOfFour'
 
 class Teams extends React.Component {
@@ -73,7 +74,7 @@ class Teams extends React.Component {
         componentToRender = <TeamsOfSix overlayOn={() => this.overlayOn()} overlayOff={() => this.overlayOff()} cat={this.state.cat} />
         break
       case 'women':
-        componentToRender = <TeamsOfSix overlayOn={() => this.overlayOn()} overlayOff={() => this.overlayOff()} cat={this.state.cat} />
+        componentToRender = <TeamsOfWomen overlayOn={() => this.overlayOn()} overlayOff={() => this.overlayOff()} cat={this.state.cat} />
         break
     }
     return (

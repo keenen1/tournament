@@ -142,6 +142,9 @@ class TeamsOfSix extends React.Component {
   componentDidMount () {
     let category
     switch (this.props.cat) {
+      case 'women':
+        category = 'women'
+        break
       case '40a':
         category = 'legends'
         break
