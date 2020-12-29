@@ -1304,24 +1304,16 @@ a {
 
   .column100 {
     width: 10vw;
-    padding-left: 1vw;
   }
   
   .row100.head th {
-    font-size: 1.3vw;
-    height: 1.6vw;
-    padding-top: 1vw;
-    padding-bottom: 1vw;
-  }
-  
-  .row100 td {
-    padding-top: 0px;
-    padding-bottom: 0px;
+    font-size: 1.2vw;
+    height: 2.7vw;
   }
 
   .table100.ver3 td {
-    font-size: 0.9vw;
-    height: 2.6vw;
+    font-size: 0.8vw;
+    height: 2.3vw;
     width: 20vw;
   }
 
@@ -1331,6 +1323,7 @@ a {
   }
 
   .day-indicator {
-    font-size: 1vw;
+    font-size: 1.2vw;
+    height: 2.7vw;
   }
 }
