@@ -12,8 +12,8 @@ const DayOneFiveOnFive = () => {
               <table data-vertable="ver3">
                 <thead>
                   <tr className="row100 head">
-                    <th className="column100 column1" data-column="column1"
-                      style={{ backgroundColor: '#023436', display: 'flex', alignItems: 'center', justifyContent: 'space-evenly', fontSize: '1.3vw' }}>
+                    <th className="column100 column1 day-indicator" data-column="column1"
+                      style={{ backgroundColor: '#023436', display: 'flex', alignItems: 'center', justifyContent: 'space-evenly' }}>
                       <div>DAY 1</div>
                       <div>|</div>
                       <div>5v5</div>
@@ -203,25 +203,34 @@ const DayOneFiveOnFive = () => {
                   <tr className="row100">
                     <td className="column100 column1" data-column="column1">5:30 PM</td>
                     <td className="column100 column2" data-column="column2">
-                      
+                      <div>FLAT BUSH</div>
+                      <div>v KNIGHTS</div>
                     </td>
                     <td className="column100 column3" data-column="column3">
-
+                      <div>MAVS v TGIF</div>
                     </td>
-                    <td className="column100 column4" data-column="column4">
-
-                    </td>
-                    <td className="column100 column5" data-column="column5">
-
-                    </td>
+                    <td className="column100 column4" data-column="column4">--</td>
+                    <td className="column100 column5" data-column="column5">--</td>
                   </tr>
 
                   <tr className="row100">
                     <td className="column100 column1" data-column="column1">6:20 PM</td>
-                    <td className="column100 column2" data-column="column2">--</td>
-                    <td className="column100 column3" data-column="column3">--</td>
-                    <td className="column100 column4" data-column="column4">--</td>
-                    <td className="column100 column5" data-column="column5">--</td>
+                    <td className="column100 column2" data-column="column2">
+                      <div>AZTIGS BETA</div>
+                      <div>v BARAKO</div>
+                    </td>
+                    <td className="column100 column3" data-column="column3">
+                      <div>UNKNOWN v</div>
+                      <div>EAST STREET</div>
+                    </td>
+                    <td className="column100 column4" data-column="column4">
+                      <div>PHENOM v</div>
+                      <div>BRICK CITY</div>
+                    </td>
+                    <td className="column100 column5" data-column="column5">
+                      <div>JBING v</div>
+                      <div>PINOY PROPERTY</div>
+                    </td>
                   </tr>
                 </tbody>
               </table>

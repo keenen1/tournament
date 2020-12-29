@@ -1238,6 +1238,10 @@ a {
   font-size: 1vw;
 }
 
+.day-indicator {
+  font-size: 1vw;
+}
+
 /* SCHED TABLET */
 @media (max-width: 1025px) and (orientation: portrait) {
   .limiter {
@@ -1284,14 +1288,18 @@ a {
   
   .table100.ver3 .row100 .column1 {
     font-size: 1.7vw;
-    width: 8vw;
+    width: 10vw;
+  }
+
+  .day-indicator {
+    font-size: 1vw;
   }
 }
 
 /* MOBILE LANDSCAPE */
 @media (max-height: 500px) and (orientation: landscape)  {
   .limiter {
-    height: 90%;
+    height: 85%;
   }
 
   .column100 {
@@ -1300,8 +1308,8 @@ a {
   }
   
   .row100.head th {
-    font-size: 1.5vw;
-    height: 1vw;
+    font-size: 1.3vw;
+    height: 1.6vw;
     padding-top: 1vw;
     padding-bottom: 1vw;
   }
@@ -1312,13 +1320,17 @@ a {
   }
 
   .table100.ver3 td {
-    font-size: 0.75vw;
-    height: 2.7vw;
-    width: 11vw;
+    font-size: 0.9vw;
+    height: 2.6vw;
+    width: 20vw;
   }
 
   .table100.ver3 .row100 .column1 {
     width: 6vw;
     padding-left: 2vw;
+  }
+
+  .day-indicator {
+    font-size: 1vw;
   }
 }
