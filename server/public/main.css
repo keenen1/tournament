@@ -1312,9 +1312,15 @@ a {
   }
 
   .table100.ver3 td {
-    font-size: 0.8vw;
-    height: 2.3vw;
+    font-size: 0.7vw;
+    height: 1.8vw;
     width: 20vw;
+  }
+  
+  .table100.ver3 td div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   .table100.ver3 .row100 .column1 {
