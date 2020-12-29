@@ -1228,7 +1228,7 @@ a {
 
 .table100.ver3 td {
   font-size: 0.8vw;
-  height: 3.5vw;
+  height: 2.8vw;
   width: 17vw;
 }
 
@@ -1268,13 +1268,13 @@ a {
   }
 
   .table100.ver3 td {
-    font-size: 1.2vw;
-    height: 9vw;
+    font-size: 1.5vw;
+    height: 8vw;
     width: 17vw;
   }
   
   .table100.ver3 th {
-    font-size: 2vw;
+    font-size: 2.5vw;
   }
 
   .column100 {
@@ -1282,47 +1282,11 @@ a {
     padding-left: 1vw;
   }
   
-  .column100.column1 {
-    font-size: 1.3vw;
+  .table100.ver3 .row100 .column1 {
+    font-size: 1.7vw;
     width: 8vw;
   }
 }
-
-
-/* TABLET LANDSCAPE */
-/* @media (max-height: 1040px) and (orientation: landscape) {
-  .limiter {
-    height: 85%;
-  }
-  
-  .column100 {
-    width: 11vw;
-  }
-  
-  .row100.head th {
-    font-size: 1.2vw;
-    height: 1vw;
-    padding-top: 1vw;
-    padding-bottom: 1vw;
-  }
-  
-  .row100 td {
-    padding-top: 0px;
-    padding-bottom: 0px;
-  }
-  
-  .table100.ver3 td {
-    font-size: 0.8vw;
-    height: 4vw;
-    width: 12.5vw;
-  }
-
-  .table100.ver3 .row100 .column1 {
-    width: 6vw;
-    padding-left: 2vw;
-    font-size: 1vw;
-  }
-} */
 
 /* MOBILE LANDSCAPE */
 @media (max-height: 500px) and (orientation: landscape)  {
