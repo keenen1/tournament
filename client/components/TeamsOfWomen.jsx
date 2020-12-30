@@ -12,6 +12,18 @@ class TeamsOfWomen extends React.Component {
       l: 0,
       women: [
         {
+          teamName: 'UFCSA WEST',
+          teamPlayers: ['CJ Alan', 'Jeanil Lopez', 'Jil Ormanin'],
+          w: 0,
+          l: 0
+        },
+        {
+          teamName: 'SOUTH AUCKLAND',
+          teamPlayers: ['Elain Penaflor', 'Jeilyann Pinzon', 'Georgina Pico', 'Katlyn Oracion', 'Joanne Tapia', 'Jc Tapia'],
+          w: 0,
+          l: 0
+        },
+        {
           teamName: 'EL HOMBRES',
           teamPlayers: ['Casey Leyson', 'Deanne Evangelista', 'Michelle Farrell'],
           w: 0,
@@ -32,18 +44,6 @@ class TeamsOfWomen extends React.Component {
         {
           teamName: 'HITZ',
           teamPlayers: ['Lian Paderes', 'Yshabelle Subejano', 'Keziah Obedoza', 'Charlaine Bito-on'],
-          w: 0,
-          l: 0
-        },
-        {
-          teamName: 'UFCSA WEST',
-          teamPlayers: ['CJ Alan', 'Jeanil Lopez', 'Jil Ormanin'],
-          w: 0,
-          l: 0
-        },
-        {
-          teamName: 'SOUTH AUCKLAND',
-          teamPlayers: ['TBC', 'TBC', 'TBC'],
           w: 0,
           l: 0
         }

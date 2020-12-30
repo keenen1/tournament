@@ -8,7 +8,7 @@ const DayOneThreeOnThree = () => {
         <div className="container-table100">
           <div className="wrap-table100">
 
-            <div className="table100 ver3 m-b-110">
+            <div className="table100 ver3 m-b-110 women-table">
               <table data-vertable="ver3">
                 <thead>
                   <tr className="row100 head">
@@ -18,99 +18,106 @@ const DayOneThreeOnThree = () => {
                       <div>|</div>
                       <div>3x3</div>
                     </th>
-                    <th className="column100 column2" data-column="column2">Court 1</th>
-                    <th className="column100 column3" data-column="column3">Court 2</th>
-                    <th className="column100 column4" data-column="column4">Court 3</th>
-                    <th className="column100 column5" data-column="column5">Court 4</th>
+                    <th className="column100 column2" data-column="column2">Half Court 1</th>
+                    <th className="column100 column3" data-column="column3">Half Court 2</th>
                   </tr>
                 </thead>
                 <tbody>
+
                   <tr className="row100">
-                    <td className="column100 column1" data-column="column1">9:00 AM</td>
-                    <td className="column100 column2" data-column="column2">--</td>
-                    <td className="column100 column3" data-column="column3">--</td>
-                    <td className="column100 column4" data-column="column4">--</td>
-                    <td className="column100 column5" data-column="column5">--</td>
+                    <td className="column100 column1" data-column="column1">12:10 PM</td>
+                    <td className="column100 column2" data-column="column2">
+                      <div>
+                        <div>EL HOMBRES v&nbsp;</div>
+                        <div>CASH CONVERTERS</div>
+                      </div>
+                    </td>
+                    <td className="column100 column3" data-column="column3">
+                      <div>
+                        <div>UFCSA WEST v&nbsp;</div>
+                        <div>SOUTH AUCKLAND</div>
+                      </div>
+                    </td>
                   </tr>
 
                   <tr className="row100">
-                    <td className="column100 column1" data-column="column1">9:50 AM</td>
-                    <td className="column100 column2" data-column="column2">--</td>
-                    <td className="column100 column3" data-column="column3">--</td>
-                    <td className="column100 column4" data-column="column4">--</td>
-                    <td className="column100 column5" data-column="column5">--</td>
+                    <td className="column100 column1" data-column="column1">12:25 PM</td>
+                    <td className="column100 column2" data-column="column2">
+                      <div>
+                        <div>UFCSA WEST v&nbsp;</div>
+                        <div>EL HOMBRES</div>
+                      </div>
+                    </td>
+                    <td className="column100 column3" data-column="column3">
+                      <div>
+                        <div>AIRBALLERS</div>
+                        <div>&nbsp;v HITZ</div>
+                      </div>
+                    </td>
                   </tr>
 
                   <tr className="row100">
-                    <td className="column100 column1" data-column="column1">10:40 AM</td>
-                    <td className="column100 column2" data-column="column2">--</td>
-                    <td className="column100 column3" data-column="column3">--</td>
-                    <td className="column100 column4" data-column="column4">--</td>
-                    <td className="column100 column5" data-column="column5">--</td>
+                    <td className="column100 column1" data-column="column1">12:40 PM</td>
+                    <td className="column100 column2" data-column="column2">
+                      <div>
+                        <div>CASH CONVERTERS</div>
+                        <div>&nbsp;v HITZ</div>
+                      </div>
+                    </td>
+                    <td className="column100 column3" data-column="column3">
+                      <div>
+                        <div>SOUTH AUCKLAND</div>
+                        <div>&nbsp;v AIRBALLERS</div>
+                      </div>
+                    </td>
                   </tr>
 
                   <tr className="row100">
-                    <td className="column100 column1" data-column="column1">11:30 AM</td>
-                    <td className="column100 column2" data-column="column2">--</td>
-                    <td className="column100 column3" data-column="column3">--</td>
-                    <td className="column100 column4" data-column="column4">--</td>
-                    <td className="column100 column5" data-column="column5">--</td>
+                    <td className="column100 column1" data-column="column1">1:20 PM</td>
+                    <td className="column100 column2" data-column="column2">
+                      <div>
+                        <div>UFCSA WEST v&nbsp;</div>
+                        <div>CASH CONVERTERS</div>
+                      </div>
+                    </td>
+                    <td className="column100 column3" data-column="column3">
+                      <div>
+                        <div>SOUTH AUCKLAND</div>
+                        <div>&nbsp;v EL HOMBRES</div>
+                      </div>
+                    </td>
                   </tr>
 
                   <tr className="row100">
-                    <td className="column100 column1" data-column="column1">12:20 PM</td>
-                    <td className="column100 column2" data-column="column2">--</td>
-                    <td className="column100 column3" data-column="column3">--</td>
-                    <td className="column100 column4" data-column="column4">--</td>
-                    <td className="column100 column5" data-column="column5">--</td>
-                  </tr>
-
-                  <tr className="row100">
-                    <td className="column100 column1" data-column="column1">1:00 PM</td>
-                    <td className="column100 column2" data-column="column2">--</td>
-                    <td className="column100 column3" data-column="column3">--</td>
-                    <td className="column100 column4" data-column="column4">--</td>
-                    <td className="column100 column5" data-column="column5">--</td>
+                    <td className="column100 column1" data-column="column1">1:35 PM</td>
+                    <td className="column100 column2" data-column="column2">
+                      <div>
+                        <div>UFCSA WEST v&nbsp;</div>
+                        <div>AIRBALLERS</div>
+                      </div>
+                    </td>
+                    <td className="column100 column3" data-column="column3">
+                      <div>
+                        <div>SOUTH AUCKLAND</div>
+                        <div>&nbsp;v HITZ</div>
+                      </div>
+                    </td>
                   </tr>
 
                   <tr className="row100">
                     <td className="column100 column1" data-column="column1">1:50 PM</td>
-                    <td className="column100 column2" data-column="column2">--</td>
-                    <td className="column100 column3" data-column="column3">--</td>
-                    <td className="column100 column4" data-column="column4">--</td>
-                    <td className="column100 column5" data-column="column5">--</td>
-                  </tr>
-
-                  <tr className="row100">
-                    <td className="column100 column1" data-column="column1">2:40 PM</td>
-                    <td className="column100 column2" data-column="column2">--</td>
-                    <td className="column100 column3" data-column="column3">--</td>
-                    <td className="column100 column4" data-column="column4">--</td>
-                    <td className="column100 column5" data-column="column5">--</td>
-                  </tr>
-
-                  <tr className="row100">
-                    <td className="column100 column1" data-column="column1">3:30 PM</td>
-                    <td className="column100 column2" data-column="column2">--</td>
-                    <td className="column100 column3" data-column="column3">--</td>
-                    <td className="column100 column4" data-column="column4">--</td>
-                    <td className="column100 column5" data-column="column5">--</td>
-                  </tr>
-
-                  <tr className="row100">
-                    <td className="column100 column1" data-column="column1">4:00 PM</td>
-                    <td className="column100 column2" data-column="column2">--</td>
-                    <td className="column100 column3" data-column="column3">--</td>
-                    <td className="column100 column4" data-column="column4">--</td>
-                    <td className="column100 column5" data-column="column5">--</td>
-                  </tr>
-
-                  <tr className="row100">
-                    <td className="column100 column1" data-column="column1">5:00 PM</td>
-                    <td className="column100 column2" data-column="column2">--</td>
-                    <td className="column100 column3" data-column="column3">--</td>
-                    <td className="column100 column4" data-column="column4">--</td>
-                    <td className="column100 column5" data-column="column5">--</td>
+                    <td className="column100 column2" data-column="column2">
+                      <div>
+                        <div>EL HOMBRES</div>
+                        <div>&nbsp;v HITZ</div>
+                      </div>
+                    </td>
+                    <td className="column100 column3" data-column="column3">
+                      <div>
+                        <div>CASH CONVERTERS</div>
+                        <div>&nbsp;v AIRBALLERS</div>
+                      </div>
+                    </td>
                   </tr>
                 </tbody>
               </table>

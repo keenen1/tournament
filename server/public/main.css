@@ -1232,6 +1232,18 @@ a {
   width: 17vw;
 }
 
+.women-table.ver3 th {
+  font-size: 2vw;
+  height: 5vw;
+  width: 25vw;
+}
+
+.women-table.ver3 td {
+  font-size: 1.2vw;
+  height: 5vw;
+  width: 25vw;
+}
+
 .table100.ver3 .row100 .column1 {
   width: 10vw;
   padding-left: 2vw;
@@ -1277,6 +1289,12 @@ a {
     width: 17vw;
   }
   
+  .women-table.ver3 td {
+    font-size: 1.5vw;
+    height: 10vw;
+    width: 30vw;
+  }
+  
   .table100.ver3 th {
     font-size: 2.5vw;
   }
@@ -1289,6 +1307,11 @@ a {
   .table100.ver3 .row100 .column1 {
     font-size: 1.7vw;
     width: 10vw;
+  }
+  
+  .women-table.ver3 .row100 .column1 {
+    font-size: 2vw;
+    width: 13vw;
   }
 
   .day-indicator {
@@ -1315,6 +1338,12 @@ a {
     font-size: 0.7vw;
     height: 1.8vw;
     width: 20vw;
+  }
+
+  .women-table.ver3 td {
+    font-size: 1.3vw;
+    height: 4.8vw;
+    width: 35vw;
   }
   
   .table100.ver3 td div {
