@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const DayOneFiveOnFive = () => {
   return (
@@ -133,7 +134,11 @@ const DayOneFiveOnFive = () => {
                         MAVS v &apos;STINGERS&apos;
                       </div>
                     </td>
-                    <td className="column100 column4" data-column="column4">--</td>
+                    <td className="column100 column4 women-link" data-column="column4">
+                      <Link to="/games/day-one/3x3" replace>
+                        SEE WOMEN&apos;S
+                      </Link>
+                    </td>
                     <td className="column100 column5" data-column="column5">
                       <div>
                         <div>MAVS v</div>
@@ -155,7 +160,11 @@ const DayOneFiveOnFive = () => {
                         <div>v FLAT BUSH</div>
                       </div>
                     </td>
-                    <td className="column100 column4" data-column="column4">--</td>
+                    <td className="column100 column4 women-link" data-column="column4">
+                      <Link to="/games/day-one/3x3" replace>
+                        SEE WOMEN&apos;S
+                      </Link>
+                    </td>
                     <td className="column100 column5" data-column="column5">
                       <div>
                         <div>MAVS 2 v</div>

@@ -1244,6 +1244,19 @@ a {
   width: 25vw;
 }
 
+.women-link {
+  background-color: pink;
+}
+
+.women-link:hover {
+  cursor: pointer;
+  background-color: pink !important;
+}
+
+.women-link a {
+  color: grey;
+}
+
 .table100.ver3 .row100 .column1 {
   width: 10vw;
   padding-left: 2vw;
