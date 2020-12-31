@@ -63,7 +63,7 @@ class TeamsOfTwelve extends React.Component {
           w: 0,
           l: 0,
           teamName: 'BRICK CITY',
-          teamPlayers: ['Daniel de Silva', 'Daryl Burias', 'Patrick Burias', 'Jan Latosa', 'Jordan Froilan', 'Mathew Marcelo', 'Ken Ganzan', 'Eron Caballes', 'Franz Lim', 'Mick Ramos', 'Chris Nallerda', 'Tyler Martin', 'Kevin de Paula']
+          teamPlayers: ['Daniel de Silva', 'Daryl Burias', 'Patrick Burias', 'Jan Latosa', 'Jordan Froilan', 'Mathew Marcelo', 'Ken Ganzan', 'Eron Caballes', 'Franz Lim', 'Mick Ramos', 'Chris Nallerda', 'Tyler Martin', 'Kevin de Paula', 'Jian De Vega']
         },
         {
           w: 0,

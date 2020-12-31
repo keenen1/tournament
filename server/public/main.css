@@ -1297,7 +1297,7 @@ a {
   }
 
   .table100.ver3 td {
-    font-size: 1.5vw;
+    font-size: 1.3vw;
     height: 8vw;
     width: 17vw;
   }
@@ -1359,7 +1359,7 @@ a {
     width: 35vw;
   }
   
-  .table100.ver3 td div {
+  .table100.ver3 td div div {
     display: flex;
     align-items: center;
     justify-content: center;

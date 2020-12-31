@@ -15,7 +15,7 @@ class TeamsOfTen extends React.Component {
           w: 0,
           l: 0,
           teamName: 'AZTIGS',
-          teamPlayers: []
+          teamPlayers: ['Robbie Layao', 'Davey Vinluan', 'PJY Ollimsoh', 'Jhonny Arteza', 'Fidel Mabanta', 'Garry Garcia', 'Adrian Bdunk', 'Jeric Mataverde', 'Ken Ken', 'John Rey Sequina', 'Elger de Guzman', 'James Mo', 'Marc Co']
         },
         {
           w: 0,
@@ -33,7 +33,7 @@ class TeamsOfTen extends React.Component {
           w: 0,
           l: 0,
           teamName: 'TEAM BARAKO',
-          teamPlayers: []
+          teamPlayers: ['Lawrence', 'Raul Jalit', 'Dwayne Lucero', 'Harrison Lariego', 'Ronald Shan Shan', 'Kent Espana', 'Jok Jok', 'Randy Alcantara', 'Froilan Bautista', 'Elmar Supilanas', 'Nieven Banjo']
         },
         {
           w: 0,
@@ -50,8 +50,8 @@ class TeamsOfTen extends React.Component {
         {
           w: 0,
           l: 0,
-          teamName: 'BRICK CITY',
-          teamPlayers: []
+          teamName: 'FOREX NZ',
+          teamPlayers: ['Robert Turingan', 'Nino Solon', 'Jesse Abamonga', 'Jeffrey Tan', 'Chris Ballerda', 'Ferdinand Manuel', 'Fidel Manalese', 'Gerome Ribu', 'Manny Fausto', 'Miko Escueta', 'Jehrone Valledor', 'Loeven Suzara', 'Rainier Escueta', 'JB Natividad', 'Ronald Ong']
         },
         {
           w: 0,
@@ -63,13 +63,13 @@ class TeamsOfTen extends React.Component {
           w: 0,
           l: 0,
           teamName: 'SOUTH AUCKLAND',
-          teamPlayers: []
+          teamPlayers: ['Rey Capal', 'Duds Pugosa', 'Herbie Emralino', 'Darel Pelayo', 'Ancha Ansiok', 'Restre Restre', 'Paul Hallare', 'Bert Cayanan', 'Lendel Kiamco', 'Alex Rivera', 'Adonis Dicksen', 'Leo Glorio', 'Greg Laro', 'Ardee Llasos', 'Ansel Sacueza', 'Kristian Catapang']
         },
         {
           w: 0,
           l: 0,
-          teamName: 'FOREX NZ',
-          teamPlayers: ['Robert Turingan', 'Nino Solon', 'Jesse Abamonga', 'Jeffrey Tan', 'Chris Ballerda', 'Ferdinand Manuel', 'Fidel Manalese', 'Gerome Ribu', 'Manny Fausto', 'Miko Escueta', 'Jehrone Valledor', 'Loeven Suzara', 'Rainier Escueta', 'JB Natividad', 'Ronald Ong']
+          teamName: 'SRBC',
+          teamPlayers: ['Marc Arriba', 'Cyke Belandres', 'Ken Sharma', 'Phillip Sepulveda', 'Jong Mantos', 'Mark Torredes', 'Third Osorio', 'Mark Enriquez', 'Darwin Villaver']
         }
       ]
     }
