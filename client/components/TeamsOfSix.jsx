@@ -114,7 +114,7 @@ class TeamsOfSix extends React.Component {
         },
         {
           teamName: 'STINGERS\'',
-          teamPlayers: ['Jake Sinvitchit', 'Jiya Cruz', 'Grant Cruz', 'Isaaiah Philips', 'Issachar Philips', 'Jaden Volante', 'Elija Gusman', 'Nicos Rapanan', 'Marco Cardeno', 'Marcus Arroyo', 'Aiden Kierulf'],
+          teamPlayers: ['Jake Sinvitchit', 'Jiya Cruz', 'Grant Cruz', 'Isaaiah Philips', 'Issachar Philips', 'Jaden Volante', 'Elija Gusman', 'Nicos Rapanan', 'Marco Cardeno', 'Marcus Arroyo', 'Aiden Kierulf', 'Edric Legasto'],
           w: 0,
           l: 0
         },

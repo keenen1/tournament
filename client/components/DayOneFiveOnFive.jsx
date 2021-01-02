@@ -311,7 +311,7 @@ const DayOneFiveOnFive = () => {
                   </tr>
 
                   <tr className="row100">
-                    <td className="column100 column1" data-column="column1">4:10 PM</td>
+                    <td className="column100 column1" data-column="column1">4:40 PM</td>
                     <td className="column100 column2" data-column="column2">
                       <div>
                         <div>45A</div>
