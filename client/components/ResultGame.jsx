@@ -1,6 +1,6 @@
 import React from 'react'
 
-const win = { color: 'rgb(2, 196, 235)' }
+const win = { color: 'rgb(133, 201, 32)' }
 const lose = { color: 'grey' }
 
 const ResultGame = (props) => {
