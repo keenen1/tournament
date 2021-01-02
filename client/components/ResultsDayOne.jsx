@@ -7,43 +7,31 @@ const ResultsDayOne = () => {
       <div className="category-pane">DAY ONE</div>
       <div className="results-day">
         <ResultsHourly
-          hour={'9:00 AM'}
+          hour={'7:50 AM'}
 
-          court1cat={'U9'}
-          court1teamA={'FLAT BUSH'}
-          court1scoreA={24}
-          court1teamB={'TGIF'}
-          court1scoreB={8}
+          court1cat={'U12'}
+          court1teamA={'MAVS 1'}
+          court1scoreA={0}
+          court1teamB={'KNIGHTS'}
+          court1scoreB={0}
 
-          court2cat={'U9'}
-          court2teamA={'UFCSA WEST'}
-          court2scoreA={9}
-          court2teamB={'MAVS'}
-          court2scoreB={29}
+          court2cat={'U12'}
+          court2teamA={'UFCSA WEST BLACK'}
+          court2scoreA={0}
+          court2teamB={'TGIF'}
+          court2scoreB={0}
 
-          court3cat={'OP'}
-          court3teamA={'JBING'}
-          court3scoreA={60}
-          court3teamB={'TGIF'}
-          court3scoreB={31}
+          court3cat={'U12'}
+          court3teamA={'UFCSA WEST BLUE'}
+          court3scoreA={0}
+          court3teamB={'MAVS 2'}
+          court3scoreB={0}
 
-          court4cat={'U15'}
-          court4teamA={'MAVS'}
-          court4scoreA={36}
-          court4teamB={'UFCSA NORTH'}
-          court4scoreB={17}
-
-          court5cat={'35A'}
-          court5teamA={'BARAKO EAST'}
-          court5scoreA={36}
-          court5teamB={'SOUTH AKL'}
-          court5scoreB={47}
-
-          court6cat={'35A'}
-          court6teamA={'WEST PA MORE'}
-          court6scoreA={49}
-          court6teamB={'WEST SIDE'}
-          court6scoreB={36}
+          court4cat={'U12'}
+          court4teamA={'STINGERS'}
+          court4scoreA={0}
+          court4teamB={'FLAT BUSH'}
+          court4scoreB={0}
         />
         <ResultsHourly
           hour={'9:50 AM'}

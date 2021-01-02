@@ -927,7 +927,7 @@ a {
 }
 
 .hourly-container {
-  width: 70%;
+  width: 60%;
   padding: 20px;
   color: white;
   margin: auto;
@@ -947,7 +947,7 @@ a {
 
 .court-result {
   border: green 1px solid;
-  width: 33%;
+  width: 50%;
   padding: 2vw 1vw 2vw 1vw;
   display: flex;
 }
@@ -989,6 +989,12 @@ a {
 @media screen and (max-width: 1024px) {
   .hourly-container {
     width: 90%;
+  }
+  .court-result-cat {
+    font-size: 5vw;
+  }
+  .court-result-teams {
+    font-size: 2.5vw;
   }
 }
 
@@ -1034,7 +1040,17 @@ a {
   }
   .court-result-teams {
     justify-content: left;
-    font-size: 4.5vw;
+    font-size: 4vw;
+  }
+}
+
+/* OVERLAY MOBILE LANDSCAPE */
+@media (max-height: 500px) and (orientation: landscape) {
+  .court-result-cat {
+    font-size: 4vw;
+  }
+  .court-result-teams {
+    font-size: 2vw;
   }
 }
 
