@@ -145,7 +145,7 @@ class TeamsOfSix extends React.Component {
       case 'women':
         category = 'women'
         break
-      case '40a':
+      case '45a':
         category = 'legends'
         break
       case 'u18':

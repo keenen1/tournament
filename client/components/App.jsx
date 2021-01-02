@@ -15,6 +15,8 @@ import Groups from './Groups'
 import Rules from './Rules'
 import DayOneFiveOnFive from './DayOneFiveOnFive'
 import DayOneThreeOnThree from './DayOneThreeOnThree'
+import DayTwoFiveOnFive from './DayTwoFiveOnFive'
+import DayTwoThreeOnThree from './DayTwoThreeOnThree'
 
 const App = () => {
   return (
@@ -28,6 +30,8 @@ const App = () => {
         <Route exact path="/games/day-two" component={DayTwo} />
         <Route exact path="/games/day-one/5v5" component={DayOneFiveOnFive} />
         <Route exact path="/games/day-one/3x3" component={DayOneThreeOnThree} />
+        <Route exact path="/games/day-two/5v5" component={DayTwoFiveOnFive} />
+        <Route exact path="/games/day-two/3x3" component={DayTwoThreeOnThree} />
         <Route exact path="/venue" component={Venue} />
         <Route exact path="/groups" component={Groups} />
         <Route path="/groups/:id" component={Teams} />

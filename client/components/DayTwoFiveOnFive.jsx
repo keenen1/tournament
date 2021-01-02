@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-const DayOneFiveOnFive = () => {
+const DayTwoFiveOnFive = () => {
   return (
     <>
       <div className="col-1"></div>
@@ -9,13 +9,13 @@ const DayOneFiveOnFive = () => {
         <div className="container-table100">
           <div className="wrap-table100">
 
-            <div className="table100 ver3 m-b-110">
+            <div className="table100 ver3 m-b-110 day-two-sched">
               <table data-vertable="ver3">
                 <thead>
                   <tr className="row100 head">
                     <th className="column100 column1 day-indicator" data-column="column1"
                       style={{ backgroundColor: '#023436', display: 'flex', alignItems: 'center', justifyContent: 'space-evenly' }}>
-                      <div>DAY 1</div>
+                      <div>DAY 2</div>
                       <div>|</div>
                       <div>5v5</div>
                     </th>
@@ -27,27 +27,27 @@ const DayOneFiveOnFive = () => {
                 </thead>
                 <tbody>
                   <tr className="row100">
-                    <td className="column100 column1" data-column="column1">7:50 AM</td>
+                    <td className="column100 column1" data-column="column1">8:00 AM</td>
                     <td className="column100 column2" data-column="column2">
                       <div>12U</div>
-                      <div>MAVS 1 v KNIGHTS</div>
+                      <div>MAVS 1 v TGIF</div>
                     </td>
                     <td className="column100 column3" data-column="column3">
                       <div>
                         <div>12U</div>
-                        <div>UFCSA WEST BLACK v TGIF</div>
+                        <div>KNIGHTS v UFCSA WEST BLACK</div>
                       </div>
                     </td>
                     <td className="column100 column4" data-column="column4">
                       <div>
-                        <div>12U</div>
-                        <div>UFCSA WEST BLUE v MAVS 2</div>
+                        <div>9U</div>
+                        <div>UFCSA WEST v KNIGHTS</div>
                       </div>
                     </td>
                     <td className="column100 column5" data-column="column5">
                       <div>
-                        <div>12U</div>
-                        <div>STINGERS v FLAT BUSH</div>
+                        <div>9U</div>
+                        <div>&apos;STINGERS&apos; v TGIF</div>
                       </div>
                     </td>
                   </tr>
@@ -56,27 +56,26 @@ const DayOneFiveOnFive = () => {
                     <td className="column100 column1" data-column="column1">8:50 AM</td>
                     <td className="column100 column2" data-column="column2">
                       <div>
-                        <div>15U</div>
-                        <div>WEST NANUH v MAVS 2</div>
+                        <div>12U</div>
+                        <div>UFCSA WEST BLUE v &apos;STINGERS&apos;</div>
                       </div>
                     </td>
                     <td className="column100 column3" data-column="column3">
                       <div>
-                        <div>15U</div>
-                        <div>TGIF v GENESIS</div>
+                        <div>12U</div>
+                        <div>MAVS 2 v FLAT BUSH</div>
                       </div>
                     </td>
                     <td className="column100 column4" data-column="column4">
                       <div>
                         <div>15U</div>
-                        <div>MAVS 1 v NORTH</div>
+                        <div>WEST NANUH v BOLT</div>
                       </div>
                     </td>
                     <td className="column100 column5" data-column="column5">
                       <div>
                         <div>15U</div>
-                        <div>WEST EAGLES v</div>
-                        <div>STREET BALLERS</div>
+                        <div>MAVS 2 v TGIF</div>
                       </div>
                     </td>
                   </tr>
@@ -85,26 +84,29 @@ const DayOneFiveOnFive = () => {
                     <td className="column100 column1" data-column="column1">9:40 AM</td>
                     <td className="column100 column2" data-column="column2">
                       <div>
-                        <div>OPEN</div>
-                        <div>AZTIGS BEAT v OUA</div>
+                        <div>18U</div>
+                        <div>MAVS v GENESIS</div>
                       </div>
                     </td>
                     <td className="column100 column3" data-column="column3">
                       <div>
-                        <div>OPEN</div>
-                        <div>UNKNOWN v ROTORUA</div>
+                        <div>18U</div>
+                        <div>TGIF v UFCSA WEST ALPHA</div>
                       </div>
                     </td>
                     <td className="column100 column4" data-column="column4">
                       <div>
-                        <div>OPEN</div>
-                        <div>PHENOM v WFA</div>
+                        <div>15U</div>
+                        <div>MAVS 1 v UFCSA WEST EAGLES</div>
                       </div>
                     </td>
                     <td className="column100 column5" data-column="column5">
                       <div>
-                        <div>OPEN</div>
-                        <div>JBING v BISDAKOL</div>
+                        <div>15U</div>
+                        <div>
+                          <div>UFCSA NORTH v</div>
+                          <div>STREET BALLERS</div>
+                        </div>
                       </div>
                     </td>
                   </tr>
@@ -113,16 +115,19 @@ const DayOneFiveOnFive = () => {
                     <td className="column100 column1" data-column="column1">10:30 AM</td>
                     <td className="column100 column2" data-column="column2">
                       <div>
-                        <div>35A</div>
-                        <div>AZTIGS v PILDI DAAN</div>
+                        <div>45A</div>
+                        <div>
+                          <div>UFCSA SINULOG&nbsp;</div>
+                          <div>v FRANKLIN</div>
+                        </div>
                       </div>
                     </td>
                     <td className="column100 column3" data-column="column3">
                       <div>
-                        <div>35A</div>
+                        <div>45A</div>
                         <div>
-                          <div>AUCKLAND ALPHA v</div>
-                          <div>&nbsp;MAPUA CARDINALS</div>
+                          <div>TGIF CALIBER 45&nbsp;</div>
+                          <div>v WEST 7</div>
                         </div>
                       </div>
                     </td>
@@ -130,15 +135,15 @@ const DayOneFiveOnFive = () => {
                       <div>
                         <div>35A</div>
                         <div>
-                          <div>BATANG HAMOG v</div>
-                          <div>&nbsp;TAMARONG</div>
+                          <div>PILDI DAAN v</div>
+                          <div>&nbsp;MAPUA CARDINALS</div>
                         </div>
                       </div>
                     </td>
                     <td className="column100 column5" data-column="column5">
                       <div>
                         <div>35A</div>
-                        <div>FOREX v SOUTH AUCKLAND</div>
+                        <div>TAMARONG v SRBC</div>
                       </div>
                     </td>
                   </tr>
@@ -147,26 +152,26 @@ const DayOneFiveOnFive = () => {
                     <td className="column100 column1" data-column="column1">11:20 PM</td>
                     <td className="column100 column2" data-column="column2">
                       <div>
-                        <div>45A</div>
-                        <div>UFCSA SINULOG v AZTIGS</div>
+                        <div>OPENS</div>
+                        <div>A-BOTTOM v B-BOTTOM</div>
                       </div>
                     </td>
                     <td className="column100 column3" data-column="column3">
                       <div>
-                        <div>45A</div>
-                        <div>JBING v BISDAKOL</div>
+                        <div>OPENS</div>
+                        <div>C-BOTTOM v D-BOTTOM</div>
                       </div>
                     </td>
                     <td className="column100 column4" data-column="column4">
                       <div>
-                        <div>18U</div>
-                        <div>MAVS v WEST TITIGAN</div>
+                        <div>9U</div>
+                        <div>A-BOTTOM v B-BOTTOM</div>
                       </div>
                     </td>
                     <td className="column100 column5" data-column="column5">
                       <div>
                         <div>18U</div>
-                        <div>TGIF v UFCSA NORTH</div>
+                        <div>A-BOTTOM v B-BOTTOM</div>
                       </div>
                     </td>
                   </tr>
@@ -175,226 +180,207 @@ const DayOneFiveOnFive = () => {
                     <td className="column100 column1" data-column="column1">12:10 PM</td>
                     <td className="column100 column2" data-column="column2">
                       <div>
-                        <div>9U</div>
-                        <div>FLAT BUSH v UFCSA WEST</div>
+                        <div>35A</div>
+                        <div>AZTIGS v AUCKLAND ALPHA</div>
                       </div>
                     </td>
                     <td className="column100 column3" data-column="column3">
                       <div>
-                        <div>9U</div>
-                        <div>MAVS v &apos;STINGERS&apos;</div>
+                        <div>35A</div>
+                        <div>BATANG HAMOG v FOREX</div>
                       </div>
                     </td>
                     <td className="column100 column4 women-link" data-column="column4">
-                      <Link to="/games/day-one/3x3" replace>
+                      <Link to="/games/day-two/3x3" replace>
                         Click for WOMEN&apos;S
                       </Link>
                     </td>
                     <td className="column100 column5" data-column="column5">
                       <div>
-                        <div>12U</div>
-                        <div>MAVS v WEST BLACK</div>
-                      </div>
-                    </td>
-                  </tr>
-
-                  <tr className="row100">
-                    <td className="column100 column1" data-column="column1">1:20 PM</td>
-                    <td className="column100 column2" data-column="column2">
-                      <div>
-                        <div>12U</div>
-                        <div>KNIGHTS v TGIF</div>
-                      </div>
-                    </td>
-                    <td className="column100 column3" data-column="column3">
-                      <div>
-                        <div>12U</div>
-                        <div>WEST BLUE v FLAT BUSH</div>
-                      </div>
-                    </td>
-                    <td className="column100 column4 women-link" data-column="column4">
-                      <Link to="/games/day-one/3x3" replace>
-                        Click for WOMEN&apos;S
-                      </Link>
-                    </td>
-                    <td className="column100 column5" data-column="column5">
-                      <div>
-                        <div>12U</div>
-                        <div>MAVS 2 v &apos;STINGERS&apos;</div>
-                      </div>
-                    </td>
-                  </tr>
-
-                  <tr className="row100">
-                    <td className="column100 column1" data-column="column1">2:10 PM</td>
-                    <td className="column100 column2" data-column="column2">
-                      <div>
-                        <div>15U</div>
-                        <div>WEST NANUH v TGIF</div>
-                      </div>
-                    </td>
-                    <td className="column100 column3" data-column="column3">
-                      <div>
-                        <div>15U</div>
-                        <div>MAVS 2 v GENESIS BOLT</div>
-                      </div>
-                    </td>
-                    <td className="column100 column4" data-column="column4">
-                      <div>
-                        <div>15U</div>
-                        <div>MAVS 1 v STREET BALLERS</div>
-                      </div>
-                    </td>
-                    <td className="column100 column5" data-column="column5">
-                      <div>
-                        <div>15U</div>
-                        <div>NORTH v WEST EAGLES</div>
-                      </div>
-                    </td>
-                  </tr>
-
-                  <tr className="row100">
-                    <td className="column100 column1" data-column="column1">3:00 PM</td>
-                    <td className="column100 column2" data-column="column2">
-                      <div>
-                        <div>OPEN</div>
-                        <div>AZTIGS BETA v BARAKO</div>
-                      </div>
-                    </td>
-                    <td className="column100 column3" data-column="column3">
-                      <div>
-                        <div>OPEN</div>
-                        <div>UNKNOWN v EAST STREET</div>
-                      </div>
-                    </td>
-                    <td className="column100 column4" data-column="column4">
-                      <div>
-                        <div>OPEN</div>
-                        <div>PHENOM v BRICK CITY</div>
-                      </div>
-                    </td>
-                    <td className="column100 column5" data-column="column5">
-                      <div>
-                        <div>OPEN</div>
-                        <div>JBING v PINOY PROPERTY</div>
-                      </div>
-                    </td>
-                  </tr>
-
-                  <tr className="row100">
-                    <td className="column100 column1" data-column="column1">3:50 PM</td>
-                    <td className="column100 column2" data-column="column2">
-                      <div>
-                        <div>35A</div>
-                        <div>AZTIGS v BARAKO</div>
-                      </div>
-                    </td>
-                    <td className="column100 column3" data-column="column3">
-                      <div>
-                        <div>35A</div>
-                        <div>PILDI DAAN v</div>
-                        <div>AUCKLAND ALPHA</div>
-                      </div>
-                    </td>
-                    <td className="column100 column4" data-column="column4">
-                      <div>
-                        <div>35A</div>
-                        <div>BATANG HAMOG v SRBC</div>
-                      </div>
-                    </td>
-                    <td className="column100 column5" data-column="column5">
-                      <div>
-                        <div>35A</div>
-                        <div>FOREX v TAMARONG</div>
-                      </div>
-                    </td>
-                  </tr>
-
-                  <tr className="row100">
-                    <td className="column100 column1" data-column="column1">4:10 PM</td>
-                    <td className="column100 column2" data-column="column2">
-                      <div>
                         <div>45A</div>
-                        <div>AZTIGS v FRANKLIN</div>
+                        <div>A-BOTTOM v B-BOTTOM</div>
+                      </div>
+                    </td>
+                  </tr>
+
+                  <tr className="row100">
+                    <td className="column100 column1" data-column="column1">1:00 PM</td>
+                    <td className="column100 column2" data-column="column2">
+                      <div>
+                        <div>35A</div>
+                        <div>PILDI DAAN v BARAKO</div>
                       </div>
                     </td>
                     <td className="column100 column3" data-column="column3">
                       <div>
-                        <div>45A</div>
-                        <div>MAVS v WEST 7</div>
+                        <div>35A</div>
+                        <div>TAMARONG v SOUTH AUCKLAND</div>
                       </div>
                     </td>
-                    <td className="column100 column4" data-column="column4">
+                    <td className="column100 column4 opens-color" data-column="column4">
                       <div>
-                        <div>18U</div>
-                        <div>WEST TITIGAN v GENESIS</div>
+                        <div>OPENS | QF3</div>
+                        <div>TOP 1C v TOP 2D</div>
                       </div>
                     </td>
-                    <td className="column100 column5" data-column="column5">
+                    <td className="column100 column5 opens-color" data-column="column5">
                       <div>
-                        <div>18U</div>
-                        <div>NORTH v WEST ALPHA</div>
+                        <div>OPENS | QF4</div>
+                        <div>TOP 1D v TOP 2C</div>
                       </div>
                     </td>
+                  </tr>
+
+                  <tr className="row100">
+                    <td className="column100 column1" data-column="column1">1:50 PM</td>
+                    <td className="column100 column2 opens-color" data-column="column2">
+                      <div>
+                        <div>OPENS | QF1</div>
+                        <div>TOP 1A v TOP 2B</div>
+                      </div>
+                    </td>
+                    <td className="column100 column3 opens-color" data-column="column3">
+                      <div>
+                        <div>OPENS | QF2</div>
+                        <div>TOP 1B v TOP 2A</div>
+                      </div>
+                    </td>
+                    <td className="column100 column4 u18-color" data-column="column4">
+                      <div>
+                        <div>18U | SF</div>
+                        <div>TOP 1A v TOP 2B</div>
+                      </div>
+                    </td>
+                    <td className="column100 column5 u18-color" data-column="column5">
+                      <div>
+                        <div>18U | SF</div>
+                        <div>TOP 1B v TOP 2A</div>
+                      </div>
+                    </td>
+                  </tr>
+
+                  <tr className="row100">
+                    <td className="column100 column1" data-column="column1">2:40 PM</td>
+                    <td className="column100 column2 u15-color" data-column="column2">
+                      <div>
+                        <div>15U | SF</div>
+                        <div>TOP 1A v TOP 2B</div>
+                      </div>
+                    </td>
+                    <td className="column100 column3 u15-color" data-column="column3">
+                      <div>
+                        <div>15U | SF</div>
+                        <div>TOP 1B v TOP 2A</div>
+                      </div>
+                    </td>
+                    <td className="column100 column4 u12-color" data-column="column4">
+                      <div>
+                        <div>12U | SF</div>
+                        <div>TOP 1A v TOP 2B</div>
+                      </div>
+                    </td>
+                    <td className="column100 column5 u12-color" data-column="column5">
+                      <div>
+                        <div>12U | SF</div>
+                        <div>TOP 1B v TOP 2A</div>
+                      </div>
+                    </td>
+                  </tr>
+
+                  <tr className="row100">
+                    <td className="column100 column1" data-column="column1">3:30 PM</td>
+                    <td className="column100 column2 u9-color" data-column="column2">
+                      <div>
+                        <div>9U | SF</div>
+                        <div>TOP 1A v TOP 2B</div>
+                      </div>
+                    </td>
+                    <td className="column100 column3 u9-color" data-column="column3">
+                      <div>
+                        <div>9U | SF</div>
+                        <div>TOP 1A v TOP 2B</div>
+                      </div>
+                    </td>
+                    <td className="column100 column4 a35-color" data-column="column4">
+                      <div>
+                        <div>35A | SF</div>
+                        <div>TOP 1A v TOP 2B</div>
+                      </div>
+                    </td>
+                    <td className="column100 column5 a35-color" data-column="column5">
+                      <div>
+                        <div>35A | SF</div>
+                        <div>TOP 1A v TOP 2B</div>
+                      </div>
+                    </td>
+                  </tr>
+
+                  <tr className="row100">
+                    <td className="column100 column1" data-column="column1">4:20 PM</td>
+                    <td className="column100 column2 a45-color" data-column="column2">
+                      <div>
+                        <div>45A | SF</div>
+                        <div>TOP 1A v TOP 2B</div>
+                      </div>
+                    </td>
+                    <td className="column100 column3 a45-color" data-column="column3">
+                      <div>
+                        <div>45A | SF</div>
+                        <div>TOP 1A v TOP 2B</div>
+                      </div>
+                    </td>
+                    <td className="column100 column4 opens-color" data-column="column4">
+                      <div>
+                        <div>OPENS | SF</div>
+                        <div>WINNER QF1 v WINNER QF4</div>
+                      </div>
+                    </td>
+                    <td className="column100 column5 opens-color" data-column="column5">
+                      <div>
+                        <div>OPENS | SF</div>
+                        <div>WINNER QF2 v WINNER QF3</div>
+                      </div>
+                    </td>
+                  </tr>
+
+                  <tr className="row100">
+                    <td className="column100 column1" data-column="column1">5:10 PM</td>
+                    <td className="column100 column2" data-column="column2"></td>
+                    <td className="column100 column3 women-color" data-column="column3">
+                      WOMEN&apos;S FINALS
+                    </td>
+                    <td className="column100 column4" data-column="column4"></td>
+                    <td className="column100 column5" data-column="column5"></td>
                   </tr>
 
                   <tr className="row100">
                     <td className="column100 column1" data-column="column1">5:30 PM</td>
-                    <td className="column100 column2" data-column="column2">
-                      <div>
-                        <div>9U</div>
-                        <div>FLAT BUSH v KNIGHTS</div>
-                      </div>
+                    <td className="column100 column2 u18-color" data-column="column2">
+                      18U FINALS
                     </td>
-                    <td className="column100 column3" data-column="column3">
-                      <div>
-                        <div>9U</div>
-                        <div>MAVS v TGIF</div>
-                      </div>
+                    <td className="column100 column3 a45-color" data-column="column3">
+                      45A FINALS
                     </td>
-                    <td className="column100 column4" data-column="column4">
-                      <div>
-                        <div>35A</div>
-                        <div>BARAKO v MAPUA CARDINALS</div>
-                      </div>
+                    <td className="column100 column4 a35-color" data-column="column4">
+                      35A FINALS
                     </td>
-                    <td className="column100 column5" data-column="column5">
-                      <div>
-                        <div>35A</div>
-                        <div>SOUTH AUCKLAND v SRBC</div>
-                      </div>
+                    <td className="column100 column5 u15-color" data-column="column5">
+                      15U FINALS
                     </td>
                   </tr>
 
                   <tr className="row100">
                     <td className="column100 column1" data-column="column1">6:20 PM</td>
-                    <td className="column100 column2" data-column="column2">
-                      <div>
-                        <div>OPEN</div>
-                        <div>OUA v BARAKO</div>
-                      </div>
+                    <td className="column100 column2 u9-color" data-column="column2">
+                      9U FINALS
                     </td>
-                    <td className="column100 column3" data-column="column3">
-                      <div>
-                        <div>OPEN</div>
-                        <div>ROTORUA v EAST STREET</div>
-                      </div>
+                    <td className="column100 column3 opens-color" data-column="column3">
+                      OPENS FINALS
                     </td>
-                    <td className="column100 column4" data-column="column4">
-                      <div>
-                        <div>OPEN</div>
-                        <div>WFA v BRICK CITY</div>
-                      </div>
+                    <td className="column100 column4 u12-color" data-column="column4">
+                      12U FINALS
                     </td>
-                    <td className="column100 column5" data-column="column5">
-                      <div>
-                        <div>OPEN</div>
-                        <div>
-                          <div>BISDAKOL v</div>
-                          <div>&nbsp;PINOY PROPERTY</div>
-                        </div>
-                      </div>
-                    </td>
+                    <td className="column100 column5" data-column="column5"></td>
                   </tr>
                 </tbody>
               </table>
@@ -409,4 +395,4 @@ const DayOneFiveOnFive = () => {
   )
 }
 
-export default DayOneFiveOnFive
+export default DayTwoFiveOnFive

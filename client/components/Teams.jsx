@@ -1,10 +1,10 @@
 import React from 'react'
+import TeamsOfWomen from './TeamsOfWomen'
 // import TeamsOfEighteen from './TeamsOfEighteen'
 import TeamsOfTwelve from './TeamsOfTwelve'
+import TeamsOfTen from './TeamsOfTen'
 import TeamsOfEight from './TeamsOfEight'
 import TeamsOfSix from './TeamsOfSix'
-import TeamsOfTen from './TeamsOfTen'
-import TeamsOfWomen from './TeamsOfWomen'
 // import TeamsOfFour from './TeamsOfFour'
 
 class Teams extends React.Component {
@@ -17,7 +17,7 @@ class Teams extends React.Component {
     switch (cat) {
       case 'opens':
         return 18
-      case '40a':
+      case '45a':
         return 6
       case '35a':
         return 10
@@ -55,7 +55,7 @@ class Teams extends React.Component {
       case 'opens':
         componentToRender = <TeamsOfTwelve overlayOn={() => this.overlayOn()} overlayOff={() => this.overlayOff()} cat={this.state.cat} />
         break
-      case '40a':
+      case '45a':
         componentToRender = <TeamsOfSix overlayOn={() => this.overlayOn()} overlayOff={() => this.overlayOff()} cat={this.state.cat} />
         break
       case '35a':

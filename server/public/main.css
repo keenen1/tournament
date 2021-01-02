@@ -1257,6 +1257,11 @@ a {
   color: grey;
 }
 
+.day-two-sched.ver3 td {
+  font-size: 0.7vw;
+  height: 2.5vw;
+}
+
 .table100.ver3 .row100 .column1 {
   width: 10vw;
   padding-left: 2vw;
@@ -1265,6 +1270,32 @@ a {
 
 .day-indicator {
   font-size: 1vw;
+}
+
+/* PLAYOFFS COLOURS */
+.opens-color {
+  background-color: rgb(255, 255, 109);
+}
+.women-color {
+  background-color: pink;
+}
+.a45-color {
+  background-color: rgb(157, 250, 245);
+}
+.a35-color {
+  background-color: lightgray;
+}
+.u18-color {
+  background-color: rgb(235, 204, 235);
+}
+.u15-color {
+  background-color: rgb(198, 252, 198);
+}
+.u12-color {
+  background-color: rgb(186, 212, 250);
+}
+.u9-color {
+  background-color: rgba(250, 213, 164, 0.945);
 }
 
 /* SCHED TABLET */
@@ -1325,6 +1356,12 @@ a {
   .women-table.ver3 .row100 .column1 {
     font-size: 2vw;
     width: 13vw;
+  }
+
+  .day-two-sched.ver3 td {
+    font-size: 1.3vw;
+    height: 7.5vw;
+    width: 17vw;
   }
 
   .day-indicator {

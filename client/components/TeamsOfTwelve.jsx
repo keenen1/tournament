@@ -56,7 +56,7 @@ class TeamsOfTwelve extends React.Component {
         {
           w: 0,
           l: 0,
-          teamName: 'WFA',
+          teamName: 'TRIPLE H MOTORS',
           teamPlayers: ['J Reyes', 'H Cabug', 'L Bajuyo', 'K Acosta', 'D Mauricio', 'B Aquino', 'C Lachica', 'J Mellejor', 'K Lagala', 'R Delumbria', 'J Robejes', 'J Cenita', 'W Sunnex']
         },
         {
