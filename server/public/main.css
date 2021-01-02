@@ -26,7 +26,7 @@ html, body, #app {
 }
 .nav-link {
   height: 100%;
-  min-width: 16.66%;
+  min-width: 20%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -52,11 +52,11 @@ html, body, #app {
 @media screen and (max-width: 420px) {
   .nav-container {
     display: block;
-    height: 25%;
+    height: 20%;
   }
   .nav-link {
     width: 100%;
-    height: 16.67%;
+    height: 20%;
     font-size: 4vw;
   }
 }
@@ -136,7 +136,7 @@ html, body, #app {
 }
 /* HOME MOBILE */
 @media screen and (max-width: 420px) {
-  .home-page {height: 75%;}
+  .home-page {height: 80%;}
   .logo img {
     width: calc(40px + 10vw);
     margin-bottom: 5vw;
@@ -238,7 +238,7 @@ html, body, #app {
 }
 /* HOME MOBILE */
 @media screen and (max-width: 420px) {
-  .info-page {height: 75%;}
+  .info-page {height: 80%;}
   .info-container {width: 100%}
   .info-date {font-size: 12vw;}
   .info-map {margin-top: 10vw;}
@@ -247,7 +247,7 @@ html, body, #app {
   .info-city {font-size: 4vw;}
   .map-box {
     width: 80vw;
-    height: 80vw;
+    height: 90vw;
   }
   .info-date, .info-map {
     text-shadow: -1px 1px 0 rgb(163, 57, 38),
@@ -329,18 +329,18 @@ html, body, #app {
 /* GAMES MOBILE */
 @media screen and (max-width: 420px) {
   .games-page, .category-page {
-    height: 76%;
+    height: 80%;
     display: block;
     background-color: rgb(39, 39, 39);
   }
   .category-page {
-    height: 71%;
+    height: 76.5%;
   }
   .day-one, .day-two, .five-on-five, .three-on-three {
     width: 99%;
     height: 50%;
     font-size: 10vw;
-    border: 1px grey solid;
+    border-bottom: 0.05vw grey solid;
     text-shadow: -1px 1px 0 rgb(163, 57, 38),
                 1px 1px 0 rgb(163, 57, 38),
                 1px -1px 0 rgb(163, 57, 38),
@@ -398,7 +398,7 @@ a {
 
 /* GROUPS MOBILE */
 @media screen and (max-width: 420px) {
-  .teams-page {height: 75%;}
+  .teams-page {height: 80%;}
   .teams-category {
     border: 1px grey solid;
     border-radius: 0px;
@@ -442,7 +442,7 @@ a {
 .divider .teams-block div {
   height: 25%;
 }
-.twelve .teams-block, .eight .teams-block, .six .teams-block {
+.twelve .teams-block, .ten .teams-block, .eight .teams-block, .six .teams-block {
   background-color: rgb(39, 39, 39);
 }
 .eight .teams-block div {
@@ -568,8 +568,11 @@ a {
     font-size: 4vw;
   }
   .eighteen, .twelve, .ten, .eight, .six, .four {
-    height: 70.9%;
+    height: 75.9%;
     display: block;
+  }
+  .women {
+    height: 75.9%;
   }
   /* TWELVE */
   .divider {
@@ -598,8 +601,13 @@ a {
   .six .standing {
     font-size: 5vw;
   }
+  /* TEN */
   .ten .teams-block {
     height: 50%;
+  }
+  /* WOMEN */
+  .women .teams-block {
+    height: 100%;
   }
   /* POOL */
   .pool {
@@ -607,10 +615,10 @@ a {
   }
   .teams-block {
     height: 100%;
-    border-top: grey 1px solid;
-    border-bottom: grey 1px solid;
-    border-left: grey 1px solid;
-    border-right: grey 1px solid;
+    border-top: grey 0.02vw solid;
+    border-bottom: grey 0.02vw solid;
+    border-left: grey 0.02vw solid;
+    border-right: grey 0.02vw solid;
   }
 
   .eighteen .teams-block .team, .twelve .teams-block .team, .six .teams-block .team {
@@ -986,7 +994,7 @@ a {
 /* RESULTS MOBILE */
 @media screen and (max-width: 420px) {
   .results-page {
-    height: 75%;
+    height: 80%;
     display: block;
   }
   .results-day {
@@ -1098,7 +1106,7 @@ a {
   }
 }
 
-/* RESULTS MOBILE */
+/* RULES MOBILE */
 @media (max-width: 420px) {
   .rules-page {
     height: 75%;
@@ -1213,7 +1221,7 @@ a {
 }
 
 .table100.ver3 .row100 td:hover {
-  background-color: #BC412B;
+  background-color: #037971;
   color: #fff;
 }
 
@@ -1324,7 +1332,7 @@ a {
 /* SCHED MOBILE */
 @media (max-width: 420px) and (orientation: portrait) {
   .limiter {
-    height: 75%;
+    height: 80%;
   }
 
   .table100.ver3 td {
@@ -1356,6 +1364,11 @@ a {
   .women-table.ver3 .row100 .column1 {
     font-size: 2vw;
     width: 13vw;
+  }
+  
+  .women-table.ver3 .row100 td {
+    font-size: 2.3vw;
+    width: 35vw;
   }
 
   .day-two-sched.ver3 td {

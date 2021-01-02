@@ -27,7 +27,7 @@ const DayTwoFiveOnFive = () => {
                 </thead>
                 <tbody>
                   <tr className="row100">
-                    <td className="column100 column1" data-column="column1">8:00 AM</td>
+                    <td className="column100 column1" data-column="column1">7:50 AM</td>
                     <td className="column100 column2" data-column="column2">
                       <div>12U</div>
                       <div>MAVS 1 v TGIF</div>
@@ -358,8 +358,8 @@ const DayTwoFiveOnFive = () => {
                     <td className="column100 column2 u18-color" data-column="column2">
                       18U FINALS
                     </td>
-                    <td className="column100 column3 a45-color" data-column="column3">
-                      45A FINALS
+                    <td className="column100 column3 u9-color" data-column="column3">
+                      9U FINALS
                     </td>
                     <td className="column100 column4 a35-color" data-column="column4">
                       35A FINALS
@@ -370,9 +370,9 @@ const DayTwoFiveOnFive = () => {
                   </tr>
 
                   <tr className="row100">
-                    <td className="column100 column1" data-column="column1">6:20 PM</td>
-                    <td className="column100 column2 u9-color" data-column="column2">
-                      9U FINALS
+                    <td className="column100 column1" data-column="column1">6:40 PM</td>
+                    <td className="column100 column2 a45-color" data-column="column2">
+                      45A FINALS
                     </td>
                     <td className="column100 column3 opens-color" data-column="column3">
                       OPENS FINALS

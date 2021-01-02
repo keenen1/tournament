@@ -7,7 +7,6 @@ const TopNav = () => {
     'sched',
     'groups',
     'results',
-    'rules',
     'venue'
   ]
 
