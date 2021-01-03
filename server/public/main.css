@@ -1415,13 +1415,13 @@ a {
   }
   
   .row100.head th {
-    font-size: 1.2vw;
-    height: 2.7vw;
+    font-size: 1vw;
+    height: 2.5vw;
   }
 
   .table100.ver3 td {
     font-size: 0.7vw;
-    height: 1.8vw;
+    height: 1.5vw;
     width: 20vw;
   }
 
@@ -1440,6 +1440,7 @@ a {
   .table100.ver3 .row100 .column1 {
     width: 6vw;
     padding-left: 2vw;
+    font-size: 0.8vw;
   }
 
   .day-indicator {
