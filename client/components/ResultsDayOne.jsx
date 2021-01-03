@@ -124,9 +124,9 @@ const ResultsDayOne = () => {
           court1scoreB={0}
 
           court2cat={'45A'}
-          court2teamA={'JBING'}
+          court2teamA={'TGIF CALIBER 45'}
           court2scoreA={0}
-          court2teamB={'BISDAKOL'}
+          court2teamB={'MAVS'}
           court2scoreB={0}
 
           court3cat={'U18'}

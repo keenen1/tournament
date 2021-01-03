@@ -44,16 +44,11 @@ const DayTwoThreeOnThree = () => {
                     <td className="column100 column1" data-column="column1">12:25 PM</td>
                     <td className="column100 column2" data-column="column2">
                       <div>
-                        <div>UFCSA WEST v&nbsp;</div>
-                        <div>EL HOMBRES</div>
-                      </div>
-                    </td>
-                    <td className="column100 column3" data-column="column3">
-                      <div>
                         <div>EL HOMBRES v</div>
                         <div>&nbsp;AIRBALLERS</div>
                       </div>
                     </td>
+                    <td className="column100 column3" data-column="column3">--</td>
                   </tr>
 
                   <tr className="row100">

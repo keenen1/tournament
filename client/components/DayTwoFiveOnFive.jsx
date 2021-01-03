@@ -69,7 +69,7 @@ const DayTwoFiveOnFive = () => {
                     <td className="column100 column4" data-column="column4">
                       <div>
                         <div>15U</div>
-                        <div>WEST NANUH v BOLT</div>
+                        <div>WEST NANUH v GENESIS BOLT</div>
                       </div>
                     </td>
                     <td className="column100 column5" data-column="column5">
@@ -85,7 +85,7 @@ const DayTwoFiveOnFive = () => {
                     <td className="column100 column2" data-column="column2">
                       <div>
                         <div>18U</div>
-                        <div>MAVS v GENESIS</div>
+                        <div>MAVS v GENESIS BOLT</div>
                       </div>
                     </td>
                     <td className="column100 column3" data-column="column3">
@@ -298,7 +298,7 @@ const DayTwoFiveOnFive = () => {
                     <td className="column100 column3 u9-color" data-column="column3">
                       <div>
                         <div>9U | SF</div>
-                        <div>TOP 1A v TOP 2B</div>
+                        <div>TOP 1B v TOP 2A</div>
                       </div>
                     </td>
                     <td className="column100 column4 a35-color" data-column="column4">
@@ -310,7 +310,7 @@ const DayTwoFiveOnFive = () => {
                     <td className="column100 column5 a35-color" data-column="column5">
                       <div>
                         <div>35A | SF</div>
-                        <div>TOP 1A v TOP 2B</div>
+                        <div>TOP 1B v TOP 2A</div>
                       </div>
                     </td>
                   </tr>
@@ -326,7 +326,7 @@ const DayTwoFiveOnFive = () => {
                     <td className="column100 column3 a45-color" data-column="column3">
                       <div>
                         <div>45A | SF</div>
-                        <div>TOP 1A v TOP 2B</div>
+                        <div>TOP 1B v TOP 2A</div>
                       </div>
                     </td>
                     <td className="column100 column4 opens-color" data-column="column4">
