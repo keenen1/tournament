@@ -37,7 +37,7 @@ class TeamsOfWomen extends React.Component {
         },
         {
           teamName: 'AIRBALLERS',
-          teamPlayers: ['Aren Caballes', 'Jonah Asi', 'Don SadSad', 'Gabzz Cabotaje'],
+          teamPlayers: ['Aren Caballes', 'Jonah Asi', 'Don SadSad', 'Gabzz Cabotaje', 'Rio Cruz'],
           w: 0,
           l: 0
         },

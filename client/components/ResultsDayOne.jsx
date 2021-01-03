@@ -129,7 +129,7 @@ const ResultsDayOne = () => {
           court2teamB={'BISDAKOL'}
           court2scoreB={0}
 
-          court3cat={'18U'}
+          court3cat={'U18'}
           court3teamA={'MAVS'}
           court3scoreA={0}
           court3teamB={'WEST TITIGAN'}

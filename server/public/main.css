@@ -236,6 +236,7 @@ html, body, #app {
     height: 70vw;
   }
 }
+
 /* HOME MOBILE */
 @media screen and (max-width: 420px) {
   .info-page {height: 80%;}
@@ -260,10 +261,14 @@ html, body, #app {
 @media screen and (max-height: 420px) {
   .info-page {height: 85%;}
   .info-container {width: 100%}
-  .info-date {font-size: 6vw;}
+  .info-date {font-size: 5vw;}
   .info-map a {font-size: 4vw;}
   .info-map img {width: 2vw;}
-  .info-city {font-size: 3vw;}
+  .info-city {font-size: 2vw;}
+  .map-box {
+    width: 70vw;
+    height: 20vw;
+  }
 }
 
 
