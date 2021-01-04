@@ -171,6 +171,7 @@ const ResultsDayOne5v5 = () => {
         />
         <ResultsHourly
           hour={'1:20 PM'}
+          day={1}
 
           court1cat={'U12'}
           court1teamA={'KNIGHTS'}

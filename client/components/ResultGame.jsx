@@ -3,14 +3,22 @@ import { Link } from 'react-router-dom'
 
 const win = { color: 'rgb(133, 201, 32)' }
 const lose = { color: 'grey' }
+let day = ''
 
 const ResultGame = (props) => {
+  if (props.day === 1) {
+    day = 'one'
+  } else if (props.day === 2) {
+    day = 'two'
+  }
+  console.log('Day: ' + day)
+
   return (
     <>
       {
         props.cat === 'WO'
           ? <div className="women-result">
-            <Link to="/results/day-one/3x3" replace>
+            <Link to={`/results/day-${day}/3x3`} replace>
               Click for Women&apos;s
             </Link>
           </div>
