@@ -13,7 +13,7 @@ class TeamsOfWomen extends React.Component {
       women: [
         {
           teamName: 'UFCSA WEST',
-          teamPlayers: ['CJ Alan', 'Jeanil Lopez', 'Jil Ormanin'],
+          teamPlayers: ['CJ Alan', 'Jeanil Lopez', 'Jil Ormanin', 'Keziah Obedoza'],
           w: 0,
           l: 0
         },
@@ -43,7 +43,7 @@ class TeamsOfWomen extends React.Component {
         },
         {
           teamName: 'HITZ',
-          teamPlayers: ['Lian Paderes', 'Yshabelle Subejano', 'Keziah Obedoza', 'Charlaine Bito-on'],
+          teamPlayers: ['Lian Paderes', 'Yshabelle Subejano', 'Charlaine Bito-on'],
           w: 0,
           l: 0
         }
