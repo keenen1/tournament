@@ -45,7 +45,7 @@ const ResultsDayOne5v5 = () => {
           court2cat={'U15'}
           court2teamA={'TGIF'}
           court2scoreA={0}
-          court2teamB={'GENESIS'}
+          court2teamB={'GENESIS BOLT'}
           court2scoreB={0}
 
           court3cat={'U15'}
@@ -78,7 +78,7 @@ const ResultsDayOne5v5 = () => {
           court3cat={'OP'}
           court3teamA={'PHENOM ELITES'}
           court3scoreA={0}
-          court3teamB={'WFA'}
+          court3teamB={'TRIPLE H MOTORS'}
           court3scoreB={0}
 
           court4cat={'OP'}
@@ -201,7 +201,7 @@ const ResultsDayOne5v5 = () => {
           hour={'2:10 PM'}
 
           court1cat={'U15'}
-          court1teamA={'UFCSA WEST NANUH'}
+          court1teamA={'UFCSA WEST NANUH NEH'}
           court1scoreA={0}
           court1teamB={'TGIF'}
           court1scoreB={0}
@@ -348,7 +348,7 @@ const ResultsDayOne5v5 = () => {
           court2scoreB={0}
 
           court3cat={'OP'}
-          court3teamA={'WFA'}
+          court3teamA={'TRIPLE H MOTORS'}
           court3scoreA={0}
           court3teamB={'BRICK CITY'}
           court3scoreB={0}

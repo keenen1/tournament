@@ -57,13 +57,13 @@ const DayOneFiveOnFive = () => {
                     <td className="column100 column2" data-column="column2">
                       <div>
                         <div>15U</div>
-                        <div>WEST NANUH v MAVS 2</div>
+                        <div>WEST NANUH NEH v MAVS 2</div>
                       </div>
                     </td>
                     <td className="column100 column3" data-column="column3">
                       <div>
                         <div>15U</div>
-                        <div>TGIF v GENESIS</div>
+                        <div>TGIF v GENESIS BOLT</div>
                       </div>
                     </td>
                     <td className="column100 column4" data-column="column4">
@@ -98,7 +98,7 @@ const DayOneFiveOnFive = () => {
                     <td className="column100 column4" data-column="column4">
                       <div>
                         <div>OPEN</div>
-                        <div>PHENOM v WFA</div>
+                        <div>PHENOM v TRIPLE H MOTORS</div>
                       </div>
                     </td>
                     <td className="column100 column5" data-column="column5">
@@ -230,7 +230,7 @@ const DayOneFiveOnFive = () => {
                     <td className="column100 column2" data-column="column2">
                       <div>
                         <div>15U</div>
-                        <div>WEST NANUH v TGIF</div>
+                        <div>WEST NANUH NEH v TGIF</div>
                       </div>
                     </td>
                     <td className="column100 column3" data-column="column3">
@@ -383,7 +383,10 @@ const DayOneFiveOnFive = () => {
                     <td className="column100 column4" data-column="column4">
                       <div>
                         <div>OPEN</div>
-                        <div>WFA v BRICK CITY</div>
+                        <div>
+                          <div>TRIPLE H MOTORS</div>
+                          <div>v BRICK CITY</div>
+                        </div>
                       </div>
                     </td>
                     <td className="column100 column5" data-column="column5">
