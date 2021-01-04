@@ -56,7 +56,7 @@ class TeamsOfTen extends React.Component {
         {
           w: 0,
           l: 0,
-          teamName: 'TEAM TAMARONG',
+          teamName: 'TEAM O\'REILLY\'s',
           teamPlayers: ['Chris Paderanga', 'Jece Bensi', 'Dan Martinez', 'Ben Marc', 'Carlo Isip', 'Melvin Dacyon', 'Jason Rigon', 'VJ Tabudlong', 'James Paluga', 'Eric Braga', 'Alan Jumawid', 'Eric Pastorpeli', 'Donnel Victorio', 'Ian Estrada']
         },
         {

@@ -33,7 +33,7 @@ class TeamsOfTwelve extends React.Component {
           w: 0,
           l: 0,
           teamName: 'UNKNOWN',
-          teamPlayers: ['Eric Hansen', 'Aldwin Alvarez', 'Patrick Maagdenberg', 'Edward Maagdenberg', 'Emmanuel Maagdenberg', 'Robert Encarnacion', 'JD Tagimacruz', 'Aldrien Sepnio', 'Mike Becker']
+          teamPlayers: ['Eric Hansen', 'Aldwin Alvarez', 'Patrick Maagdenberg', 'Edward Maagdenberg', 'Emmanuel Maagdenberg', 'Robert Encarnacion', 'JD Tagimacruz', 'Aldrien Sepnio', 'Mike Becker', 'CJ Vellon', 'Lorenzo Tanduran']
         },
         {
           w: 0,
@@ -63,7 +63,7 @@ class TeamsOfTwelve extends React.Component {
           w: 0,
           l: 0,
           teamName: 'BRICK CITY',
-          teamPlayers: ['Daniel de Silva', 'Daryl Burias', 'Patrick Burias', 'Jan Latosa', 'Jordan Froilan', 'Mathew Marcelo', 'Ken Ganzan', 'Eron Caballes', 'Franz Lim', 'Mick Ramos', 'Chris Nallerda', 'Tyler Martin', 'Kevin de Paula', 'Jian De Vega']
+          teamPlayers: ['Jan Latosa', 'Daryl Burias', 'Daniel De Silva', 'Jordan Florian', 'Franz Lim', 'Richard Galang', 'Joshua De Silva', 'Patrick Burias', 'Ken Ganzan', 'Eron Caballes', 'Andre Palomares',  'Alex Santos', 'Josh Santos', 'Jian De Vega']
         },
         {
           w: 0,
@@ -75,7 +75,7 @@ class TeamsOfTwelve extends React.Component {
           w: 0,
           l: 0,
           teamName: 'BISDAKOL',
-          teamPlayers: ['Rey Burgos', 'Ricmar Paterbos', 'Jeremy Waay', 'Bjay Sagrado', 'Dodz Dalida', 'Andrew Lgar', 'Patrick Pag-ong', 'Richard Somostrada', 'Rad Ancla']
+          teamPlayers: ['Rey Burgos', 'Ricmar Paterbos', 'Jeremy Waay', 'Bjay Sagrado', 'Dodz Dalida', 'Andrew Lgar', 'Patrick Pag-ong', 'Richard Somostrada', 'Rad Ancla', 'Vincent Gambalan']
         },
         {
           w: 0,
