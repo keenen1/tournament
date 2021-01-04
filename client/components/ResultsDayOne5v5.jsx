@@ -156,7 +156,7 @@ const ResultsDayOne5v5 = () => {
           court2teamB={'STINGERS'}
           court2scoreB={0}
 
-          court3cat={'WO'}
+          court3cat={'WOM'}
           court3teamA={''}
           court3scoreA={0}
           court3teamB={''}
@@ -183,7 +183,7 @@ const ResultsDayOne5v5 = () => {
           court2teamB={'FLAT BUSH'}
           court2scoreB={0}
 
-          court3cat={'WO'}
+          court3cat={'WOM'}
           court3teamA={''}
           court3scoreA={0}
           court3teamB={''}

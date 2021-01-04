@@ -156,7 +156,7 @@ const ResultsDayTwo5v5 = () => {
           court2teamB={'FOREX'}
           court2scoreB={0}
 
-          court3cat={'WO'}
+          court3cat={'WOM'}
           court3teamA={''}
           court3scoreA={0}
           court3teamB={''}

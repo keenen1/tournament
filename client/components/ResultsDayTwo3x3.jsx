@@ -46,7 +46,7 @@ const ResultsDayTwo3x3 = () => {
           court2scoreB={0}
         />
         <ResultsHourly
-          hour={'1:20 PM'}
+          hour={'5:10 PM'}
 
           court1cat={'FIN'}
           court1teamA={'WINNER OF SF1'}
