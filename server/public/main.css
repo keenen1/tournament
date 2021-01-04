@@ -990,6 +990,21 @@ a {
   padding-right: 30px;
 }
 
+.women-result {
+  border: green 1px solid;
+  width: 50%;
+  padding: 2vw 1vw 2vw 1vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3vw;
+}
+
+.women-result a {
+  color: pink;
+  text-decoration: none;
+}
+
 /* RESULTS TABLET */
 @media screen and (max-width: 1024px) {
   .hourly-container {
@@ -1000,6 +1015,10 @@ a {
   }
   .court-result-teams {
     font-size: 2.5vw;
+  }
+  .women-result {
+    padding: 2.65vw 1vw 2.65vw 1vw;
+    font-size: 4vw;
   }
 }
 
@@ -1047,6 +1066,12 @@ a {
     justify-content: left;
     font-size: 4vw;
   }
+  .women-result {
+    width: 90%;
+    margin: auto;
+    padding: 2.65vw 1vw 2.65vw 1vw;
+    font-size: 6vw;
+  }
 }
 
 /* OVERLAY MOBILE LANDSCAPE */
@@ -1056,6 +1081,11 @@ a {
   }
   .court-result-teams {
     font-size: 2vw;
+  }
+  .women-result {
+
+    padding: 2.2vw 1vw 2.2vw 1vw;
+    font-size: 4vw;
   }
 }
 
