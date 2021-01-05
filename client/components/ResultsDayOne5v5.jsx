@@ -105,7 +105,7 @@ const ResultsDayOne5v5 = () => {
           court3cat={'35A'}
           court3teamA={'BATANG HAMOG'}
           court3scoreA={0}
-          court3teamB={'TAMARONG'}
+          court3teamB={'TEAM O\'REILLY\'S'}
           court3scoreB={0}
 
           court4cat={'35A'}
@@ -275,7 +275,7 @@ const ResultsDayOne5v5 = () => {
           court4cat={'35A'}
           court4teamA={'FOREX NZ'}
           court4scoreA={0}
-          court4teamB={'TAMARONG'}
+          court4teamB={'TEAM O\'REILLY\'S'}
           court4scoreB={0}
         />
         <ResultsHourly

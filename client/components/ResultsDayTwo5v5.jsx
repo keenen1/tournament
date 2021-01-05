@@ -109,7 +109,7 @@ const ResultsDayTwo5v5 = () => {
           court3scoreB={0}
 
           court4cat={'35A'}
-          court4teamA={'TAMARONG'}
+          court4teamA={'TEAM O\'REILLY\'S'}
           court4scoreA={0}
           court4teamB={'SRBC'}
           court4scoreB={0}
@@ -179,7 +179,7 @@ const ResultsDayTwo5v5 = () => {
           court1scoreB={0}
 
           court2cat={'35A'}
-          court2teamA={'TAMARONG'}
+          court2teamA={'TEAM O\'REILLY\'S'}
           court2scoreA={0}
           court2teamB={'SOUTH AUCKLAND'}
           court2scoreB={0}
