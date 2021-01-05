@@ -19,7 +19,7 @@ class TeamsOfWomen extends React.Component {
         },
         {
           teamName: 'SOUTH AUCKLAND',
-          teamPlayers: ['Elain Penaflor', 'Jeilyann Pinzon', 'Georgina Pico', 'Katlyn Oracion', 'Joanne Tapia', 'Jc Tapia'],
+          teamPlayers: ['Elain Penaflor', 'Jeilyann Pinzon', 'Katlyn Oracion', 'Pia Cabello', 'Joan Tapia', 'JC Tapia'],
           w: 0,
           l: 0
         },
@@ -43,7 +43,7 @@ class TeamsOfWomen extends React.Component {
         },
         {
           teamName: 'HITZ',
-          teamPlayers: ['Lian Paderes', 'Yshabelle Subejano', 'Charlaine Bito-on'],
+          teamPlayers: ['Lian Paderes', 'Yshabelle Subejano', 'Cyrille Jaed', 'Marielle Cambe'],
           w: 0,
           l: 0
         }
