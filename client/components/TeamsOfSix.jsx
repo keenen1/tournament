@@ -19,7 +19,7 @@ class TeamsOfSix extends React.Component {
         },
         {
           teamName: 'AZTIGS',
-          teamPlayers: ['Randolph Herrera', 'Carlo Leyson', 'Fidel Mabanta', 'Grimson Reyes', 'Alan Almencion', 'Jhonny Artesa', 'Joey Ilagan', 'Cesar Perez', 'Aldrich Alviar', 'Emmanuel Sta Barbara'],
+          teamPlayers: ['Rhandie Herrera', 'Chicoy Leyson', 'Grimson Reyes', 'Emman Sta Barbara', 'Jhun Dalicun', 'Joey Ilagan', 'Cesar Perez', 'Jeff Ocampo', 'Edgar Carreon', 'Xean Moral', 'Warlito Salubre', 'Sonny Lingat'],
           w: 0,
           l: 0
         },
@@ -31,7 +31,7 @@ class TeamsOfSix extends React.Component {
         },
         {
           teamName: 'TGIF CALIBER 45',
-          teamPlayers: ['Normin Asinas', 'Soliito Asinas', 'Mitz Diputado', 'Abet Tamayao', 'Dennis Maga', 'Larry Asuncion', 'Jocky Lorenzo', 'Efren Arellano', 'Felipe Martinez', 'Leo Guico', 'Micheal Mitra', 'Alfredo Morales'],
+          teamPlayers: ['Normin Asinas', 'Soliito Asinas', 'Noli Carlos', 'Abet Tamayao', 'Dennis Maga', 'Larry Asuncion', 'Jocky Lorenzo', 'Efren Arellano', 'Felipe Martinez', 'Leo Guico', 'Micheal Mitra', 'Alfredo Morales'],
           w: 0,
           l: 0
         },
@@ -42,7 +42,7 @@ class TeamsOfSix extends React.Component {
           l: 0
         },
         {
-          teamName: 'WEST 7',
+          teamName: 'UFCSA WEST 7',
           teamPlayers: ['Jun Allan', 'Erik Luklukan', 'Jun Manio', 'Bojo Ermita', 'Ernesto Bundalian', 'Raul Lotivio', 'Rey Ocfemia', 'Danny Sayat', 'Jolly Concepcion', 'Ronald Tongol', 'Alfred Sinag', 'Dennis Macahig', 'Rolly Nicolas', 'John Senfelices', 'Jovy Martinez', 'Romy Guevarra', 'Jay Salonga'],
           w: 0,
           l: 0

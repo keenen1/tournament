@@ -321,7 +321,7 @@ const DayOneFiveOnFive = () => {
                     <td className="column100 column3" data-column="column3">
                       <div>
                         <div>45A</div>
-                        <div>MAVS v WEST 7</div>
+                        <div>MAVS v UFCSA WEST 7</div>
                       </div>
                     </td>
                     <td className="column100 column4" data-column="column4">

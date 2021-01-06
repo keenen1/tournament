@@ -99,7 +99,7 @@ const ResultsDayTwo5v5 = () => {
           court2cat={'45A'}
           court2teamA={'TGIF CALIBER 45'}
           court2scoreA={0}
-          court2teamB={'WEST 7'}
+          court2teamB={'UFCSA WEST 7'}
           court2scoreB={0}
 
           court3cat={'35A'}

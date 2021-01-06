@@ -130,7 +130,7 @@ const DayTwoFiveOnFive = () => {
                         <div>45A</div>
                         <div>
                           <div>TGIF CALIBER 45&nbsp;</div>
-                          <div>v WEST 7</div>
+                          <div>v UFCSA WEST 7</div>
                         </div>
                       </div>
                     </td>
