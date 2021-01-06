@@ -13,7 +13,7 @@ class TeamsOfWomen extends React.Component {
       women: [
         {
           teamName: 'UFCSA WEST',
-          teamPlayers: ['CJ Alan', 'Jeanil Lopez', 'Jil Ormanin', 'Keziah Obedoza'],
+          teamPlayers: ['CJ Alan', 'Jeanil Lopez', 'Jil Ormanin', 'Keziah Sembrano'],
           w: 0,
           l: 0
         },

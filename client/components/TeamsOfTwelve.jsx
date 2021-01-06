@@ -21,7 +21,7 @@ class TeamsOfTwelve extends React.Component {
           w: 0,
           l: 0,
           teamName: 'OUA',
-          teamPlayers: ['John Fabian', 'Mateo Manese', 'Emmanuel Cea', 'Denrick Arellano', 'Lorenzo Taduran', 'Sam Seniedo', 'Simoun Alumia', 'Anton Hilario']
+          teamPlayers: ['John Fabian', 'Mateo Manese', 'Emmanuel Cea', 'Denrick Arellano', 'Lorenzo Taduran', 'Sam Seniedo', 'Simoun Alumia', 'Anton Hilario', 'Randy Sjafrie', 'Christian Mata\'afa']
         },
         {
           w: 0,
@@ -38,8 +38,8 @@ class TeamsOfTwelve extends React.Component {
         {
           w: 0,
           l: 0,
-          teamName: 'ROTORUA',
-          teamPlayers: ['Anjo Gabison', 'Nick Basinga', 'Triple J Garovillo', 'Jayson Conception', 'Carlo Yonyon', 'Chrisdale Danias', 'Kenta Manubay', 'Angelo Bebit', 'Vinnice Karl', 'Bruce Mabagus', 'Nicolas Aislabie', 'Dylan Hall', 'Nacar CN', 'Big Man']
+          teamName: 'ROTORUA BONELESS',
+          teamPlayers: ['JR Lumbag', 'Gideon Sarra', 'Gino Ruvas', 'Kino Ruvas', 'Bryan Ruvas', 'Jhay Salonga', 'Eric Guiao', 'Alex Aquino', 'Rhaym Hipolito', 'John Solomon', 'Andre Solomon']
         },
         {
           w: 0,
@@ -57,19 +57,19 @@ class TeamsOfTwelve extends React.Component {
           w: 0,
           l: 0,
           teamName: 'TRIPLE H MOTORS',
-          teamPlayers: ['J Reyes', 'H Cabug', 'L Bajuyo', 'K Acosta', 'D Mauricio', 'B Aquino', 'C Lachica', 'J Mellejor', 'K Lagala', 'R Delumbria', 'J Robejes', 'J Cenita', 'W Sunnex']
+          teamPlayers: ['J Reyes', 'H Cabug', 'L Bajuyo', 'K Acosta', 'D Mauricio', 'B Aquino', 'C Lachica', 'J Mellejor', 'K Lagala', 'R Delumbria', 'J Robejes', 'J Cenita', 'W Sunnex', 'J Esguerra']
         },
         {
           w: 0,
           l: 0,
           teamName: 'BRICK CITY',
-          teamPlayers: ['Jan Latosa', 'Daryl Burias', 'Daniel De Silva', 'Jordan Florian', 'Franz Lim', 'Richard Galang', 'Joshua De Silva', 'Patrick Burias', 'Ken Ganzan', 'Eron Caballes', 'Andre Palomares',  'Alex Santos', 'Josh Santos', 'Jian De Vega']
+          teamPlayers: ['Daniel de Silva', 'Daryl Burias', 'Patrick Burias', 'Jan Latosa', 'Jordan Froilan', 'Mathew Marcelo', 'Ken Ganzan', 'Eron Caballes', 'Franz Lim', 'Mick Ramos', 'Chris Nallerda', 'Tyler Martin', 'Kevin de Paula', 'Jian De Vega']
         },
         {
           w: 0,
           l: 0,
           teamName: 'JBING',
-          teamPlayers: ['Miguel Benjamin', 'Tyler Martin', 'James Viloria', 'Terrence Abdon', 'Jeff Lapinig', 'Ezekiel Flores', 'John Mongado', 'Franz Tipon', 'Marky Tipanero', 'Jonthan Vea', 'Marc Malingin', 'Matthew Malingin']
+          teamPlayers: ['Miguel Benjamin', 'Tyler Martin', 'James Viloria', 'Terrence Abdon', 'Jeff Lapinig', 'Ezekiel Flores', 'John Mongado', 'Franz Tipon', 'Marky Tipanero', 'Jonathan Vea', 'Jason Mamaradlo', 'Gio Tingson']
         },
         {
           w: 0,
@@ -81,7 +81,7 @@ class TeamsOfTwelve extends React.Component {
           w: 0,
           l: 0,
           teamName: 'PINOY PROPERTY',
-          teamPlayers: ['Kienn Carzano', 'Tophie Patriarca', 'Jay Chua', 'Harold Jumawan', 'Carlo Bueno', 'Mar Libreja', 'Migs Jose', 'Jonathan Realista', 'Christian Lagunera', 'Bert Bolneo', 'Perry Salas', 'Bong Eldialde', 'Tisoy Panbeyi']
+          teamPlayers: ['Kienn Carzano', 'Tophie Patriarca', 'Jay Chua', 'Harold Jumawan', 'Carlo Bueno', 'Mar Libreja', 'Migs Jose', 'Jonathan Realista', 'Christian Lagunera', 'Bert Bolneo', 'Perry Salas', 'Bong Eldialde', 'Ken Eldialde', 'Tisoy Panbeyi']
         }
       ]
     }

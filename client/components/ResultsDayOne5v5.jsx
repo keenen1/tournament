@@ -72,7 +72,7 @@ const ResultsDayOne5v5 = () => {
           court2cat={'OP'}
           court2teamA={'UNKNOWN'}
           court2scoreA={0}
-          court2teamB={'ROTORUA'}
+          court2teamB={'ROTORUA BONELESS'}
           court2scoreB={0}
 
           court3cat={'OP'}
@@ -342,7 +342,7 @@ const ResultsDayOne5v5 = () => {
           court1scoreB={0}
 
           court2cat={'OP'}
-          court2teamA={'ROTORUA'}
+          court2teamA={'ROTORUA BONELESS'}
           court2scoreA={0}
           court2teamB={'EAST STREET'}
           court2scoreB={0}
