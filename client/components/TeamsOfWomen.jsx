@@ -43,7 +43,7 @@ class TeamsOfWomen extends React.Component {
         },
         {
           teamName: 'HITZ',
-          teamPlayers: ['Lian Paderes', 'Yshabelle Subejano', 'Cyrille Jaed', 'Marielle Cambe'],
+          teamPlayers: ['Lian Paderes', 'Yshabelle Subejano', 'Cyrille Jaed', 'Marielle Cambe', 'Alysa Caballero'],
           w: 0,
           l: 0
         }
