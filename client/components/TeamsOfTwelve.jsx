@@ -74,7 +74,7 @@ class TeamsOfTwelve extends React.Component {
         {
           w: 0,
           l: 0,
-          teamName: 'BISDAKOL',
+          teamName: 'WOW BISDAKOL',
           teamPlayers: ['Rey Burgos', 'Ricmar Paterbos', 'Jeremy Waay', 'Bjay Sagrado', 'Dodz Dalida', 'Andrew Lgar', 'Patrick Pag-ong', 'Richard Somostrada', 'Rad Ancla', 'Vincent Gambalan']
         },
         {
