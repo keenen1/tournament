@@ -39,7 +39,7 @@ class TeamsOfTwelve extends React.Component {
           w: 0,
           l: 0,
           teamName: 'ROTORUA BONELESS',
-          teamPlayers: ['JR Lumbag', 'Gideon Sarra', 'Gino Ruvas', 'Kino Ruvas', 'Bryan Ruvas', 'Jhay Salonga', 'Eric Guiao', 'Alex Aquino', 'Rhaym Hipolito', 'John Solomon', 'Andre Solomon']
+          teamPlayers: ['Anjo Gabison', 'Nick Basinga', 'Triple J Garovillo', 'Jayson Conception', 'Carlo Yonyon', 'Chrisdale Danias', 'Elly Tibus', 'Van Mercado', 'Nicolas Aislabie', 'Leon Nebria', 'Nacar CN', 'Alvin Soqueno', 'Ronald Espellarga', 'Big Man']
         },
         {
           w: 0,
@@ -51,7 +51,7 @@ class TeamsOfTwelve extends React.Component {
           w: 0,
           l: 0,
           teamName: 'PHENOM',
-          teamPlayers: ['Bong Eldialde', 'Ken Eldialde', 'Gino Ruvas', 'Kino Ruvas', 'Bryan Ruvas', 'Jhay Salonga', 'Eric Guiao', 'Alex Aquino', 'Tisoy Panbeyi', 'Gideon Sarra', 'John Solomon', 'Andre Solomon', 'Rhaym Hipolito', 'JR Lumbag']
+          teamPlayers: ['JR Lumbag', 'Gideon Sarra', 'Gino Ruvas', 'Kino Ruvas', 'Bryan Ruvas', 'Jhay Salonga', 'Eric Guiao', 'Alex Aquino', 'Rhaym Hipolito', 'John Solomon', 'Andre Solomon']
         },
         {
           w: 0,

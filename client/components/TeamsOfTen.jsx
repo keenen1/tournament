@@ -45,7 +45,7 @@ class TeamsOfTen extends React.Component {
           w: 0,
           l: 0,
           teamName: 'BATANG HAMOG',
-          teamPlayers: ['Alfred Sinang', 'Boboi Lozano', 'Quing Panganiban', 'Alvin Mendoza', 'Marlon de Leon', 'Armin Minano', 'PJ Umayam', 'Arvin Renosa', 'Jonathan Lagasca', 'Andrew Cantiller', 'Macao', 'Ryan Apdian', 'Ely Oculete', 'Raymund Umandap']
+          teamPlayers: ['Alfred Sinang', 'Boboi Lozano', 'Quing Panganiban', 'Alvin Mendoza', 'Marlon de Leon', 'Armin Minano', 'PJ Umayam', 'Arvin Renosa', 'Jonathan Lagasca', 'Andrew Cantiller', 'Macao', 'Ryan Apdian', 'Ely Oculete', 'Raymund Umandap', 'Perry Salas']
         },
         {
           w: 0,
