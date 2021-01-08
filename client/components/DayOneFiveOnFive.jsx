@@ -57,7 +57,7 @@ const DayOneFiveOnFive = () => {
                     <td className="column100 column2" data-column="column2">
                       <div>
                         <div>15U</div>
-                        <div>WEST NANUH NEH v MAVS 2</div>
+                        <div>UFCSA WEST NANUH v MAVS 2</div>
                       </div>
                     </td>
                     <td className="column100 column3" data-column="column3">
@@ -230,7 +230,7 @@ const DayOneFiveOnFive = () => {
                     <td className="column100 column2" data-column="column2">
                       <div>
                         <div>15U</div>
-                        <div>WEST NANUH NEH v TGIF</div>
+                        <div>UFCSA WEST NANUH v TGIF</div>
                       </div>
                     </td>
                     <td className="column100 column3" data-column="column3">

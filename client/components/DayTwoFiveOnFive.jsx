@@ -70,7 +70,7 @@ const DayTwoFiveOnFive = () => {
                       <div>
                         <div>15U</div>
                         <div>
-                          <div>WEST NANUH NEH</div>
+                          <div>UFCSA WEST NANUH</div>
                           <div>v GENESIS BOLT</div>
                         </div>
                       </div>
