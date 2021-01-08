@@ -33,7 +33,7 @@ class TeamsOfTen extends React.Component {
           w: 0,
           l: 0,
           teamName: 'TEAM BARAKO',
-          teamPlayers: ['Lawrence', 'Raul Jalit', 'Dwayne Lucero', 'Harrison Lariego', 'Ronald Shan Shan', 'Kent Espana', 'Jok Jok', 'Randy Alcantara', 'Froilan Bautista', 'Elmar Supilanas', 'Nieven Banjo']
+          teamPlayers: ['Nieven Virtucio', 'Lawrence Ledem', 'Dane Rapsorr', 'Ramir Gonzalez', 'Ruel Caceres', 'Armond  Banno', 'William Paa', 'Elmar Suplianas', 'Randy Bulaong', 'Macoy Pineda', 'Ronaldo Liwanag']
         },
         {
           w: 0,

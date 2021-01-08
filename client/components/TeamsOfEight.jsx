@@ -12,7 +12,7 @@ class TeamsOfEight extends React.Component {
       l: 0,
       u15: [
         {
-          teamName: 'UFCSA WEST NANUH',
+          teamName: 'UFCSA WEST NANUH NEH',
           teamPlayers: ['Kendrick Corpuz', 'Gerald Babatogon', 'Malacchi Book', 'Patrick Ermita', 'Andrei Manio', 'Ralph Ocfemia', 'Fonzee de Asis', 'Marfi Villar', 'Arien Sepnio', 'David Villa-Ignacio', 'Nathan David'],
           w: 0,
           l: 0
