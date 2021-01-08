@@ -10,7 +10,6 @@ class TeamsOfEight extends React.Component {
       players: [],
       w: 0,
       l: 0,
-      smallFont: '3vw',
       u15: [
         {
           teamName: 'UFCSA WEST NANUH',
