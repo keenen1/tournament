@@ -15,7 +15,7 @@ class TeamsOfTen extends React.Component {
           w: 0,
           l: 0,
           teamName: 'AZTIGS',
-          teamPlayers: ['Robbie Layao', 'Davey Vinluan', 'PJY Ollimsoh', 'Jhonny Arteza', 'Fidel Mabanta', 'Garry Garcia', 'Adrian Bdunk', 'Jeric Mataverde', 'Ken Ken', 'John Rey Sequina', 'Elger de Guzman', 'James Mo', 'Marc Co']
+          teamPlayers: ['Robbie Layao', 'Davey Vinluan', 'PJY Ollimsoh', 'Jhonny Arteza', 'Fidel Mabanta', 'Garry Garcia', 'Adrian Bdunk', 'Jeric Mataverde', 'Ken Ken', 'John Rey Sequina', 'Elger de Guzman', 'James Mo', 'Marc Co', 'Wennie Fernandez', 'Duds Pugosa']
         },
         {
           w: 0,
