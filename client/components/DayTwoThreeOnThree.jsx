@@ -28,14 +28,14 @@ const DayTwoThreeOnThree = () => {
                     <td className="column100 column1" data-column="column1">12:10 PM</td>
                     <td className="column100 column2" data-column="column2">
                       <div>
-                        <div>UFCSA WEST</div>
-                        <div>&nbsp;v HITZ</div>
+                        <div>SOUTH AUCKLAND v</div>
+                        <div>&nbsp;CASH CONVERTERS</div>
                       </div>
                     </td>
                     <td className="column100 column3" data-column="column3">
                       <div>
-                        <div>SOUTH AUCKLAND v</div>
-                        <div>&nbsp;CASH CONVERTERS</div>
+                        <div>UFCSA WEST</div>
+                        <div>&nbsp;v HITZ</div>
                       </div>
                     </td>
                   </tr>
@@ -55,14 +55,14 @@ const DayTwoThreeOnThree = () => {
                     <td className="column100 column1" data-column="column1">12:40 PM</td>
                     <td className="column100 column2" data-column="column2">
                       <div>
-                        <div>SF1</div>
-                        <div>&nbsp;TOP 1 v TOP 4</div>
+                        <div>SF2</div>
+                        <div>&nbsp;TOP 2 v TOP 3</div>
                       </div>
                     </td>
                     <td className="column100 column3" data-column="column3">
                       <div>
-                        <div>SF2</div>
-                        <div>&nbsp;TOP 2 v TOP 3</div>
+                        <div>SF1</div>
+                        <div>&nbsp;TOP 1 v TOP 4</div>
                       </div>
                     </td>
                   </tr>

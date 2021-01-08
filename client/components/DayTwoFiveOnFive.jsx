@@ -348,11 +348,15 @@ const DayTwoFiveOnFive = () => {
 
                   <tr className="row100">
                     <td className="column100 column1" data-column="column1">5:10 PM</td>
-                    <td className="column100 column2" data-column="column2"></td>
+                    <td className="column100 column2" data-column="column2">
+                      WOMEN&apos;S 3x3 ONLY
+                    </td>
                     <td className="column100 column3 women-color" data-column="column3">
                       WOMEN&apos;S FINALS
                     </td>
-                    <td className="column100 column4" data-column="column4"></td>
+                    <td className="column100 column4" data-column="column4">
+                      WOMEN&apos;S 3x3 ONLY
+                    </td>
                     <td className="column100 column5" data-column="column5"></td>
                   </tr>
 

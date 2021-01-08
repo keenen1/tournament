@@ -44,14 +44,14 @@ const DayOneThreeOnThree = () => {
                     <td className="column100 column1" data-column="column1">12:25 PM</td>
                     <td className="column100 column2" data-column="column2">
                       <div>
-                        <div>CASH CONVERTERS</div>
-                        <div>&nbsp;v HITZ</div>
+                        <div>SOUTH AUCKLAND</div>
+                        <div>&nbsp;v AIRBALLERS</div>
                       </div>
                     </td>
                     <td className="column100 column3" data-column="column3">
                       <div>
-                        <div>SOUTH AUCKLAND</div>
-                        <div>&nbsp;v AIRBALLERS</div>
+                        <div>CASH CONVERTERS</div>
+                        <div>&nbsp;v HITZ</div>
                       </div>
                     </td>
                   </tr>
@@ -60,14 +60,13 @@ const DayOneThreeOnThree = () => {
                     <td className="column100 column1" data-column="column1">12:40 PM</td>
                     <td className="column100 column2" data-column="column2">
                       <div>
-                        <div>UFCSA WEST v&nbsp;</div>
-                        <div>EL HOMBRES</div>
-                      </div>
-                    </td>
-                    <td className="column100 column3" data-column="column3">
-                      <div>
                         <div>AIRBALLERS</div>
                         <div>&nbsp;v HITZ</div>
+                      </div></td>
+                    <td className="column100 column3" data-column="column3">
+                      <div>
+                        <div>UFCSA WEST v&nbsp;</div>
+                        <div>EL HOMBRES</div>
                       </div>
                     </td>
                   </tr>
@@ -90,16 +89,15 @@ const DayOneThreeOnThree = () => {
 
                   <tr className="row100">
                     <td className="column100 column1" data-column="column1">1:35 PM</td>
-                    <td className="column100 column2" data-column="column2">
-                      <div>
-                        <div>UFCSA WEST v&nbsp;</div>
-                        <div>AIRBALLERS</div>
-                      </div>
+                    <td className="column100 column2" data-column="column2"><div>
+                      <div>SOUTH AUCKLAND</div>
+                      <div>&nbsp;v HITZ</div>
+                    </div>
                     </td>
                     <td className="column100 column3" data-column="column3">
                       <div>
-                        <div>SOUTH AUCKLAND</div>
-                        <div>&nbsp;v HITZ</div>
+                        <div>UFCSA WEST v&nbsp;</div>
+                        <div>AIRBALLERS</div>
                       </div>
                     </td>
                   </tr>
