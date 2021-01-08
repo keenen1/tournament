@@ -50,7 +50,7 @@ class TeamsOfTwelve extends React.Component {
         {
           w: 1,
           l: 0,
-          teamName: 'PHENOM',
+          teamName: 'ELITES',
           teamPlayers: ['JR Lumbag', 'Gideon Sarra', 'Gino Ruvas', 'Kino Ruvas', 'Bryan Ruvas', 'Jhay Salonga', 'Eric Guiao', 'Alex Aquino', 'Rhaym Hipolito', 'John Solomon', 'Andre Solomon']
         },
         {

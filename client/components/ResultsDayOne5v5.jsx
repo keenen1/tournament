@@ -76,7 +76,7 @@ const ResultsDayOne5v5 = () => {
           court2scoreB={41}
 
           court3cat={'OP'}
-          court3teamA={'PHENOM ELITES'}
+          court3teamA={'ELITES'}
           court3scoreA={35}
           court3teamB={'TRIPLE H MOTORS'}
           court3scoreB={33}
@@ -240,7 +240,7 @@ const ResultsDayOne5v5 = () => {
           court2scoreB={0}
 
           court3cat={'OP'}
-          court3teamA={'PHENOM'}
+          court3teamA={'ELITES'}
           court3scoreA={0}
           court3teamB={'BRICK CITY'}
           court3scoreB={0}
