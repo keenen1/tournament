@@ -38,54 +38,54 @@ const ResultsDayOne5v5 = () => {
 
           court1cat={'U15'}
           court1teamA={'WEST NANUH NEH'}
-          court1scoreA={0}
+          court1scoreA={61}
           court1teamB={'MAVS 2'}
-          court1scoreB={0}
+          court1scoreB={37}
 
           court2cat={'U15'}
           court2teamA={'TGIF'}
-          court2scoreA={0}
+          court2scoreA={16}
           court2teamB={'GENESIS BOLT'}
-          court2scoreB={0}
+          court2scoreB={33}
 
           court3cat={'U15'}
           court3teamA={'MAVS 1'}
-          court3scoreA={0}
+          court3scoreA={35}
           court3teamB={'UFCSA NORTH'}
-          court3scoreB={0}
+          court3scoreB={37}
 
           court4cat={'U15'}
           court4teamA={'UFCSA WEST EAGLES'}
-          court4scoreA={0}
+          court4scoreA={43}
           court4teamB={'STREET BALLERS'}
-          court4scoreB={0}
+          court4scoreB={30}
         />
         <ResultsHourly
           hour={'9:40 AM'}
 
           court1cat={'OP'}
           court1teamA={'AZTIGS BETA'}
-          court1scoreA={0}
+          court1scoreA={57}
           court1teamB={'OUA'}
-          court1scoreB={0}
+          court1scoreB={51}
 
           court2cat={'OP'}
           court2teamA={'UNKNOWN'}
-          court2scoreA={0}
+          court2scoreA={58}
           court2teamB={'ROTORUA BONELESS'}
-          court2scoreB={0}
+          court2scoreB={41}
 
           court3cat={'OP'}
           court3teamA={'PHENOM ELITES'}
-          court3scoreA={0}
+          court3scoreA={35}
           court3teamB={'TRIPLE H MOTORS'}
-          court3scoreB={0}
+          court3scoreB={33}
 
           court4cat={'OP'}
           court4teamA={'JBING'}
-          court4scoreA={0}
+          court4scoreA={56}
           court4teamB={'WOW BISDAKOL'}
-          court4scoreB={0}
+          court4scoreB={40}
         />
         <ResultsHourly
           hour={'10:30 AM'}
