@@ -92,27 +92,27 @@ const ResultsDayOne5v5 = () => {
 
           court1cat={'35A'}
           court1teamA={'AZTIGS 35'}
-          court1scoreA={0}
+          court1scoreA={42}
           court1teamB={'PILDI DAAN'}
-          court1scoreB={0}
+          court1scoreB={23}
 
           court2cat={'35A'}
           court2teamA={'AUCKLAND ALPHA'}
-          court2scoreA={0}
+          court2scoreA={38}
           court2teamB={'MAPUA CARDINALS'}
-          court2scoreB={0}
+          court2scoreB={56}
 
           court3cat={'35A'}
           court3teamA={'BATANG HAMOG'}
-          court3scoreA={0}
+          court3scoreA={32}
           court3teamB={'TEAM O\'REILLY\'S'}
-          court3scoreB={0}
+          court3scoreB={48}
 
           court4cat={'35A'}
           court4teamA={'FOREX NZ'}
-          court4scoreA={0}
+          court4scoreA={56}
           court4teamB={'SOUTH AUCKLAND'}
-          court4scoreB={0}
+          court4scoreB={47}
         />
         <ResultsHourly
           hour={'11:20 PM'}
