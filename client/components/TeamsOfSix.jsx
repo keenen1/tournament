@@ -103,7 +103,7 @@ class TeamsOfSix extends React.Component {
         {
           teamName: 'KNIGHTS',
           teamPlayers: ['Draco Bornilla', 'Hiro Nonato', 'Tristan Longid', 'Arin Ganga', 'Lucas Ramos', 'Andres Mamerto', 'Marbrille Williams', 'Jacob Fabregas'],
-          w: 1,
+          w: 0,
           l: 0
         },
         {
