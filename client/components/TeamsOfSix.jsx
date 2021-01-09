@@ -14,7 +14,7 @@ class TeamsOfSix extends React.Component {
         {
           teamName: 'UFCSA SINULOG',
           teamPlayers: ['Bob Mir', 'Ross Ganzan', 'Alex Andales', 'Ramil Maligro', 'Richard Cortes', 'Marlon Ambion', 'Angelo Javate', 'Gilbert Tabora', 'Laurence Malbog', 'Bong Sepnio', 'Nixon Morales'],
-          w: 1,
+          w: 2,
           l: 0
         },
         {
@@ -27,32 +27,32 @@ class TeamsOfSix extends React.Component {
           teamName: 'FRANKLIN',
           teamPlayers: ['Cesar Narzo', 'Allan Murillo', 'Gigi Boy', 'Ranilo de la Cruz', 'Ike Francisco', 'Gerry Cristobal', 'Romel Ares', 'Anselmo Sacueza', 'Vincent Tapia', 'Ricky Chan'],
           w: 0,
-          l: 1
+          l: 2
+        },
+        {
+          teamName: 'UFCSA WEST 7',
+          teamPlayers: ['Jun Allan', 'Erik Luklukan', 'Jun Manio', 'Bojo Ermita', 'Ernesto Bundalian', 'Raul Lotivio', 'Rey Ocfemia', 'Danny Sayat', 'Jolly Concepcion', 'Ronald Tongol', 'Alfred Sinag', 'Dennis Macahig', 'Rolly Nicolas', 'John Senfelices', 'Jovy Martinez', 'Romy Guevarra', 'Jay Salonga'],
+          w: 2,
+          l: 0
         },
         {
           teamName: 'TGIF CALIBER 45',
           teamPlayers: ['Normin Asinas', 'Soliito Asinas', 'Noli Carlos', 'Abet Tamayao', 'Dennis Maga', 'Larry Asuncion', 'Jocky Lorenzo', 'Efren Arellano', 'Felipe Martinez', 'Leo Guico', 'Micheal Mitra', 'Alfredo Morales'],
           w: 1,
-          l: 0
+          l: 1
         },
         {
           teamName: 'PINOY MAVS',
           teamPlayers: ['George Dio', 'Rodel Alan', 'Micheal Salomon', 'Jimmy Tan', 'Jacob Torrefranca', 'Joel Yulo', 'BJ Bauzon', 'Ferdinand Contreras', 'Manu Hoque', 'Elliot Zshornack', 'Erick Basobas', 'Jovit Naboa'],
           w: 0,
           l: 2
-        },
-        {
-          teamName: 'UFCSA WEST 7',
-          teamPlayers: ['Jun Allan', 'Erik Luklukan', 'Jun Manio', 'Bojo Ermita', 'Ernesto Bundalian', 'Raul Lotivio', 'Rey Ocfemia', 'Danny Sayat', 'Jolly Concepcion', 'Ronald Tongol', 'Alfred Sinag', 'Dennis Macahig', 'Rolly Nicolas', 'John Senfelices', 'Jovy Martinez', 'Romy Guevarra', 'Jay Salonga'],
-          w: 1,
-          l: 0
         }
       ],
       u18: [
         {
           teamName: 'PINOY MAVS',
           teamPlayers: ['Red Viloria', 'Daniel Tialban', 'Jacob Banno', 'Angelo Matanguihan', 'JL Lopez', 'Val Mercado', 'JC Rebosura', 'Ralph Balazo', 'EJ Rebosura', 'Jaden Latay', 'Andre Yray', 'Andrei Salomon'],
-          w: 1,
+          w: 2,
           l: 0
         },
         {
@@ -65,14 +65,7 @@ class TeamsOfSix extends React.Component {
           teamName: 'GENESIS',
           teamPlayers: ['Christian  Jatulan', 'Zeth Marcos', 'Zedrick Candor', 'Allain Santiago', 'Alexis Arizala', 'Al Alibahrani', 'Joshua Garcia', 'Ezekiel Garcia', 'Josch Magisa', 'John Villanueva', 'Lyndon Lucindo'],
           w: 1,
-          l: 0
-        },
-        {
-          teamName: 'TGIF',
-          teamPlayers: ['David Cobain', 'Jomari Maturan', 'Cromwell Pilacan', 'Kurt Guevara', 'Russell Pilacan', 'Zach Rafuson', 'Kurt Kempis', 'Ramon Villacarta', 'Homer Tuazon', 'Matt Mitra', 'Keane Co', 'Aidan King'],
-          w: 0,
           l: 1
-
         },
         {
           teamName: 'UFCSA NORTH',
@@ -81,13 +74,26 @@ class TeamsOfSix extends React.Component {
           l: 0
         },
         {
+          teamName: 'TGIF',
+          teamPlayers: ['David Cobain', 'Jomari Maturan', 'Cromwell Pilacan', 'Kurt Guevara', 'Russell Pilacan', 'Zach Rafuson', 'Kurt Kempis', 'Ramon Villacarta', 'Homer Tuazon', 'Matt Mitra', 'Keane Co', 'Aidan King'],
+          w: 1,
+          l: 1
+
+        },
+        {
           teamName: 'UFCSA WEST ALPHA',
           teamPlayers: ['Gabriel de Guzman', 'Michael De Guzman', 'Christian Valencia', 'Francis Cabello', 'Tristan Allen', 'Amray De Asis', 'Jerald Gabornes', 'Benedict Magtibay', 'Alister Rapasa', 'Manuel Lagonera', 'Cedric Valencia'],
           w: 0,
-          l: 1
+          l: 2
         }
       ],
       u9: [
+        {
+          teamName: 'UFCSA WEST',
+          teamPlayers: ['Job Saberon', 'Tomas Agustin', 'Edward Yabut', 'Kobe Egrada', 'Gaevry Buenavista', 'Nathan Coronel', 'Luke de Guzman', 'Jarl Turno', 'Enzo Chuo', 'Aubrey Juan', 'River Okuya'],
+          w: 2,
+          l: 0
+        },
         {
           teamName: 'FLAT BUSH',
           teamPlayers: ['Josiah Book', 'Aaron Soretes', 'Allen Illustrisimo', 'Chase Lardizabal', 'Manuel Magallanes', 'Bryle Magayanes', 'Marcus Padua', 'Elaine Penaflor'],
@@ -95,16 +101,10 @@ class TeamsOfSix extends React.Component {
           l: 1
         },
         {
-          teamName: 'UFCSA WEST',
-          teamPlayers: ['Job Saberon', 'Tomas Agustin', 'Edward Yabut', 'Kobe Egrada', 'Gaevry Buenavista', 'Nathan Coronel', 'Luke de Guzman', 'Jarl Turno', 'Enzo Chuo', 'Aubrey Juan', 'River Okuya'],
-          w: 1,
-          l: 0
-        },
-        {
           teamName: 'KNIGHTS',
           teamPlayers: ['Draco Bornilla', 'Hiro Nonato', 'Tristan Longid', 'Arin Ganga', 'Lucas Ramos', 'Andres Mamerto', 'Marbrille Williams', 'Jacob Fabregas'],
           w: 0,
-          l: 1
+          l: 2
         },
         {
           teamName: 'PINOY MAVS',
@@ -115,14 +115,14 @@ class TeamsOfSix extends React.Component {
         {
           teamName: 'STINGERS\'',
           teamPlayers: ['Jake Sinvitchit', 'Jiya Cruz', 'Grant Cruz', 'Isaaiah Philips', 'Issachar Philips', 'Jaden Volante', 'Elija Gusman', 'Nicos Rapanan', 'Marco Cardeno', 'Marcus Arroyo', 'Aiden Kierulf', 'Edric Legasto'],
-          w: 0,
+          w: 1,
           l: 1
         },
         {
           teamName: 'TGIF',
           teamPlayers: ['Juancho De Guzman', 'Mateo Ilagan', 'Zander Mariano', 'Zeke Osigan', 'Vonn Villalobos', 'Reema Leneia', 'Kaiser Ochoa', 'Karlisle Ochoa'],
           w: 0,
-          l: 1
+          l: 2
         }
       ]
     }

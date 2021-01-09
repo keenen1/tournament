@@ -12,16 +12,16 @@ class TeamsOfTen extends React.Component {
       l: 0,
       a35: [
         {
+          w: 3,
+          l: 0,
+          teamName: 'MAPUA CARDINALS',
+          teamPlayers: ['Donovan Bornilla', 'Ranville Marmeto', 'Edbert Ancheta', 'Mike Catapang', 'Herbert Bolneo', 'Rico Catilo', 'Rey Molina', 'Joey Tabuli', 'Rolando Rivera', 'Ronald Padilla', 'Peers Jardiel', 'Aran Silverio', 'Raymond Perfinan', 'Jay R Saoi']
+        },
+        {
           w: 2,
           l: 0,
           teamName: 'AZTIGS',
           teamPlayers: ['Robbie Layao', 'Davey Vinluan', 'PJY Ollimsoh', 'Jhonny Arteza', 'Fidel Mabanta', 'Garry Garcia', 'Adrian Bdunk', 'Jeric Mataverde', 'Ken Ken', 'John Rey Sequina', 'Elger de Guzman', 'James Mo', 'Marc Co', 'Wennie Fernandez', 'Duds Pugosa']
-        },
-        {
-          w: 0,
-          l: 2,
-          teamName: 'PILDI DAAN',
-          teamPlayers: ['Cyril Gencono', 'Randy Quijano', 'Mil Revillas', 'Allan Nardo', 'Jovinar Taboada', 'Rudy Gingco', 'Felipe Talaid', 'Ruben Dalagan', 'Jover Lacaba', 'Diole Celestial', 'Orlly Oyao', 'Noli Mondaya', 'Expidito Senillo', 'Rey Ricafranca', 'Dondon Pino', 'Alexis Benedicto']
         },
         {
           w: 1,
@@ -36,16 +36,10 @@ class TeamsOfTen extends React.Component {
           teamPlayers: ['Nieven Virtucio', 'Lawrence Ledem', 'Dane Rapsorr', 'Ramir Gonzalez', 'Ruel Caceres', 'Armond  Banno', 'William Paa', 'Elmar Suplianas', 'Randy Bulaong', 'Macoy Pineda', 'Ronaldo Liwanag']
         },
         {
-          w: 1,
-          l: 0,
-          teamName: 'MAPUA CARDINALS',
-          teamPlayers: ['Donovan Bornilla', 'Ranville Marmeto', 'Edbert Ancheta', 'Mike Catapang', 'Herbert Bolneo', 'Rico Catilo', 'Rey Molina', 'Joey Tabuli', 'Rolando Rivera', 'Ronald Padilla', 'Peers Jardiel', 'Aran Silverio', 'Raymond Perfinan', 'Jay R Saoi']
-        },
-        {
-          w: 1,
-          l: 1,
-          teamName: 'BATANG HAMOG',
-          teamPlayers: ['Alfred Sinang', 'Boboi Lozano', 'Quing Panganiban', 'Alvin Mendoza', 'Marlon de Leon', 'Armin Minano', 'PJ Umayam', 'Arvin Renosa', 'Jonathan Lagasca', 'Andrew Cantiller', 'Macao', 'Ryan Apdian', 'Ely Oculete', 'Raymund Umandap', 'Perry Salas']
+          w: 0,
+          l: 3,
+          teamName: 'PILDI DAAN',
+          teamPlayers: ['Cyril Gencono', 'Randy Quijano', 'Mil Revillas', 'Allan Nardo', 'Jovinar Taboada', 'Rudy Gingco', 'Felipe Talaid', 'Ruben Dalagan', 'Jover Lacaba', 'Diole Celestial', 'Orlly Oyao', 'Noli Mondaya', 'Expidito Senillo', 'Rey Ricafranca', 'Dondon Pino', 'Alexis Benedicto']
         },
         {
           w: 2,
@@ -54,10 +48,16 @@ class TeamsOfTen extends React.Component {
           teamPlayers: ['Robert Turingan', 'Nino Solon', 'Jesse Abamonga', 'Jeffrey Tan', 'Chris Ballerda', 'Ferdinand Manuel', 'Fidel Manalese', 'Gerome Ribu', 'Manny Fausto', 'Miko Escueta', 'Jehrone Valledor', 'Loeven Suzara', 'Rainier Escueta', 'JB Natividad', 'Ronald Ong']
         },
         {
-          w: 1,
+          w: 2,
           l: 1,
           teamName: 'TEAM O\'REILLY\'s',
           teamPlayers: ['Chris Paderanga', 'Jece Bensi', 'Dan Martinez', 'Ben Marc', 'Carlo Isip', 'Melvin Dacyon', 'Jason Rigon', 'VJ Tabudlong', 'James Paluga', 'Eric Braga', 'Alan Jumawid', 'Eric Pastorpeli', 'Donnel Victorio', 'Ian Estrada']
+        },
+        {
+          w: 1,
+          l: 1,
+          teamName: 'BATANG HAMOG',
+          teamPlayers: ['Alfred Sinang', 'Boboi Lozano', 'Quing Panganiban', 'Alvin Mendoza', 'Marlon de Leon', 'Armin Minano', 'PJ Umayam', 'Arvin Renosa', 'Jonathan Lagasca', 'Andrew Cantiller', 'Macao', 'Ryan Apdian', 'Ely Oculete', 'Raymund Umandap', 'Perry Salas']
         },
         {
           w: 1,
@@ -67,7 +67,7 @@ class TeamsOfTen extends React.Component {
         },
         {
           w: 1,
-          l: 1,
+          l: 2,
           teamName: 'SRBC',
           teamPlayers: ['Marc Arriba', 'Cyke Belandres', 'Ken Sharma', 'Phillip Sepulveda', 'Jong Mantos', 'Mark Torredes', 'Third Osorio', 'Mark Enriquez', 'Darwin Villaver']
         }
