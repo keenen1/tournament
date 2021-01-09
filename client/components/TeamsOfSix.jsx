@@ -39,12 +39,12 @@ class TeamsOfSix extends React.Component {
           teamName: 'PINOY MAVS',
           teamPlayers: ['George Dio', 'Rodel Alan', 'Micheal Salomon', 'Jimmy Tan', 'Jacob Torrefranca', 'Joel Yulo', 'BJ Bauzon', 'Ferdinand Contreras', 'Manu Hoque', 'Elliot Zshornack', 'Erick Basobas', 'Jovit Naboa'],
           w: 0,
-          l: 1
+          l: 2
         },
         {
           teamName: 'UFCSA WEST 7',
           teamPlayers: ['Jun Allan', 'Erik Luklukan', 'Jun Manio', 'Bojo Ermita', 'Ernesto Bundalian', 'Raul Lotivio', 'Rey Ocfemia', 'Danny Sayat', 'Jolly Concepcion', 'Ronald Tongol', 'Alfred Sinag', 'Dennis Macahig', 'Rolly Nicolas', 'John Senfelices', 'Jovy Martinez', 'Romy Guevarra', 'Jay Salonga'],
-          w: 0,
+          w: 1,
           l: 0
         }
       ],
@@ -91,7 +91,7 @@ class TeamsOfSix extends React.Component {
         {
           teamName: 'FLAT BUSH',
           teamPlayers: ['Josiah Book', 'Aaron Soretes', 'Allen Illustrisimo', 'Chase Lardizabal', 'Manuel Magallanes', 'Bryle Magayanes', 'Marcus Padua', 'Elaine Penaflor'],
-          w: 0,
+          w: 1,
           l: 1
         },
         {
@@ -104,12 +104,12 @@ class TeamsOfSix extends React.Component {
           teamName: 'KNIGHTS',
           teamPlayers: ['Draco Bornilla', 'Hiro Nonato', 'Tristan Longid', 'Arin Ganga', 'Lucas Ramos', 'Andres Mamerto', 'Marbrille Williams', 'Jacob Fabregas'],
           w: 0,
-          l: 0
+          l: 1
         },
         {
           teamName: 'PINOY MAVS',
           teamPlayers: ['Aldric Quilantang', 'Liam Crispino', 'Mateo Enricoso', 'Rafa Gayatin', 'Amhir Kuhutan', 'Kurt Pulac', 'Hugh Warren', 'Zayne Cabilin'],
-          w: 1,
+          w: 2,
           l: 0
         },
         {
@@ -122,7 +122,7 @@ class TeamsOfSix extends React.Component {
           teamName: 'TGIF',
           teamPlayers: ['Juancho De Guzman', 'Mateo Ilagan', 'Zander Mariano', 'Zeke Osigan', 'Vonn Villalobos', 'Reema Leneia', 'Kaiser Ochoa', 'Karlisle Ochoa'],
           w: 0,
-          l: 0
+          l: 1
         }
       ]
     }

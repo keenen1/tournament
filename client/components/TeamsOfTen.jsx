@@ -31,7 +31,7 @@ class TeamsOfTen extends React.Component {
         },
         {
           w: 0,
-          l: 1,
+          l: 2,
           teamName: 'TEAM BARAKO',
           teamPlayers: ['Nieven Virtucio', 'Lawrence Ledem', 'Dane Rapsorr', 'Ramir Gonzalez', 'Ruel Caceres', 'Armond  Banno', 'William Paa', 'Elmar Suplianas', 'Randy Bulaong', 'Macoy Pineda', 'Ronaldo Liwanag']
         },
@@ -60,13 +60,13 @@ class TeamsOfTen extends React.Component {
           teamPlayers: ['Chris Paderanga', 'Jece Bensi', 'Dan Martinez', 'Ben Marc', 'Carlo Isip', 'Melvin Dacyon', 'Jason Rigon', 'VJ Tabudlong', 'James Paluga', 'Eric Braga', 'Alan Jumawid', 'Eric Pastorpeli', 'Donnel Victorio', 'Ian Estrada']
         },
         {
-          w: 0,
+          w: 1,
           l: 1,
           teamName: 'SOUTH AUCKLAND',
           teamPlayers: ['Rey Capal', 'Duds Pugosa', 'Herbie Emralino', 'Darel Pelayo', 'Ancha Ansiok', 'Restre Restre', 'Paul Hallare', 'Bert Cayanan', 'Lendel Kiamco', 'Alex Rivera', 'Adonis Dicksen', 'Leo Glorio', 'Greg Laro', 'Ardee Llasos', 'Ansel Sacueza', 'Kristian Catapang']
         },
         {
-          w: 0,
+          w: 1,
           l: 1,
           teamName: 'SRBC',
           teamPlayers: ['Marc Arriba', 'Cyke Belandres', 'Ken Sharma', 'Phillip Sepulveda', 'Jong Mantos', 'Mark Torredes', 'Third Osorio', 'Mark Enriquez', 'Darwin Villaver']
