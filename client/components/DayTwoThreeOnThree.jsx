@@ -56,13 +56,13 @@ const DayTwoThreeOnThree = () => {
                     <td className="column100 column2" data-column="column2">
                       <div>
                         <div>SF2</div>
-                        <div>&nbsp;TOP 2 v TOP 3</div>
+                        <div>&nbsp;UFCSA WEST v AUCKLAND</div>
                       </div>
                     </td>
                     <td className="column100 column3" data-column="column3">
                       <div>
                         <div>SF1</div>
-                        <div>&nbsp;TOP 1 v TOP 4</div>
+                        <div>&nbsp;CASH CONVERTERS v AIRBALLERS</div>
                       </div>
                     </td>
                   </tr>
