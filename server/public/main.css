@@ -608,6 +608,9 @@ a {
   .six .standing {
     font-size: 5vw;
   }
+  .women .standing {
+    font-size: 5vw;
+  }
   /* TEN */
   .ten .teams-block {
     height: 50%;
