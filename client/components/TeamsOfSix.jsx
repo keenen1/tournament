@@ -109,20 +109,20 @@ class TeamsOfSix extends React.Component {
         {
           teamName: 'PINOY MAVS',
           teamPlayers: ['Aldric Quilantang', 'Liam Crispino', 'Mateo Enricoso', 'Rafa Gayatin', 'Amhir Kuhutan', 'Kurt Pulac', 'Hugh Warren', 'Zayne Cabilin'],
-          w: 0,
-          l: 1
+          w: 1,
+          l: 0
         },
         {
           teamName: 'STINGERS\'',
           teamPlayers: ['Jake Sinvitchit', 'Jiya Cruz', 'Grant Cruz', 'Isaaiah Philips', 'Issachar Philips', 'Jaden Volante', 'Elija Gusman', 'Nicos Rapanan', 'Marco Cardeno', 'Marcus Arroyo', 'Aiden Kierulf', 'Edric Legasto'],
-          w: 1,
-          l: 0
+          w: 0,
+          l: 1
         },
         {
           teamName: 'TGIF',
           teamPlayers: ['Juancho De Guzman', 'Mateo Ilagan', 'Zander Mariano', 'Zeke Osigan', 'Vonn Villalobos', 'Reema Leneia', 'Kaiser Ochoa', 'Karlisle Ochoa'],
           w: 0,
-          l: 1
+          l: 0
         }
       ]
     }
