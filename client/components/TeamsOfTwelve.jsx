@@ -12,7 +12,7 @@ class TeamsOfTwelve extends React.Component {
       l: 0,
       opens: [
         {
-          w: 1,
+          w: 2,
           l: 0,
           teamName: 'AZTIGS BETA',
           teamPlayers: ['Keenen Leyson', 'John Biluno', 'Reimar Cruz', 'Dennis Belmonte', 'Reggie Malonzo', 'Jette Anthony', 'Joseph Nunag', 'Brian Bugay', 'Ryan Herrera', 'Kenneth Tuffin', 'Nikko Malonzo', 'Jayvee Madic']
@@ -25,12 +25,12 @@ class TeamsOfTwelve extends React.Component {
         },
         {
           w: 0,
-          l: 0,
+          l: 1,
           teamName: 'BARAKO',
           teamPlayers: ['Anthony Eltanal', 'Adrianne Alegado', 'Niknik Esguerra', 'Morris Cabagnot', 'Crezlan Olivar', 'Joe Garcias', 'Jairus Evangelista', 'Simon Alumia', 'Kevin Elthanal', 'Brian Parejas', 'Justine Sapungan', 'Gian Dagum', 'Zwit Zal']
         },
         {
-          w: 1,
+          w: 2,
           l: 0,
           teamName: 'UNKNOWN',
           teamPlayers: ['Eric Hansen', 'Aldwin Alvarez', 'Patrick Maagdenberg', 'Edward Maagdenberg', 'Emmanuel Maagdenberg', 'Robert Encarnacion', 'JD Tagimacruz', 'Aldrien Sepnio', 'Mike Becker', 'CJ Vellon', 'Lorenzo Tanduran']
@@ -43,12 +43,12 @@ class TeamsOfTwelve extends React.Component {
         },
         {
           w: 0,
-          l: 0,
+          l: 1,
           teamName: 'EAST STREET',
           teamPlayers: ['Aldin Corpuz', 'Luis Paraiso', 'Juan Salamanca', 'Jourdan Nitura', 'Manny Fausto', 'John Lopez', 'Levi Lucindo', 'Manolet Velasquez', 'Jolo Velasquez', 'Jonathan Tila', 'Redgie Padolina', 'Paul Fernandez', 'Kenneth Ebora', 'Jovin Ilagan']
         },
         {
-          w: 1,
+          w: 2,
           l: 0,
           teamName: 'ELITES',
           teamPlayers: ['JR Lumbag', 'Gideon Sarra', 'Gino Ruvas', 'Kino Ruvas', 'Bryan Ruvas', 'Jhay Salonga', 'Eric Guiao', 'Alex Aquino', 'Rhaym Hipolito', 'John Solomon', 'Andre Solomon']
@@ -61,13 +61,13 @@ class TeamsOfTwelve extends React.Component {
         },
         {
           w: 0,
-          l: 0,
+          l: 1,
           teamName: 'BRICK CITY',
           teamPlayers: ['Daniel de Silva', 'Daryl Burias', 'Patrick Burias', 'Jan Latosa', 'Jordan Froilan', 'Mathew Marcelo', 'Ken Ganzan', 'Eron Caballes', 'Franz Lim', 'Mick Ramos', 'Chris Nallerda', 'Tyler Martin', 'Kevin de Paula', 'Jian De Vega', 'Andre Palomares']
         },
         {
           w: 1,
-          l: 0,
+          l: 1,
           teamName: 'JBING',
           teamPlayers: ['Miguel Benjamin', 'Tyler Martin', 'James Viloria', 'Terrence Abdon', 'Jeff Lapinig', 'Ezekiel Flores', 'John Mongado', 'Franz Tipon', 'Marky Tipanero', 'Jonathan Vea', 'Jason Mamaradlo', 'Gio Tingson']
         },
@@ -78,7 +78,7 @@ class TeamsOfTwelve extends React.Component {
           teamPlayers: ['Rey Burgos', 'Ricmar Paterbos', 'Jeremy Waay', 'Bjay Sagrado', 'Dodz Dalida', 'Andrew Lgar', 'Patrick Pag-ong', 'Richard Somostrada', 'Rad Ancla', 'Vincent Gambalan', 'Dante Salvador']
         },
         {
-          w: 0,
+          w: 1,
           l: 0,
           teamName: 'PINOY PROPERTY',
           teamPlayers: ['Kienn Carzano', 'Tophie Patriarca', 'Jay Chua', 'Harold Jumawan', 'Carlo Bueno', 'Mar Libreja', 'Migs Jose', 'Jonathan Realista', 'Christian Lagunera', 'Bert Bolneo', 'Perry Salas', 'Bong Eldialde', 'Ken Eldialde', 'Tisoy Panbeyi']

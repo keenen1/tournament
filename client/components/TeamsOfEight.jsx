@@ -14,50 +14,50 @@ class TeamsOfEight extends React.Component {
         {
           teamName: 'UFCSA WEST NANUH',
           teamPlayers: ['Kendrick Corpuz', 'Gerald Babatogon', 'Malacchi Book', 'Patrick Ermita', 'Andrei Manio', 'Ralph Ocfemia', 'Fonzee de Asis', 'Marfi Villar', 'Arien Sepnio', 'David Villa-Ignacio', 'Nathan David'],
-          w: 1,
+          w: 2,
           l: 0
         },
         {
           teamName: 'PINOY MAVS 2',
           teamPlayers: ['Fonci Leyesa', 'Justin Lacsi', 'Enzo Lopez', 'Caleb Mendoza', 'Seb Sanchez', 'Xymuz Sitchon', 'John Lasala', 'Jan Matanguihan', 'Joaquin Marinas'],
           w: 0,
-          l: 1
+          l: 2
         },
         {
           teamName: 'TGIF',
           teamPlayers: ['Steven Biasura', 'Johnray Biasura', 'Enrico De Guzman', 'Karl Alea', 'Jarredd Clarete', 'Kevin Hiyas', 'Cristian Perez', 'Emman Petilla', 'Alkurt Noval'],
           w: 0,
-          l: 1
+          l: 2
         },
         {
           teamName: 'GENESIS BOLT',
           teamPlayers: ['Gian Mohinani', 'Guile Mohinani', 'Joaquin Martinez', 'Jeremiah Guevarra', 'TJ Tecson', 'Cleeve Manlutac', 'Kevin Albo', 'Yam Tabudlong', 'Christian Gallo'],
-          w: 1,
+          w: 2,
           l: 0
         },
         {
           teamName: 'PINOY MAVS 1',
           teamPlayers: ['Gabby Remedios', 'Mikara Nepe', 'Ethan Garcia', 'Claro Calvo', 'Moses Banno', 'Gio Manalo', 'Karlo Baltazar', 'Tomas Caluag', 'Jodek Lopez', 'Kurt Pasturan'],
-          w: 0,
+          w: 1,
           l: 1
         },
         {
           teamName: 'UFCSA NORTH',
           teamPlayers: ['Adriel Javate', 'Albert Flores', 'Bobbie Atendido', 'Karlo Bernardo', 'Andre Atendido', 'Bien Pasco', 'Joel Vicente', 'Carlito Abaya', 'Theo Meer', 'Dhon Lao', 'Adrian Fabian'],
-          w: 1,
+          w: 2,
           l: 0
         },
         {
           teamName: 'UFCSA WEST EAGLES',
           teamPlayers: ['Tj Laserna', 'Andre Bautista', 'Lawrence Dungan', 'Zhymon Moreno', 'Robbie Peeters', 'Mattim Coronel', 'Sway Tantinco', 'Airus Razon', 'Matt Fernandez', 'Gerard Bautista', 'Kurt Mendoza', 'Kyle Buenaflor'],
           w: 1,
-          l: 0
+          l: 1
         },
         {
           teamName: 'STREET BALLERS',
           teamPlayers: ['Lance Sta Barbara', 'James Capati', 'Marvin Capati', 'Patrick Afable', 'Zyril Mananquil', 'Duane Vallejos', 'Jhaey Jamelano', 'Gabriel Peralta', 'Steven Orio', 'Johann San Diego'],
           w: 0,
-          l: 1
+          l: 2
         }
       ],
       u12: [
