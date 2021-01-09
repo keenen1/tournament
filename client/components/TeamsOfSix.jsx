@@ -20,14 +20,14 @@ class TeamsOfSix extends React.Component {
         {
           teamName: 'AZTIGS',
           teamPlayers: ['Rhandie Herrera', 'Chicoy Leyson', 'Grimson Reyes', 'Emman Sta Barbara', 'Jhun Dalicun', 'Joey Ilagan', 'Cesar Perez', 'Jeff Ocampo', 'Edgar Carreon', 'Xean Moral', 'Warlito Salubre', 'Sonny Lingat'],
-          w: 0,
+          w: 1,
           l: 1
         },
         {
           teamName: 'FRANKLIN',
           teamPlayers: ['Cesar Narzo', 'Allan Murillo', 'Gigi Boy', 'Ranilo de la Cruz', 'Ike Francisco', 'Gerry Cristobal', 'Romel Ares', 'Anselmo Sacueza', 'Vincent Tapia', 'Ricky Chan'],
           w: 0,
-          l: 0
+          l: 1
         },
         {
           teamName: 'TGIF CALIBER 45',
@@ -59,12 +59,12 @@ class TeamsOfSix extends React.Component {
           teamName: 'UFCSA WEST TITIGAN',
           teamPlayers: ['Landon Smith', 'Seth Tantinco', 'Sebastian Alan', 'Kristopher Cerda', 'Mikal Maiquez', 'Keith Buenaflor', 'Lorenzo Credo', 'Miguel Balingit', 'Andre Sadsad'],
           w: 0,
-          l: 1
+          l: 2
         },
         {
           teamName: 'GENESIS',
           teamPlayers: ['Christian  Jatulan', 'Zeth Marcos', 'Zedrick Candor', 'Allain Santiago', 'Alexis Arizala', 'Al Alibahrani', 'Joshua Garcia', 'Ezekiel Garcia', 'Josch Magisa', 'John Villanueva', 'Lyndon Lucindo'],
-          w: 0,
+          w: 1,
           l: 0
         },
         {
@@ -77,14 +77,14 @@ class TeamsOfSix extends React.Component {
         {
           teamName: 'UFCSA NORTH',
           teamPlayers: ['Lance Layao', 'Cyrus Grafil', 'Don Mallari', 'Ralph Fabriaga', 'Ralph Rapanan', 'Andrew Delco', 'Gian Cadag', 'Karl Amponin', 'Tony Lim', 'Jaden Perdido', 'Tristan Buenaventura', 'Ryan Fabian'],
-          w: 1,
+          w: 2,
           l: 0
         },
         {
           teamName: 'UFCSA WEST ALPHA',
           teamPlayers: ['Gabriel de Guzman', 'Michael De Guzman', 'Christian Valencia', 'Francis Cabello', 'Tristan Allen', 'Amray De Asis', 'Jerald Gabornes', 'Benedict Magtibay', 'Alister Rapasa', 'Manuel Lagonera', 'Cedric Valencia'],
           w: 0,
-          l: 0
+          l: 1
         }
       ],
       u9: [
