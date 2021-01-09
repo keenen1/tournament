@@ -9,6 +9,7 @@ const ResultsHourly = (props) => {
       </div>
       <div className="hourly-top">
         {props.court1cat && <ResultGame
+          winners={props.winners}
           day={props.day}
           cat={props.court1cat}
           teamA={props.court1teamA}
@@ -16,6 +17,7 @@ const ResultsHourly = (props) => {
           teamB={props.court1teamB}
           scoreB={props.court1scoreB}/>}
         {props.court2cat && <ResultGame
+          winners={props.winners}
           day={props.day}
           cat={props.court2cat}
           teamA={props.court2teamA}
@@ -25,6 +27,7 @@ const ResultsHourly = (props) => {
       </div>
       <div className="hourly-bottom">
         {props.court3cat && <ResultGame
+          winners={props.winners}
           day={props.day}
           cat={props.court3cat}
           teamA={props.court3teamA}
@@ -32,6 +35,7 @@ const ResultsHourly = (props) => {
           teamB={props.court3teamB}
           scoreB={props.court3scoreB}/>}
         {props.court4cat && <ResultGame
+          winners={props.winners}
           day={props.day}
           cat={props.court4cat}
           teamA={props.court4teamA}

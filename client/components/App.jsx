@@ -23,9 +23,11 @@ import ResultsDayTwo from './ResultsDayTwo'
 import ResultsDayOne5v5 from './ResultsDayOne5v5'
 import ResultsDayTwo5v5 from './ResultsDayTwo5v5'
 import ResultsDayOne3x3 from './ResultsDayOne3x3'
+import ResultsDayTwo3x3 from './ResultsDayTwo3x3'
 // VENUE
 import Venue from './Venue'
-import ResultsDayTwo3x3 from './ResultsDayTwo3x3'
+// WINNERS
+import Winners from './Winners'
 
 const App = () => {
   return (
@@ -56,6 +58,8 @@ const App = () => {
         <Route exact path="/results/day-two/3x3" component={ResultsDayTwo3x3} />
         {/* VENUE */}
         <Route exact path="/venue" component={Venue} />
+        {/* WINNERS */}
+        <Route exact path="/winners" component={Winners} />
       </Router>
     </>
   )

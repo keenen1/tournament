@@ -988,7 +988,12 @@ a {
 .underline {
   border-bottom: grey 1px solid;
 }
-
+.winner-team {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3vw;
+}
 .result-team {
   padding-right: 30px;
 }
@@ -1074,6 +1079,9 @@ a {
     margin: auto;
     padding: 2.65vw 1vw 2.65vw 1vw;
     font-size: 6vw;
+  }
+  .winner-team {
+    font-size: 7vw;
   }
 }
 
