@@ -64,50 +64,50 @@ class TeamsOfEight extends React.Component {
         {
           teamName: 'PINOY MAVS 1',
           teamPlayers: ['Ivan Basobas', 'Bryan Bautista', 'Francis Bautista', 'Wayne Manalo', 'Melo Mangampat', 'Ali Nagi', 'Brennen Tapiador', 'Julian Viloria', 'Lorenzo Remedios', 'Nikki Buenaventura'],
-          w: 1,
+          w: 2,
           l: 0
         },
         {
           teamName: 'KNIGHTS',
           teamPlayers: ['Aea Bautista', 'Hanz Lao', 'Marcus Alvaran', 'Gion Dalaudiao', 'Markaia Williams', 'Cedric Dimasuhid', 'Evan Valecruz', 'Seth Heruela', 'Gabriel Divina', 'Matteo Ortiz'],
-          w: 0,
+          w: 1,
           l: 1
         },
         {
           teamName: 'UFCSA WEST BLACK',
           teamPlayers: ['Aldemiar Retuya', 'Liliane Yabut', 'Patrick Ocfemia', 'Rhamz dela Torre', 'Mattew Martin', 'Damien Chiu', 'Pilo Martinez', 'Ronnie Juan'],
           w: 1,
-          l: 0
+          l: 1
         },
         {
           teamName: 'TGIF',
           teamPlayers: ['Abigail Alea', 'EJ Aporillo', 'Dahren Arellano', 'Ralph Nardo', 'Tyrese Salas', 'Ram Gealon', 'Tristan Villafania', 'Sean Dipasupil', 'Ashton Ramos', 'Marcus Watson'],
           w: 0,
-          l: 1
+          l: 2
 
         },
         {
           teamName: 'UFCSA WEST BLUE',
           teamPlayers: ['James Ybanez', 'Theo Martinez', 'Mavy Ruiz', 'Chester Segarra', 'Miguel Nantes', 'TJ Catilo', 'Kurvey Mendoza', 'Matthew Almado', 'Charlie Duncan', 'Celine Andrada', 'Andrea Dalay'],
           w: 1,
-          l: 0
+          l: 1
         },
         {
           teamName: 'PINOY MAVS 2',
           teamPlayers: ['Kian Manangan', 'Wayne Ragsac', 'Jacob Calacsan', 'Miharo Nepe', 'Albert Quilantang', 'Ken Manzanares', 'Chino Villa', 'Barry Quinico', 'Zander Cabiling', 'Zander Alviar', 'Edward Mercado', 'Kier Galgalan'],
           w: 0,
-          l: 1
+          l: 2
         },
         {
           teamName: 'STINGERS\'',
           teamPlayers: ['Mathew Flordeliza', 'Nathan Flodeliza', 'Jaden Liwanang', 'Casey Bernas', 'Sean Sinvichit', 'Dayne Co', 'Nicole Rapanan', 'Rondo Ledesna', 'Keal Medina', 'Ethan Gallo', 'Ralph Placibe', 'Nikolai Queja', 'Trinity Kierulf'],
-          w: 0,
+          w: 1,
           l: 1
         },
         {
           teamName: 'FLAT BUSH',
           teamPlayers: ['Jacob Aguirre', 'Alistair Bautista', 'Miguel Cortez', 'Ryle Reyes', 'Mateo Duque', 'Edward Hicban', 'Edzel Lazatin', 'Paul Montemar', 'Yoshua Quedi', 'Cyrus Quizon', 'Elrick Ramos', 'Lennard Regala', 'Theo Vidar'],
-          w: 1,
+          w: 2,
           l: 0
         }
       ]

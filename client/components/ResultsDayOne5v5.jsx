@@ -147,15 +147,15 @@ const ResultsDayOne5v5 = () => {
 
           court1cat={'U9'}
           court1teamA={'FLAT BUSH'}
-          court1scoreA={0}
+          court1scoreA={18}
           court1teamB={'UFCSA WEST'}
-          court1scoreB={0}
+          court1scoreB={20}
 
           court2cat={'U9'}
           court2teamA={'MAVS'}
-          court2scoreA={0}
+          court2scoreA={26}
           court2teamB={'STINGERS'}
-          court2scoreB={0}
+          court2scoreB={12}
 
           court3cat={'WO'}
           court3teamA={''}
@@ -165,9 +165,9 @@ const ResultsDayOne5v5 = () => {
 
           court4cat={'U12'}
           court4teamA={'MAVS'}
-          court4scoreA={0}
+          court4scoreA={34}
           court4teamB={'UFCSA WEST BLACK'}
-          court4scoreB={0}
+          court4scoreB={18}
         />
         <ResultsHourly
           hour={'1:20 PM'}
@@ -175,15 +175,15 @@ const ResultsDayOne5v5 = () => {
 
           court1cat={'U12'}
           court1teamA={'KNIGHTS'}
-          court1scoreA={0}
+          court1scoreA={49}
           court1teamB={'TGIF'}
-          court1scoreB={0}
+          court1scoreB={21}
 
           court2cat={'U12'}
           court2teamA={'UFCSA WEST BLUE'}
-          court2scoreA={0}
+          court2scoreA={12}
           court2teamB={'FLAT BUSH'}
-          court2scoreB={0}
+          court2scoreB={38}
 
           court3cat={'WO'}
           court3teamA={''}
@@ -193,9 +193,9 @@ const ResultsDayOne5v5 = () => {
 
           court4cat={'U12'}
           court4teamA={'MAVS 2'}
-          court4scoreA={0}
+          court4scoreA={8}
           court4teamB={'STINGERS'}
-          court4scoreB={0}
+          court4scoreB={102}
         />
         <ResultsHourly
           hour={'2:10 PM'}
