@@ -155,14 +155,14 @@ const DayTwoFiveOnFive = () => {
                     <td className="column100 column1" data-column="column1">11:20 AM</td>
                     <td className="column100 column2" data-column="column2">
                       <div>
-                        <div>OPENS</div>
-                        <div>A-BOTTOM v B-BOTTOM</div>
+                        <div>OPENS | A v B Bottom</div>
+                        <div>BARAKO v EAST STREET</div>
                       </div>
                     </td>
                     <td className="column100 column3" data-column="column3">
                       <div>
-                        <div>OPENS</div>
-                        <div>C-BOTTOM v D-BOTTOM</div>
+                        <div>OPENS | C v D Bottom</div>
+                        <div>BRICK CITY v WOW BISDAKOL</div>
                       </div>
                     </td>
                     <td className="column100 column4" data-column="column4">
@@ -223,13 +223,13 @@ const DayTwoFiveOnFive = () => {
                     <td className="column100 column4 opens-color" data-column="column4">
                       <div>
                         <div>OPENS | QF3</div>
-                        <div>TOP 1C v TOP 2D</div>
+                        <div>ELITES v JBING</div>
                       </div>
                     </td>
                     <td className="column100 column5 opens-color" data-column="column5">
                       <div>
                         <div>OPENS | QF4</div>
-                        <div>TOP 1D v TOP 2C</div>
+                        <div>PINOY PROPERTY v TRIPLE H MOTORS</div>
                       </div>
                     </td>
                   </tr>
@@ -239,13 +239,15 @@ const DayTwoFiveOnFive = () => {
                     <td className="column100 column2 opens-color" data-column="column2">
                       <div>
                         <div>OPENS | QF1</div>
-                        <div>TOP 1A v TOP 2B</div>
+                        <div>
+                          <div>AZTIGS BETA v ROTORUA BONELESS</div>
+                        </div>
                       </div>
                     </td>
                     <td className="column100 column3 opens-color" data-column="column3">
                       <div>
                         <div>OPENS | QF2</div>
-                        <div>TOP 1B v TOP 2A</div>
+                        <div>UNKNOWN v OUA</div>
                       </div>
                     </td>
                     <td className="column100 column4 u18-color" data-column="column4">

@@ -18,14 +18,14 @@ class TeamsOfTwelve extends React.Component {
           teamPlayers: ['Keenen Leyson', 'John Biluno', 'Reimar Cruz', 'Dennis Belmonte', 'Reggie Malonzo', 'Jette Anthony', 'Joseph Nunag', 'Brian Bugay', 'Ryan Herrera', 'Kenneth Tuffin', 'Nikko Malonzo', 'Jayvee Madic']
         },
         {
-          w: 0,
+          w: 1,
           l: 1,
           teamName: 'OUA',
           teamPlayers: ['John Fabian', 'Mateo Manese', 'Emmanuel Cea', 'Denrick Arellano', 'Lorenzo Taduran', 'Sam Seniedo', 'Simoun Alumia', 'Anton Hilario', 'Randy Sjafrie', 'Christian Mata\'afa']
         },
         {
           w: 0,
-          l: 1,
+          l: 2,
           teamName: 'BARAKO',
           teamPlayers: ['Anthony Eltanal', 'Adrianne Alegado', 'Niknik Esguerra', 'Morris Cabagnot', 'Crezlan Olivar', 'Joe Garcias', 'Jairus Evangelista', 'Simon Alumia', 'Kevin Elthanal', 'Brian Parejas', 'Justine Sapungan', 'Gian Dagum', 'Zwit Zal']
         },
@@ -36,14 +36,14 @@ class TeamsOfTwelve extends React.Component {
           teamPlayers: ['Eric Hansen', 'Aldwin Alvarez', 'Patrick Maagdenberg', 'Edward Maagdenberg', 'Emmanuel Maagdenberg', 'Robert Encarnacion', 'JD Tagimacruz', 'Aldrien Sepnio', 'Mike Becker', 'CJ Vellon', 'Lorenzo Tanduran']
         },
         {
-          w: 0,
+          w: 1,
           l: 1,
           teamName: 'ROTORUA BONELESS',
           teamPlayers: ['Anjo Gabison', 'Nick Basinga', 'Triple J Garovillo', 'Jayson Conception', 'Carlo Yonyon', 'Chrisdale Danias', 'Elly Tibus', 'Van Mercado', 'Nicolas Aislabie', 'Leon Nebria', 'Nacar CN', 'Alvin Soqueno', 'Ronald Espellarga', 'Big Man']
         },
         {
           w: 0,
-          l: 1,
+          l: 2,
           teamName: 'EAST STREET',
           teamPlayers: ['Aldin Corpuz', 'Luis Paraiso', 'Juan Salamanca', 'Jourdan Nitura', 'Manny Fausto', 'John Lopez', 'Levi Lucindo', 'Manolet Velasquez', 'Jolo Velasquez', 'Jonathan Tila', 'Redgie Padolina', 'Paul Fernandez', 'Kenneth Ebora', 'Jovin Ilagan']
         },
@@ -54,16 +54,22 @@ class TeamsOfTwelve extends React.Component {
           teamPlayers: ['JR Lumbag', 'Gideon Sarra', 'Gino Ruvas', 'Kino Ruvas', 'Bryan Ruvas', 'Jhay Salonga', 'Eric Guiao', 'Alex Aquino', 'Rhaym Hipolito', 'John Solomon', 'Andre Solomon']
         },
         {
-          w: 0,
+          w: 1,
           l: 1,
           teamName: 'TRIPLE H MOTORS',
           teamPlayers: ['J Reyes', 'H Cabug', 'L Bajuyo', 'K Acosta', 'D Mauricio', 'B Aquino', 'C Lachica', 'J Mellejor', 'K Lagala', 'R Delumbria', 'J Robejes', 'J Cenita', 'W Sunnex', 'J Esguerra']
         },
         {
           w: 0,
-          l: 1,
+          l: 2,
           teamName: 'BRICK CITY',
           teamPlayers: ['Daniel de Silva', 'Daryl Burias', 'Patrick Burias', 'Jan Latosa', 'Jordan Froilan', 'Mathew Marcelo', 'Ken Ganzan', 'Eron Caballes', 'Franz Lim', 'Mick Ramos', 'Chris Nallerda', 'Tyler Martin', 'Kevin de Paula', 'Jian De Vega', 'Andre Palomares']
+        },
+        {
+          w: 2,
+          l: 0,
+          teamName: 'PINOY PROPERTY',
+          teamPlayers: ['Kienn Carzano', 'Tophie Patriarca', 'Jay Chua', 'Harold Jumawan', 'Carlo Bueno', 'Mar Libreja', 'Migs Jose', 'Jonathan Realista', 'Christian Lagunera', 'Bert Bolneo', 'Perry Salas', 'Bong Eldialde', 'Ken Eldialde', 'Tisoy Panbeyi']
         },
         {
           w: 1,
@@ -73,15 +79,9 @@ class TeamsOfTwelve extends React.Component {
         },
         {
           w: 0,
-          l: 1,
+          l: 2,
           teamName: 'WOW BISDAKOL',
           teamPlayers: ['Rey Burgos', 'Ricmar Paterbos', 'Jeremy Waay', 'Bjay Sagrado', 'Dodz Dalida', 'Andrew Lgar', 'Patrick Pag-ong', 'Richard Somostrada', 'Rad Ancla', 'Vincent Gambalan', 'Dante Salvador']
-        },
-        {
-          w: 1,
-          l: 0,
-          teamName: 'PINOY PROPERTY',
-          teamPlayers: ['Kienn Carzano', 'Tophie Patriarca', 'Jay Chua', 'Harold Jumawan', 'Carlo Bueno', 'Mar Libreja', 'Migs Jose', 'Jonathan Realista', 'Christian Lagunera', 'Bert Bolneo', 'Perry Salas', 'Bong Eldialde', 'Ken Eldialde', 'Tisoy Panbeyi']
         }
       ]
     }
