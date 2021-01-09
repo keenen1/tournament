@@ -337,27 +337,27 @@ const ResultsDayOne5v5 = () => {
 
           court1cat={'OP'}
           court1teamA={'OUA'}
-          court1scoreA={0}
+          court1scoreA={54}
           court1teamB={'BARAKO'}
-          court1scoreB={0}
+          court1scoreB={48}
 
           court2cat={'OP'}
           court2teamA={'ROTORUA BONELESS'}
-          court2scoreA={0}
+          court2scoreA={49}
           court2teamB={'EAST STREET'}
-          court2scoreB={0}
+          court2scoreB={32}
 
           court3cat={'OP'}
           court3teamA={'TRIPLE H MOTORS'}
-          court3scoreA={0}
+          court3scoreA={45}
           court3teamB={'BRICK CITY'}
-          court3scoreB={0}
+          court3scoreB={36}
 
           court4cat={'OP'}
           court4teamA={'WOW BISDAKOL'}
-          court4scoreA={0}
+          court4scoreA={30}
           court4teamB={'PINOY PROPERTY'}
-          court4scoreB={0}
+          court4scoreB={37}
         />
       </div>
     </>

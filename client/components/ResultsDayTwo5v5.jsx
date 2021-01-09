@@ -11,15 +11,15 @@ const ResultsDayTwo5v5 = () => {
 
           court1cat={'U12'}
           court1teamA={'MAVS 1'}
-          court1scoreA={0}
+          court1scoreA={62}
           court1teamB={'TGIF'}
-          court1scoreB={0}
+          court1scoreB={14}
 
           court2cat={'U12'}
           court2teamA={'KNIGHTS'}
-          court2scoreA={0}
+          court2scoreA={57}
           court2teamB={'UFCSA WEST BLACK'}
-          court2scoreB={0}
+          court2scoreB={19}
 
           court3cat={'U9'}
           court3teamA={'UFCSA WEST'}
