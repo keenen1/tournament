@@ -21,30 +21,32 @@ const ResultGame = (props) => {
               Click for Women&apos;s
             </Link>
           </div>
-          : <div className="court-result">
-            <div className="court-result-cat">
-              {props.cat}
-            </div>
-            <div className="court-result-teams">
-              {props.winners === true
-                ? <div className="winner-team">{props.teamA}</div>
-                : <>
+          : <>
+            {props.winners === true
+              ? <div className="winner-result">
+                <div className="court-result-cat">{props.cat}</div>
+                <div className="winner-team">{props.teamA}</div>
+              </div>
+              : <div className="court-result">
+                <div className="court-result-cat">
+                  {props.cat}
+                </div>
+                <div className="court-result-teams">
                   <div
                     className="game-result underline"
                     style={props.scoreA > props.scoreB ? win : lose}>
                     <div className="court-result-team">{props.teamA}</div>
                     <div className="court-result-score">{props.scoreA}</div>
                   </div>
-                    <div
-                      className="game-result"
-                      style={props.scoreB > props.scoreA ? win : lose}>
-                      <div className="court-result-team">{props.teamB}</div>
-                      <div className="court-result-score">{props.scoreB}</div>
-                    </div>
-                </>
-              }
-            </div>
-          </div>
+                  <div
+                    className="game-result"
+                    style={props.scoreB > props.scoreA ? win : lose}>
+                    <div className="court-result-team">{props.teamB}</div>
+                    <div className="court-result-score">{props.scoreB}</div>
+                  </div>
+                </div>
+              </div>}
+            </>
       }
     </>
   )
