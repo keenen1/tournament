@@ -228,27 +228,27 @@ const ResultsDayTwo5v5 = () => {
 
           court1cat={'U15'}
           court1teamA={'UFCSA WEST NAN (SF1)'}
-          court1scoreA={0}
+          court1scoreA={37}
           court1teamB={'MAVS 1 (SF1)'}
-          court1scoreB={0}
+          court1scoreB={47}
 
           court2cat={'U15'}
           court2teamA={'UFCSA NORTH (SF2)'}
-          court2scoreA={0}
+          court2scoreA={48}
           court2teamB={'GENESIS BOLT (SF2)'}
-          court2scoreB={0}
+          court2scoreB={35}
 
           court3cat={'U12'}
           court3teamA={'MAVS 1 (SF1)'}
-          court3scoreA={0}
+          court3scoreA={73}
           court3teamB={'STINGERS (SF1)'}
-          court3scoreB={0}
+          court3scoreB={7}
 
           court4cat={'U12'}
           court4teamA={'FLAT BUSH (SF2)'}
-          court4scoreA={0}
+          court4scoreA={22}
           court4teamB={'UFCSA WEST BLACK (SF2)'}
-          court4scoreB={0}
+          court4scoreB={36}
         />
         <ResultsHourly
           hour={'3:30 PM'}
@@ -268,7 +268,7 @@ const ResultsDayTwo5v5 = () => {
           court3cat={'35A'}
           court3teamA={'MAPUA CARDINALS (SF1)'}
           court3scoreA={0}
-          court3teamB={'TOP 2B (SF1)'}
+          court3teamB={'SOUTH AUCKLAND (SF1)'}
           court3scoreB={0}
 
           court4cat={'35A'}
@@ -281,27 +281,27 @@ const ResultsDayTwo5v5 = () => {
           hour={'4:20 PM'}
 
           court1cat={'45A'}
-          court1teamA={'TOP 1A (SF1)'}
+          court1teamA={'UFCSA SINULOG (SF1)'}
           court1scoreA={0}
-          court1teamB={'TOP 2B (SF1)'}
+          court1teamB={'TGIF CALIBRER 45 (SF1)'}
           court1scoreB={0}
 
           court2cat={'45A'}
-          court2teamA={'TOP 1B (SF2)'}
+          court2teamA={'UFCSA WEST 7 (SF2)'}
           court2scoreA={0}
-          court2teamB={'TOP 2A (SF2)'}
+          court2teamB={'AZTIGS (SF2)'}
           court2scoreB={0}
 
           court3cat={'OP'}
-          court3teamA={'WINNER QF1 (SF1)'}
+          court3teamA={'AZTIGS BETA (SF1)'}
           court3scoreA={0}
-          court3teamB={'WINNER QF4 (SF1)'}
+          court3teamB={'TRIPLE H MOTORS (SF1)'}
           court3scoreB={0}
 
           court4cat={'OP'}
-          court4teamA={'WINNER QF2 (SF2)'}
+          court4teamA={'UNKNOWN (SF2)'}
           court4scoreA={0}
-          court4teamB={'WINNER QF3 (SF2)'}
+          court4teamB={'ELITES (SF2)'}
           court4scoreB={0}
         />
         <ResultsHourly
