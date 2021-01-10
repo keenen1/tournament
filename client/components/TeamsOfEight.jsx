@@ -68,14 +68,14 @@ class TeamsOfEight extends React.Component {
           l: 0
         },
         {
-          teamName: 'KNIGHTS',
-          teamPlayers: ['Aea Bautista', 'Hanz Lao', 'Marcus Alvaran', 'Gion Dalaudiao', 'Markaia Williams', 'Cedric Dimasuhid', 'Evan Valecruz', 'Seth Heruela', 'Gabriel Divina', 'Matteo Ortiz'],
+          teamName: 'UFCSA WEST BLACK',
+          teamPlayers: ['Aldemiar Retuya', 'Liliane Yabut', 'Patrick Ocfemia', 'Rhamz dela Torre', 'Mattew Martin', 'Damien Chiu', 'Pilo Martinez', 'Ronnie Juan'],
           w: 2,
           l: 1
         },
         {
-          teamName: 'UFCSA WEST BLACK',
-          teamPlayers: ['Aldemiar Retuya', 'Liliane Yabut', 'Patrick Ocfemia', 'Rhamz dela Torre', 'Mattew Martin', 'Damien Chiu', 'Pilo Martinez', 'Ronnie Juan'],
+          teamName: 'KNIGHTS',
+          teamPlayers: ['Aea Bautista', 'Hanz Lao', 'Marcus Alvaran', 'Gion Dalaudiao', 'Markaia Williams', 'Cedric Dimasuhid', 'Evan Valecruz', 'Seth Heruela', 'Gabriel Divina', 'Matteo Ortiz'],
           w: 1,
           l: 2
         },

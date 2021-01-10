@@ -70,7 +70,10 @@ const DayTwoThreeOnThree = () => {
                   <tr className="row100">
                     <td className="column100 column1" data-column="column1">5:10 PM</td>
                     <td className="column100 column2" data-column="column2">
-                      FINALS
+                      <div>
+                        <div>FINALS</div>
+                        <div>&nbsp;CASH CONVERTERS v UFCSA WEST</div>
+                      </div>
                     </td>
                     <td className="column100 column3" data-column="column3">--</td>
                   </tr>

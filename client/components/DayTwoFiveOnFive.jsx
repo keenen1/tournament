@@ -252,14 +252,14 @@ const DayTwoFiveOnFive = () => {
                     </td>
                     <td className="column100 column4 u18-color" data-column="column4">
                       <div>
-                        <div>18U | SF</div>
-                        <div>TOP 1A v TOP 2B</div>
+                        <div>18U | SF1</div>
+                        <div>UFCSA WEST NANUH v GENESIS BOLT</div>
                       </div>
                     </td>
                     <td className="column100 column5 u18-color" data-column="column5">
                       <div>
-                        <div>18U | SF</div>
-                        <div>TOP 1B v TOP 2A</div>
+                        <div>18U | SF2</div>
+                        <div>UFCSA NORTH v PINOY MAVS 1</div>
                       </div>
                     </td>
                   </tr>
@@ -268,26 +268,26 @@ const DayTwoFiveOnFive = () => {
                     <td className="column100 column1" data-column="column1">2:40 PM</td>
                     <td className="column100 column2 u15-color" data-column="column2">
                       <div>
-                        <div>15U | SF</div>
-                        <div>TOP 1A v TOP 2B</div>
+                        <div>15U | SF1</div>
+                        <div>UFCSA WEST NANUH v MAVS 1</div>
                       </div>
                     </td>
                     <td className="column100 column3 u15-color" data-column="column3">
                       <div>
-                        <div>15U | SF</div>
-                        <div>TOP 1B v TOP 2A</div>
+                        <div>15U | SF2</div>
+                        <div>UFCSA NORTH v GENESIS BOLT</div>
                       </div>
                     </td>
                     <td className="column100 column4 u12-color" data-column="column4">
                       <div>
-                        <div>12U | SF</div>
-                        <div>TOP 1A v TOP 2B</div>
+                        <div>12U | SF1</div>
+                        <div>MAVS 1 v STINGERS</div>
                       </div>
                     </td>
                     <td className="column100 column5 u12-color" data-column="column5">
                       <div>
-                        <div>12U | SF</div>
-                        <div>TOP 1B v TOP 2A</div>
+                        <div>12U | SF2</div>
+                        <div>FLAT BUSH v UFSCA WEST BLACK</div>
                       </div>
                     </td>
                   </tr>
@@ -296,26 +296,26 @@ const DayTwoFiveOnFive = () => {
                     <td className="column100 column1" data-column="column1">3:30 PM</td>
                     <td className="column100 column2 u9-color" data-column="column2">
                       <div>
-                        <div>9U | SF</div>
-                        <div>TOP 1A v TOP 2B</div>
+                        <div>9U | SF1</div>
+                        <div>UFCSA WEST v STINGERS</div>
                       </div>
                     </td>
                     <td className="column100 column3 u9-color" data-column="column3">
                       <div>
-                        <div>9U | SF</div>
-                        <div>TOP 1B v TOP 2A</div>
+                        <div>9U | SF2</div>
+                        <div>MAVS v FLAT BUSH</div>
                       </div>
                     </td>
                     <td className="column100 column4 a35-color" data-column="column4">
                       <div>
-                        <div>35A | SF</div>
-                        <div>TOP 1A v TOP 2B</div>
+                        <div>35A | SF1</div>
+                        <div>MAPUA CARDINALS v TOP 2B</div>
                       </div>
                     </td>
                     <td className="column100 column5 a35-color" data-column="column5">
                       <div>
-                        <div>35A | SF</div>
-                        <div>TOP 1B v TOP 2A</div>
+                        <div>35A | SF2</div>
+                        <div>FOREX v AZTIGS 35</div>
                       </div>
                     </td>
                   </tr>
@@ -324,25 +324,25 @@ const DayTwoFiveOnFive = () => {
                     <td className="column100 column1" data-column="column1">4:20 PM</td>
                     <td className="column100 column2 a45-color" data-column="column2">
                       <div>
-                        <div>45A | SF</div>
-                        <div>TOP 1A v TOP 2B</div>
+                        <div>45A | SF1</div>
+                        <div>UFCSA SINULOG v TGIF CALIBRER 45</div>
                       </div>
                     </td>
                     <td className="column100 column3 a45-color" data-column="column3">
                       <div>
-                        <div>45A | SF</div>
-                        <div>TOP 1B v TOP 2A</div>
+                        <div>45A | SF2</div>
+                        <div>UFCSA WEST 7 v AZTIGS</div>
                       </div>
                     </td>
                     <td className="column100 column4 opens-color" data-column="column4">
                       <div>
-                        <div>OPENS | SF</div>
+                        <div>OPENS | SF1</div>
                         <div>WINNER QF1 v WINNER QF4</div>
                       </div>
                     </td>
                     <td className="column100 column5 opens-color" data-column="column5">
                       <div>
-                        <div>OPENS | SF</div>
+                        <div>OPENS | SF2</div>
                         <div>WINNER QF2 v WINNER QF3</div>
                       </div>
                     </td>
@@ -354,7 +354,10 @@ const DayTwoFiveOnFive = () => {
                       WOMEN&apos;S 3x3 ONLY
                     </td>
                     <td className="column100 column3 women-color" data-column="column3">
-                      WOMEN&apos;S FINALS
+                      <div>
+                        <div>WOMEN&apos;S FINALS</div>
+                        <div>CASH CONVERTERS v UFCSA WEST</div>
+                      </div>
                     </td>
                     <td className="column100 column4" data-column="column4">
                       WOMEN&apos;S 3x3 ONLY
