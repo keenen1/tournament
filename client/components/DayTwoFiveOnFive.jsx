@@ -309,7 +309,7 @@ const DayTwoFiveOnFive = () => {
                     <td className="column100 column4 a35-color" data-column="column4">
                       <div>
                         <div>35A | SF1</div>
-                        <div>MAPUA CARDINALS v TOP 2B</div>
+                        <div>MAPUA CARDINALS v SOUTH AUCKLAND</div>
                       </div>
                     </td>
                     <td className="column100 column5 a35-color" data-column="column5">
@@ -337,13 +337,13 @@ const DayTwoFiveOnFive = () => {
                     <td className="column100 column4 opens-color" data-column="column4">
                       <div>
                         <div>OPENS | SF1</div>
-                        <div>WINNER QF1 v WINNER QF4</div>
+                        <div>AZTIGS BETA v TRIPLE H MOTORS</div>
                       </div>
                     </td>
                     <td className="column100 column5 opens-color" data-column="column5">
                       <div>
                         <div>OPENS | SF2</div>
-                        <div>WINNER QF2 v WINNER QF3</div>
+                        <div>UNKNOWN v ELITES</div>
                       </div>
                     </td>
                   </tr>
@@ -368,7 +368,10 @@ const DayTwoFiveOnFive = () => {
                   <tr className="row100">
                     <td className="column100 column1" data-column="column1">5:30 PM</td>
                     <td className="column100 column2 u18-color" data-column="column2">
-                      18U FINALS
+                      <div>
+                        <div>18U FINALS</div>
+                        <div>MAVS v UFCSA NORTH</div>
+                      </div>
                     </td>
                     <td className="column100 column3 u9-color" data-column="column3">
                       9U FINALS
