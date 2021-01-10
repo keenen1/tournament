@@ -11,13 +11,13 @@ const Winners = () => {
           hour={'WOMEN\'S CHAMPIONSHIP'}
 
           court1cat={'1st'}
-          court1teamA={'TBC'}
+          court1teamA={'UFCSA WEST'}
           court1scoreA={null}
           court1teamB={''}
           court1scoreB={null}
 
           court3cat={'2nd'}
-          court3teamA={'TBC'}
+          court3teamA={'CASH CONVERTERS'}
           court3scoreA={null}
           court3teamB={''}
           court3scoreB={null}
