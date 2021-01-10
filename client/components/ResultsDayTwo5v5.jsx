@@ -314,15 +314,15 @@ const ResultsDayTwo5v5 = () => {
           court1scoreB={0}
 
           court2cat={'U9'}
-          court2teamA={'WINNER OF SF1 (FINALS)'}
+          court2teamA={'MAVS (FINALS)'}
           court2scoreA={0}
-          court2teamB={'WINNER OF SF2'}
+          court2teamB={'STINGERS (FINALS)'}
           court2scoreB={0}
 
           court3cat={'35A'}
-          court3teamA={'WINNER OF SF1 (FINALS)'}
+          court3teamA={'FOREX (FINALS)'}
           court3scoreA={0}
-          court3teamB={'WINNER OF SF2'}
+          court3teamB={'SOUTH AKL (FINALS)'}
           court3scoreB={0}
 
           court4cat={'U15'}
@@ -335,15 +335,15 @@ const ResultsDayTwo5v5 = () => {
           hour={'6:20 PM'}
 
           court1cat={'45A'}
-          court1teamA={'WINNER OF SF1 (FINALS)'}
+          court1teamA={'UFCSA SINULOG (FINALS)'}
           court1scoreA={0}
-          court1teamB={'WINNER OF SF2'}
+          court1teamB={'TGIF CALIBER 45 (FINALS)'}
           court1scoreB={0}
 
           court2cat={'OP'}
-          court2teamA={'WINNER OF SF1 (FINALS)'}
+          court2teamA={'AZTIGS BETA (FINALS)'}
           court2scoreA={0}
-          court2teamB={'WINNER OF SF2'}
+          court2teamB={'UNKNOWN (FINALS)'}
           court2scoreB={0}
 
           court3cat={'U12'}
