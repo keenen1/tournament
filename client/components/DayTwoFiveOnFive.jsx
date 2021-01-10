@@ -380,7 +380,10 @@ const DayTwoFiveOnFive = () => {
                       35A FINALS
                     </td>
                     <td className="column100 column5 u15-color" data-column="column5">
-                      15U FINALS
+                      <div>
+                        <div>15U FINALS</div>
+                        <div>MAVS 1 v UFCSA NORTH</div>
+                      </div>
                     </td>
                   </tr>
 

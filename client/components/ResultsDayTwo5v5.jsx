@@ -326,9 +326,9 @@ const ResultsDayTwo5v5 = () => {
           court3scoreB={0}
 
           court4cat={'U15'}
-          court4teamA={'WINNER OF SF1 (FINALS)'}
+          court4teamA={'PINOY MAVS 1 (FINALS)'}
           court4scoreA={0}
-          court4teamB={'WINNER OF SF2'}
+          court4teamB={'UFCSA NORTH (FINALS)'}
           court4scoreB={0}
         />
         <ResultsHourly
@@ -347,9 +347,9 @@ const ResultsDayTwo5v5 = () => {
           court2scoreB={0}
 
           court3cat={'U12'}
-          court3teamA={'WINNER OF SF1 (FINALS)'}
+          court3teamA={'PINOY MAVS 1 (FINALS)'}
           court3scoreA={0}
-          court3teamB={'WINNER OF SF2'}
+          court3teamB={'UFCSA WEST BLK (FINALS)'}
           court3scoreB={0}
         />
       </div>
