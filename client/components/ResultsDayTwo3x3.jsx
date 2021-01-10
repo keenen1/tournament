@@ -49,10 +49,10 @@ const ResultsDayTwo3x3 = () => {
           hour={'5:10 PM'}
 
           court1cat={'FIN'}
-          court1teamA={'WINNER OF SF1'}
-          court1scoreA={0}
-          court1teamB={'WINNER OF SF2'}
-          court1scoreB={0}
+          court1teamA={'CASH CONVERTERS'}
+          court1scoreA={6}
+          court1teamB={'UFCSA WEST'}
+          court1scoreB={7}
         />
       </div>
     </>
