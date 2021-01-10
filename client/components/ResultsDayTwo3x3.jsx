@@ -11,7 +11,7 @@ const ResultsDayTwo3x3 = () => {
 
           court1cat={'WOM'}
           court1teamA={'UFCSA WEST'}
-          court1scoreA={0}
+          court1scoreA={10}
           court1teamB={'HITZ'}
           court1scoreB={0}
 
@@ -19,30 +19,30 @@ const ResultsDayTwo3x3 = () => {
           court2teamA={'SOUTH AUCKLAND'}
           court2scoreA={0}
           court2teamB={'CASH CONVERTERS'}
-          court2scoreB={0}
+          court2scoreB={16}
         />
         <ResultsHourly
           hour={'12:25 PM'}
 
           court1cat={'WOM'}
           court1teamA={'EL HOMBRES'}
-          court1scoreA={0}
+          court1scoreA={6}
           court1teamB={'AIRBALLERS'}
-          court1scoreB={0}
+          court1scoreB={7}
         />
         <ResultsHourly
           hour={'12:40 PM'}
 
           court1cat={'SF1'}
-          court1teamA={'TOP 1'}
-          court1scoreA={0}
-          court1teamB={'TOP 4'}
-          court1scoreB={0}
+          court1teamA={'CASH CONVERTERS'}
+          court1scoreA={19}
+          court1teamB={'AIRBALLERS'}
+          court1scoreB={2}
 
           court2cat={'SF2'}
-          court2teamA={'TOP 2'}
-          court2scoreA={0}
-          court2teamB={'TOP 3'}
+          court2teamA={'UFCSA WEST'}
+          court2scoreA={7}
+          court2teamB={'SOUTH AUCKLAND'}
           court2scoreB={0}
         />
         <ResultsHourly

@@ -118,16 +118,16 @@ const ResultsDayTwo5v5 = () => {
           hour={'11:20 PM'}
 
           court1cat={'OP'}
-          court1teamA={'A-BOTTOM'}
-          court1scoreA={0}
-          court1teamB={'B-BOTTOM'}
-          court1scoreB={0}
+          court1teamA={'BARAKO'}
+          court1scoreA={53}
+          court1teamB={'EAST STREET'}
+          court1scoreB={37}
 
           court2cat={'OP'}
-          court2teamA={'C-BOTTOM'}
-          court2scoreA={0}
-          court2teamB={'D-BOTTOM'}
-          court2scoreB={0}
+          court2teamA={'BRICK CITY'}
+          court2scoreA={86}
+          court2teamB={'WOW BISDAKOL'}
+          court2scoreB={67}
 
           court3cat={'U9'}
           court3teamA={'KNIGHTS'}
@@ -136,10 +136,10 @@ const ResultsDayTwo5v5 = () => {
           court3scoreB={0}
 
           court4cat={'U18'}
-          court4teamA={'A-BOTTOM'}
-          court4scoreA={0}
-          court4teamB={'B-BOTTOM'}
-          court4scoreB={0}
+          court4teamA={'UFCSA WEST TITIGAN'}
+          court4scoreA={41}
+          court4teamB={'UFCSA WEST ALPHA'}
+          court4scoreB={29}
         />
         <ResultsHourly
           hour={'12:10 PM'}
@@ -147,15 +147,15 @@ const ResultsDayTwo5v5 = () => {
 
           court1cat={'35A'}
           court1teamA={'AZTIGS'}
-          court1scoreA={0}
+          court1scoreA={38}
           court1teamB={'AUCKLAND ALPHA'}
-          court1scoreB={0}
+          court1scoreB={31}
 
           court2cat={'35A'}
           court2teamA={'BATANG HAMOG'}
-          court2scoreA={0}
+          court2scoreA={38}
           court2teamB={'FOREX'}
-          court2scoreB={0}
+          court2scoreB={46}
 
           court3cat={'WO'}
           court3teamA={''}
@@ -164,10 +164,10 @@ const ResultsDayTwo5v5 = () => {
           court3scoreB={0}
 
           court4cat={'45A'}
-          court4teamA={'A-BOTTOM'}
-          court4scoreA={0}
-          court4teamB={'B-BOTTOM'}
-          court4scoreB={0}
+          court4teamA={'PINOY MAVS'}
+          court4scoreA={52}
+          court4teamB={'FRANKLIN'}
+          court4scoreB={43}
         />
         <ResultsHourly
           hour={'1:00 PM'}
