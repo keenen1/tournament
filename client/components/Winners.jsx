@@ -27,13 +27,13 @@ const Winners = () => {
           hour={'9U CHAMPIONSHIP'}
 
           court1cat={'1st'}
-          court1teamA={'TBC'}
+          court1teamA={'PINOY MAVS'}
           court1scoreA={null}
           court1teamB={''}
           court1scoreB={null}
 
           court3cat={'2nd'}
-          court3teamA={'TBC'}
+          court3teamA={'STINGERS'}
           court3scoreA={null}
           court3teamB={''}
           court3scoreB={null}
@@ -43,13 +43,13 @@ const Winners = () => {
           hour={'12U CHAMPIONSHIP'}
 
           court1cat={'1st'}
-          court1teamA={'TBC'}
+          court1teamA={'PINOY MAVS 1'}
           court1scoreA={null}
           court1teamB={''}
           court1scoreB={null}
 
           court3cat={'2nd'}
-          court3teamA={'TBC'}
+          court3teamA={'UFCSA WEST BLACK'}
           court3scoreA={null}
           court3teamB={''}
           court3scoreB={null}
@@ -59,13 +59,13 @@ const Winners = () => {
           hour={'15U CHAMPIONSHIP'}
 
           court1cat={'1st'}
-          court1teamA={'TBC'}
+          court1teamA={'PINOY MAVS 1'}
           court1scoreA={null}
           court1teamB={''}
           court1scoreB={null}
 
           court3cat={'2nd'}
-          court3teamA={'TBC'}
+          court3teamA={'UFCSA NORTH'}
           court3scoreA={null}
           court3teamB={''}
           court3scoreB={null}
@@ -75,13 +75,13 @@ const Winners = () => {
           hour={'18U CHAMPIONSHIP'}
 
           court1cat={'1st'}
-          court1teamA={'TBC'}
+          court1teamA={'UFCSA NORTH'}
           court1scoreA={null}
           court1teamB={''}
           court1scoreB={null}
 
           court3cat={'2nd'}
-          court3teamA={'TBC'}
+          court3teamA={'PINOY MAVS'}
           court3scoreA={null}
           court3teamB={''}
           court3scoreB={null}
@@ -91,13 +91,13 @@ const Winners = () => {
           hour={'OPEN\'S CHAMPIONSHIP'}
 
           court1cat={'1st'}
-          court1teamA={'TBC'}
+          court1teamA={'UNKNOWN'}
           court1scoreA={null}
           court1teamB={''}
           court1scoreB={null}
 
           court3cat={'2nd'}
-          court3teamA={'TBC'}
+          court3teamA={'AZTIGS BETA'}
           court3scoreA={null}
           court3teamB={''}
           court3scoreB={null}
@@ -107,13 +107,13 @@ const Winners = () => {
           hour={'35A CHAMPIONSHIP'}
 
           court1cat={'1st'}
-          court1teamA={'TBC'}
+          court1teamA={'SOUTH AUCKLAND'}
           court1scoreA={null}
           court1teamB={''}
           court1scoreB={null}
 
           court3cat={'2nd'}
-          court3teamA={'TBC'}
+          court3teamA={'FOREX'}
           court3scoreA={null}
           court3teamB={''}
           court3scoreB={null}
@@ -123,13 +123,13 @@ const Winners = () => {
           hour={'45A CHAMPIONSHIP'}
 
           court1cat={'1st'}
-          court1teamA={'TBC'}
+          court1teamA={'UFCSA WEST 7'}
           court1scoreA={null}
           court1teamB={''}
           court1scoreB={null}
 
           court3cat={'2nd'}
-          court3teamA={'TBC'}
+          court3teamA={'UFCSA SINULOG'}
           court3scoreA={null}
           court3teamB={''}
           court3scoreB={null}

@@ -398,7 +398,7 @@ const DayTwoFiveOnFive = () => {
                     <td className="column100 column2 a45-color" data-column="column2">
                       <div>
                         <div>45A FINALS</div>
-                        <div>UFCSA SINULOG v TGIF CALIBER 45</div>
+                        <div>UFCSA SINULOG v UFCSA WEST 7</div>
                       </div>
                     </td>
                     <td className="column100 column3 opens-color" data-column="column3">
